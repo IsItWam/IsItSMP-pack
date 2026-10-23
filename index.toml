@@ -13,6 +13,7 @@ hash = "6d46bdc090d4bb9bdfb660be4ca94075dc08e09d5fed84108eba92a422a23c49"
 file = "config/MouseTweaks.cfg"
 hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
 preserve = true
+
 [[files]]
 file = "config/NoChatReports/NCR-Client.json"
 hash = "edfe78d985fe67dce28104f3d87673e94c89134144451c291ecedcd2e2c3b480"
@@ -828,6 +829,7 @@ hash = "c234dbe2aaa3c87d45ed4596d60a8fb931324890d57646dae1b8459c5e032048"
 file = "config/emicreatecompat-client.toml"
 hash = "12b5513cb788d95146bf77d469b45dd0b7039b3158dd621df0f99f9e1e1379ee"
 preserve = true
+
 [[files]]
 file = "config/enchdesc.json"
 hash = "7116b95a9b6797af8db84e410a2ca2fdf6f813461e37cd04bff5af933f31567b"
@@ -1325,10 +1327,12 @@ hash = "9c3e9012ea23ca1449fdfc7df7a8134d4f0f2eacc46f8f8c1ab9ccb2b4510783"
 file = "config/sable_player_ragdoll-client.toml"
 hash = "ba2fc82938fa99ce48435c574cdd542aff177dd79846828c630447fc9ecc860c"
 preserve = true
+
 [[files]]
 file = "config/sable_ragdoll_revival-client.toml"
 hash = "d6de2e3519ee49c0bb7bfea5b9cc728f0498aa0874bdf0983bc6c4967d5212ea"
 preserve = true
+
 [[files]]
 file = "config/sereneseasons/fertility.toml"
 hash = "f63f94b985285add146c73a8747d278cec3d386807855b25de0e1db9962c153f"
@@ -1856,8 +1860,8 @@ hash = "36debf7653e95a855b4fedacc19027cf2e01960fc0b6d55ef2ffbffbcb455690"
 metafile = true
 
 [[files]]
-file = "mods/debuginator-0.1.12.jar"
-hash = "6fe379653c1f1afcb78c0206c416ac92e45191389978d3dfe9b6e99f6abade54"
+file = "mods/debuginator-0.1.13.jar"
+hash = "25a407f2c17cb8d6e8fcff9d26a6a6bbc81ecd6dc347384a3da5cb3588e31c3f"
 
 [[files]]
 file = "mods/double-doors.pw.toml"
@@ -2040,8 +2044,8 @@ hash = "4623bbc102dd3b7648a96569a1ab49b868774d46355b305ac40c4c79ad1c74e2"
 metafile = true
 
 [[files]]
-file = "mods/isitcore-0.1.13.jar"
-hash = "ec18924ede17327f62cf4bbeccdfa0919f1ea69ad78e205eee31b95ced22fed2"
+file = "mods/isitcore-0.1.14.jar"
+hash = "62439f68a5f9b4bfd2fa0e8d8d222bd16e0d39657fa419e50ecf97515caa14cc"
 
 [[files]]
 file = "mods/jade-addons-forge.pw.toml"
@@ -2345,7 +2349,7 @@ metafile = true
 
 [[files]]
 file = "mods/sable-ragdolls.pw.toml"
-hash = "fe14391e73d2d18ccd52bc9ddd3fe98127568355d8c5f7726004344a45d13209"
+hash = "bf3c84eff52457596d58a73882e72759804117f0731a0fde343cfd54d33e55ba"
 metafile = true
 
 [[files]]
