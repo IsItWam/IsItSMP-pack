@@ -7,24 +7,26 @@ downloads whatever changed since your last launch (mods, configs, the questbook)
 Mods are downloaded from Modrinth and CurseForge; this repo only holds links to them, plus the
 pack's configs and our own mods (IsItCore, Debuginator).
 
-## One-time setup (Windows)
+## Install (Windows)
 
-1. **Make an instance**: Minecraft 1.21.1 with NeoForge 21.1.262, named IsItSMP.
-   Already have an IsItSMP instance? Use that one; the updater keeps your files that already match.
-2. **Download the updater**: [packwiz-installer-bootstrap.jar](updater/packwiz-installer-bootstrap.jar)
-   and [update-pack.cmd](updater/update-pack.cmd) (open each, then "Download raw file").
-   Put both in the instance folder, next to `mods` and `config`
-   (in the launcher: right-click the instance, Open Folder).
-3. **Add the pre-launch hook** to the instance:
+1. **Download [IsItSMP.mrpack](https://github.com/IsItWam/IsItSMP-pack/releases/download/starter/IsItSMP.mrpack)**
+   and import it with your launcher's import option (GDLauncher and the Modrinth App both take `.mrpack` files).
+   It sets up Minecraft 1.21.1 with NeoForge and already contains the updater.
+2. **Turn on auto-updates** in the new instance's settings by pasting one pre-launch command
+   (also written in `TURN-ON-AUTO-UPDATES.txt` in the instance folder):
 
    | Launcher | Where | Pre-launch command |
    | --- | --- | --- |
    | **GDLauncher** | Instance settings, Custom commands, Pre-launch hook | `cmd /c update-pack.cmd` |
    | **Modrinth App** | Instance settings, Launch hooks, Pre-launch | `cmd /c update-pack.cmd "$INST_JAVA"` |
 
-4. Optional: set the instance icon to [icon.png](icon.png) (launchers can't take it from the pack).
-5. Press **Play**. The first launch downloads the whole pack (a couple of minutes on a new
-   instance), later launches only fetch changes and take a few seconds.
+3. Optional: set the instance icon to [icon.png](icon.png) (launchers can't take it from the pack).
+4. Press **Play**. The first launch downloads a few mods that can't be included in the file;
+   after that each launch only fetches what changed, in a few seconds.
+
+**Already have an IsItSMP instance?** Instead of step 1, put
+[packwiz-installer-bootstrap.jar](updater/packwiz-installer-bootstrap.jar) and
+[update-pack.cmd](updater/update-pack.cmd) in its folder (next to `mods` and `config`), then do steps 2-4.
 
 Your own settings (video, minimap, HUD, keybind-style configs) are installed once and never
 overwritten. Gameplay configs and the questbook always follow the pack.
