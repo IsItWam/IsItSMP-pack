@@ -1874,6 +1874,11 @@ hash = "ff029ee6fc50f2696e96cdbcc696f42e75b483c9d7b83f2b1447dcf5c865e664"
 metafile = true
 
 [[files]]
+file = "mods/emi-for-create.pw.toml"
+hash = "09acd0f1cfb4dcb38ae9059f32f3db645539f8c5f23f71865def21726245e661"
+metafile = true
+
+[[files]]
 file = "mods/emi-loot.pw.toml"
 hash = "519f011d36736129795025f19301ad2d6141f422857d6154a3df2e2019f416f3"
 metafile = true
@@ -2205,6 +2210,11 @@ metafile = true
 [[files]]
 file = "mods/moreculling.pw.toml"
 hash = "d6183e3e5f6f98aa2dc8dec2491ca2a4802262007f75781ef449296f7d9671ba"
+metafile = true
+
+[[files]]
+file = "mods/mouse-tweaks.pw.toml"
+hash = "6bc414cc0f2d4c078fe83f384d786343f701f371d657c5279b5b0df1595804bd"
 metafile = true
 
 [[files]]
