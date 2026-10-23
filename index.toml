@@ -2383,6 +2383,11 @@ hash = "d1df26ad7ced9b9c985061718398b21cdced213ad8240efba9b38b27461708b8"
 metafile = true
 
 [[files]]
+file = "mods/studious-keybinds.pw.toml"
+hash = "f557c416202cf0d1116fe4f45762d6fac32c0a1c16dee92f14b9d66ec1796edb"
+metafile = true
+
+[[files]]
 file = "mods/supplementaries-squared.pw.toml"
 hash = "46280c9487633e3bd1dd7bb24ccc4076058b2602d7dc2906f96509527346cf24"
 metafile = true
