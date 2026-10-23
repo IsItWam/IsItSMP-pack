@@ -1,0 +1,1137 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "xycraft"
+	group: "45BA95E455FC9E75"
+	icon: {
+		id: "xycraft_world:xychorium_gem_light"
+	}
+	id: "3C9626F7156BA7B9"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "xycraft_world:kivi"
+			}
+			id: "191E624E908911FA"
+			min_width: 300
+			tasks: [
+				{
+					id: "6D8AB64F8D6013AF"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["191E624E908911FA"]
+			id: "340197AD7E06DADA"
+			rewards: [
+				{
+					id: "0539454FF964EB37"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "08547C4111BB2A5D"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 32
+					id: "66E7B707C905F290"
+					item: {
+						count: 1
+						id: "xycraft_world:kivi"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["340197AD7E06DADA"]
+			icon: {
+				id: "xycraft_world:xychorium_gem_blue"
+			}
+			id: "2C9AFF2BFCDB171B"
+			rewards: [
+				{
+					id: "03B124240D918D0B"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "1D15E39D4286665D"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 4
+					id: "29B8ACC3E106138B"
+					item: {
+						count: 1
+						id: "xycraft_world:xychorium_gem_blue"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "42FB548E5E3DCF50"
+					item: {
+						count: 1
+						id: "xycraft_world:xychorium_gem_red"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2FE4AEFCE79A2F08"
+					item: {
+						count: 1
+						id: "xycraft_world:xychorium_gem_green"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "25802BDBB1F3A958"
+					item: {
+						count: 1
+						id: "xycraft_world:xychorium_gem_dark"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "16C5A41C68080C49"
+					item: {
+						count: 1
+						id: "xycraft_world:xychorium_gem_light"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["340197AD7E06DADA"]
+			id: "4C89439153344310"
+			rewards: [
+				{
+					id: "71A53B55811BDE7F"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "4D0B1D226BD021B8"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 16
+					id: "7C245D47A20F55F5"
+					item: {
+						count: 1
+						id: "xycraft_world:aluminum_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["191E624E908911FA"]
+			id: "73105A450856754E"
+			optional: true
+			rewards: [
+				{
+					id: "5AE2A943167EDEF0"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "2E3C2A5520C30B01"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "582344A46E85D96F"
+					item: {
+						count: 1
+						id: "xycraft_machines:stake"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.875d
+		}
+		{
+			dependencies: ["340197AD7E06DADA"]
+			icon: {
+				id: "xycraft_world:geyser"
+			}
+			id: "7660BC6C968DBF21"
+			optional: true
+			rewards: [
+				{
+					id: "580BEF0D3CC0C9D2"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "3797CE461CD2C5A8"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "01971EA854D19B59"
+					structure: "xycraft_world:surface_geyser"
+					type: "structure"
+				}
+			]
+			x: 4.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["2C9AFF2BFCDB171B"]
+			id: "7A16E51109FFE4BA"
+			rewards: [
+				{
+					id: "57539AFBC5AF89E9"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "602A660B12AB945F"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 8
+					id: "5D6012C5C6F1257B"
+					item: {
+						count: 1
+						id: "xycraft_world:kivi_bricks_cloud_blue"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["7A16E51109FFE4BA"]
+			id: "142F3992E9D10936"
+			optional: true
+			rewards: [
+				{
+					id: "0DB4ED38D3EB6F70"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "2935BB871003E324"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					count: 16
+					id: "55D9483B3B3D3674"
+					item: {
+						count: 1
+						id: "xycraft_world:glass_viewer"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -7.875d
+		}
+		{
+			dependencies: ["142F3992E9D10936"]
+			id: "02AB466094C4AC42"
+			optional: true
+			rewards: [
+				{
+					id: "1C9AE56F7C601BCE"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "7DF7886D8D5CB7EE"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 8
+					id: "2BBFE754DA82B0EF"
+					item: {
+						count: 1
+						id: "xycraft_world:glass_viewer_phantom"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7A16E51109FFE4BA", "4C89439153344310"]
+			id: "02AC2A751B3FF266"
+			optional: true
+			rewards: [
+				{
+					id: "478AFA07283C62FB"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "31DFD2E4A3BF5109"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 2
+					id: "77A2F3D4E01DE8C2"
+					item: {
+						count: 1
+						id: "xycraft_world:lamp_lantern_white"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -6.125d
+		}
+		{
+			dependencies: ["7A16E51109FFE4BA", "4C89439153344310"]
+			id: "18A9BAFFFE43AF05"
+			rewards: [
+				{
+					id: "1611041D020D79AE"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "0E0FDE44904A58C1"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "5A4459EB7A8CF88B"
+					item: {
+						count: 1
+						id: "xycraft_world:immortal_stone_blue"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -4.375d
+		}
+		{
+			dependencies: ["2C9AFF2BFCDB171B", "4C89439153344310"]
+			id: "7E30D793F1492007"
+			rewards: [
+				{
+					id: "699DC5258CFBA4DE"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "283DC2E5A0BCA59F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "21023045F82D8855"
+					item: {
+						count: 2
+						id: "xycraft_machines:machine_base"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 2
+					id: "692F3FAE77B172CC"
+					item: {
+						count: 1
+						id: "xycraft_machines:machine_base"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.875d
+		}
+		{
+			dependencies: ["7E30D793F1492007"]
+			id: "221835575611F04D"
+			rewards: [
+				{
+					id: "773FE5F55EA5CB4C"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "7D11DC99548B7C7F"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "14E2296E5669A5BA"
+					item: {
+						count: 1
+						id: "xycraft_machines:aluminum_wrench"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -2.625d
+		}
+		{
+			dependencies: ["7E30D793F1492007"]
+			id: "467CEC13E02BA1D3"
+			rewards: [
+				{
+					id: "3419C8B1695C1DA1"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "111C646045DCD8EE"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "3C88030B9C6A3652"
+					item: {
+						count: 1
+						id: "xycraft_machines:water_block"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["7E30D793F1492007"]
+			id: "04A8DBDC49EA5E61"
+			rewards: [
+				{
+					id: "4CB5196C09958801"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "20385178B6FFC429"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "2E8613F7968ACF70"
+					item: {
+						count: 1
+						id: "xycraft_machines:ignition_plate"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.875d
+		}
+		{
+			dependencies: ["7E30D793F1492007"]
+			id: "7CBEE715428EA777"
+			rewards: [
+				{
+					id: "3910BCA71F904544"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "4519E05FC046B167"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "1E529CBD9FAE134E"
+					item: {
+						count: 1
+						id: "xycraft_machines:planter"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 2.625d
+		}
+		{
+			dependencies: ["7E30D793F1492007"]
+			id: "72F2EF8A4F1F930B"
+			rewards: [
+				{
+					id: "5FA20998E2CBB06B"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "3BF6A5DAD7BDDF3D"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "761C1B00A2B7B09F"
+					item: {
+						count: 1
+						id: "xycraft_machines:light_field"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 4.375d
+		}
+		{
+			dependencies: ["7E30D793F1492007"]
+			id: "64FFA8E2B31B15BF"
+			rewards: [
+				{
+					id: "59C8D50451B41E8B"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "7A8733930C417E2E"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "4B7EDD03947A1A1D"
+					item: {
+						count: 1
+						id: "xycraft_machines:fluid_void"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 6.125d
+		}
+		{
+			dependencies: ["467CEC13E02BA1D3", "04A8DBDC49EA5E61", "7CBEE715428EA777", "72F2EF8A4F1F930B", "64FFA8E2B31B15BF"]
+			icon: {
+				id: "xycraft_world:xychorium_storage_light"
+			}
+			id: "02CA7C0C97917332"
+			rewards: [
+				{
+					id: "53610573351BFDC5"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "557137DD49F3A94F"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "23784FB3DE55FAF8"
+					item: {
+						count: 1
+						id: "xycraft_world:xychorium_storage_blue"
+					}
+					type: "item"
+				}
+				{
+					id: "4CDB3D4F580EE4E3"
+					item: {
+						count: 1
+						id: "xycraft_world:xychorium_storage_red"
+					}
+					type: "item"
+				}
+				{
+					id: "0065AA23D17275F6"
+					item: {
+						count: 1
+						id: "xycraft_world:xychorium_storage_green"
+					}
+					type: "item"
+				}
+				{
+					id: "50A064382DC688CC"
+					item: {
+						count: 1
+						id: "xycraft_world:xychorium_storage_dark"
+					}
+					type: "item"
+				}
+				{
+					id: "6B6641854F350862"
+					item: {
+						count: 1
+						id: "xycraft_world:xychorium_storage_light"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["7E30D793F1492007"]
+			icon: {
+				id: "xycraft_machines:port_item"
+			}
+			id: "19735FE28D981938"
+			rewards: [
+				{
+					id: "6576E77FADF15B6B"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "1A71E087F4EC2D06"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 4
+					id: "366A30604ACC2D68"
+					item: {
+						count: 1
+						id: "xycraft_machines:port_item"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5B91BD847B7E0F59"
+					item: {
+						count: 1
+						id: "xycraft_machines:port_fluid"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 7.875d
+		}
+		{
+			dependencies: ["19735FE28D981938"]
+			id: "00D79A06315DF879"
+			min_width: 300
+			rewards: [
+				{
+					id: "06BB872F30B5BF21"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "2240706FD92FC3C1"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "10885AF048B48D9F"
+					item: {
+						count: 1
+						id: "xycraft_machines:extractor"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00D79A06315DF879"]
+			icon: {
+				id: "xycraft_world:kivi"
+			}
+			id: "0DF81D9BBD8988CC"
+			min_width: 300
+			rewards: [
+				{
+					id: "58F3AE30B9389032"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "41DC3ACFFE9AD1B8"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "341CECD6A98E4FD4"
+					type: "checkmark"
+				}
+			]
+			x: 12.0d
+			y: -4.375d
+		}
+		{
+			dependencies: ["00D79A06315DF879"]
+			id: "08587D56FBC92206"
+			optional: true
+			rewards: [
+				{
+					id: "283A6A47BC1C1DB9"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "47FF6F3896279C0F"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					count: 2
+					id: "0BB8C6125A5C275A"
+					item: {
+						count: 1
+						id: "minecraft:dragon_egg"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -2.625d
+		}
+		{
+			dependencies: ["19735FE28D981938"]
+			id: "07453C3EA167CE5C"
+			rewards: [
+				{
+					id: "7C62FBAB61A782CF"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "3215A90B2948E38C"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					count: 2
+					id: "08DE2C188CAB2D45"
+					item: {
+						count: 1
+						id: "xycraft_machines:soaryn_box"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["07453C3EA167CE5C"]
+			id: "126E3A5DCE4C23B6"
+			rewards: [
+				{
+					id: "0FE01DFF71048CCF"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "57446C012D9735C1"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "14339FD48AFBEBCC"
+					item: {
+						count: 1
+						id: "xycraft_machines:collector"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["07453C3EA167CE5C"]
+			id: "40159A69B0537956"
+			optional: true
+			rewards: [
+				{
+					id: "2E0A35A2205FED4E"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "19FE271CBD449EF7"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "1FB1F5FAB9F18F01"
+					item: {
+						count: 1
+						id: "xycraft_machines:void_container"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.875d
+		}
+		{
+			dependencies: ["07453C3EA167CE5C"]
+			id: "38A09840DF0A3D8D"
+			rewards: [
+				{
+					id: "10FE37B03832069D"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "3039BF4EDB53FBA0"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "7B475C8EBAD0918A"
+					item: {
+						count: 1
+						id: "xycraft_machines:fabricator"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 2.625d
+		}
+		{
+			dependencies: ["19735FE28D981938"]
+			id: "0C5E92679328D6A5"
+			rewards: [
+				{
+					id: "24415796040126D7"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "756993FE130A387E"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "6E9E1A23D6F1E430"
+					item: {
+						count: 1
+						id: "xycraft_machines:valve"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0C5E92679328D6A5"]
+			icon: {
+				id: "xycraft_machines:valve"
+			}
+			id: "6E525D7DD161608D"
+			min_width: 300
+			rewards: [
+				{
+					id: "713F97418A06FE2B"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "0E0F6CD4BFC05D28"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "3F18B6CCC1E3D16C"
+					item: {
+						count: 1
+						id: "xycraft_machines:valve"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "0955620709E19345"
+					type: "checkmark"
+				}
+			]
+			x: 12.0d
+			y: 4.375d
+		}
+		{
+			dependencies: ["6E525D7DD161608D"]
+			id: "14487F88E59CB32D"
+			optional: true
+			rewards: [
+				{
+					id: "4EDC32950CD9D358"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "35E8458685F88377"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "0D42F93500DB0210"
+					item: {
+						count: 1
+						id: "xycraft_machines:item_io"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["6E525D7DD161608D", "467CEC13E02BA1D3"]
+			id: "45ED2B4D46E84314"
+			optional: true
+			rewards: [
+				{
+					id: "2EB661F5B48E0356"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "629E7A69B2735489"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "16A290129AA4E4B6"
+					item: {
+						count: 1
+						id: "xycraft_machines:hydro_pump"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18A9BAFFFE43AF05", "02CA7C0C97917332", "6E525D7DD161608D", "38A09840DF0A3D8D"]
+			icon: {
+				id: "xycraft_world:glass_viewer_immortal"
+			}
+			id: "5DB7513C262B96FB"
+			rewards: [
+				{
+					id: "6A99356C7F2017FB"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "591B34E4F6499533"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					count: 8
+					id: "05E3DA1F9FCF6D70"
+					item: {
+						count: 1
+						id: "xycraft_world:immortal_aluminum_light"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "49CB29757FBCCA96"
+					item: {
+						count: 1
+						id: "xycraft_world:glass_viewer_immortal"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: -1.75d
+		}
+	]
+}

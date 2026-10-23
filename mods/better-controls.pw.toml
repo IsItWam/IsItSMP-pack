@@ -1,0 +1,13 @@
+name = "Better Controls"
+filename = "BetterControls-1.21+v1.4.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/ANpj0aBF/versions/Y3UrWfKm/BetterControls-1.21%2Bv1.4.0.jar"
+hash-format = "sha512"
+hash = "b6cc649be83ca542087a499b2ecc8bc35c993ac27e44f76dba8746c8a7a430975fa9fa91eb03dcdb0443bfe367ea1f99979a5e2b8b7cfe082aef8eeeb3c86df2"
+
+[update]
+[update.modrinth]
+mod-id = "ANpj0aBF"
+version = "Y3UrWfKm"

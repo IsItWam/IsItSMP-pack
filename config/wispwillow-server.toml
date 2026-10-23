@@ -1,0 +1,28 @@
+[fluxia]
+	#Whether going under in Liquid Fluxia makes a player phase through blocks.
+	#Off means Fluxia is just a liquid, and the Fluxia Oasis keeps its treasure.
+	phasing = true
+
+[snad]
+	#How many extra randomTick calls to apply (1..64). Default 16.
+	# Default: 16
+	# Range: 1 ~ 64
+	speed = 16
+	#How many blocks upward to scan and accelerate. Default 16.
+	# Default: 16
+	# Range: 1 ~ 256
+	maxHeight = 16
+	#Chance per random tick to activate (0..1000). Default 1000 (always).
+	# Default: 1000
+	# Range: 0 ~ 1000
+	chancePermille = 1000
+	#If true, sets AGE to max for known crops after ticking.
+	forceMaxAge = true
+	#Blocks/tags to accelerate. Use 'modid:block' or '#modid:tag'.
+	whitelist = ["minecraft:sugar_cane", "minecraft:cactus", "minecraft:bamboo", "wispwillow:amethyst_sugar_cane", "#minecraft:bamboo_blocks"]
+
+[developer]
+	#UUIDs permitted to summon developer familiars.
+	#The mod author's own UUID is always permitted and does not need listing.
+	#Dashed or undashed both work.
+	uuids = []

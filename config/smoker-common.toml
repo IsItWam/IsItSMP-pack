@@ -1,0 +1,9 @@
+replaceVanillaSmoker = true
+everythingSmokable = false
+coloredSmoke = true
+# Default: 720
+# Range: 1 ~ 3600
+perfectSmokingDelaySeconds = 720
+# Default: 2160
+# Range: 1 ~ 7200
+perfectSmokingRevertSeconds = 2160

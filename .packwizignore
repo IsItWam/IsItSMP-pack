@@ -1,0 +1,5 @@
+.gitattributes
+README.md
+*.cmd
+LICENSE
+updater/

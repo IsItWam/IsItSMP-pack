@@ -1,0 +1,925 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mca_family"
+	group: "0FD0FF4621387BF9"
+	icon: {
+		id: "mca:wedding_ring"
+	}
+	id: "2AEB62FF62E41AAF"
+	order_index: 16
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "mca:book_romance"
+			}
+			id: "1032657A4D66A427"
+			rewards: [
+				{
+					id: "2B7F0CFF2374491B"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "33B2B52F6E8F10B8"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					advancement: "mca:root"
+					id: "7F95B6EEA4B71C81"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1032657A4D66A427"]
+			icon: {
+				id: "minecraft:emerald"
+			}
+			id: "404DB238AC810B0C"
+			rewards: [
+				{
+					id: "37B541FFD3B10631"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "062FD0A758BB524C"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "60BF0963C19D806E"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["404DB238AC810B0C"]
+			icon: {
+				id: "minecraft:diamond"
+			}
+			id: "4752907932C34042"
+			rewards: [
+				{
+					id: "1C0D7B28144E6CE5"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6E6E56E062F8DEA7"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "567676465C7577F9"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
+			y: -4.375d
+		}
+		{
+			dependencies: ["4752907932C34042"]
+			icon: {
+				id: "minecraft:poppy"
+			}
+			id: "3CC2F5350ECE5CBC"
+			rewards: [
+				{
+					id: "31D6E1F844D11451"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "40124B94A15AE65F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "60F5CF2F9FB89284"
+					item: {
+						count: 2
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "mca:friend"
+					id: "2569380FCBB60FD2"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["404DB238AC810B0C"]
+			id: "2D6C8611A76387DD"
+			rewards: [
+				{
+					id: "387C4D5E2C26B5E7"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "3BC94222D2D9221B"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "3EE8CB725196842F"
+					item: {
+						count: 1
+						id: "mca:bouquet"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -2.625d
+		}
+		{
+			dependencies: ["2D6C8611A76387DD"]
+			id: "275CAA5DAE97F13F"
+			optional: true
+			rewards: [
+				{
+					id: "53E8CF5349355741"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "67D3FEE069E8131D"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 8
+					id: "021A2602015B199E"
+					item: {
+						count: 1
+						id: "mca:rose_gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["2D6C8611A76387DD", "3CC2F5350ECE5CBC"]
+			icon: {
+				id: "mca:engagement_ring"
+			}
+			id: "1E0D75D892AE31CE"
+			rewards: [
+				{
+					id: "4A65A2125BC672CD"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "76D029E84BF96056"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "51CC12F90E2310EF"
+					type: "checkmark"
+				}
+			]
+			x: 8.0d
+			y: 0.875d
+		}
+		{
+			dependencies: ["1E0D75D892AE31CE"]
+			icon: {
+				id: "mca:wedding_ring"
+			}
+			id: "4D57336BF30A0546"
+			rewards: [
+				{
+					id: "4564A4442D8B1852"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "45FEB2EEF9274F31"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "mca:marriage"
+					id: "00127011EE9C4D84"
+					type: "advancement"
+				}
+			]
+			x: 10.0d
+			y: 0.875d
+		}
+		{
+			dependencies: ["404DB238AC810B0C"]
+			icon: {
+				id: "mca:engagement_ring"
+			}
+			id: "7643BF2F63CD4932"
+			optional: true
+			rewards: [
+				{
+					id: "2E1A7B7F344BB27F"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "15D1294F8C53D44B"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "4D6E020D5295C0BF"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["4D57336BF30A0546"]
+			id: "5B459A0763C51D35"
+			optional: true
+			rewards: [
+				{
+					id: "6F6F53804F2A9450"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "4BEAB5A457EB70AB"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "18698427620A8AA0"
+					item: {
+						count: 1
+						id: "mca:whistle"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D57336BF30A0546"]
+			icon: {
+				id: "mca:baby_boy"
+			}
+			id: "0814271DA54512D4"
+			min_width: 300
+			rewards: [
+				{
+					id: "08B9529BB0697E37"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "66183D35EA8C7AA7"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "76D1855F75E185FC"
+					item: {
+						count: 2
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "mca:baby"
+					id: "331C091634F6A9F0"
+					type: "advancement"
+				}
+			]
+			x: 12.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["0814271DA54512D4"]
+			icon: {
+				id: "mca:white_oak_crib"
+			}
+			id: "3E47091FA59E5BFC"
+			optional: true
+			rewards: [
+				{
+					id: "416C5D1C3EE9B1E3"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "636E7ABBF0FC69B3"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "38C9EE461395FEAE"
+					type: "checkmark"
+				}
+			]
+			x: 14.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["0814271DA54512D4"]
+			icon: {
+				id: "minecraft:golden_apple"
+			}
+			id: "505DA514D8E4A6F8"
+			rewards: [
+				{
+					id: "6A031FF301E95F47"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "65E09D62A97CA4C8"
+					type: "xp"
+					xp: 120
+				}
+				{
+					id: "6472041257B8E757"
+					item: {
+						count: 1
+						id: "minecraft:fishing_rod"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					advancement: "mca:grow_child"
+					id: "7442103CB441E688"
+					type: "advancement"
+				}
+			]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["505DA514D8E4A6F8"]
+			icon: {
+				id: "minecraft:wooden_hoe"
+			}
+			id: "5D239F359DCA7A94"
+			rewards: [
+				{
+					id: "77A01EB2AF2A1480"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "5F89632476D550D0"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					advancement: "mca:chores"
+					id: "57A407D7C8A65ABD"
+					type: "advancement"
+				}
+			]
+			x: 16.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["505DA514D8E4A6F8"]
+			icon: {
+				id: "mca:family_tree"
+			}
+			id: "2ED2120FC1F73064"
+			rewards: [
+				{
+					id: "39ACBD767A23E955"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "4E636DD4CAB627CB"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "mca:grow_adult"
+					id: "0CC2F7716C3F4B71"
+					type: "advancement"
+				}
+			]
+			x: 16.0d
+			y: 0.875d
+		}
+		{
+			dependencies: ["0814271DA54512D4"]
+			icon: {
+				id: "mca:family_tree"
+			}
+			id: "42775BE93FCD259C"
+			optional: true
+			rewards: [
+				{
+					id: "17746E5E53D90877"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "72783AC1F94A639F"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					advancement: "mca:family"
+					id: "0CC75D631F87317F"
+					type: "advancement"
+				}
+			]
+			x: 14.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["2ED2120FC1F73064"]
+			id: "09989CF628D8C660"
+			rewards: [
+				{
+					id: "7A2EA4C1630BAFF7"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "2E4FFE03F09905AE"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 2
+					id: "78F1718BC645C84D"
+					item: {
+						count: 1
+						id: "mca:matchmakers_ring"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09989CF628D8C660"]
+			icon: {
+				id: "minecraft:cake"
+			}
+			id: "45BC4F60A36C5DEE"
+			rewards: [
+				{
+					id: "76DF0B771B6567D0"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6903E277A2DEE6EC"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					advancement: "mca:grandparent"
+					id: "5BFDD6E231B99361"
+					type: "advancement"
+				}
+			]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1032657A4D66A427"]
+			id: "6A2110A0E61A948C"
+			rewards: [
+				{
+					id: "6DD4379E287BA815"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "4268261E9B58F064"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "1CE0E420BB0773C9"
+					item: {
+						count: 1
+						id: "mca:blueprint"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.875d
+		}
+		{
+			dependencies: ["6A2110A0E61A948C"]
+			icon: {
+				id: "minecraft:iron_sword"
+			}
+			id: "593D60B7A296D5D7"
+			optional: true
+			rewards: [
+				{
+					id: "65EBC7B82EEEE46D"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "766B60A6C0FAE7D1"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "343D8D65A8722E49"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
+			y: 2.625d
+		}
+		{
+			dependencies: ["6A2110A0E61A948C"]
+			icon: {
+				id: "minecraft:chest"
+			}
+			id: "7381677620619DF3"
+			rewards: [
+				{
+					id: "7FAB5ED9A9E07BB0"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "183F19235C46950F"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					advancement: "mca:merchant"
+					id: "54FB419FF2B0A8EB"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 4.375d
+		}
+		{
+			dependencies: ["7381677620619DF3"]
+			icon: {
+				id: "minecraft:golden_helmet"
+			}
+			id: "72B0A39797291E51"
+			optional: true
+			rewards: [
+				{
+					id: "50EDF7B4B09CAA7F"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "17B0E7A86C8650E6"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					advancement: "mca:noble"
+					id: "0CEDD1E5A45740E5"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3CC2F5350ECE5CBC"]
+			icon: {
+				id: "minecraft:golden_apple"
+			}
+			id: "501C6718F70BCB52"
+			optional: true
+			rewards: [
+				{
+					id: "538FB85EAE5E4B58"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "3E92FEBC21C47C85"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "76E5FE5EB0A0160A"
+					type: "checkmark"
+				}
+			]
+			x: 8.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["501C6718F70BCB52"]
+			icon: {
+				id: "mca:scythe"
+			}
+			id: "3BC6C2A10B6F37FD"
+			optional: true
+			rewards: [
+				{
+					id: "79F6DB7090C0B6B3"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "016B9CB0E5E68E37"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "mca:grim_reaper"
+					id: "35F3C2B3A848F503"
+					type: "kill"
+					value: 1
+				}
+			]
+			x: 10.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["3BC6C2A10B6F37FD"]
+			id: "340AEDBD78F59C0E"
+			optional: true
+			rewards: [
+				{
+					id: "1D66FE35C55B7EFF"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "0FE545FF688505F6"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "7C8ABDF36C987273"
+					item: {
+						count: 1
+						id: "mca:staff_of_life"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["404DB238AC810B0C"]
+			icon: {
+				id: "minecraft:writable_book"
+			}
+			id: "685146C48FA19AD4"
+			rewards: [
+				{
+					id: "65E08A14E5126A1B"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "02538F12E44636A6"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "11CC52D166DE7389"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
+			y: 0.875d
+		}
+		{
+			dependencies: ["685146C48FA19AD4"]
+			icon: {
+				id: "minecraft:poppy"
+			}
+			id: "04EC097FBB76DEEA"
+			optional: true
+			rewards: [
+				{
+					id: "069073CD04D90E06"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "419FB260EAE8E8FB"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "01D2E1080D225A11"
+					type: "checkmark"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["685146C48FA19AD4"]
+			icon: {
+				id: "minecraft:bell"
+			}
+			id: "72800A344A63D036"
+			rewards: [
+				{
+					id: "521A11A62EF7693F"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "668677C416603267"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "1E1D2C4112640BA7"
+					type: "checkmark"
+				}
+			]
+			x: 6.0d
+			y: 1.75d
+		}
+	]
+}

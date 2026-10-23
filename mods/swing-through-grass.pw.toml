@@ -1,0 +1,13 @@
+name = "Swing Through Grass"
+filename = "swingthroughgrass-neoforge-1.21.1-1.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/2UJdja33/versions/5TneGG4x/swingthroughgrass-neoforge-1.21.1-1.1.0.jar"
+hash-format = "sha512"
+hash = "32ae442401f974c7e1ffbeb46f7472f3adb6efc271dc0501d78ff9e7d514fa31cf14f38e1bccc23ec6e5f85dc711c683c7554418c43b4d88f1ad452c51b64319"
+
+[update]
+[update.modrinth]
+mod-id = "2UJdja33"
+version = "5TneGG4x"

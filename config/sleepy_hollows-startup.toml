@@ -1,0 +1,256 @@
+#Sanity loss and recovery in the Sleepy Hollows biome.
+[Sanity]
+	#Players lose sanity in the Sleepy Hollows biome and suffer when it runs out.
+	enableSanity = true
+	#Moves the sanity bar sideways in pixels. Negative values move it to the left.
+	# Default: 0
+	# Range: -10000 ~ 10000
+	hudX = 0
+	#Moves the sanity bar up or down in pixels. Negative values move it up.
+	# Default: 0
+	# Range: -10000 ~ 10000
+	hudY = 0
+	#Sanity points restored by eating Candy Corn.
+	# Default: 4
+	# Range: 0 ~ 100
+	candyCornGain = 4
+	#Sanity points restored by eating Dusk Berries.
+	# Default: 2
+	# Range: 0 ~ 100
+	duskBerryGain = 2
+	#Sanity points restored by drinking Luminous Water.
+	# Default: 6
+	# Range: 0 ~ 100
+	luminousWaterGain = 6
+	#Sanity points restored by eating Spectral Pumpkin Pie.
+	# Default: 10
+	# Range: 0 ~ 100
+	pumpkinPieGain = 10
+	#Sanity points restored every 5 seconds while outside the biome.
+	# Default: 5
+	# Range: 0 ~ 100
+	outsideBiomeGain = 5
+	#Sanity points lost every 5 seconds in the biome during the day.
+	# Default: 1
+	# Range: 0 ~ 100
+	biomeDayLoss = 1
+	#Sanity points lost every 5 seconds in the biome at night.
+	# Default: 2
+	# Range: 0 ~ 100
+	biomeNightLoss = 2
+	#Sanity points lost every second while standing on cursed blocks.
+	# Default: 2
+	# Range: 0 ~ 100
+	cursedBlockLoss = 2
+	#Sanity points lost every 3 seconds while infected.
+	# Default: 2
+	# Range: 0 ~ 100
+	infectedLoss = 2
+	#Radius in blocks around a light source in which you lose no sanity.
+	# Default: 4
+	# Range: 0 ~ 16
+	lightRadius = 4
+	#Percent less sanity loss for each Hauntbound armor piece you wear.
+	# Default: 25
+	# Range: 0 ~ 100
+	hauntboundPieceProtectionPercent = 25
+	#How many seconds the insanity lasts once your sanity runs out.
+	# Default: 60
+	# Range: 1 ~ 600
+	insanitySeconds = 60
+
+#Fog in the Sleepy Hollows biome. Only affects your own screen.
+[Fog]
+	#Thick fog covers the Sleepy Hollows biome.
+	enableFog = true
+	#Where the fog starts, in percent of your render distance.
+	# Default: 5
+	# Range: 0 ~ 100
+	startPercent = 5
+	#Where the fog is fully opaque, in percent of your render distance.
+	# Default: 45
+	# Range: 1 ~ 100
+	endPercent = 45
+	#How many seconds the fog takes to fade in and out.
+	# Default: 6
+	# Range: 0 ~ 30
+	transitionSeconds = 6
+	#How much thicker the fog gets at low sanity, in percent.
+	# Default: 40
+	# Range: 0 ~ 100
+	sanityInfluencePercent = 40
+
+#Ambient sounds in the Sleepy Hollows biome. Only affects your own screen.
+[Ambience]
+	#Plays eerie ambient sounds in the Sleepy Hollows biome.
+	enableAmbience = true
+	#Shortest pause between two sounds during the day, in seconds.
+	# Default: 20
+	# Range: 1 ~ 600
+	dayMinSeconds = 20
+	#Longest pause between two sounds during the day, in seconds.
+	# Default: 45
+	# Range: 1 ~ 600
+	dayMaxSeconds = 45
+	#Shortest pause between two sounds at night, in seconds.
+	# Default: 8
+	# Range: 1 ~ 600
+	nightMinSeconds = 8
+	#Longest pause between two sounds at night, in seconds.
+	# Default: 20
+	# Range: 1 ~ 600
+	nightMaxSeconds = 20
+	#Volume of the ambient sounds in percent.
+	# Default: 100
+	# Range: 0 ~ 100
+	volumePercent = 100
+
+#Attributes of the Horseman.
+[Horseman]
+	#Health points of the Horseman. 2 points = 1 heart.
+	# Default: 180.0
+	# Range: 1.0 ~ 10000.0
+	maxHealth = 180.0
+	#Armor points of the Horseman.
+	# Default: 26.0
+	# Range: 0.0 ~ 30.0
+	armor = 26.0
+	#Movement speed of the Horseman. A player walks at 0.1.
+	# Default: 0.34
+	# Range: 0.0 ~ 1.0
+	movementSpeed = 0.34
+	#Damage per hit of the Horseman. 2 points = 1 heart.
+	# Default: 16.0
+	# Range: 0.0 ~ 100.0
+	attackDamage = 16.0
+	#How far the Horseman knocks you back.
+	# Default: 0.0
+	# Range: 0.0 ~ 5.0
+	attackKnockback = 0.0
+	#Items the Horseman drops, one entry per item as namespace:item:count.
+	lootItems = ["sleepy_hollows:lootbag:3"]
+
+#Attributes of the Fleeing Pumpkin Head.
+["Fleeing Pumpkin Head"]
+	#Health points of the Fleeing Pumpkin Head. 2 points = 1 heart.
+	# Default: 100.0
+	# Range: 1.0 ~ 1000.0
+	maxHealth = 100.0
+	#Armor points of the Fleeing Pumpkin Head.
+	# Default: 22.0
+	# Range: 0.0 ~ 30.0
+	armor = 22.0
+	#Movement speed of the Fleeing Pumpkin Head. A player walks at 0.1.
+	# Default: 0.43
+	# Range: 0.0 ~ 1.0
+	movementSpeed = 0.43
+
+#Attributes of the Infected Zombie.
+["Infected Zombie"]
+	#Health points of the Infected Zombie. 2 points = 1 heart.
+	# Default: 30.0
+	# Range: 1.0 ~ 1000.0
+	maxHealth = 30.0
+	#Armor points of the Infected Zombie.
+	# Default: 1.0
+	# Range: 0.0 ~ 30.0
+	armor = 1.0
+	#Movement speed of the Infected Zombie. A player walks at 0.1.
+	# Default: 0.23
+	# Range: 0.0 ~ 1.0
+	movementSpeed = 0.23
+	#Damage per hit of the Infected Zombie. 2 points = 1 heart.
+	# Default: 5.0
+	# Range: 0.0 ~ 1000.0
+	attackDamage = 5.0
+
+#Attributes of the weapons and tools.
+[Weapons]
+	#Mining speed of the spectral tools.
+	# Default: 8.0
+	# Range: 0.0 ~ 20.0
+	spectralToolSpeed = 8.0
+	#Attack damage of the spectral tools. 2 points = 1 heart.
+	# Default: 5.0
+	# Range: 0.0 ~ 20.0
+	spectralToolDamage = 5.0
+	#Mining speed of the Raubbau Shovel.
+	# Default: 6.0
+	# Range: 0.0 ~ 20.0
+	raubbauToolSpeed = 6.0
+	#Attack damage of the Raubbau Shovel. 2 points = 1 heart.
+	# Default: 3.0
+	# Range: 0.0 ~ 20.0
+	raubbauToolDamage = 3.0
+	#Damage that Splash Luminous Water deals to the Horseman. 2 points = 1 heart.
+	# Default: 20.0
+	# Range: 0.0 ~ 200.0
+	splashHorsemanDamage = 20.0
+
+#Attributes of the Hauntbound armor.
+[Armor]
+	#Wearing the full Hauntbound armor gives a set bonus.
+	enableSetBonus = true
+	#Armor points of the Hauntbound Helmet.
+	# Default: 3
+	# Range: 0 ~ 20
+	helmetDefense = 3
+	#Armor points of the Hauntbound Chestplate.
+	# Default: 8
+	# Range: 0 ~ 20
+	chestplateDefense = 8
+	#Armor points of the Hauntbound Leggings.
+	# Default: 6
+	# Range: 0 ~ 20
+	leggingsDefense = 6
+	#Armor points of the Hauntbound Boots.
+	# Default: 3
+	# Range: 0 ~ 20
+	bootsDefense = 3
+	#Durability multiplier of the Hauntbound armor. Iron armor uses 15.
+	# Default: 33
+	# Range: 1 ~ 100
+	durabilityMultiplier = 33
+	#Armor toughness of each Hauntbound piece.
+	# Default: 2.0
+	# Range: 0.0 ~ 10.0
+	toughness = 2.0
+	#Knockback resistance of each Hauntbound piece. 0.1 = 10 percent.
+	# Default: 0.05
+	# Range: 0.0 ~ 1.0
+	knockbackResistance = 0.05
+
+#Hunger and saturation of the food items. Changes need a game restart.
+[Food]
+	#Hunger points restored by Dusk Berries. 2 points = 1 drumstick.
+	# Default: 2
+	# Range: 0 ~ 20
+	duskBerryNutrition = 2
+	#Saturation given by Dusk Berries, multiplied with its hunger points.
+	# Default: 0.1
+	# Range: 0.0 ~ 2.0
+	duskBerrySaturation = 0.1
+	#Hunger points restored by Candy Corn. 2 points = 1 drumstick.
+	# Default: 2
+	# Range: 0 ~ 20
+	candyCornNutrition = 2
+	#Saturation given by Candy Corn, multiplied with its hunger points.
+	# Default: 0.1
+	# Range: 0.0 ~ 2.0
+	candyCornSaturation = 0.1
+	#Hunger points restored by Spectral Pumpkin Pie. 2 points = 1 drumstick.
+	# Default: 8
+	# Range: 0 ~ 20
+	pumpkinPieNutrition = 8
+	#Saturation given by Spectral Pumpkin Pie, multiplied with its hunger points.
+	# Default: 0.3
+	# Range: 0.0 ~ 2.0
+	pumpkinPieSaturation = 0.3
+	#Hunger points restored by Luminous Water. 2 points = 1 drumstick.
+	# Default: 4
+	# Range: 0 ~ 20
+	luminousWaterNutrition = 4
+	#Saturation given by Luminous Water, multiplied with its hunger points.
+	# Default: 0.3
+	# Range: 0.0 ~ 2.0
+	luminousWaterSaturation = 0.3

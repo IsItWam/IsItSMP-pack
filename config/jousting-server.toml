@@ -1,0 +1,83 @@
+[wooden]
+	#Wooden Lance Durability
+	# Default: 320
+	# Range: 0 ~ 10000000
+	WOODEN_LANCE_DURABILITY = 320
+	#Wooden Lance Damage
+	# Default: 3.0
+	# Range: 0.0 ~ 1.0E7
+	WOODEN_LANCE_DAMAGE = 3.0
+	#Wooden Lance Weight
+	# Default: 1.2999999523162842
+	# Range: 0.0 ~ 1.0E7
+	WOODEN_LANCE_WEIGHT = 1.2999999523162842
+
+[iron]
+	#Iron Lance Durability
+	# Default: 600
+	# Range: 0 ~ 10000000
+	IRON_LANCE_DURABILITY = 600
+	#Iron Lance Damage
+	# Default: 6.0
+	# Range: 0.0 ~ 1.0E7
+	IRON_LANCE_DAMAGE = 6.0
+	#Iron Lance Weight
+	# Default: 2.0
+	# Range: 0.0 ~ 1.0E7
+	IRON_LANCE_WEIGHT = 2.0
+
+[gold]
+	#Gold Lance Durability
+	# Default: 400
+	# Range: 0 ~ 10000000
+	GOLD_LANCE_DURABILITY = 400
+	#Gold Lance Damage
+	# Default: 4.5
+	# Range: 0.0 ~ 1.0E7
+	GOLD_LANCE_DAMAGE = 4.5
+	#Gold Lance Weight
+	# Default: 1.5
+	# Range: 0.0 ~ 1.0E7
+	GOLD_LANCE_WEIGHT = 1.5
+
+[diamond]
+	#Diamond Lance Durability
+	# Default: 1268
+	# Range: 0 ~ 10000000
+	DIAMOND_LANCE_DURABILITY = 1268
+	#Diamond Lance Damage
+	# Default: 6.5
+	# Range: 0.0 ~ 1.0E7
+	DIAMOND_LANCE_DAMAGE = 6.5
+	#Diamond Lance Weight
+	# Default: 3.0
+	# Range: 0.0 ~ 1.0E7
+	DIAMOND_LANCE_WEIGHT = 3.0
+
+[emerald]
+	#Emerald Lance Durability
+	# Default: 1612
+	# Range: 0 ~ 10000000
+	EMERALD_LANCE_DURABILITY = 1612
+	#Emerald Lance Damage
+	# Default: 4.0
+	# Range: 0.0 ~ 1.0E7
+	EMERALD_LANCE_DAMAGE = 4.0
+	#Emerald Lance Weight
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0E7
+	EMERALD_LANCE_WEIGHT = 1.0
+
+[netherite]
+	#Netherite Lance Durability
+	# Default: 2550
+	# Range: 0 ~ 10000000
+	NETHERITE_LANCE_DURABILITY = 2550
+	#Netherite Lance Damage
+	# Default: 5.5
+	# Range: 0.0 ~ 1.0E7
+	NETHERITE_LANCE_DAMAGE = 5.5
+	#Netherite Lance Weight
+	# Default: 2.200000047683716
+	# Range: 0.0 ~ 1.0E7
+	NETHERITE_LANCE_WEIGHT = 2.200000047683716

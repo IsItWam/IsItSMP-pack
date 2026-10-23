@@ -1,0 +1,13 @@
+name = "Simple Storage Network"
+filename = "storagenetwork-1.21.1-1.13.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/cVIr8Vz1/versions/uD3jUj5S/storagenetwork-1.21.1-1.13.2.jar"
+hash-format = "sha512"
+hash = "080ff0e463c013e656d969dcbc6228bdc85f57fd9270dca878f5535f754df49e6ea37ce6959565ff731dfd33cf0b0565dd3490b2bedc3f64afa08fb32a2e4763"
+
+[update]
+[update.modrinth]
+mod-id = "cVIr8Vz1"
+version = "uD3jUj5S"

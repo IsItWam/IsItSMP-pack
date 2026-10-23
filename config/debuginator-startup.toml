@@ -1,0 +1,33 @@
+#Compute a SHA-1 of every mod jar (in the background) so two installs can be compared exactly.
+hashModJars = true
+#List every file in config/ with a short hash, to spot config differences between client and server.
+hashConfigFiles = true
+#Lowest log level copied from every mod's logging into the session log: WARN or ERROR.
+captureLevel = "WARN"
+#Stop copying log lines after this many per session (they are still counted).
+# Default: 3000
+# Range: 0 ~ 100000
+maxCapturedLogEvents = 3000
+#Full stack traces written per session. Identical traces are only written once.
+# Default: 200
+# Range: 0 ~ 10000
+maxStackTraces = 200
+#Server ticks slower than this (milliseconds) are logged with a snapshot of what's loaded. Normal is 50.
+# Default: 250
+# Range: 51 ~ 60000
+lagSpikeThresholdMs = 250
+#Client freezes longer than this (milliseconds) are logged.
+# Default: 1000
+# Range: 100 ~ 60000
+clientHitchThresholdMs = 1000
+#Write a performance summary (TPS, MSPT, memory, players) every N minutes while a server runs. 0 = off.
+# Default: 5
+# Range: 0 ~ 1440
+heartbeatMinutes = 5
+#Number of session logs to keep in the debuginator/ folder. Older ones are deleted.
+# Default: 30
+# Range: 1 ~ 1000
+keepSessions = 30
+#After the first few occurrences of a GLFW error (e.g. '65539: Invalid key -1'), stop passing it to the
+#game log and only count it. The first occurrence is always recorded with the code that caused it.
+quietRepeatedGlfwErrors = true

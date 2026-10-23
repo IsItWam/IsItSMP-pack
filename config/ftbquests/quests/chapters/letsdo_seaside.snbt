@@ -1,0 +1,1031 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "letsdo_seaside"
+	group: "0FD0FF4621387BF9"
+	icon: {
+		id: "camping:tent_white"
+	}
+	id: "26BD280F8D9F8B5E"
+	order_index: 21
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "camping:small_backpack"
+			}
+			id: "598E5CEE5FB41FDC"
+			tasks: [
+				{
+					id: "1825F0C093E5853C"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["598E5CEE5FB41FDC"]
+			icon: {
+				id: "beachparty:palm_sprout"
+			}
+			id: "52E19D506056C8A6"
+			rewards: [
+				{
+					id: "75EA01EBBFD84EFF"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "734D7B904D736A8E"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					biome: "minecraft:beach"
+					id: "0FB8123A2B64D8D0"
+					type: "biome"
+				}
+				{
+					count: 8
+					id: "55AF039AF2AD9C16"
+					item: {
+						count: 1
+						id: "beachparty:palm_log"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["52E19D506056C8A6"]
+			id: "08537F3F1AFE9A9C"
+			rewards: [
+				{
+					id: "06BF8E69ABCFAD94"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "414E24E117E8CD72"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "7C87480FBE86B5D8"
+					item: {
+						count: 1
+						id: "beachparty:seashell"
+					}
+					type: "item"
+				}
+				{
+					id: "312B38389C3AC4C5"
+					item: {
+						count: 1
+						id: "beachparty:message_in_a_bottle"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -6.125d
+		}
+		{
+			dependencies: ["08537F3F1AFE9A9C"]
+			icon: {
+				id: "beachparty:crocs"
+			}
+			id: "4786F688B2610A2C"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					id: "07FCB0CDBF414D72"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "19F53388D1418A70"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					advancement: "beachparty:main/get_any_artifact"
+					id: "6A878A6ABE079A40"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: -7.875d
+		}
+		{
+			dependencies: ["52E19D506056C8A6"]
+			id: "4774A79C57FE05D4"
+			rewards: [
+				{
+					id: "1B6EAABD4D0A6964"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "10A1B92FED07F88E"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 2
+					id: "60DDB1F05CA9517B"
+					item: {
+						count: 1
+						id: "beachparty:coconut_open"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -4.375d
+		}
+		{
+			dependencies: ["52E19D506056C8A6"]
+			id: "61A8AAB532E55BCF"
+			optional: true
+			rewards: [
+				{
+					id: "28041A87EFD8609B"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "01FECFEE11B6BA84"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "495EA43E48027928"
+					item: {
+						count: 1
+						id: "beachparty:sand_bucket_filled"
+					}
+					type: "item"
+				}
+				{
+					advancement: "beachparty:main/build_a_tower"
+					id: "3D9E58EB397D4834"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: -2.625d
+		}
+		{
+			dependencies: ["52E19D506056C8A6"]
+			id: "445DA0934EA70840"
+			rewards: [
+				{
+					id: "14FC926DB38E16D6"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "653C8A72B472364D"
+					type: "xp"
+					xp: 120
+				}
+				{
+					id: "13F8BCB86D1D307D"
+					item: {
+						count: 8
+						id: "minecraft:sugar"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4FBD65A152E32D86"
+					item: {
+						count: 1
+						id: "beachparty:palm_bar"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["445DA0934EA70840"]
+			id: "1AF84958217B88C7"
+			rewards: [
+				{
+					id: "12EA918A53D72876"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "0E58493DFD2B8CCF"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "3D7E5C3E3D2DDFF8"
+					item: {
+						count: 1
+						id: "beachparty:mini_fridge"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4158E61BFF570AB5"
+					item: {
+						count: 1
+						id: "minecraft:ice"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -6.125d
+		}
+		{
+			dependencies: ["1AF84958217B88C7", "4774A79C57FE05D4"]
+			id: "67DD0035AEBC2CD8"
+			rewards: [
+				{
+					id: "0974367614982269"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "66F52CEB258D71AA"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "748B4F916336F496"
+					item: {
+						count: 1
+						id: "beachparty:coconut_cocktail"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["67DD0035AEBC2CD8"]
+			icon: {
+				id: "beachparty:melon_cocktail"
+			}
+			id: "3DD6E7FE0C83D348"
+			rewards: [
+				{
+					id: "09E89BA7C97E8D19"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "78CC3D5D3A0E759B"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "beachparty:main/get_all_cocktails"
+					id: "2ED920053046C567"
+					type: "advancement"
+				}
+			]
+			x: 10.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["445DA0934EA70840"]
+			id: "315D81E63A13AF37"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					id: "430815D85E0AE9D5"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "3C94DABDCBCB3604"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 8
+					id: "703FAFB1CABF485F"
+					item: {
+						count: 1
+						id: "beachparty:thatch"
+					}
+					type: "item"
+				}
+				{
+					id: "5AAA4C4CEDD3C106"
+					item: {
+						count: 1
+						id: "beachparty:beach_parasol"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -4.375d
+		}
+		{
+			dependencies: ["445DA0934EA70840"]
+			icon: {
+				id: "beachparty:radio"
+			}
+			id: "09C99AFC1F16177E"
+			rewards: [
+				{
+					id: "09E8AC28232E2C46"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "1C2822CFEF51DED6"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "45E1D35971F540FC"
+					item: {
+						count: 1
+						id: "beachparty:radio"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -2.625d
+		}
+		{
+			dependencies: ["598E5CEE5FB41FDC"]
+			id: "6462054B9B70B50C"
+			rewards: [
+				{
+					id: "626C6FF067137C67"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "006374B0FB650061"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "04E8127B24DF0F13"
+					item: {
+						count: 1
+						id: "lilis_lucky_lures:bamboo_fishing_rod"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6462054B9B70B50C"]
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "0A3B2C3531C77CEB"
+			rewards: [
+				{
+					id: "194A208B9A4A411B"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "0BED3C3DC20BAC11"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					advancement: "lilis_lucky_lures:main/spyglass_at_floating_debris"
+					id: "3CF6CF64C451A4EA"
+					type: "advancement"
+				}
+				{
+					id: "6D460886218796FE"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
+			y: 0.875d
+		}
+		{
+			dependencies: ["0A3B2C3531C77CEB"]
+			id: "093BEF2B8F8A49DB"
+			rewards: [
+				{
+					id: "27CAFCCD829943FF"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "1C13A8F69811DEED"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "6DA402C1A2021C5F"
+					item: {
+						count: 1
+						id: "lilis_lucky_lures:fishing_net"
+					}
+					type: "item"
+				}
+				{
+					id: "327BCF02265ECDC6"
+					item: {
+						count: 1
+						id: "lilis_lucky_lures:soaked_bag"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["6462054B9B70B50C"]
+			id: "1ECCEBBA69434E4F"
+			rewards: [
+				{
+					id: "5C140B50499FE653"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "02A3B530939766CF"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "62CC3B5B4CF3BEC3"
+					item: {
+						count: 4
+						id: "minecraft:melon_seeds"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7A63AFBC4BE20079"
+					item: {
+						count: 1
+						id: "lilis_lucky_lures:fish_trap"
+					}
+					type: "item"
+				}
+				{
+					advancement: "lilis_lucky_lures:main/place_fish_trap"
+					id: "6F9EACAA40DBA1CB"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 2.625d
+		}
+		{
+			dependencies: ["1ECCEBBA69434E4F"]
+			icon: {
+				id: "lilis_lucky_lures:salmon_rolls"
+			}
+			id: "26500EC58A1FD912"
+			rewards: [
+				{
+					id: "29129756A7FB4B82"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "5FBEE76808B2096F"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "2165E108DE60FD4E"
+					item: {
+						count: 1
+						id: "lilis_lucky_lures:salmon_rolls"
+					}
+					type: "item"
+				}
+				{
+					id: "7A9FB03083421B15"
+					item: {
+						count: 1
+						id: "lilis_lucky_lures:cooked_cod_meal"
+					}
+					type: "item"
+				}
+				{
+					id: "730A66463748ECC3"
+					item: {
+						count: 1
+						id: "lilis_lucky_lures:puffer_plater"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.625d
+		}
+		{
+			dependencies: ["0A3B2C3531C77CEB"]
+			icon: {
+				id: "lilis_lucky_lures:dynamite"
+			}
+			id: "09F681A96D53A386"
+			rewards: [
+				{
+					id: "0DA490CEA545BDAF"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "09E9400964304ADC"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "76C2D7AA4EA1CAD0"
+					item: {
+						count: 1
+						id: "lilis_lucky_lures:spear"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "7D5D9990916CE24C"
+					item: {
+						count: 1
+						id: "lilis_lucky_lures:dynamite"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.875d
+		}
+		{
+			dependencies: ["09F681A96D53A386"]
+			id: "23D76C906C218B0B"
+			optional: true
+			rewards: [
+				{
+					id: "58ECDFA956C9FB1C"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "3FB277AA87C7F471"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "3497A39A856E7316"
+					item: {
+						count: 1
+						id: "lilis_lucky_lures:redstone_coil"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["093BEF2B8F8A49DB"]
+			id: "79FA14B5F1FD76E8"
+			rewards: [
+				{
+					id: "1D63B018878FB0B1"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "584A15C25E80BDAD"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "321DD3BCF92EC8EB"
+					item: {
+						count: 1
+						id: "lilis_lucky_lures:anglers_hat"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["79FA14B5F1FD76E8", "26500EC58A1FD912", "09F681A96D53A386"]
+			icon: {
+				id: "lilis_lucky_lures:lilis_lucky_lures_banner"
+			}
+			id: "0E14248528F09342"
+			rewards: [
+				{
+					id: "56E5DB7F13F0FE66"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "54BF9BF1984C550E"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "lilis_lucky_lures:main/cross_collector"
+					id: "6C89F7E6A3ECFC2F"
+					type: "advancement"
+				}
+			]
+			x: 10.0d
+			y: 0.875d
+		}
+		{
+			dependencies: ["598E5CEE5FB41FDC"]
+			icon: {
+				id: "camping:tent_white"
+			}
+			id: "64AE7877700E10F8"
+			rewards: [
+				{
+					id: "0AA9B6AD5FD7AE95"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "5901031EA7D71A1D"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "67E18593F355055E"
+					item: {
+						count: 1
+						id: "camping:tent_white"
+					}
+					type: "item"
+				}
+				{
+					id: "5878CE02B66B7549"
+					item: {
+						count: 1
+						id: "camping:sleeping_bag_white"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["64AE7877700E10F8"]
+			id: "04E995BAC0B8CE2A"
+			rewards: [
+				{
+					id: "400A8D739E703FF8"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "3FDC45E5E47FF605"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "5047AAEA3A3393F7"
+					item: {
+						count: 1
+						id: "camping:small_backpack"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 4.375d
+		}
+		{
+			dependencies: ["04E995BAC0B8CE2A"]
+			id: "022E46408BE68619"
+			optional: true
+			rewards: [
+				{
+					id: "08B8EA3056C38DFE"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "464285E44730E9D8"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "38B73B7E741A2CF2"
+					item: {
+						count: 1
+						id: "camping:large_backpack"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 4.375d
+		}
+		{
+			dependencies: ["64AE7877700E10F8"]
+			icon: {
+				id: "camping:grill"
+			}
+			id: "5391A904E11F1D99"
+			rewards: [
+				{
+					id: "5A0A66F4D2E59B32"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6E3FEE76E6796107"
+					type: "xp"
+					xp: 120
+				}
+				{
+					id: "71FC1AEA84989415"
+					item: {
+						count: 4
+						id: "minecraft:egg"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "54B064135C868725"
+					item: {
+						count: 1
+						id: "camping:grill"
+					}
+					type: "item"
+				}
+				{
+					advancement: "camping:main/use_beef_on_grill"
+					id: "6EA29B27A17D0B30"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 6.125d
+		}
+		{
+			dependencies: ["5391A904E11F1D99"]
+			icon: {
+				id: "camping:marshmallow_on_a_stick"
+			}
+			id: "424068CCA81E31AE"
+			rewards: [
+				{
+					id: "07E7E4F6139A4DAF"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "3C5E5B0EEDF616A2"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "6D7D89E5FDCDD7D4"
+					item: {
+						count: 1
+						id: "camping:marshmallow_on_a_stick"
+					}
+					type: "item"
+				}
+				{
+					id: "3007EAAD670CF607"
+					item: {
+						count: 1
+						id: "camping:roasted_marshmallow"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 7.875d
+		}
+		{
+			dependencies: ["04E995BAC0B8CE2A"]
+			id: "5D6B7C6BEE71163E"
+			rewards: [
+				{
+					id: "55202456DB867CFB"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "18790A256013FE6C"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "684F77F2D561AD8F"
+					item: {
+						count: 1
+						id: "camping:enderbag"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 6.125d
+		}
+		{
+			dependencies: ["3DD6E7FE0C83D348", "0E14248528F09342", "5D6B7C6BEE71163E"]
+			id: "57015C9828A55684"
+			rewards: [
+				{
+					id: "1A4965F2CA4B3FE9"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "7D876182CB9509D3"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "2DE3C6AAC7EF317F"
+					item: {
+						count: 1
+						id: "camping:enderpack"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+	]
+}

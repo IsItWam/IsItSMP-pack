@@ -1,0 +1,13 @@
+name = "Born In Configuration"
+filename = "borninconfig-NEO.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/8rGW0cNk/versions/pBHepOQ1/borninconfig-NEO.jar"
+hash-format = "sha512"
+hash = "7f604c66ffee9630ea955124e402e5d600a313df1b920af4c5ef890caa8ab63915d2f6e700ec9d900128751ad90dea379ee69d002b7f412021588e77127ed265"
+
+[update]
+[update.modrinth]
+mod-id = "8rGW0cNk"
+version = "pBHepOQ1"

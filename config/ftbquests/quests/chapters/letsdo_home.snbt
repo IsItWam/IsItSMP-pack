@@ -1,0 +1,1213 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "letsdo_home"
+	group: "0FD0FF4621387BF9"
+	icon: {
+		id: "furniture:sofa_red"
+	}
+	id: "033C7CE7BD5A1233"
+	order_index: 22
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "furniture:oak_bench"
+			}
+			id: "142791A2592566BE"
+			min_width: 300
+			tasks: [
+				{
+					id: "375AA6117EC0D1C3"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["142791A2592566BE"]
+			id: "66B7D4BF4A44E01C"
+			rewards: [
+				{
+					id: "627F8C80A6C42635"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6FB6B0F4A625A01B"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "7CF69DF927EA7051"
+					item: {
+						count: 1
+						id: "furniture:oak_bench"
+					}
+					type: "item"
+				}
+				{
+					id: "1B447F1B1A09D6CA"
+					item: {
+						count: 1
+						id: "furniture:oak_desk_chair"
+					}
+					type: "item"
+				}
+				{
+					advancement: "furniture:furniture/sit"
+					id: "614B3A93C0FD12DA"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["66B7D4BF4A44E01C"]
+			id: "2623FCB0A62AAE83"
+			rewards: [
+				{
+					id: "7BF4BF9DC306CEE3"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "51BC6883394F8420"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "7F44992F272E269A"
+					item: {
+						count: 1
+						id: "furniture:oak_cabinet"
+					}
+					type: "item"
+				}
+				{
+					id: "652896305929B6F3"
+					item: {
+						count: 1
+						id: "furniture:oak_dresser"
+					}
+					type: "item"
+				}
+				{
+					id: "7E1E8CCCF0147620"
+					item: {
+						count: 1
+						id: "furniture:coffer"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -6.125d
+		}
+		{
+			dependencies: ["2623FCB0A62AAE83"]
+			id: "40636DB37FF184B9"
+			rewards: [
+				{
+					id: "01C5749004EA88E3"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "454FB62D06BD93CF"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "7587E85AD896A58C"
+					item: {
+						count: 1
+						id: "furniture:oak_wardrobe"
+					}
+					type: "item"
+				}
+				{
+					id: "5EC46994BD586857"
+					item: {
+						count: 1
+						id: "furniture:oak_mirror"
+					}
+					type: "item"
+				}
+				{
+					advancement: "furniture:furniture/wardrobe"
+					id: "3FCC52F57DC3A13B"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["66B7D4BF4A44E01C"]
+			id: "323B7572E1658AD2"
+			rewards: [
+				{
+					id: "2B770366244CB1ED"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "3883D8780CF2E26F"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "4FB42C7548913133"
+					item: {
+						count: 1
+						id: "furniture:oak_clock"
+					}
+					type: "item"
+				}
+				{
+					id: "56C634604D228D36"
+					item: {
+						count: 1
+						id: "furniture:oak_grandfather_clock"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -4.375d
+		}
+		{
+			dependencies: ["323B7572E1658AD2"]
+			id: "36E2FECB470E3281"
+			rewards: [
+				{
+					id: "3B84438F5A25D2E2"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "0E8A4EB00083A547"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "6A0D72F65BE895FB"
+					item: {
+						count: 1
+						id: "furniture:telescope"
+					}
+					type: "item"
+				}
+				{
+					advancement: "furniture:furniture/stargazer"
+					id: "6D1ED9533A8C2A55"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["66B7D4BF4A44E01C"]
+			id: "159EB5A1152B16B2"
+			rewards: [
+				{
+					id: "1EB58D5BE473D06D"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "1AB7A33400985A94"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "3DDEE21C276A0D6E"
+					item: {
+						count: 1
+						id: "furniture:sofa_red"
+					}
+					type: "item"
+				}
+				{
+					id: "030EC56EDAC20B34"
+					item: {
+						count: 1
+						id: "furniture:pouffe_red"
+					}
+					type: "item"
+				}
+				{
+					id: "078EAC6DD8E17F20"
+					item: {
+						count: 1
+						id: "furniture:curtain_red"
+					}
+					type: "item"
+				}
+				{
+					id: "6621401E18D52BC5"
+					item: {
+						count: 1
+						id: "furniture:lamp_red"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -2.625d
+		}
+		{
+			dependencies: ["159EB5A1152B16B2"]
+			id: "78DFFEFDBCDABCE6"
+			rewards: [
+				{
+					id: "059C52DF0CC26DC2"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "2A5A6A0893127012"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "3551B2D47007EB94"
+					item: {
+						count: 1
+						id: "furniture:gramophone"
+					}
+					type: "item"
+				}
+				{
+					advancement: "furniture:furniture/gramophone"
+					id: "7A17DB515E609F01"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["159EB5A1152B16B2"]
+			id: "2D34C88EA5E92EF0"
+			rewards: [
+				{
+					id: "69896D50AED133B1"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "75515EEB38264FBB"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4D5C43A16121CFE7"
+					item: {
+						count: 1
+						id: "furniture:street_lantern_item"
+					}
+					type: "item"
+				}
+				{
+					id: "38B80EFB59B5323E"
+					item: {
+						count: 1
+						id: "furniture:plated_street_lantern_item"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2623FCB0A62AAE83"]
+			id: "5E30FF1F692A63B6"
+			rewards: [
+				{
+					id: "1EFED218D7D4B4E8"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "7A59DFB4AF27BA4D"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "430BAE43402CB400"
+					item: {
+						count: 1
+						id: "furniture:blueprints"
+					}
+					type: "item"
+				}
+				{
+					id: "768F22F6012B97E4"
+					item: {
+						count: 1
+						id: "furniture:tool_box"
+					}
+					type: "item"
+				}
+				{
+					id: "44F7CF4D1F0C45F4"
+					item: {
+						count: 1
+						id: "furniture:sewing_kit"
+					}
+					type: "item"
+				}
+				{
+					id: "5E17E995F901CF88"
+					item: {
+						count: 1
+						id: "furniture:explorers_box"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -5.25d
+		}
+		{
+			dependencies: ["5E30FF1F692A63B6"]
+			id: "6BCEFA2ECA2C104D"
+			min_width: 300
+			rewards: [
+				{
+					id: "7CCE66596BE3ED68"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "49A792E75DB8E2DB"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "2B5A7CF4C5BAE0FA"
+					item: {
+						count: 1
+						id: "furniture:bin"
+					}
+					type: "item"
+				}
+				{
+					id: "1550857BC96C817B"
+					item: {
+						count: 1
+						id: "furniture:boat_in_a_jar"
+					}
+					type: "item"
+				}
+				{
+					id: "39B857CF08FD3A30"
+					item: {
+						count: 1
+						id: "furniture:terrarium"
+					}
+					type: "item"
+				}
+				{
+					id: "58CB37DAB285103C"
+					item: {
+						count: 1
+						id: "furniture:display"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["6BCEFA2ECA2C104D"]
+			id: "551A358EBAD361AF"
+			rewards: [
+				{
+					id: "3E5A61D0DBBCE8F0"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "1682AC726CCA312C"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4BB64298E19805A3"
+					item: {
+						count: 1
+						id: "furniture:copper_fish_tank"
+					}
+					type: "item"
+				}
+				{
+					id: "4803A19F229AAA8A"
+					item: {
+						count: 1
+						id: "furniture:iron_fish_tank"
+					}
+					type: "item"
+				}
+				{
+					advancement: "furniture:furniture/fish_tank"
+					id: "3C25601229F14528"
+					type: "advancement"
+				}
+			]
+			x: 10.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["6BCEFA2ECA2C104D"]
+			id: "12B078F468743CD3"
+			rewards: [
+				{
+					id: "15F62BD9D753C4DE"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "02B54DE475366CA3"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "6026EDDCF2689281"
+					item: {
+						count: 1
+						id: "furniture:wooden_planter"
+					}
+					type: "item"
+				}
+				{
+					id: "27926B0CD7669B49"
+					item: {
+						count: 1
+						id: "furniture:stone_brick_planter"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["12B078F468743CD3"]
+			id: "511B9126C80A1E00"
+			min_width: 300
+			rewards: [
+				{
+					id: "10A31BC5FA9A1AD1"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "0606D14F0A3B042C"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "44EED365F0EB8EA3"
+					item: {
+						count: 1
+						id: "furniture:steam_vent"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "79D80FFFF35EE3B8"
+					item: {
+						count: 1
+						id: "furniture:steam_pipe"
+					}
+					type: "item"
+				}
+				{
+					id: "7E75AA849EB23E72"
+					item: {
+						count: 1
+						id: "furniture:brick_chimney"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["6BCEFA2ECA2C104D"]
+			id: "1189A94CE96BF384"
+			rewards: [
+				{
+					id: "664937EFBEE8D692"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "4B62757F25CFD59D"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "007EC55E95282A40"
+					item: {
+						count: 1
+						id: "furniture:cash_register"
+					}
+					type: "item"
+				}
+				{
+					advancement: "furniture:furniture/cash_register"
+					id: "7ED9206AEAEFB26F"
+					type: "advancement"
+				}
+			]
+			x: 10.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["142791A2592566BE"]
+			id: "27A99280DDF68521"
+			rewards: [
+				{
+					id: "384770FC69201969"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "03BCFD125A99CC2F"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 4
+					id: "736636A70B4501E7"
+					item: {
+						count: 1
+						id: "hearth_and_timber:timber_frame"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2D4F9CF8E7B3086F"
+					item: {
+						count: 1
+						id: "hearth_and_timber:timber_cross_frame"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["27A99280DDF68521"]
+			id: "42572791E06E1378"
+			rewards: [
+				{
+					id: "016A4A0EA4DB6A5B"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "5B5712DFBB97396A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "241D2AE624A8507B"
+					item: {
+						count: 16
+						id: "minecraft:calcite"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8
+					id: "296B2F9E01410D8B"
+					item: {
+						count: 1
+						id: "hearth_and_timber:quicklime"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "70803C3EE7DB3267"
+					item: {
+						count: 1
+						id: "hearth_and_timber:white_plaster"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["42572791E06E1378"]
+			id: "4478918789CEBAF8"
+			min_width: 300
+			rewards: [
+				{
+					id: "51AE75248C523EE4"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "4A1111632BB63BB2"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					count: 16
+					id: "7D78A1837538C685"
+					item: {
+						count: 1
+						id: "hearth_and_timber:groutless_rubblestone"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6BA3C1D3887DADA4"
+					item: {
+						count: 1
+						id: "hearth_and_timber:covered_rubblestone"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["27A99280DDF68521"]
+			id: "278D01E079B7783F"
+			rewards: [
+				{
+					id: "0BA1A6A726C21A1A"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "28AA15E8EA1ACDC3"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 2
+					id: "1FD1DBF6972F7849"
+					item: {
+						count: 1
+						id: "hearth_and_timber:oak_beam"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2BC1B0AF3C060BB0"
+					item: {
+						count: 1
+						id: "hearth_and_timber:oak_support"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "05E7CD026AC4BFC5"
+					item: {
+						count: 1
+						id: "hearth_and_timber:oak_railing"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.875d
+		}
+		{
+			dependencies: ["278D01E079B7783F"]
+			id: "461E6AFD2B2D1C52"
+			min_width: 300
+			rewards: [
+				{
+					id: "7DE4C1995A6B2F17"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6ADD6170A8BE41AB"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 8
+					id: "257418C1F91F598B"
+					item: {
+						count: 1
+						id: "hearth_and_timber:oak_window"
+					}
+					type: "item"
+				}
+				{
+					id: "155A4EFD7C20992C"
+					item: {
+						count: 1
+						id: "hearth_and_timber:oak_window_casing"
+					}
+					type: "item"
+				}
+				{
+					id: "171AD2AF28DE9CC2"
+					item: {
+						count: 1
+						id: "hearth_and_timber:sliding_stable_door"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4478918789CEBAF8", "461E6AFD2B2D1C52"]
+			id: "78C1FC8FE1CFB362"
+			rewards: [
+				{
+					id: "37862052CF07D6A5"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "0569D020091E581F"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					count: 16
+					id: "406C1F5A39AADDD2"
+					item: {
+						count: 1
+						id: "hearth_and_timber:oak_shingles"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "26515C39E3B3E80B"
+					item: {
+						count: 1
+						id: "hearth_and_timber:oak_shingle_stairs"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "43DF5CDE882ADBF1"
+					item: {
+						count: 1
+						id: "hearth_and_timber:thatch"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.875d
+		}
+		{
+			dependencies: ["142791A2592566BE"]
+			id: "1CCFD27EC00D45E6"
+			rewards: [
+				{
+					id: "50B752A935AD687A"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "57EB384B825D6712"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "1F65589441FAF5DB"
+					item: {
+						count: 1
+						id: "lilis_pottery:pottery_table"
+					}
+					type: "item"
+				}
+				{
+					id: "3533ED619DDEE013"
+					item: {
+						count: 1
+						id: "lilis_pottery:vase"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["1CCFD27EC00D45E6"]
+			id: "26093DA16B0C3200"
+			rewards: [
+				{
+					id: "6D0F81A7330130F2"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "243C9EB8A58DE23E"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3AEEFAD3CCD20D3B"
+					item: {
+						count: 3
+						id: "minecraft:honeycomb"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3F8A189AD3E83226"
+					item: {
+						count: 1
+						id: "lilis_pottery:kiln"
+					}
+					type: "item"
+				}
+				{
+					id: "100707971375EDF7"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
+			y: 2.625d
+		}
+		{
+			dependencies: ["26093DA16B0C3200"]
+			icon: {
+				id: "minecraft:honeycomb"
+			}
+			id: "275994DBDF37C35D"
+			rewards: [
+				{
+					id: "2961FC7C10FAAF58"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "295547DC6FE696DC"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					advancement: "lilis_pottery:main/use_honeycomb_on_pottery"
+					id: "43E7B1F055D09F4D"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["1CCFD27EC00D45E6"]
+			id: "440BCA9C11F80442"
+			rewards: [
+				{
+					id: "7D6DCC3077CE97BE"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "282A84AD42D93BC6"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "288B3237F5C8EADB"
+					item: {
+						count: 1
+						id: "lilis_pottery:urn"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 4.375d
+		}
+		{
+			dependencies: ["1CCFD27EC00D45E6"]
+			id: "49B500AF39C121E3"
+			min_width: 300
+			rewards: [
+				{
+					id: "787F8391104EFCAA"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "278CDD6254D3440D"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "301B417E15BC97BD"
+					item: {
+						count: 1
+						id: "lilis_pottery:red_clay_ball"
+					}
+					type: "item"
+				}
+				{
+					id: "33D34C109E257A7A"
+					item: {
+						count: 1
+						id: "lilis_pottery:yellow_clay_ball"
+					}
+					type: "item"
+				}
+				{
+					id: "2DF7FF988EC91E45"
+					item: {
+						count: 1
+						id: "lilis_pottery:white_clay_ball"
+					}
+					type: "item"
+				}
+				{
+					id: "4BCD3C804DCE1A7D"
+					item: {
+						count: 1
+						id: "lilis_pottery:blue_clay_ball"
+					}
+					type: "item"
+				}
+				{
+					id: "35D7CBEBDC286758"
+					item: {
+						count: 1
+						id: "lilis_pottery:black_clay_ball"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 6.125d
+		}
+		{
+			dependencies: ["49B500AF39C121E3"]
+			icon: {
+				id: "lilis_pottery:red_clay_ball"
+			}
+			id: "7648A6DECCEB4750"
+			rewards: [
+				{
+					id: "26AA34B7DEAA7DAC"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "0BC194ABDBD9CCCD"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "lilis_pottery:main/get_all_red_pottery"
+					id: "578448331436D26B"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1189A94CE96BF384", "2D34C88EA5E92EF0", "78C1FC8FE1CFB362", "7648A6DECCEB4750"]
+			icon: {
+				id: "furniture:oak_dresser"
+			}
+			id: "523323717A54527B"
+			min_width: 300
+			rewards: [
+				{
+					id: "4AFD5CF9978B3005"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "24B410D5F5B8652F"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					advancement: "furniture:furniture/interior_designer"
+					id: "337C246514CCB441"
+					type: "advancement"
+				}
+			]
+			x: 12.0d
+			y: 0.875d
+		}
+	]
+}

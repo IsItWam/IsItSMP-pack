@@ -1,0 +1,1170 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "letsdo_cellar"
+	group: "0FD0FF4621387BF9"
+	icon: {
+		id: "vinery:fermentation_barrel"
+	}
+	id: "4C78378F0E21693B"
+	order_index: 18
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "vinery:red_wine"
+			}
+			id: "13A143470420785B"
+			min_width: 300
+			tasks: [
+				{
+					id: "68F03B10A36C1848"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["13A143470420785B"]
+			id: "25DDF695E8D312D2"
+			rewards: [
+				{
+					id: "27192F72307037B9"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6A79CEE4F1E01601"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "176BBB2BF323E0AC"
+					item: {
+						count: 4
+						id: "vinery:wine_bottle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0A2C98EA0C4980E0"
+					item: {
+						count: 1
+						id: "vinery:red_grape_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["25DDF695E8D312D2"]
+			id: "11148897663EF219"
+			rewards: [
+				{
+					id: "10C2FFBAE5F6C7F1"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "2505A3D00A7C49A2"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 4
+					id: "0F60B27B55465220"
+					item: {
+						count: 1
+						id: "vinery:grapevine_stem"
+					}
+					type: "item"
+				}
+				{
+					advancement: "vinery:main/sowing_the_future"
+					id: "60A67AB21007CCED"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: -6.125d
+		}
+		{
+			dependencies: ["25DDF695E8D312D2"]
+			id: "5833AAEB90F9F574"
+			rewards: [
+				{
+					id: "6BA5C7C4AA704124"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "761EF15E98993DE5"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 6
+					id: "278C2A976422A41E"
+					item: {
+						count: 1
+						id: "vinery:taiga_grapes_red"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "7A2019154BC89B9A"
+					item: {
+						count: 1
+						id: "vinery:savanna_grapes_red"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -4.375d
+		}
+		{
+			dependencies: ["11148897663EF219"]
+			id: "6EBBF7A0527A7694"
+			rewards: [
+				{
+					id: "62F39FBBE6E4DB57"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "3248D5685E48693B"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 6
+					id: "6702546884082D36"
+					item: {
+						count: 1
+						id: "vinery:jungle_grapes_red"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -2.625d
+		}
+		{
+			dependencies: ["25DDF695E8D312D2"]
+			id: "0212DE7101DE90C2"
+			rewards: [
+				{
+					id: "4F36B37803C9067F"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "4F30F1A2ACE4D513"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "4EC877413882F95B"
+					item: {
+						count: 1
+						id: "vinery:grapevine_pot"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -2.625d
+		}
+		{
+			dependencies: ["0212DE7101DE90C2"]
+			id: "0DCAF60678CA88EE"
+			rewards: [
+				{
+					id: "738EBC58ABD94F06"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "74F39C96404EC671"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 4
+					id: "0F68A373740A49D4"
+					item: {
+						count: 1
+						id: "vinery:red_grapejuice"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["0DCAF60678CA88EE"]
+			id: "068DB273AE3A5664"
+			rewards: [
+				{
+					id: "31FC96D181DC2B6C"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "19BED5E783DA13EF"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "2360DFA8EA21F604"
+					item: {
+						count: 1
+						id: "vinery:fermentation_barrel"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -4.375d
+		}
+		{
+			dependencies: ["068DB273AE3A5664"]
+			id: "674056D16082369B"
+			rewards: [
+				{
+					id: "2B169AF9550A4EF2"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "48CF304047E55CAB"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "672B98B1608DDE20"
+					item: {
+						count: 1
+						id: "vinery:red_wine"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["674056D16082369B"]
+			id: "0632B9084F4C0227"
+			min_width: 300
+			rewards: [
+				{
+					id: "5230787DD9D82C0C"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "026534A1A126558F"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "6BFE31ECAAD27365"
+					item: {
+						count: 1
+						id: "vinery:wine_box"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["25DDF695E8D312D2"]
+			id: "055857634ED56B07"
+			optional: true
+			rewards: [
+				{
+					id: "3C1ACECDE0037452"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "680A7DC7DFFAC7B7"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "55CD4E19F889D883"
+					item: {
+						count: 1
+						id: "vinery:straw_hat"
+					}
+					type: "item"
+				}
+				{
+					id: "06506E7B0BD59539"
+					item: {
+						count: 1
+						id: "vinery:winemaker_apron"
+					}
+					type: "item"
+				}
+				{
+					id: "22E4CD9F21D59961"
+					item: {
+						count: 1
+						id: "vinery:winemaker_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "220A579D97F3D96C"
+					item: {
+						count: 1
+						id: "vinery:winemaker_boots"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["13A143470420785B"]
+			id: "42047FDCBB9C4C26"
+			rewards: [
+				{
+					id: "2619013DBF004C87"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6019C3259839F600"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 4
+					id: "62EFA4A4531548D2"
+					item: {
+						count: 1
+						id: "vinery:cherry"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["42047FDCBB9C4C26"]
+			id: "0D29F216FF233185"
+			rewards: [
+				{
+					id: "4C72BBCD5CD8B669"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "0CCFE01C896B354A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4099F89F582D92DE"
+					item: {
+						count: 4
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "738C811C7FD02D03"
+					item: {
+						count: 1
+						id: "vinery:apple_press"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6AB7D4138FEC35E7"
+					item: {
+						count: 1
+						id: "vinery:apple_juice"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.875d
+		}
+		{
+			dependencies: ["0D29F216FF233185", "068DB273AE3A5664"]
+			id: "010B9A807F2AD612"
+			rewards: [
+				{
+					id: "722214A9CE22BE4D"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "037ADF3EE2B88D96"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "1BC4D461EAC1AE53"
+					item: {
+						count: 1
+						id: "vinery:apple_wine"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["674056D16082369B", "5833AAEB90F9F574", "42047FDCBB9C4C26"]
+			id: "092C59764CC7CEA9"
+			rewards: [
+				{
+					id: "53A96D4548E669C9"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "2FDF1365ACD38563"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "2282DF4AD55FB94E"
+					item: {
+						count: 1
+						id: "vinery:bolvar_wine"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -2.625d
+		}
+		{
+			dependencies: ["092C59764CC7CEA9", "010B9A807F2AD612", "6EBBF7A0527A7694"]
+			id: "6BE894E8245AC894"
+			rewards: [
+				{
+					id: "7B9E4FDF5430696E"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "725B2BFB7467E433"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "1E7132995E890B89"
+					item: {
+						count: 1
+						id: "vinery:jellie_wine"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["13A143470420785B"]
+			id: "3B4BE5CC750149CF"
+			rewards: [
+				{
+					id: "4C7D6F96CDDB1045"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6A7A964FF444BFBA"
+					type: "xp"
+					xp: 120
+				}
+				{
+					id: "0F70DCC03C050B7F"
+					item: {
+						count: 1
+						id: "minecraft:water_bucket"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "240831FE4936F72F"
+					item: {
+						count: 1
+						id: "brewery:wooden_brewingstation"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["3B4BE5CC750149CF"]
+			id: "402FE9BD52E87124"
+			rewards: [
+				{
+					id: "519006AA8DC0F54B"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "7026AB4C25404071"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3018CA1A12FA8120"
+					item: {
+						count: 2
+						id: "farm_and_charm:rope"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8
+					id: "6C8104DAD1D4A944"
+					item: {
+						count: 1
+						id: "brewery:hops"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 4.375d
+		}
+		{
+			dependencies: ["3B4BE5CC750149CF"]
+			id: "577A7F08DDB5F6C6"
+			rewards: [
+				{
+					id: "737C0A7A05798297"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "7F8E0EB4FD3E3664"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 4
+					id: "3AE35F99B7053692"
+					item: {
+						count: 1
+						id: "farm_and_charm:yeast"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5C1DBBD585CD0368"
+					item: {
+						count: 1
+						id: "brewery:dried_barley"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 6.125d
+		}
+		{
+			dependencies: ["402FE9BD52E87124", "577A7F08DDB5F6C6"]
+			icon: {
+				id: "brewery:beer_hops"
+			}
+			id: "656678C8229897A2"
+			min_width: 300
+			rewards: [
+				{
+					id: "41B7DA6DCDCB788F"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "3752A90DF7541F28"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4279CDC42556717E"
+					item: {
+						count: 1
+						id: "brewery:beer_mug"
+					}
+					type: "item"
+				}
+				{
+					id: "35B62317D2D241B7"
+					item: {
+						count: 1
+						id: "brewery:beer_hops"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.625d
+		}
+		{
+			dependencies: ["656678C8229897A2"]
+			id: "2432B5B63C0D9B38"
+			rewards: [
+				{
+					id: "07F959310235C3F8"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "7C890F91BB1231C2"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "4512DE9741570F97"
+					item: {
+						count: 1
+						id: "brewery:barrel_main"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -2.625d
+		}
+		{
+			dependencies: ["656678C8229897A2"]
+			id: "19C221B9DC0194E9"
+			optional: true
+			rewards: [
+				{
+					id: "449BD5D980E66483"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "223DA1980D318439"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "4B2F3A462255B1BA"
+					item: {
+						count: 1
+						id: "brewery:pork_knuckle"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["656678C8229897A2"]
+			id: "0D21C50CC3793AF7"
+			optional: true
+			rewards: [
+				{
+					id: "30C1324297F2CAE5"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "586E9952C5636971"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "272215A39FC5E2D0"
+					item: {
+						count: 1
+						id: "brewery:brewfest_hat"
+					}
+					type: "item"
+				}
+				{
+					id: "5AD44E71BFDCE1A0"
+					item: {
+						count: 1
+						id: "brewery:brewfest_regalia"
+					}
+					type: "item"
+				}
+				{
+					id: "2AC9BD86937E6D72"
+					item: {
+						count: 1
+						id: "brewery:brewfest_trousers"
+					}
+					type: "item"
+				}
+				{
+					id: "7A08320986F50802"
+					item: {
+						count: 1
+						id: "brewery:brewfest_boots"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.875d
+		}
+		{
+			dependencies: ["656678C8229897A2"]
+			id: "05EF1CD0C3EEED3C"
+			optional: true
+			rewards: [
+				{
+					id: "6083F3DFA373EB71"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "50C56080B35F3E81"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "109470422D5A17BC"
+					item: {
+						count: 1
+						id: "brewery:beer_haley"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 2.625d
+		}
+		{
+			dependencies: ["656678C8229897A2"]
+			id: "0C207832A630E7F0"
+			rewards: [
+				{
+					id: "5710D8034FCE99DB"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "26E2141D058F14BE"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "5DBB2D82B259358D"
+					item: {
+						count: 1
+						id: "brewery:copper_brewingstation"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 4.375d
+		}
+		{
+			dependencies: ["0C207832A630E7F0"]
+			id: "01D5BDC23D4942E7"
+			rewards: [
+				{
+					id: "0B381FB2C4C952B2"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6AE7001F78AED1E0"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "6C313410E3A76723"
+					item: {
+						count: 1
+						id: "brewery:whiskey_maggoallan"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["01D5BDC23D4942E7"]
+			id: "76DF13402EC7B00B"
+			rewards: [
+				{
+					id: "29D31DFFC305091C"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "37838187167B20CD"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "479CA674CB15AFDE"
+					item: {
+						count: 1
+						id: "brewery:netherite_brewingstation"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 2.625d
+		}
+		{
+			dependencies: ["76DF13402EC7B00B"]
+			icon: {
+				id: "brewery:dark_brew"
+			}
+			id: "1950DADFFCAFE77B"
+			optional: true
+			rewards: [
+				{
+					id: "14DD5636CE9DA48A"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "332168DBB3CBA5BF"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "0792400AA53695C3"
+					item: {
+						count: 1
+						id: "brewery:dark_brew"
+					}
+					type: "item"
+				}
+				{
+					entity: "brewery:beer_elemental"
+					id: "0E4100144AC7D54F"
+					type: "kill"
+					value: 1
+				}
+			]
+			x: 14.0d
+			y: 0.875d
+		}
+		{
+			dependencies: ["42047FDCBB9C4C26"]
+			id: "6E4B2CDE38A78431"
+			rewards: [
+				{
+					id: "2A57A8C982E03A5A"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "11A583F052BD72BC"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					count: 16
+					id: "35C0B4F253A056AD"
+					item: {
+						count: 1
+						id: "applewoodrebarked:apple_planks"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 2.625d
+		}
+		{
+			dependencies: ["6E4B2CDE38A78431"]
+			id: "43D618DBF294BF5A"
+			optional: true
+			rewards: [
+				{
+					id: "58F5B6E8F1CE9220"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "34642EC6D54B0611"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "66D0F9969CC78155"
+					item: {
+						count: 1
+						id: "applewoodrebarked:slingshot"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.875d
+		}
+		{
+			dependencies: ["6E4B2CDE38A78431", "010B9A807F2AD612"]
+			id: "71FF3EF539AA0C44"
+			rewards: [
+				{
+					id: "38DC89E9DA193CA8"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "14266ABDA427371A"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "0C6742B6CF87447E"
+					item: {
+						count: 1
+						id: "applewoodrebarked:awoo_pie_moonshine"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.875d
+		}
+		{
+			dependencies: ["6BE894E8245AC894", "76DF13402EC7B00B", "71FF3EF539AA0C44"]
+			icon: {
+				id: "vinery:bottle_mojang_noir"
+			}
+			id: "3AD061214671D2F1"
+			rewards: [
+				{
+					id: "1FBE5D8FEED9E847"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "2F1B9B5E35A84FD2"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "42FDD49D97382890"
+					item: {
+						count: 1
+						id: "vinery:bottle_mojang_noir"
+					}
+					type: "item"
+				}
+				{
+					id: "5477E9A3D01AA639"
+					item: {
+						count: 1
+						id: "brewery:whiskey_smokey_reverie"
+					}
+					type: "item"
+				}
+				{
+					id: "6BA98EC5BDD1866C"
+					item: {
+						count: 1
+						id: "applewoodrebarked:awoo_pie_moonshine"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 0.0d
+		}
+	]
+}

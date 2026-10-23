@@ -1,0 +1,8 @@
+#Modpack name, shown in the window title and logs.
+packName = "IsItSMP"
+#Modpack version, shown in the window title and logs. Bump this when you release a new pack version.
+packVersion = "alpha"
+#Prefix the game window title with the pack name and version (client only).
+brandWindowTitle = true
+#Coins picked up (or given with /give) go straight into the wallet slots when there is room (server side).
+walletAutoCollect = true

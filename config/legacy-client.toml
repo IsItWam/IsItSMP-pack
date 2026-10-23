@@ -1,0 +1,26 @@
+#Titles above player names and how they look. Only affects your own screen.
+[Titles]
+	#Shows your own name and title above your head in third person view.
+	enableOwnNameTag = true
+	#Shows the titles of other players above their names.
+	enableOtherPlayersTitles = true
+	#Titles are colored by their rarity on name tags, in the journal and in toasts. Off shows them in plain white.
+	enableRarityColors = true
+
+#Toasts when you or other players reach something. Only affects your own screen.
+[Notifications]
+	#Shows a toast when you unlock a new title.
+	enableUnlockToasts = true
+	#Shows a toast when another player claims a server milestone. Your own milestones always show.
+	enableMilestoneToasts = true
+
+#The journal in your inventory. Only affects your own screen.
+[Journal]
+	#Moves the journal button in the inventory sideways, in pixels. Negative values move it left.
+	# Default: 0
+	# Range: -500 ~ 500
+	journalButtonOffsetX = 0
+	#Moves the journal button in the inventory up or down, in pixels. Negative values move it up.
+	# Default: 0
+	# Range: -500 ~ 500
+	journalButtonOffsetY = 0

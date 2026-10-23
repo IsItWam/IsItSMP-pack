@@ -1,0 +1,13 @@
+name = "Hilt"
+filename = "Hilt-1.21.1-1.13.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/N9hghN3F/versions/IiE1PFla/Hilt-1.21.1-1.13.jar"
+hash-format = "sha512"
+hash = "1b850eb46485a5ec2f6e8d71e666e73407f477a351be4eefd9c7f9af215e73b7310abcfd58bc91bb82679f05445ea110d805263d54a96ca902641117fcccfe51"
+
+[update]
+[update.modrinth]
+mod-id = "N9hghN3F"
+version = "IiE1PFla"

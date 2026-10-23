@@ -1,0 +1,4 @@
+snowFogEnabled = true
+# Default: 1.0
+# Range: 0.0 ~ 2.0
+snowFogStrength = 1.0

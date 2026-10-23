@@ -1,0 +1,1094 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "wisp_and_willow"
+	group: "1463DB017AD16CD2"
+	icon: {
+		id: "wispwillow:altar"
+	}
+	id: "5402508CCDC77BF8"
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:book"
+			}
+			id: "4904DC9993D71B59"
+			min_width: 300
+			tasks: [
+				{
+					id: "05C008E8558AE75C"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4904DC9993D71B59"]
+			id: "71F727DE2C7DEA67"
+			rewards: [
+				{
+					id: "065BB6EED28B26D8"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "34C178FB323C8ADE"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "070B1D0CA0FB800D"
+					item: {
+						count: 1
+						id: "wispwillow:willow_sapling"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["71F727DE2C7DEA67"]
+			id: "630CAF9719FF49E7"
+			rewards: [
+				{
+					id: "3FC127CD35271320"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "1F5A164F8E731B6D"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "2B7D5DC973779803"
+					item: {
+						count: 1
+						id: "wispwillow:altar"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["630CAF9719FF49E7"]
+			id: "6195D430B59CF369"
+			rewards: [
+				{
+					id: "511BAB119CE94C71"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6197B2AEB23FC29D"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "5FAF60795B928FC2"
+					item: {
+						count: 1
+						id: "wispwillow:chalk_white"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["630CAF9719FF49E7"]
+			id: "39A38D47AD996509"
+			rewards: [
+				{
+					id: "4324EF79B9DA45C5"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6020507726C4A518"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "7A51658DEA94C34F"
+					item: {
+						count: 1
+						id: "wispwillow:flux_linking_wand"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.875d
+		}
+		{
+			dependencies: ["71F727DE2C7DEA67"]
+			icon: {
+				id: "wispwillow:moonlily"
+			}
+			id: "740F35C08AA09BD0"
+			optional: true
+			rewards: [
+				{
+					id: "57DD708DDB655095"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "0987C63C252F959E"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					biome: "wispwillow:willow_fen"
+					id: "17C1BE2EA37DBB78"
+					type: "biome"
+				}
+			]
+			x: 4.0d
+			y: 0.875d
+		}
+		{
+			dependencies: ["39A38D47AD996509"]
+			icon: {
+				id: "wispwillow:fluxite"
+			}
+			id: "4AF6FC84535C90BF"
+			min_width: 300
+			rewards: [
+				{
+					id: "401822756B249BEE"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "71B8556686B3F6E7"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4DEBF268F09B7EF7"
+					structure: "wispwillow:fluxia_oasis"
+					type: "structure"
+				}
+				{
+					count: 16
+					id: "1084ED67B86390AF"
+					item: {
+						count: 1
+						id: "wispwillow:fluxite"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4AF6FC84535C90BF"]
+			icon: {
+				id: "wispwillow:fluxia_fluid_bucket"
+			}
+			id: "72E8795B65D6E4C9"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					id: "1BC9314BFD569922"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "010E1D6045789989"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					advancement: "wispwillow:phasing"
+					id: "6A93DEB603630A1E"
+					type: "advancement"
+				}
+			]
+			x: 10.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["4AF6FC84535C90BF"]
+			id: "22ED0868097AB8F1"
+			rewards: [
+				{
+					id: "14B021951E5E1C06"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "40F8D3301FE1ECFD"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "1E22D074D8954D98"
+					item: {
+						count: 1
+						id: "wispwillow:solrosa"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.875d
+		}
+		{
+			dependencies: ["6195D430B59CF369", "22ED0868097AB8F1"]
+			icon: {
+				id: "minecraft:amethyst_shard"
+			}
+			id: "1AF2EF3402560251"
+			rewards: [
+				{
+					id: "7DA7096432511FCC"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "31708FA2A53DE51B"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "63B898F25C014D01"
+					type: "checkmark"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1AF2EF3402560251"]
+			id: "010D40929C15EDBE"
+			rewards: [
+				{
+					id: "036163B434D54439"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "14089670EE20426B"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7FE7E36167C446D8"
+					item: {
+						count: 2
+						id: "wispwillow:astralite_nugget"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3A78FECFE7CD5F7A"
+					item: {
+						count: 1
+						id: "wispwillow:mana_pool"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["1AF2EF3402560251"]
+			id: "2559929169258CC8"
+			rewards: [
+				{
+					id: "3A68339367807390"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "56DAF8D183BA19AF"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 4
+					id: "778DBBD1621EE713"
+					item: {
+						count: 1
+						id: "wispwillow:astralite_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 0.875d
+		}
+		{
+			dependencies: ["010D40929C15EDBE", "2559929169258CC8"]
+			id: "6DB3BA566DE1BE8B"
+			rewards: [
+				{
+					id: "4540398612ECBCF2"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "31A5ECAB78EB827D"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					count: 8
+					id: "3FCECB22914F4A24"
+					item: {
+						count: 1
+						id: "wispwillow:blank_rune"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["6DB3BA566DE1BE8B"]
+			icon: {
+				id: "wispwillow:fluxite"
+			}
+			id: "1B036D50868526B2"
+			rewards: [
+				{
+					id: "69FD4DAD9D058F1F"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "521C43CF00ECC0B4"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "0329E0237D98655E"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "4A59F49AD11ADD14"
+					item: {
+						count: 1
+						id: "wispwillow:chalk_blue"
+					}
+					type: "item"
+				}
+				{
+					id: "0F51C5E488CF6B77"
+					item: {
+						count: 1
+						id: "wispwillow:chalk_yellow"
+					}
+					type: "item"
+				}
+				{
+					id: "7FFA6B07CC59A580"
+					type: "checkmark"
+				}
+			]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B036D50868526B2"]
+			id: "023F8C6388B53A99"
+			rewards: [
+				{
+					id: "7A011F5AD4D93EEF"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "3DACCD6B9630F044"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 18
+					id: "75DF6ED6BF5B2308"
+					item: {
+						count: 1
+						id: "wispwillow:amethyst_coal"
+					}
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: -4.375d
+		}
+		{
+			dependencies: ["023F8C6388B53A99"]
+			id: "1266AEC24F16FC4D"
+			rewards: [
+				{
+					id: "60896F7AC6943D9A"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "16F7802C4969804C"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "77B2823CED7EDDF1"
+					item: {
+						count: 1
+						id: "wispwillow:luxinias_flower"
+					}
+					type: "item"
+				}
+			]
+			x: 22.0d
+			y: -2.625d
+		}
+		{
+			dependencies: ["2559929169258CC8"]
+			id: "0B132104F1EBC25F"
+			rewards: [
+				{
+					id: "5B29EC928DC173FA"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "7107AD59B32549A3"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "70CB9434D71D5A09"
+					item: {
+						count: 1
+						id: "wispwillow:arcane_goggles"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 0.875d
+		}
+		{
+			dependencies: ["1B036D50868526B2"]
+			icon: {
+				id: "wispwillow:water_rune"
+			}
+			id: "1160EAF317EE8EDC"
+			rewards: [
+				{
+					id: "777E88380D526B73"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "3BA96AFA98D2A60B"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "6C52AAAB02C028B8"
+					item: {
+						count: 1
+						id: "wispwillow:water_rune"
+					}
+					type: "item"
+				}
+				{
+					id: "1B067C936B84754B"
+					item: {
+						count: 1
+						id: "wispwillow:earth_rune"
+					}
+					type: "item"
+				}
+				{
+					id: "4E74B579A666776B"
+					item: {
+						count: 1
+						id: "wispwillow:blood_rune"
+					}
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: -2.625d
+		}
+		{
+			dependencies: ["1160EAF317EE8EDC"]
+			icon: {
+				id: "wispwillow:earth_rune"
+			}
+			id: "70AD01C6285BA55C"
+			rewards: [
+				{
+					id: "06CF540E310E3654"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "043222721CB70675"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "060B362883BC8CF9"
+					type: "checkmark"
+				}
+			]
+			x: 22.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["70AD01C6285BA55C"]
+			id: "40A8C1B55C11EDCE"
+			optional: true
+			rewards: [
+				{
+					id: "440D2D83D4EC094C"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "76E3570AA98C2580"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "50B5E6653201FACF"
+					item: {
+						count: 1
+						id: "wispwillow:omni_chalk"
+					}
+					type: "item"
+				}
+			]
+			x: 24.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["70AD01C6285BA55C"]
+			icon: {
+				id: "wispwillow:blood_rune"
+			}
+			id: "3653EC1454E22BFC"
+			rewards: [
+				{
+					id: "75FF7F4BC8A2AEE5"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "2B1BB45D560FE9A5"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "5F638CDD1694556D"
+					type: "checkmark"
+				}
+			]
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B036D50868526B2"]
+			id: "7A4EBF0D8803024D"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					id: "0EEEC3C75044BE29"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "54675B9BB864F1AC"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "31F861C8591D6C7F"
+					item: {
+						count: 1
+						id: "wispwillow:verdant_bloom"
+					}
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["1B036D50868526B2"]
+			id: "4A095A6BCAB3C35D"
+			rewards: [
+				{
+					id: "5DDB14963C758FC5"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "35F02533FD5F625C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "291F0F3AC8E58626"
+					item: {
+						count: 1
+						id: "minecraft:ghast_tear"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4
+					id: "4276C00977D1DBFC"
+					item: {
+						count: 1
+						id: "wispwillow:soul_pact"
+					}
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: 0.875d
+		}
+		{
+			dependencies: ["4A095A6BCAB3C35D"]
+			id: "6083AC563682B8E2"
+			rewards: [
+				{
+					id: "0D0B772AF6F741A0"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "289D121051606429"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "263D700EDCD9F353"
+					item: {
+						count: 1
+						id: "wispwillow:bound_soul_pact"
+					}
+					type: "item"
+				}
+			]
+			x: 22.0d
+			y: 2.625d
+		}
+		{
+			dependencies: ["1B036D50868526B2"]
+			id: "607A27E5666C1B29"
+			rewards: [
+				{
+					id: "7FEF557ADF0B01C8"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "60384C21CEEA8075"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "5A4BC4B86B1BFBB5"
+					item: {
+						count: 1
+						id: "wispwillow:astral_font"
+					}
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: 2.625d
+		}
+		{
+			dependencies: ["6083AC563682B8E2", "607A27E5666C1B29", "1160EAF317EE8EDC"]
+			id: "0F592991923FC22A"
+			rewards: [
+				{
+					id: "54C98D97CD53327A"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6905D16326824039"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "2F45B6326013497B"
+					item: {
+						count: 1
+						id: "wispwillow:gateway_core"
+					}
+					type: "item"
+				}
+			]
+			x: 24.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["0F592991923FC22A"]
+			icon: {
+				id: "wispwillow:sealed_soul_pact"
+			}
+			id: "0E942BE8E059B209"
+			min_width: 300
+			rewards: [
+				{
+					id: "0FA1651AC78AFAC8"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "22D177784156AF10"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "11CEFEF27560EFF7"
+					item: {
+						count: 1
+						id: "wispwillow:sealed_soul_pact"
+					}
+					type: "item"
+				}
+				{
+					id: "142650C04129FED4"
+					type: "checkmark"
+				}
+			]
+			x: 26.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["1B036D50868526B2"]
+			id: "51E9DBA1157D9C14"
+			rewards: [
+				{
+					id: "1878CE07E0E6858C"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "79B88AAE228C76E4"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4AD1F9B673A25E76"
+					item: {
+						count: 1
+						id: "wispwillow:alchemical_cauldron"
+					}
+					type: "item"
+				}
+				{
+					id: "1FC067C844D92163"
+					type: "checkmark"
+				}
+			]
+			x: 20.0d
+			y: 4.375d
+		}
+		{
+			dependencies: ["51E9DBA1157D9C14", "023F8C6388B53A99"]
+			id: "45AF2B40DCC62BA7"
+			rewards: [
+				{
+					id: "25F1C0EA4F448954"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6BF2D46EDDAECFB3"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4210F2F4FBBB1E9F"
+					item: {
+						count: 1
+						id: "wispwillow:empyrite_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 22.0d
+			y: 0.875d
+		}
+		{
+			dependencies: ["45AF2B40DCC62BA7", "3653EC1454E22BFC"]
+			icon: {
+				id: "wispwillow:empyrite_sword"
+			}
+			id: "55D7DADD64FCB653"
+			rewards: [
+				{
+					id: "17FA02F2A8AD8A11"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "3B95AF2E3F0531E3"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "wispwillow:awakening"
+					id: "6D12577C452E6E94"
+					type: "advancement"
+				}
+			]
+			x: 26.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3653EC1454E22BFC"]
+			icon: {
+				id: "wispwillow:spirit_down"
+			}
+			id: "7F54D42F93FC8897"
+			min_width: 300
+			rewards: [
+				{
+					id: "352A2FD027886561"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "483D372E9641AE2B"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					dimension: "wispwillow:spirit_realm"
+					id: "0D243D74B090EF35"
+					type: "dimension"
+				}
+			]
+			x: 26.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["55D7DADD64FCB653"]
+			icon: {
+				id: "wispwillow:empyrite_chestplate"
+			}
+			id: "20DA68DCB802120A"
+			rewards: [
+				{
+					id: "5EC99338D88CF1F6"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "4E3C7A82BA660F7A"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					advancement: "wispwillow:regalia"
+					id: "26F847A90B4963BF"
+					type: "advancement"
+				}
+			]
+			x: 28.0d
+			y: 0.0d
+		}
+	]
+}

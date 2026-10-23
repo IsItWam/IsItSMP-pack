@@ -1,0 +1,13 @@
+name = "Coinverse Gearcoins"
+filename = "coinverse_gearcoins-1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8a3f02319265945fe8ea3d26cd4be212b30d9436"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8584748
+project-id = 1085245

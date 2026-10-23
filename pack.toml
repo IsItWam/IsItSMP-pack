@@ -1,0 +1,13 @@
+name = "IsItSMP"
+author = "Sam and Hawk"
+version = "alpha-0.0.12"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "01f396729ffb6496a38cdd04056afa55e6306568e15635a291b8acc2e4d270bb"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.262"

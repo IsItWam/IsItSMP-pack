@@ -1,0 +1,13 @@
+name = "Champions-Unofficial"
+filename = "champions-neoforge-21.1.1.7.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/VJZc5cJx/versions/OQnVOM7w/champions-neoforge-21.1.1.7.jar"
+hash-format = "sha512"
+hash = "300cfebbce5f52c7855a31ea14f06febed5a12b6a7104c0310ec8a164a113b705ada40adfdd77ab8fda458092a2da5c7a952570546f857c6165dccc6ebb97d3a"
+
+[update]
+[update.modrinth]
+mod-id = "VJZc5cJx"
+version = "OQnVOM7w"

@@ -1,0 +1,13 @@
+name = "Compat Structure"
+filename = "compatstructures-1.0.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/6VNEemoI/versions/AZBjZf96/compatstructures-1.0.3.jar"
+hash-format = "sha512"
+hash = "b6a8994b22542cbcccbdc90d95b9612330c49c9197e65a8ca4db362b08bbc26051caffae167ba2dc250558b1c850ea6093d5fdca3e684cf64300f8f8cb58443e"
+
+[update]
+[update.modrinth]
+mod-id = "6VNEemoI"
+version = "AZBjZf96"

@@ -1,0 +1,13 @@
+name = "Modern Foundry"
+filename = "ModernFoundry-1.21.1-4.1.6-NeoForge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/BYjCALKP/versions/AQNC3CFB/ModernFoundry-1.21.1-4.1.6-NeoForge.jar"
+hash-format = "sha512"
+hash = "e70b89110b9eb429953519352d50d6f6783d46ae476f1f09ad5995266cb600db91a12fd74734659dcfe90afac668e1b1901e13d72da133fa517a89ad924c42bb"
+
+[update]
+[update.modrinth]
+mod-id = "BYjCALKP"
+version = "AQNC3CFB"

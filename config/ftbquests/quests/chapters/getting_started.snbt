@@ -1,0 +1,919 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "getting_started"
+	group: "014F395C69627027"
+	icon: {
+		id: "isitcore:duff"
+	}
+	id: "398BDAC5B3D6E392"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "isitcore:duff"
+			}
+			id: "67F6B81E623DF47A"
+			tasks: [
+				{
+					id: "668F90D409CC64DF"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67F6B81E623DF47A"]
+			id: "7F27CC30605D7A39"
+			optional: true
+			rewards: [
+				{
+					id: "2E9E0467BD5E86D0"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "53A18680109C18FC"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "7BB73721ABFCEC1C"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["67F6B81E623DF47A"]
+			icon: {
+				id: "minecraft:book"
+			}
+			id: "10019C0195920136"
+			rewards: [
+				{
+					id: "161E9EAFDC510304"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "3CD813069B1B2DD4"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "15A9F57FCABB2149"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["67F6B81E623DF47A"]
+			icon: {
+				id: "minecraft:apple"
+			}
+			id: "3079E243885490A2"
+			rewards: [
+				{
+					id: "6FA90560E2F8DC16"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "7624D20ED7173AD1"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "286177AABEC50D24"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67F6B81E623DF47A"]
+			icon: {
+				id: "minecraft:filled_map"
+			}
+			id: "0AB8D39A75C494F2"
+			rewards: [
+				{
+					id: "300900258BAA3D35"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "3635D2D2ED6544BE"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "4C1D7EDDC6C69AB8"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["67F6B81E623DF47A"]
+			id: "2FB9D3060C818C43"
+			rewards: [
+				{
+					id: "24E4E4EDC2ECBED6"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "7541D8440253AB33"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "386B0CAA882DF0ED"
+					item: {
+						count: 1
+						id: "minecraft:crafting_table"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2FB9D3060C818C43"]
+			id: "06E168FA4BC4E782"
+			rewards: [
+				{
+					id: "498715E887337E13"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "4B1A2E306C0BCCA4"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "253A109ABD767BFF"
+					item: {
+						count: 1
+						id: "minecraft:wooden_pickaxe"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["06E168FA4BC4E782"]
+			icon: {
+				id: "minecraft:furnace"
+			}
+			id: "06192B77A0D1ECA5"
+			rewards: [
+				{
+					id: "1635E24B3023CD09"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "2C08EF4D1A27E63C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1BBA9D8BB72DF414"
+					item: {
+						count: 8
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "692000D852374181"
+					item: {
+						count: 1
+						id: "minecraft:stone_pickaxe"
+					}
+					type: "item"
+				}
+				{
+					id: "19E7F41288F2D439"
+					item: {
+						count: 1
+						id: "minecraft:furnace"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["06192B77A0D1ECA5"]
+			icon: {
+				id: "minecraft:red_bed"
+			}
+			id: "7BAFF02974C418B2"
+			rewards: [
+				{
+					id: "00DF9A92D3FEE1DB"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "2C4493DE44A53BBC"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:adventure/sleep_in_bed"
+					id: "472AAB81CDDCDB49"
+					type: "advancement"
+				}
+				{
+					id: "09BC1E6B9CEEEB6B"
+					item: {
+						count: 1
+						id: "minecraft:chest"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["06192B77A0D1ECA5"]
+			id: "218A12D4AF1334F0"
+			rewards: [
+				{
+					id: "5C223E66CF70A095"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "258556C309B82536"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 8
+					id: "0CDF95783E3D10E0"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["218A12D4AF1334F0"]
+			id: "7472A99AB27E4F94"
+			rewards: [
+				{
+					id: "51833B59428470B2"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "2F7C9ABFF9616CEB"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "2F5619A588D986D2"
+					item: {
+						count: 1
+						id: "minecraft:iron_pickaxe"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 2.625d
+		}
+		{
+			dependencies: ["7472A99AB27E4F94"]
+			icon: {
+				id: "minecraft:iron_chestplate"
+			}
+			id: "6E10CE5ADD3F872F"
+			rewards: [
+				{
+					id: "5567662AFB6B0B94"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "0749DF5DA433AEBA"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "23D69C4E40B6AE8C"
+					item: {
+						count: 1
+						id: "minecraft:iron_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "42E4C50F3C72A2F9"
+					item: {
+						count: 1
+						id: "minecraft:shield"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["6E10CE5ADD3F872F"]
+			id: "624AEA10EE451435"
+			optional: true
+			rewards: [
+				{
+					id: "3A097DD494FD084D"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "4324539BCDA103D5"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "3BC4FB30FBA9A8CE"
+					item: {
+						count: 1
+						id: "dummmmmmy:target_dummy"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 0.875d
+		}
+		{
+			dependencies: ["218A12D4AF1334F0"]
+			id: "042451A5C3998BFC"
+			rewards: [
+				{
+					id: "05A592A4E64A80AD"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "77C6B5B3E33C6AF7"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "07A70B2F60DF4D85"
+					item: {
+						count: 1
+						id: "ironfurnaces:copper_furnace"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 4.375d
+		}
+		{
+			dependencies: ["06192B77A0D1ECA5"]
+			icon: {
+				id: "minecraft:wheat_seeds"
+			}
+			id: "6A35341729151A8C"
+			rewards: [
+				{
+					id: "56B1C3AA53FC6D52"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6B3A4D9FDF9924A8"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4F653E4083DCEC03"
+					item: {
+						count: 4
+						id: "minecraft:carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "21C1DC1A0D3891E0"
+					item: {
+						count: 4
+						id: "minecraft:potato"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:husbandry/plant_seed"
+					id: "59C69C4E1F811D2C"
+					type: "advancement"
+				}
+			]
+			x: 8.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["6A35341729151A8C"]
+			id: "34BCBFFE5BF229D9"
+			rewards: [
+				{
+					id: "061A979B7F2222A8"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "0885FE3AFCD079B4"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 8
+					id: "542B9D7F6BB1B8DB"
+					item: {
+						count: 1
+						id: "minecraft:baked_potato"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 6.125d
+		}
+		{
+			dependencies: ["6A35341729151A8C", "7472A99AB27E4F94"]
+			id: "0FAEC18807F2EA03"
+			rewards: [
+				{
+					id: "4038B0BC1CD37EC5"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "24A7C2FA2D7AA7F9"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "46BCE9F6FD776AE3"
+					item: {
+						count: 1
+						id: "sereneseasons:calendar"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A35341729151A8C"]
+			id: "1922F54AB5F4305E"
+			optional: true
+			rewards: [
+				{
+					id: "07601D5F714462C7"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "72D2F4446A16F607"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 16
+					id: "4BE065E28A98ABB9"
+					item: {
+						count: 1
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 7.875d
+		}
+		{
+			dependencies: ["7BAFF02974C418B2"]
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "225614A6D4788B6D"
+			rewards: [
+				{
+					id: "136083E951642906"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "04CF25D08EACAD2A"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "4C35551630453E35"
+					type: "checkmark"
+				}
+			]
+			x: 10.0d
+			y: -7.875d
+		}
+		{
+			dependencies: ["7BAFF02974C418B2"]
+			icon: {
+				id: "minecraft:white_banner"
+			}
+			id: "5E4AE0AD23E68C2B"
+			rewards: [
+				{
+					id: "7F8096E41670F183"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "2FD8793FEADF93BB"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "7E62746818BF00CA"
+					type: "checkmark"
+				}
+			]
+			x: 10.0d
+			y: -6.125d
+		}
+		{
+			dependencies: ["5E4AE0AD23E68C2B"]
+			icon: {
+				id: "minecraft:cake"
+			}
+			id: "0EEB5BA745048FD1"
+			optional: true
+			rewards: [
+				{
+					id: "1830F209DE47BB7E"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "568EB1D696868F5B"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "7B56CBC041A7FCAE"
+					type: "checkmark"
+				}
+			]
+			x: 12.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7BAFF02974C418B2"]
+			icon: {
+				id: "minecraft:skeleton_skull"
+			}
+			id: "107EC7F07B8E720D"
+			rewards: [
+				{
+					id: "2FA863407A9B1C2E"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "72F5996F48CC9B50"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "77576896FE2B0F82"
+					type: "checkmark"
+				}
+			]
+			x: 10.0d
+			y: -4.375d
+		}
+		{
+			dependencies: ["7BAFF02974C418B2"]
+			icon: {
+				id: "minecraft:writable_book"
+			}
+			id: "4A75F032D3C08DF5"
+			optional: true
+			rewards: [
+				{
+					id: "3A8FB550102495FF"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "1B0F634DE01FD7CD"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "5116EBC2FA11D323"
+					type: "checkmark"
+				}
+			]
+			x: 10.0d
+			y: -2.625d
+		}
+		{
+			dependencies: ["7BAFF02974C418B2"]
+			id: "797075B70D8F1BCC"
+			rewards: [
+				{
+					id: "0B7A7C592717D883"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "1CCF174E1F9FB526"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "06D6A0676AFAE948"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:backpack"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["797075B70D8F1BCC"]
+			icon: {
+				id: "minecraft:leather_chestplate"
+			}
+			id: "2976A5159059EC69"
+			optional: true
+			rewards: [
+				{
+					id: "05B8730000E3FB14"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "43F61CFE84E06323"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "317F0CA0EB27BE55"
+					type: "checkmark"
+				}
+			]
+			x: 12.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["7BAFF02974C418B2"]
+			icon: {
+				id: "waystones:waystone"
+			}
+			id: "6924C3B1BDF8405D"
+			rewards: [
+				{
+					id: "4B6330706317AD50"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "41432766388E3206"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "6518FF17FDE5502D"
+					type: "checkmark"
+				}
+			]
+			x: 10.0d
+			y: 0.875d
+		}
+		{
+			dependencies: ["7472A99AB27E4F94"]
+			id: "4575E2BCCF0800E8"
+			rewards: [
+				{
+					id: "506FC6AB0AFFE808"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "74503BD20992D9BE"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "17F2C95971D098C8"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6E10CE5ADD3F872F", "0FAEC18807F2EA03", "797075B70D8F1BCC", "6924C3B1BDF8405D", "5E4AE0AD23E68C2B"]
+			icon: {
+				id: "minecraft:campfire"
+			}
+			id: "50C6BB85F6B49702"
+			rewards: [
+				{
+					id: "039C4D3B591B28F4"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "777D97A1192863B1"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "065879FDB09BABC6"
+					type: "checkmark"
+				}
+			]
+			x: 14.0d
+			y: -0.875d
+		}
+	]
+}

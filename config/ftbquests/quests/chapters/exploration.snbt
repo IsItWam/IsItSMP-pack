@@ -1,0 +1,1306 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "exploration"
+	group: "00583E4AC40CC935"
+	icon: {
+		id: "minecraft:filled_map"
+	}
+	id: "1EC52A5BD8E798F7"
+	order_index: 13
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:filled_map"
+			}
+			id: "05B301E4A9729BDB"
+			min_width: 300
+			tasks: [
+				{
+					id: "2B2906AE1BC40FF0"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["05B301E4A9729BDB"]
+			icon: {
+				id: "minecraft:chest_minecart"
+			}
+			id: "30FBD369F7A448CF"
+			rewards: [
+				{
+					id: "09037A46EC72BF1B"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "63D08339C05BB9C7"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "2C431A93877128EF"
+					structure: "#bettermineshafts:better_mineshafts"
+					type: "structure"
+				}
+			]
+			x: 2.0d
+			y: -5.25d
+		}
+		{
+			dependencies: ["30FBD369F7A448CF"]
+			icon: {
+				id: "minecraft:spawner"
+			}
+			id: "4C988F3E687D673B"
+			rewards: [
+				{
+					id: "06BFD84F2332C4E3"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "00573B2260A55BCE"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "703E33A50D5EEC59"
+					structure: "betterdungeons:small_dungeon"
+					type: "structure"
+				}
+			]
+			x: 4.0d
+			y: -12.25d
+		}
+		{
+			dependencies: ["4C988F3E687D673B"]
+			icon: {
+				id: "minecraft:skeleton_skull"
+			}
+			id: "5067BD43429AD55F"
+			rewards: [
+				{
+					id: "35CDAE07B724BEFC"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "773CE549CBE5F891"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "3CC5D3803DC3506F"
+					structure: "betterdungeons:zombie_dungeon"
+					type: "structure"
+				}
+				{
+					id: "403F45072820A3B7"
+					structure: "betterdungeons:skeleton_dungeon"
+					type: "structure"
+				}
+				{
+					id: "5901F0D90CF396E6"
+					structure: "betterdungeons:spider_dungeon"
+					type: "structure"
+				}
+			]
+			x: 6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["30FBD369F7A448CF"]
+			icon: {
+				id: "yungscavebiomes:ancient_sandstone"
+			}
+			id: "1F1C611A76328D31"
+			rewards: [
+				{
+					id: "10309920859C5C92"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "4AD1D8EFF2DDFD83"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					biome: "yungscavebiomes:lost_caves"
+					id: "2833515ED5063282"
+					type: "biome"
+				}
+			]
+			x: 4.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["30FBD369F7A448CF"]
+			icon: {
+				id: "yungscavebiomes:rare_ice"
+			}
+			id: "317065A03B9446BF"
+			rewards: [
+				{
+					id: "37EE4C9F92677504"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6696C95B534349C0"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					biome: "yungscavebiomes:frosted_caves"
+					id: "7324650FFC6DA902"
+					type: "biome"
+				}
+				{
+					advancement: "yungscavebiomes:mine_enchanted_ice"
+					id: "04C8E2EFE46E00D6"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: -8.75d
+		}
+		{
+			dependencies: ["05B301E4A9729BDB"]
+			icon: {
+				id: "minecraft:bell"
+			}
+			id: "7421CC513EE98C87"
+			rewards: [
+				{
+					id: "7BFC5EE06B4D760D"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "43C05F40F227D1E0"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "3D92C34456DA3FC7"
+					structure: "#integrated_villages:villages"
+					type: "structure"
+				}
+			]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7421CC513EE98C87"]
+			icon: {
+				id: "create:propeller"
+			}
+			id: "4EA11629C5D1ECBC"
+			optional: true
+			rewards: [
+				{
+					id: "1558994F619AE3FB"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "4B7587BE4FC16ED1"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "34E2F809EC8426AA"
+					structure: "integrated_villages:airship_village"
+					type: "structure"
+				}
+			]
+			x: 4.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7421CC513EE98C87"]
+			icon: {
+				id: "minecraft:cauldron"
+			}
+			id: "0B47AA7FBE692900"
+			rewards: [
+				{
+					id: "761D4B17BDD6773E"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "2503202B48256DB7"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "6C55ABD14A4FB197"
+					structure: "betterwitchhuts:witch_hut"
+					type: "structure"
+				}
+			]
+			x: 4.0d
+			y: -5.25d
+		}
+		{
+			dependencies: ["7421CC513EE98C87"]
+			icon: {
+				id: "minecraft:cracked_stone_bricks"
+			}
+			id: "5E5210F1E8FD0823"
+			rewards: [
+				{
+					id: "07F9D534A21D3A4B"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6237A6016D5A46BD"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "7439D01C4FADBAFC"
+					structure: "#idas:common"
+					type: "structure"
+				}
+			]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5E5210F1E8FD0823"]
+			icon: {
+				id: "minecraft:chiseled_sandstone"
+			}
+			id: "18228E8017A42FE8"
+			optional: true
+			rewards: [
+				{
+					id: "335F263F07178934"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "4CC9D7C0ED37ACC3"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "3622FAD9C013D43E"
+					structure: "idas:labyrinth"
+					type: "structure"
+				}
+			]
+			x: 6.0d
+			y: -5.25d
+		}
+		{
+			dependencies: ["18228E8017A42FE8"]
+			icon: {
+				id: "idas:music_disc_slither"
+			}
+			id: "4F4736F6E221235C"
+			optional: true
+			rewards: [
+				{
+					id: "31DE480A0F2F703C"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "3C071E19D57CBD0C"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "417F7FAEC262E923"
+					item: {
+						count: 1
+						id: "idas:music_disc_slither"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["5E5210F1E8FD0823"]
+			icon: {
+				id: "minecraft:crossbow"
+			}
+			id: "2DA8DE355A97588B"
+			optional: true
+			rewards: [
+				{
+					id: "0595972516C443E5"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "525B6FE682A71A6A"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "5FB0ADCA897398A0"
+					structure: "idas:pillager_fortress"
+					type: "structure"
+				}
+			]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5E5210F1E8FD0823"]
+			icon: {
+				id: "create:cogwheel"
+			}
+			id: "12935D0C0B5ED225"
+			optional: true
+			rewards: [
+				{
+					id: "3F89C4F5A176CFE6"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "5AEE058399D24FB0"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "3F99B62C94457CA5"
+					structure: "idas:tinkers_workshop"
+					type: "structure"
+				}
+			]
+			x: 6.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["5E5210F1E8FD0823"]
+			icon: {
+				id: "minecraft:iron_pickaxe"
+			}
+			id: "4FABA66CF8E92297"
+			optional: true
+			rewards: [
+				{
+					id: "7E3DA035ED4D788B"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "3264FE4D1CD9D43F"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "3F0F924BCE7B6E68"
+					structure: "idas:ancient_mines"
+					type: "structure"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["05B301E4A9729BDB"]
+			icon: {
+				id: "minecraft:chiseled_sandstone"
+			}
+			id: "51AD57CE613EEA10"
+			rewards: [
+				{
+					id: "1CDCA12FECB2B6C1"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "318B4935B4C2427E"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "547F1CC0E3302A10"
+					structure: "betterdeserttemples:desert_temple"
+					type: "structure"
+				}
+			]
+			x: 2.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["51AD57CE613EEA10"]
+			icon: {
+				id: "minecraft:golden_sword"
+			}
+			id: "2273E696FCA9C53B"
+			rewards: [
+				{
+					id: "357E7FFD77621A4E"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "235D51E64B27C3CF"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					advancement: "betterdeserttemples:temple_clear"
+					id: "0FA8A63FB3A0B8A3"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["51AD57CE613EEA10"]
+			icon: {
+				id: "minecraft:mossy_cobblestone"
+			}
+			id: "614F17F343084D1C"
+			rewards: [
+				{
+					id: "2360F0234A34550E"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "789EC549FFD35C4A"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "6387F0D2E8DA534F"
+					structure: "betterjungletemples:jungle_temple"
+					type: "structure"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["05B301E4A9729BDB"]
+			icon: {
+				id: "minecraft:prismarine_bricks"
+			}
+			id: "689F4E8E973C1EE5"
+			rewards: [
+				{
+					id: "605BE4FCBC00322B"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "48B1312BA17EDE60"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "00A4ED208508FB0C"
+					item: {
+						count: 1
+						id: "minecraft:milk_bucket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6B964FAE9F173C84"
+					structure: "betteroceanmonuments:ocean_monument"
+					type: "structure"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["689F4E8E973C1EE5"]
+			icon: {
+				id: "minecraft:wet_sponge"
+			}
+			id: "09143D1D256DF71E"
+			rewards: [
+				{
+					id: "21B10F1A91981143"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "44D8D0116F32C0AD"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "minecraft:elder_guardian"
+					id: "0901718E84F83E54"
+					type: "kill"
+					value: 1
+				}
+			]
+			x: 4.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["09143D1D256DF71E"]
+			id: "5238D3A4DE2D97A6"
+			optional: true
+			rewards: [
+				{
+					id: "21EB5DF04FF0AB83"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "105ABCCA9A8F1694"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "36B245E7DCC064AD"
+					item: {
+						count: 1
+						id: "minecraft:conduit"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["05B301E4A9729BDB"]
+			icon: {
+				id: "minecraft:nether_bricks"
+			}
+			id: "7A426D0A1D2F4916"
+			rewards: [
+				{
+					id: "38A0CA5FC2BBDF5C"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "09B1AF278E3534FC"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "17894E5CB6C2673D"
+					structure: "betterfortresses:fortress"
+					type: "structure"
+				}
+			]
+			x: 2.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["7A426D0A1D2F4916"]
+			icon: {
+				id: "minecraft:gilded_blackstone"
+			}
+			id: "087517D95DDC3410"
+			optional: true
+			rewards: [
+				{
+					id: "4F7080FCCD4C2FCF"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "66C92C2D7ED24C12"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "4D993E925E7549E0"
+					structure: "minecraft:bastion_remnant"
+					type: "structure"
+				}
+			]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7A426D0A1D2F4916"]
+			id: "3C30F84FAF9967E3"
+			rewards: [
+				{
+					id: "1E6A99DEDFF89504"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "3966211891FC2B48"
+					type: "xp"
+					xp: 120
+				}
+				{
+					id: "588FDB5F4E4B2CB5"
+					item: {
+						count: 4
+						id: "minecraft:soul_sand"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					count: 3
+					id: "23CAA6086FF550F6"
+					item: {
+						count: 1
+						id: "minecraft:wither_skeleton_skull"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["3C30F84FAF9967E3"]
+			icon: {
+				id: "minecraft:nether_star"
+			}
+			id: "558E24BA4CBCED96"
+			rewards: [
+				{
+					id: "39B102BC956F6747"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "532FAADBD9A81699"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "minecraft:wither"
+					id: "39FB6C9F29EDDF19"
+					type: "kill"
+					value: 1
+				}
+			]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7A426D0A1D2F4916"]
+			id: "61DB6FB239E8C5FF"
+			rewards: [
+				{
+					id: "4AA1D534C6CDEAC1"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "298D3528C9E5DEA5"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 12
+					id: "52187646F0DA958E"
+					item: {
+						count: 1
+						id: "minecraft:ender_eye"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["61DB6FB239E8C5FF"]
+			icon: {
+				id: "minecraft:end_portal_frame"
+			}
+			id: "3242B10AFFE5D950"
+			rewards: [
+				{
+					id: "460DDAFA81650FB1"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "56A628228497ABBB"
+					type: "xp"
+					xp: 120
+				}
+				{
+					id: "753FAC30999AF521"
+					item: {
+						count: 2
+						id: "minecraft:ender_eye"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "030D2F87037E1752"
+					structure: "betterstrongholds:stronghold"
+					type: "structure"
+				}
+			]
+			x: 6.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["3242B10AFFE5D950"]
+			icon: {
+				id: "minecraft:end_portal_frame"
+			}
+			id: "70DF494DEBCB80E4"
+			tasks: [
+				{
+					id: "4EF4404951DF9871"
+					type: "checkmark"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["70DF494DEBCB80E4", "558E24BA4CBCED96"]
+			id: "19827B375291AD0F"
+			min_width: 300
+			rewards: [
+				{
+					id: "51D3B336983D8069"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "5A69AE5306097A20"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "1751E7EC87665C7E"
+					item: {
+						count: 1
+						id: "isitcore:end_portal_stabilizer"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["19827B375291AD0F"]
+			icon: {
+				id: "minecraft:end_stone"
+			}
+			id: "6E236043A977E268"
+			rewards: [
+				{
+					id: "0506366EE0C6A19F"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "2161E9DCB64B8230"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					dimension: "minecraft:the_end"
+					id: "79A072D2257CAC0A"
+					type: "dimension"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E236043A977E268"]
+			icon: {
+				id: "minecraft:dragon_head"
+			}
+			id: "3FD8AC3888E73941"
+			rewards: [
+				{
+					id: "6C41B254EC408496"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "07A9219F99478026"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "minecraft:ender_dragon"
+					id: "3EFFDF1E5DE74E7E"
+					type: "kill"
+					value: 1
+				}
+			]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3FD8AC3888E73941"]
+			icon: {
+				id: "minecraft:purpur_block"
+			}
+			id: "369F33CA661C89FA"
+			rewards: [
+				{
+					id: "2410EBF93B3CE305"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "7890D41B5E554CCC"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "526E897180AC5CAD"
+					structure: "minecraft:end_city"
+					type: "structure"
+				}
+			]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["369F33CA661C89FA"]
+			id: "61074AEF7E9F7FEC"
+			rewards: [
+				{
+					id: "3B04CCC2F7679645"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6A724B0646547DF5"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "2E07E529536E7F21"
+					item: {
+						count: 1
+						id: "minecraft:elytra"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["05B301E4A9729BDB"]
+			icon: {
+				id: "lootr:lootr_chest"
+			}
+			id: "592FFFFA307E2709"
+			rewards: [
+				{
+					id: "4AF5429FEE915F10"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "3EC6B6ACF6AF05C9"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					advancement: "lootr:50loot"
+					id: "5C6B61329C56396E"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["592FFFFA307E2709"]
+			icon: {
+				id: "lootr:trophy"
+			}
+			id: "22359A592E3D201A"
+			optional: true
+			rewards: [
+				{
+					id: "7AEF97CF57045BBF"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "297D64E9E6A08050"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					advancement: "lootr:100loot"
+					id: "36B7F16F7888B01E"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 8.75d
+		}
+		{
+			dependencies: ["05B301E4A9729BDB"]
+			id: "50ED0CA668B94F67"
+			rewards: [
+				{
+					id: "7EAF1F40EBBA808F"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "39E2A2724419E118"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "5C83D7E3C27093D9"
+					item: {
+						count: 1
+						id: "minecraft:saddle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "392ECA8457D01541"
+					item: {
+						count: 1
+						id: "jousting:lance_wood"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["50ED0CA668B94F67"]
+			id: "78913A9B1FDD0D3E"
+			rewards: [
+				{
+					id: "6333C05191B2A756"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "19FBEA5753ABD440"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "5F91D03003A57A77"
+					item: {
+						count: 1
+						id: "jousting:lance_iron"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["50ED0CA668B94F67"]
+			id: "11F4F779E2969800"
+			optional: true
+			rewards: [
+				{
+					id: "47CCA035CB8521B4"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "64972FBD52ECFFC5"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "71C273C8EF5A05D9"
+					item: {
+						count: 1
+						id: "minecraft:diamond_horse_armor"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 12.25d
+		}
+		{
+			dependencies: ["78913A9B1FDD0D3E"]
+			id: "096A3158A2DECEEA"
+			optional: true
+			rewards: [
+				{
+					id: "73D4774FEEB9E8CA"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6B053B67095469E0"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "3A936C73C43F0FCC"
+					item: {
+						count: 1
+						id: "jousting:lance_diamond"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["096A3158A2DECEEA"]
+			id: "5F78BB2BB582EE29"
+			optional: true
+			rewards: [
+				{
+					id: "272970CEDDECD934"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "01F37DE8A4FB72B9"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "2B2ECCC327DA7B5F"
+					item: {
+						count: 1
+						id: "jousting:lance_netherite"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 1.75d
+		}
+	]
+}
