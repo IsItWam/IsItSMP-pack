@@ -4,3 +4,5 @@ README.md
 LICENSE
 updater/
 icon.png
+pack-keep.toml
+index-keep.toml

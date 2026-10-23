@@ -3,7 +3,11 @@ rem IsItSMP auto-updater. Your launcher runs this before the game starts (pre-la
 rem it downloads whatever changed in the pack since your last launch.
 setlocal
 cd /d "%~dp0"
-if not defined ISITSMP_PACK_URL set "ISITSMP_PACK_URL=https://raw.githubusercontent.com/IsItWam/IsItSMP-pack/main/pack.toml"
+rem Put an empty file called keep-my-changes.txt next to this script to get new and updated mods
+rem without the pack ever overwriting configs you already have.
+set "PACK_FILE=pack.toml"
+if exist "keep-my-changes.txt" set "PACK_FILE=pack-keep.toml"
+if not defined ISITSMP_PACK_URL set "ISITSMP_PACK_URL=https://raw.githubusercontent.com/IsItWam/IsItSMP-pack/main/%PACK_FILE%"
 
 set "JAVA="
 rem The Modrinth App passes its Java as the first argument ("$INST_JAVA").
