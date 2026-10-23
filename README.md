@@ -28,13 +28,11 @@ pack's configs and our own mods (IsItCore, Debuginator).
 [packwiz-installer-bootstrap.jar](updater/packwiz-installer-bootstrap.jar) and
 [update-pack.cmd](updater/update-pack.cmd) in its folder (next to `mods` and `config`), then do steps 2-4.
 
-Your own settings (video, minimap, HUD, keybind-style configs) are installed once and never
-overwritten. Gameplay configs and the questbook always follow the pack.
-
-**Tinkered with your configs?** Create an empty file named `keep-my-changes.txt` next to
-`update-pack.cmd`. You'll still get new and updated mods, new config files and the questbook,
-but configs you already have are never overwritten. (Removing a pack mod yourself doesn't stick:
-the updater puts it back. Extra mods you added yourself are left alone.)
+**Your config changes are kept.** The `.mrpack` comes with a `keep-my-changes.txt` file next to
+`update-pack.cmd`: you still get new and updated mods, new config files and the questbook, but a
+config you already have is never overwritten. Delete that file if you'd rather match the pack
+exactly. (Already-set-up instances: create an empty `keep-my-changes.txt` to switch it on.
+Removing a pack mod yourself doesn't stick, the updater puts it back; extra mods you add are left alone.)
 
 **When NeoForge changes:** the updater can't change the launcher's NeoForge version. If the pack
 moves to a new NeoForge, it will be announced; switch the instance's NeoForge version yourself.
