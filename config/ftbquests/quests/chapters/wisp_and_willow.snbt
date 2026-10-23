@@ -7,7 +7,8 @@
 		id: "wispwillow:altar"
 	}
 	id: "5402508CCDC77BF8"
-	order_index: 11
+	images: [ ]
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -16,12 +17,10 @@
 			}
 			id: "4904DC9993D71B59"
 			min_width: 300
-			tasks: [
-				{
-					id: "05C008E8558AE75C"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "05C008E8558AE75C"
+				type: "checkmark"
+			}]
 			x: 0.0d
 			y: 0.0d
 		}
@@ -30,9 +29,10 @@
 			id: "71F727DE2C7DEA67"
 			rewards: [
 				{
+					count: 2
 					id: "065BB6EED28B26D8"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -43,16 +43,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "070B1D0CA0FB800D"
-					item: {
-						count: 1
-						id: "wispwillow:willow_sapling"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "070B1D0CA0FB800D"
+				item: { count: 1, id: "wispwillow:willow_sapling" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: 0.0d
 		}
@@ -61,9 +56,10 @@
 			id: "630CAF9719FF49E7"
 			rewards: [
 				{
+					count: 2
 					id: "3FC127CD35271320"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -74,16 +70,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "2B7D5DC973779803"
-					item: {
-						count: 1
-						id: "wispwillow:altar"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2B7D5DC973779803"
+				item: { count: 1, id: "wispwillow:altar" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: -0.875d
 		}
@@ -92,9 +83,10 @@
 			id: "6195D430B59CF369"
 			rewards: [
 				{
+					count: 2
 					id: "511BAB119CE94C71"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -105,16 +97,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "5FAF60795B928FC2"
-					item: {
-						count: 1
-						id: "wispwillow:chalk_white"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5FAF60795B928FC2"
+				item: { count: 1, id: "wispwillow:chalk_white" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: -0.875d
 		}
@@ -136,16 +123,11 @@
 					xp: 25
 				}
 			]
-			tasks: [
-				{
-					id: "7A51658DEA94C34F"
-					item: {
-						count: 1
-						id: "wispwillow:flux_linking_wand"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7A51658DEA94C34F"
+				item: { count: 1, id: "wispwillow:flux_linking_wand" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: 0.875d
 		}
@@ -158,9 +140,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "57DD708DDB655095"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -171,13 +154,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					biome: "wispwillow:willow_fen"
-					id: "17C1BE2EA37DBB78"
-					type: "biome"
-				}
-			]
+			tasks: [{
+				biome: "wispwillow:willow_fen"
+				id: "17C1BE2EA37DBB78"
+				type: "biome"
+			}]
 			x: 4.0d
 			y: 0.875d
 		}
@@ -190,9 +171,10 @@
 			min_width: 300
 			rewards: [
 				{
+					count: 3
 					id: "401822756B249BEE"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -211,12 +193,9 @@
 					type: "structure"
 				}
 				{
-					count: 16
+					count: 16L
 					id: "1084ED67B86390AF"
-					item: {
-						count: 1
-						id: "wispwillow:fluxite"
-					}
+					item: { count: 1, id: "wispwillow:fluxite" }
 					type: "item"
 				}
 			]
@@ -233,9 +212,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "1BC9314BFD569922"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -246,13 +226,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					advancement: "wispwillow:phasing"
-					id: "6A93DEB603630A1E"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "wispwillow:phasing"
+				criterion: ""
+				id: "6A93DEB603630A1E"
+				type: "advancement"
+			}]
 			x: 10.0d
 			y: -0.875d
 		}
@@ -274,30 +253,29 @@
 					xp: 25
 				}
 			]
-			tasks: [
-				{
-					id: "1E22D074D8954D98"
-					item: {
-						count: 1
-						id: "wispwillow:solrosa"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1E22D074D8954D98"
+				item: { count: 1, id: "wispwillow:solrosa" }
+				type: "item"
+			}]
 			x: 10.0d
 			y: 0.875d
 		}
 		{
-			dependencies: ["6195D430B59CF369", "22ED0868097AB8F1"]
+			dependencies: [
+				"6195D430B59CF369"
+				"22ED0868097AB8F1"
+			]
 			icon: {
 				id: "minecraft:amethyst_shard"
 			}
 			id: "1AF2EF3402560251"
 			rewards: [
 				{
+					count: 2
 					id: "7DA7096432511FCC"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -308,12 +286,10 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "63B898F25C014D01"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "63B898F25C014D01"
+				type: "checkmark"
+			}]
 			x: 12.0d
 			y: 0.0d
 		}
@@ -322,9 +298,10 @@
 			id: "010D40929C15EDBE"
 			rewards: [
 				{
+					count: 2
 					id: "036163B434D54439"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -335,24 +312,20 @@
 					xp: 50
 				}
 				{
+					count: 2
 					id: "7FE7E36167C446D8"
 					item: {
-						count: 2
+						count: 1
 						id: "wispwillow:astralite_nugget"
 					}
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "3A78FECFE7CD5F7A"
-					item: {
-						count: 1
-						id: "wispwillow:mana_pool"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3A78FECFE7CD5F7A"
+				item: { count: 1, id: "wispwillow:mana_pool" }
+				type: "item"
+			}]
 			x: 14.0d
 			y: -0.875d
 		}
@@ -361,9 +334,10 @@
 			id: "2559929169258CC8"
 			rewards: [
 				{
+					count: 2
 					id: "3A68339367807390"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -374,28 +348,27 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					count: 4
-					id: "778DBBD1621EE713"
-					item: {
-						count: 1
-						id: "wispwillow:astralite_ingot"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 4L
+				id: "778DBBD1621EE713"
+				item: { count: 1, id: "wispwillow:astralite_ingot" }
+				type: "item"
+			}]
 			x: 14.0d
 			y: 0.875d
 		}
 		{
-			dependencies: ["010D40929C15EDBE", "2559929169258CC8"]
+			dependencies: [
+				"010D40929C15EDBE"
+				"2559929169258CC8"
+			]
 			id: "6DB3BA566DE1BE8B"
 			rewards: [
 				{
+					count: 3
 					id: "4540398612ECBCF2"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -407,17 +380,12 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					count: 8
-					id: "3FCECB22914F4A24"
-					item: {
-						count: 1
-						id: "wispwillow:blank_rune"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 8L
+				id: "3FCECB22914F4A24"
+				item: { count: 1, id: "wispwillow:blank_rune" }
+				type: "item"
+			}]
 			x: 16.0d
 			y: -0.875d
 		}
@@ -455,18 +423,12 @@
 			tasks: [
 				{
 					id: "4A59F49AD11ADD14"
-					item: {
-						count: 1
-						id: "wispwillow:chalk_blue"
-					}
+					item: { count: 1, id: "wispwillow:chalk_blue" }
 					type: "item"
 				}
 				{
 					id: "0F51C5E488CF6B77"
-					item: {
-						count: 1
-						id: "wispwillow:chalk_yellow"
-					}
+					item: { count: 1, id: "wispwillow:chalk_yellow" }
 					type: "item"
 				}
 				{
@@ -482,9 +444,10 @@
 			id: "023F8C6388B53A99"
 			rewards: [
 				{
+					count: 2
 					id: "7A011F5AD4D93EEF"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -495,17 +458,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					count: 18
-					id: "75DF6ED6BF5B2308"
-					item: {
-						count: 1
-						id: "wispwillow:amethyst_coal"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 18L
+				id: "75DF6ED6BF5B2308"
+				item: { count: 1, id: "wispwillow:amethyst_coal" }
+				type: "item"
+			}]
 			x: 20.0d
 			y: -4.375d
 		}
@@ -514,9 +472,10 @@
 			id: "1266AEC24F16FC4D"
 			rewards: [
 				{
+					count: 2
 					id: "60896F7AC6943D9A"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -527,16 +486,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "77B2823CED7EDDF1"
-					item: {
-						count: 1
-						id: "wispwillow:luxinias_flower"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "77B2823CED7EDDF1"
+				item: { count: 1, id: "wispwillow:luxinias_flower" }
+				type: "item"
+			}]
 			x: 22.0d
 			y: -2.625d
 		}
@@ -545,9 +499,10 @@
 			id: "0B132104F1EBC25F"
 			rewards: [
 				{
+					count: 2
 					id: "5B29EC928DC173FA"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -558,16 +513,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "70CB9434D71D5A09"
-					item: {
-						count: 1
-						id: "wispwillow:arcane_goggles"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "70CB9434D71D5A09"
+				item: { count: 1, id: "wispwillow:arcane_goggles" }
+				type: "item"
+			}]
 			x: 16.0d
 			y: 0.875d
 		}
@@ -579,9 +529,10 @@
 			id: "1160EAF317EE8EDC"
 			rewards: [
 				{
+					count: 2
 					id: "777E88380D526B73"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -595,26 +546,17 @@
 			tasks: [
 				{
 					id: "6C52AAAB02C028B8"
-					item: {
-						count: 1
-						id: "wispwillow:water_rune"
-					}
+					item: { count: 1, id: "wispwillow:water_rune" }
 					type: "item"
 				}
 				{
 					id: "1B067C936B84754B"
-					item: {
-						count: 1
-						id: "wispwillow:earth_rune"
-					}
+					item: { count: 1, id: "wispwillow:earth_rune" }
 					type: "item"
 				}
 				{
 					id: "4E74B579A666776B"
-					item: {
-						count: 1
-						id: "wispwillow:blood_rune"
-					}
+					item: { count: 1, id: "wispwillow:blood_rune" }
 					type: "item"
 				}
 			]
@@ -629,9 +571,10 @@
 			id: "70AD01C6285BA55C"
 			rewards: [
 				{
+					count: 3
 					id: "06CF540E310E3654"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -643,12 +586,10 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "060B362883BC8CF9"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "060B362883BC8CF9"
+				type: "checkmark"
+			}]
 			x: 22.0d
 			y: -0.875d
 		}
@@ -658,9 +599,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "440D2D83D4EC094C"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -671,16 +613,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "50B5E6653201FACF"
-					item: {
-						count: 1
-						id: "wispwillow:omni_chalk"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "50B5E6653201FACF"
+				item: { count: 1, id: "wispwillow:omni_chalk" }
+				type: "item"
+			}]
 			x: 24.0d
 			y: -1.75d
 		}
@@ -692,9 +629,10 @@
 			id: "3653EC1454E22BFC"
 			rewards: [
 				{
+					count: 3
 					id: "75FF7F4BC8A2AEE5"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -706,12 +644,10 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "5F638CDD1694556D"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "5F638CDD1694556D"
+				type: "checkmark"
+			}]
 			x: 24.0d
 			y: 0.0d
 		}
@@ -722,9 +658,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "0EEEC3C75044BE29"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -735,16 +672,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "31F861C8591D6C7F"
-					item: {
-						count: 1
-						id: "wispwillow:verdant_bloom"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "31F861C8591D6C7F"
+				item: { count: 1, id: "wispwillow:verdant_bloom" }
+				type: "item"
+			}]
 			x: 20.0d
 			y: -0.875d
 		}
@@ -753,9 +685,10 @@
 			id: "4A095A6BCAB3C35D"
 			rewards: [
 				{
+					count: 2
 					id: "5DDB14963C758FC5"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -774,17 +707,12 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					count: 4
-					id: "4276C00977D1DBFC"
-					item: {
-						count: 1
-						id: "wispwillow:soul_pact"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 4L
+				id: "4276C00977D1DBFC"
+				item: { count: 1, id: "wispwillow:soul_pact" }
+				type: "item"
+			}]
 			x: 20.0d
 			y: 0.875d
 		}
@@ -793,9 +721,10 @@
 			id: "6083AC563682B8E2"
 			rewards: [
 				{
+					count: 2
 					id: "0D0B772AF6F741A0"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -806,16 +735,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "263D700EDCD9F353"
-					item: {
-						count: 1
-						id: "wispwillow:bound_soul_pact"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "263D700EDCD9F353"
+				item: { count: 1, id: "wispwillow:bound_soul_pact" }
+				type: "item"
+			}]
 			x: 22.0d
 			y: 2.625d
 		}
@@ -824,9 +748,10 @@
 			id: "607A27E5666C1B29"
 			rewards: [
 				{
+					count: 2
 					id: "7FEF557ADF0B01C8"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -837,27 +762,27 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "5A4BC4B86B1BFBB5"
-					item: {
-						count: 1
-						id: "wispwillow:astral_font"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5A4BC4B86B1BFBB5"
+				item: { count: 1, id: "wispwillow:astral_font" }
+				type: "item"
+			}]
 			x: 20.0d
 			y: 2.625d
 		}
 		{
-			dependencies: ["6083AC563682B8E2", "607A27E5666C1B29", "1160EAF317EE8EDC"]
+			dependencies: [
+				"6083AC563682B8E2"
+				"607A27E5666C1B29"
+				"1160EAF317EE8EDC"
+			]
 			id: "0F592991923FC22A"
 			rewards: [
 				{
+					count: 3
 					id: "54C98D97CD53327A"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -869,16 +794,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "2F45B6326013497B"
-					item: {
-						count: 1
-						id: "wispwillow:gateway_core"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2F45B6326013497B"
+				item: { count: 1, id: "wispwillow:gateway_core" }
+				type: "item"
+			}]
 			x: 24.0d
 			y: 1.75d
 		}
@@ -909,10 +829,7 @@
 			tasks: [
 				{
 					id: "11CEFEF27560EFF7"
-					item: {
-						count: 1
-						id: "wispwillow:sealed_soul_pact"
-					}
+					item: { count: 1, id: "wispwillow:sealed_soul_pact" }
 					type: "item"
 				}
 				{
@@ -928,9 +845,10 @@
 			id: "51E9DBA1157D9C14"
 			rewards: [
 				{
+					count: 3
 					id: "1878CE07E0E6858C"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -945,10 +863,7 @@
 			tasks: [
 				{
 					id: "4AD1F9B673A25E76"
-					item: {
-						count: 1
-						id: "wispwillow:alchemical_cauldron"
-					}
+					item: { count: 1, id: "wispwillow:alchemical_cauldron" }
 					type: "item"
 				}
 				{
@@ -960,13 +875,17 @@
 			y: 4.375d
 		}
 		{
-			dependencies: ["51E9DBA1157D9C14", "023F8C6388B53A99"]
+			dependencies: [
+				"51E9DBA1157D9C14"
+				"023F8C6388B53A99"
+			]
 			id: "45AF2B40DCC62BA7"
 			rewards: [
 				{
+					count: 3
 					id: "25F1C0EA4F448954"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -978,21 +897,19 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "4210F2F4FBBB1E9F"
-					item: {
-						count: 1
-						id: "wispwillow:empyrite_ingot"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4210F2F4FBBB1E9F"
+				item: { count: 1, id: "wispwillow:empyrite_ingot" }
+				type: "item"
+			}]
 			x: 22.0d
 			y: 0.875d
 		}
 		{
-			dependencies: ["45AF2B40DCC62BA7", "3653EC1454E22BFC"]
+			dependencies: [
+				"45AF2B40DCC62BA7"
+				"3653EC1454E22BFC"
+			]
 			icon: {
 				id: "wispwillow:empyrite_sword"
 			}
@@ -1014,13 +931,12 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [
-				{
-					advancement: "wispwillow:awakening"
-					id: "6D12577C452E6E94"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "wispwillow:awakening"
+				criterion: ""
+				id: "6D12577C452E6E94"
+				type: "advancement"
+			}]
 			x: 26.0d
 			y: 0.0d
 		}
@@ -1033,9 +949,10 @@
 			min_width: 300
 			rewards: [
 				{
+					count: 3
 					id: "352A2FD027886561"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -1047,13 +964,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					dimension: "wispwillow:spirit_realm"
-					id: "0D243D74B090EF35"
-					type: "dimension"
-				}
-			]
+			tasks: [{
+				dimension: "wispwillow:spirit_realm"
+				id: "0D243D74B090EF35"
+				type: "dimension"
+			}]
 			x: 26.0d
 			y: -1.75d
 		}
@@ -1080,13 +995,12 @@
 			]
 			shape: "gear"
 			size: 2.0d
-			tasks: [
-				{
-					advancement: "wispwillow:regalia"
-					id: "26F847A90B4963BF"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "wispwillow:regalia"
+				criterion: ""
+				id: "26F847A90B4963BF"
+				type: "advancement"
+			}]
 			x: 28.0d
 			y: 0.0d
 		}

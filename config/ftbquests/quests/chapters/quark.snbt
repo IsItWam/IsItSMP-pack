@@ -7,7 +7,8 @@
 		id: "quark:pickarang"
 	}
 	id: "1E61D0A996310F18"
-	order_index: 25
+	images: [ ]
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -16,12 +17,10 @@
 			}
 			id: "2AF51CA1DED6E50D"
 			min_width: 300
-			tasks: [
-				{
-					id: "59304BAFC6D6D452"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "59304BAFC6D6D452"
+				type: "checkmark"
+			}]
 			x: 0.0d
 			y: 0.0d
 		}
@@ -46,12 +45,10 @@
 					xp: 25
 				}
 			]
-			tasks: [
-				{
-					id: "6F52FFFCA953CD3D"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "6F52FFFCA953CD3D"
+				type: "checkmark"
+			}]
 			x: 2.0d
 			y: -5.25d
 		}
@@ -60,9 +57,10 @@
 			id: "1686665BBF260706"
 			rewards: [
 				{
+					count: 2
 					id: "24A24C43DAC6FAE8"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -73,24 +71,20 @@
 					xp: 50
 				}
 				{
+					count: 16
 					id: "156F6C2D3F2B9E30"
 					item: {
-						count: 16
+						count: 1
 						id: "minecraft:bone_meal"
 					}
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "3140232EEECF91BF"
-					item: {
-						count: 1
-						id: "quark:seed_pouch"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3140232EEECF91BF"
+				item: { count: 1, id: "quark:seed_pouch" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: -11.375d
 		}
@@ -99,9 +93,10 @@
 			id: "2CACE31018F83F9C"
 			rewards: [
 				{
+					count: 2
 					id: "76BBF6D9602A12F9"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -112,16 +107,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "4A22EBFFF477F6EC"
-					item: {
-						count: 1
-						id: "quark:feeding_trough"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4A22EBFFF477F6EC"
+				item: { count: 1, id: "quark:feeding_trough" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: -6.125d
 		}
@@ -146,12 +136,10 @@
 					xp: 25
 				}
 			]
-			tasks: [
-				{
-					id: "2F7ED5DB48D43549"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "2F7ED5DB48D43549"
+				type: "checkmark"
+			}]
 			x: 2.0d
 			y: -3.5d
 		}
@@ -160,9 +148,10 @@
 			id: "40974294A392FEC2"
 			rewards: [
 				{
+					count: 2
 					id: "5473C6DBC67787AF"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -173,16 +162,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "72AD9DECBC9218E1"
-					item: {
-						count: 1
-						id: "quark:crate"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "72AD9DECBC9218E1"
+				item: { count: 1, id: "quark:crate" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: -9.625d
 		}
@@ -192,9 +176,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "3DB0BDDB4257438F"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -205,16 +190,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "51EFFCFC472FED62"
-					item: {
-						count: 1
-						id: "quark:backpack"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "51EFFCFC472FED62"
+				item: { count: 1, id: "quark:backpack" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: -4.375d
 		}
@@ -223,9 +203,10 @@
 			id: "365811F1F14B4DB2"
 			rewards: [
 				{
+					count: 2
 					id: "4D57F6C3F35C51E8"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -238,21 +219,15 @@
 			]
 			tasks: [
 				{
-					count: 6
+					count: 6L
 					id: "7647025C4BBB4CB4"
-					item: {
-						count: 1
-						id: "quark:oak_vertical_slab"
-					}
+					item: { count: 1, id: "quark:oak_vertical_slab" }
 					type: "item"
 				}
 				{
-					count: 8
+					count: 8L
 					id: "064E701C3208B29E"
-					item: {
-						count: 1
-						id: "quark:oak_post"
-					}
+					item: { count: 1, id: "quark:oak_post" }
 					type: "item"
 				}
 			]
@@ -264,9 +239,10 @@
 			id: "182DAA7E87B32C42"
 			rewards: [
 				{
+					count: 2
 					id: "12A2773AD4EFAFDC"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -279,16 +255,14 @@
 			]
 			tasks: [
 				{
-					count: 4
+					count: 4L
 					id: "0586EA3A6E25BBD7"
-					item: {
-						count: 1
-						id: "quark:hollow_oak_log"
-					}
+					item: { count: 1, id: "quark:hollow_oak_log" }
 					type: "item"
 				}
 				{
 					advancement: "quark:content/crawl_in_hollow_log"
+					criterion: ""
 					id: "0B9B828DB0B4B543"
 					type: "advancement"
 				}
@@ -315,16 +289,11 @@
 					xp: 25
 				}
 			]
-			tasks: [
-				{
-					id: "7D2C1B9E0085D449"
-					item: {
-						count: 1
-						id: "quark:trowel"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7D2C1B9E0085D449"
+				item: { count: 1, id: "quark:trowel" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: -6.125d
 		}
@@ -333,9 +302,10 @@
 			id: "4C639D14F3E912F6"
 			rewards: [
 				{
+					count: 2
 					id: "53EACEC54036F1D6"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -348,30 +318,21 @@
 			]
 			tasks: [
 				{
-					count: 16
+					count: 16L
 					id: "01B2B6E9D8963EE9"
-					item: {
-						count: 1
-						id: "quark:jasper"
-					}
+					item: { count: 1, id: "quark:jasper" }
 					type: "item"
 				}
 				{
-					count: 16
+					count: 16L
 					id: "44CC03B5C1BA7A71"
-					item: {
-						count: 1
-						id: "quark:limestone"
-					}
+					item: { count: 1, id: "quark:limestone" }
 					type: "item"
 				}
 				{
-					count: 16
+					count: 16L
 					id: "3D37EA589A17DF2A"
-					item: {
-						count: 1
-						id: "quark:shale"
-					}
+					item: { count: 1, id: "quark:shale" }
 					type: "item"
 				}
 			]
@@ -383,9 +344,10 @@
 			id: "1F0C82E411F40D08"
 			rewards: [
 				{
+					count: 2
 					id: "450B85DCB657BCF5"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -398,21 +360,15 @@
 			]
 			tasks: [
 				{
-					count: 8
+					count: 8L
 					id: "6A9A77AF87BBE02D"
-					item: {
-						count: 1
-						id: "quark:framed_glass"
-					}
+					item: { count: 1, id: "quark:framed_glass" }
 					type: "item"
 				}
 				{
-					count: 24
+					count: 24L
 					id: "7E288EB8B3E83343"
-					item: {
-						count: 1
-						id: "quark:iron_plate"
-					}
+					item: { count: 1, id: "quark:iron_plate" }
 					type: "item"
 				}
 			]
@@ -441,12 +397,10 @@
 					xp: 25
 				}
 			]
-			tasks: [
-				{
-					id: "221F2B0A0DC3D7BA"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "221F2B0A0DC3D7BA"
+				type: "checkmark"
+			}]
 			x: 6.0d
 			y: -0.875d
 		}
@@ -455,9 +409,10 @@
 			id: "6806736A9723CE5E"
 			rewards: [
 				{
+					count: 2
 					id: "18DE9D603BF78989"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -476,17 +431,12 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					count: 12
-					id: "18B9D4C3A6B07A7F"
-					item: {
-						count: 1
-						id: "quark:pipe"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 12L
+				id: "18B9D4C3A6B07A7F"
+				item: { count: 1, id: "quark:pipe" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: 0.0d
 		}
@@ -495,9 +445,10 @@
 			id: "7C629E4610BD335F"
 			rewards: [
 				{
+					count: 2
 					id: "0D66CC5B82E75BCE"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -508,16 +459,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "2605D696B8ED23FF"
-					item: {
-						count: 1
-						id: "quark:chute"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2605D696B8ED23FF"
+				item: { count: 1, id: "quark:chute" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: -2.625d
 		}
@@ -526,9 +472,10 @@
 			id: "44EDEE0583144401"
 			rewards: [
 				{
+					count: 2
 					id: "56A10DBEBEE5A4EA"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -541,12 +488,9 @@
 			]
 			tasks: [
 				{
-					count: 4
+					count: 4L
 					id: "31837180B4905D61"
-					item: {
-						count: 1
-						id: "quark:sturdy_stone"
-					}
+					item: { count: 1, id: "quark:sturdy_stone" }
 					type: "item"
 				}
 				{
@@ -562,9 +506,10 @@
 			id: "0F3D9CFB23BDA1E1"
 			rewards: [
 				{
+					count: 3
 					id: "0601E07C8A87CC79"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -576,16 +521,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "5C1AD46AFF87B334"
-					item: {
-						count: 1
-						id: "quark:iron_rod"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5C1AD46AFF87B334"
+				item: { count: 1, id: "quark:iron_rod" }
+				type: "item"
+			}]
 			x: 8.0d
 			y: 0.0d
 		}
@@ -609,16 +549,11 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [
-				{
-					id: "3041A0D2CEF43160"
-					item: {
-						count: 1
-						id: "quark:magnet"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3041A0D2CEF43160"
+				item: { count: 1, id: "quark:magnet" }
+				type: "item"
+			}]
 			x: 10.0d
 			y: 0.0d
 		}
@@ -630,9 +565,10 @@
 			id: "24C3D397B153516D"
 			rewards: [
 				{
+					count: 2
 					id: "6526A1408A38C43D"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -643,13 +579,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					advancement: "quark:content/crab_in_a_bucket"
-					id: "362E57EAF266CAC6"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "quark:content/crab_in_a_bucket"
+				criterion: ""
+				id: "362E57EAF266CAC6"
+				type: "advancement"
+			}]
 			x: 2.0d
 			y: 1.75d
 		}
@@ -662,9 +597,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "572F45066F78A84F"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -675,13 +611,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					advancement: "quark:content/shiba_help"
-					id: "71B9A8956727BE94"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "quark:content/shiba_help"
+				criterion: ""
+				id: "71B9A8956727BE94"
+				type: "advancement"
+			}]
 			x: 4.0d
 			y: -0.875d
 		}
@@ -693,9 +628,10 @@
 			id: "55230C8044653CDF"
 			rewards: [
 				{
+					count: 3
 					id: "54C79F34052A000E"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -707,13 +643,12 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					advancement: "quark:content/tame_foxhound"
-					id: "13DD951556C8482E"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "quark:content/tame_foxhound"
+				criterion: ""
+				id: "13DD951556C8482E"
+				type: "advancement"
+			}]
 			x: 4.0d
 			y: 0.875d
 		}
@@ -722,9 +657,10 @@
 			id: "4292A7DC7DB110FB"
 			rewards: [
 				{
+					count: 2
 					id: "0004568E5894CD79"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -735,24 +671,20 @@
 					xp: 50
 				}
 				{
+					count: 2
 					id: "01C9ADBCA6FEAABA"
 					item: {
-						count: 2
+						count: 1
 						id: "minecraft:diamond"
 					}
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "01164D300953B944"
-					item: {
-						count: 1
-						id: "quark:diamond_heart"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "01164D300953B944"
+				item: { count: 1, id: "quark:diamond_heart" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: 3.5d
 		}
@@ -765,9 +697,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "7960106D7077DDF9"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -778,13 +711,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					advancement: "quark:content/make_stoneling"
-					id: "41E41EB44B142298"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "quark:content/make_stoneling"
+				criterion: ""
+				id: "41E41EB44B142298"
+				type: "advancement"
+			}]
 			x: 4.0d
 			y: 2.625d
 		}
@@ -794,9 +726,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "18052356780FE225"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -807,17 +740,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					count: 4
-					id: "783FF6561BE90355"
-					item: {
-						count: 1
-						id: "quark:glow_shroom"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 4L
+				id: "783FF6561BE90355"
+				item: { count: 1, id: "quark:glow_shroom" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: 4.375d
 		}
@@ -829,9 +757,10 @@
 			id: "0AEF39213CD751BD"
 			rewards: [
 				{
+					count: 2
 					id: "3FD1B66862CE6184"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -842,13 +771,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					advancement: "quark:content/mine_toretoise"
-					id: "69C907F4FD19E5BB"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "quark:content/mine_toretoise"
+				criterion: ""
+				id: "69C907F4FD19E5BB"
+				type: "advancement"
+			}]
 			x: 4.0d
 			y: 6.125d
 		}
@@ -857,9 +785,10 @@
 			id: "673EB76A24FBD684"
 			rewards: [
 				{
+					count: 3
 					id: "0CD0F2017E24C185"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -871,16 +800,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "33DB8F423875B698"
-					item: {
-						count: 1
-						id: "quark:forgotten_hat"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "33DB8F423875B698"
+				item: { count: 1, id: "quark:forgotten_hat" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: 2.625d
 		}
@@ -889,9 +813,10 @@
 			id: "738D73328A305C13"
 			rewards: [
 				{
+					count: 3
 					id: "30D19F64A6C15AA6"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -903,16 +828,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "541182D8029D3F37"
-					item: {
-						count: 1
-						id: "quark:ancient_tome"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "541182D8029D3F37"
+				item: { count: 1, id: "quark:ancient_tome" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: 7.875d
 		}
@@ -925,9 +845,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 3
 					id: "3D2C92E21E033591"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -939,13 +860,12 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					advancement: "quark:content/overlevel_enchant"
-					id: "74843ABAB5F935B8"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "quark:content/overlevel_enchant"
+				criterion: ""
+				id: "74843ABAB5F935B8"
+				type: "advancement"
+			}]
 			x: 6.0d
 			y: 4.375d
 		}
@@ -972,14 +892,12 @@
 			tasks: [
 				{
 					id: "3A378895BD208E36"
-					item: {
-						count: 1
-						id: "quark:pickarang"
-					}
+					item: { count: 1, id: "quark:pickarang" }
 					type: "item"
 				}
 				{
 					advancement: "quark:content/throw_pickarang"
+					criterion: ""
 					id: "69902F6F97D09BCA"
 					type: "advancement"
 				}
@@ -992,9 +910,10 @@
 			id: "5DC249A6310485C3"
 			rewards: [
 				{
+					count: 3
 					id: "633EF78C6398DD8D"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -1009,14 +928,12 @@
 			tasks: [
 				{
 					id: "637434832A7CAD26"
-					item: {
-						count: 1
-						id: "quark:pathfinders_quill"
-					}
+					item: { count: 1, id: "quark:pathfinders_quill" }
 					type: "item"
 				}
 				{
 					advancement: "quark:content/pathfinder_map_center"
+					criterion: ""
 					id: "5964364F626AF9DC"
 					type: "advancement"
 				}
@@ -1030,9 +947,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "21BF398E7E7C872F"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -1043,16 +961,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "3CA0F478C4D1FB1E"
-					item: {
-						count: 1
-						id: "quark:bottled_cloud"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3CA0F478C4D1FB1E"
+				item: { count: 1, id: "quark:bottled_cloud" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: 11.375d
 		}
@@ -1079,14 +992,12 @@
 			tasks: [
 				{
 					id: "34231617C89B4EC0"
-					item: {
-						count: 1
-						id: "quark:flamerang"
-					}
+					item: { count: 1, id: "quark:flamerang" }
 					type: "item"
 				}
 				{
 					advancement: "quark:content/retreive_flamerang"
+					criterion: ""
 					id: "1C27B9D2CF35E26E"
 					type: "advancement"
 				}

@@ -7,7 +7,8 @@
 		id: "herbalbrews:tea_kettle"
 	}
 	id: "32B802A65848FFD7"
-	order_index: 20
+	images: [ ]
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -27,16 +28,11 @@
 					xp: 25
 				}
 			]
-			tasks: [
-				{
-					id: "572A4911B137B01D"
-					item: {
-						count: 1
-						id: "herbalbrews:tea_blossom"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "572A4911B137B01D"
+				item: { count: 1, id: "herbalbrews:tea_blossom" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 0.0d
 		}
@@ -45,9 +41,10 @@
 			id: "0E375D31797D1CE1"
 			rewards: [
 				{
+					count: 2
 					id: "62437D1F511C60F7"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -58,25 +55,21 @@
 					xp: 50
 				}
 				{
+					count: 16
 					id: "0C28C1B4EF30A322"
 					item: {
-						count: 16
+						count: 1
 						id: "minecraft:bone_meal"
 					}
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					count: 9
-					id: "424EB6B16B19B9A4"
-					item: {
-						count: 1
-						id: "herbalbrews:green_tea_leaf"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 9L
+				id: "424EB6B16B19B9A4"
+				item: { count: 1, id: "herbalbrews:green_tea_leaf" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: -2.625d
 		}
@@ -85,9 +78,10 @@
 			id: "2242AFC6A0DD8A48"
 			rewards: [
 				{
+					count: 2
 					id: "29F48D16E2E8E4DB"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -98,17 +92,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					count: 3
-					id: "1C9F5B5731B87722"
-					item: {
-						count: 1
-						id: "herbalbrews:dried_green_tea"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 3L
+				id: "1C9F5B5731B87722"
+				item: { count: 1, id: "herbalbrews:dried_green_tea" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: -0.875d
 		}
@@ -117,9 +106,10 @@
 			id: "649662BD1311F0EA"
 			rewards: [
 				{
+					count: 2
 					id: "4FEE774FD4C908DB"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -130,16 +120,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "64B21BFC7C130196"
-					item: {
-						count: 1
-						id: "herbalbrews:stove"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "64B21BFC7C130196"
+				item: { count: 1, id: "herbalbrews:stove" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: -0.875d
 		}
@@ -152,9 +137,10 @@
 			min_width: 300
 			rewards: [
 				{
+					count: 3
 					id: "417EF484BB81A74F"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -165,33 +151,37 @@
 					xp: 120
 				}
 				{
+					count: 4
 					id: "3AEE15E44EA2086A"
 					item: {
-						count: 4
+						count: 1
 						id: "minecraft:blaze_powder"
 					}
 					type: "item"
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					advancement: "herbalbrews:main/place_tea_kettle"
-					id: "53A21985E19757F9"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "herbalbrews:main/place_tea_kettle"
+				criterion: ""
+				id: "53A21985E19757F9"
+				type: "advancement"
+			}]
 			x: 4.0d
 			y: 0.875d
 		}
 		{
-			dependencies: ["2242AFC6A0DD8A48", "5FBA5B6C0A9668E0"]
+			dependencies: [
+				"2242AFC6A0DD8A48"
+				"5FBA5B6C0A9668E0"
+			]
 			id: "3D105D97013E1F34"
 			rewards: [
 				{
+					count: 2
 					id: "61E876F7C3147F5C"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -202,16 +192,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "5A8CD0757DB4533E"
-					item: {
-						count: 1
-						id: "herbalbrews:green_tea"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5A8CD0757DB4533E"
+				item: { count: 1, id: "herbalbrews:green_tea" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: -1.75d
 		}
@@ -220,9 +205,10 @@
 			id: "7FEBCEE826D2689F"
 			rewards: [
 				{
+					count: 2
 					id: "6A07A4A2779371B2"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -233,36 +219,36 @@
 					xp: 50
 				}
 				{
+					count: 8
 					id: "19E125BC2DC700BB"
 					item: {
-						count: 8
+						count: 1
 						id: "minecraft:sugar"
 					}
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					count: 2
-					id: "3B3DAC2DE849FA33"
-					item: {
-						count: 1
-						id: "herbalbrews:dried_black_tea"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 2L
+				id: "3B3DAC2DE849FA33"
+				item: { count: 1, id: "herbalbrews:dried_black_tea" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: -3.5d
 		}
 		{
-			dependencies: ["7FEBCEE826D2689F", "3D105D97013E1F34"]
+			dependencies: [
+				"7FEBCEE826D2689F"
+				"3D105D97013E1F34"
+			]
 			id: "364BBBF46EE6A925"
 			rewards: [
 				{
+					count: 2
 					id: "2B64C36D8D9FB0A5"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -273,16 +259,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "59CE512E12F21754"
-					item: {
-						count: 1
-						id: "herbalbrews:black_tea"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "59CE512E12F21754"
+				item: { count: 1, id: "herbalbrews:black_tea" }
+				type: "item"
+			}]
 			x: 8.0d
 			y: -0.875d
 		}
@@ -291,9 +272,10 @@
 			id: "044B7F0C253495E4"
 			rewards: [
 				{
+					count: 2
 					id: "70813293ABB1D092"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -304,22 +286,20 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					count: 3
-					id: "22F37C2D4BF09815"
-					item: {
-						count: 1
-						id: "herbalbrews:dried_oolong_tea"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 3L
+				id: "22F37C2D4BF09815"
+				item: { count: 1, id: "herbalbrews:dried_oolong_tea" }
+				type: "item"
+			}]
 			x: 8.0d
 			y: -2.625d
 		}
 		{
-			dependencies: ["044B7F0C253495E4", "364BBBF46EE6A925"]
+			dependencies: [
+				"044B7F0C253495E4"
+				"364BBBF46EE6A925"
+			]
 			id: "5D5DD4AB1B5DCF28"
 			rewards: [
 				{
@@ -338,16 +318,11 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [
-				{
-					id: "3DDC018E541D1AFD"
-					item: {
-						count: 1
-						id: "herbalbrews:oolong_tea"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3DDC018E541D1AFD"
+				item: { count: 1, id: "herbalbrews:oolong_tea" }
+				type: "item"
+			}]
 			x: 10.0d
 			y: 0.0d
 		}
@@ -359,9 +334,10 @@
 			id: "230342E5AD171391"
 			rewards: [
 				{
+					count: 2
 					id: "08F12BE9479B38F7"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -372,13 +348,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					advancement: "herbalbrews:main/drink_coffee"
-					id: "11DF6EEDD3B96A96"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "herbalbrews:main/drink_coffee"
+				criterion: ""
+				id: "11DF6EEDD3B96A96"
+				type: "advancement"
+			}]
 			x: 6.0d
 			y: 0.0d
 		}
@@ -387,9 +362,10 @@
 			id: "18B172510081C94C"
 			rewards: [
 				{
+					count: 2
 					id: "7A2B761ABEBA71A2"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -400,16 +376,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "5199B4737F90B34E"
-					item: {
-						count: 1
-						id: "herbalbrews:milk_coffee"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5199B4737F90B34E"
+				item: { count: 1, id: "herbalbrews:milk_coffee" }
+				type: "item"
+			}]
 			x: 8.0d
 			y: 2.625d
 		}
@@ -418,9 +389,10 @@
 			id: "2A9922308B582900"
 			rewards: [
 				{
+					count: 2
 					id: "3161B92F2352308F"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -434,18 +406,12 @@
 			tasks: [
 				{
 					id: "6248207B4E4B4280"
-					item: {
-						count: 1
-						id: "herbalbrews:lavender_blossom"
-					}
+					item: { count: 1, id: "herbalbrews:lavender_blossom" }
 					type: "item"
 				}
 				{
 					id: "37B3583D18DB3117"
-					item: {
-						count: 1
-						id: "herbalbrews:hibiscus"
-					}
+					item: { count: 1, id: "herbalbrews:hibiscus" }
 					type: "item"
 				}
 			]
@@ -453,13 +419,17 @@
 			y: 0.875d
 		}
 		{
-			dependencies: ["2A9922308B582900", "5FBA5B6C0A9668E0"]
+			dependencies: [
+				"2A9922308B582900"
+				"5FBA5B6C0A9668E0"
+			]
 			id: "5CCA5B912837CAE6"
 			rewards: [
 				{
+					count: 2
 					id: "0FCBC25663617B9D"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -473,18 +443,12 @@
 			tasks: [
 				{
 					id: "5FCD61D8B79E97B7"
-					item: {
-						count: 1
-						id: "herbalbrews:lavender_tea"
-					}
+					item: { count: 1, id: "herbalbrews:lavender_tea" }
 					type: "item"
 				}
 				{
 					id: "5127DABF59CB1335"
-					item: {
-						count: 1
-						id: "herbalbrews:hibiscus_tea"
-					}
+					item: { count: 1, id: "herbalbrews:hibiscus_tea" }
 					type: "item"
 				}
 			]
@@ -496,9 +460,10 @@
 			id: "11972A89EFEA73D5"
 			rewards: [
 				{
+					count: 2
 					id: "199039C98EA1A2F1"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -512,18 +477,12 @@
 			tasks: [
 				{
 					id: "5553AB178E88557A"
-					item: {
-						count: 1
-						id: "herbalbrews:rooibos_leaf"
-					}
+					item: { count: 1, id: "herbalbrews:rooibos_leaf" }
 					type: "item"
 				}
 				{
 					id: "1D408B555989E205"
-					item: {
-						count: 1
-						id: "herbalbrews:yerba_mate_leaf"
-					}
+					item: { count: 1, id: "herbalbrews:yerba_mate_leaf" }
 					type: "item"
 				}
 			]
@@ -531,13 +490,17 @@
 			y: 2.625d
 		}
 		{
-			dependencies: ["11972A89EFEA73D5", "5FBA5B6C0A9668E0"]
+			dependencies: [
+				"11972A89EFEA73D5"
+				"5FBA5B6C0A9668E0"
+			]
 			id: "481C73A835C6C7A9"
 			rewards: [
 				{
+					count: 3
 					id: "18E24EBB8FAFB37F"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -552,18 +515,12 @@
 			tasks: [
 				{
 					id: "142F34EAE0B29D53"
-					item: {
-						count: 1
-						id: "herbalbrews:rooibos_tea"
-					}
+					item: { count: 1, id: "herbalbrews:rooibos_tea" }
 					type: "item"
 				}
 				{
 					id: "609A1ACA6CD4FD62"
-					item: {
-						count: 1
-						id: "herbalbrews:yerba_mate_tea"
-					}
+					item: { count: 1, id: "herbalbrews:yerba_mate_tea" }
 					type: "item"
 				}
 			]
@@ -576,9 +533,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "757E9BD3F3B737D6"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -589,21 +547,22 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "5FBD0451C429939A"
-					item: {
-						count: 1
-						id: "herbalbrews:jug"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5FBD0451C429939A"
+				item: { count: 1, id: "herbalbrews:jug" }
+				type: "item"
+			}]
 			x: 8.0d
 			y: 0.875d
 		}
 		{
-			dependencies: ["60B6FE857C713E11", "5D5DD4AB1B5DCF28", "230342E5AD171391", "5CCA5B912837CAE6", "481C73A835C6C7A9"]
+			dependencies: [
+				"60B6FE857C713E11"
+				"5D5DD4AB1B5DCF28"
+				"230342E5AD171391"
+				"5CCA5B912837CAE6"
+				"481C73A835C6C7A9"
+			]
 			icon: {
 				id: "herbalbrews:jug"
 			}
@@ -611,9 +570,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 3
 					id: "302BE597907FE1FB"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -625,13 +585,12 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					advancement: "herbalbrews:main/all_effects"
-					id: "186CB795C9238247"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "herbalbrews:main/all_effects"
+				criterion: ""
+				id: "186CB795C9238247"
+				type: "advancement"
+			}]
 			x: 12.0d
 			y: 0.0d
 		}
@@ -661,18 +620,12 @@
 			tasks: [
 				{
 					id: "26957450C9A68C0D"
-					item: {
-						count: 1
-						id: "herbalbrews:cauldron"
-					}
+					item: { count: 1, id: "herbalbrews:cauldron" }
 					type: "item"
 				}
 				{
 					id: "58CD56067EC950DA"
-					item: {
-						count: 1
-						id: "herbalbrews:flask"
-					}
+					item: { count: 1, id: "herbalbrews:flask" }
 					type: "item"
 				}
 			]
@@ -680,7 +633,12 @@
 			y: -1.75d
 		}
 		{
-			dependencies: ["5D5DD4AB1B5DCF28", "18B172510081C94C", "5CCA5B912837CAE6", "481C73A835C6C7A9"]
+			dependencies: [
+				"5D5DD4AB1B5DCF28"
+				"18B172510081C94C"
+				"5CCA5B912837CAE6"
+				"481C73A835C6C7A9"
+			]
 			icon: {
 				id: "herbalbrews:herbalbrews_banner"
 			}
@@ -702,13 +660,12 @@
 			]
 			shape: "gear"
 			size: 2.0d
-			tasks: [
-				{
-					advancement: "herbalbrews:main/craft_everything"
-					id: "1090B732F1B046CD"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "herbalbrews:main/craft_everything"
+				criterion: ""
+				id: "1090B732F1B046CD"
+				type: "advancement"
+			}]
 			x: 12.0d
 			y: 1.75d
 		}

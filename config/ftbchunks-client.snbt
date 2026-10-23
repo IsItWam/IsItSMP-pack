@@ -138,40 +138,40 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"minecraft:cod": false
-			"minecraft:zombie": true
-			"wildernature:squirrel": true
-			"minecraft:tropical_fish": false
-			"quark:forgotten": true
-			"quark:stoneling": true
+			"quark:toretoise": true
+			"minecraft:drowned": true
+			"minecraft:pufferfish": false
 			"minecraft:axolotl": true
-			"wildernature:deer": true
-			"minecraft:spider": true
-			"minecraft:armadillo": true
-			"minecraft:squid": true
+			"modernfoundry:terracube": true
+			"minecraft:camel": true
+			"minecraft:cod": false
+			"minecraft:sheep": true
 			"wildernature:cassowary": true
+			"minecraft:zombie": true
+			"minecraft:chicken": true
 			"artifacts:mimic": true
 			"bloomingnature:wandering_gardener": true
-			"minecraft:wolf": true
-			"minecraft:camel": true
+			"minecraft:glow_squid": true
+			"minecraft:panda": true
+			"irons_spellbooks:necromancer": true
+			"minecraft:tropical_fish": false
+			"minecraft:skeleton": true
+			"minecraft:pig": true
+			"quark:forgotten": true
+			"wildernature:squirrel": true
 			"yungscavebiomes:sand_snapper": true
-			"minecraft:sheep": true
+			"minecraft:armadillo": true
+			"minecraft:bat": true
+			"wildernature:deer": true
+			"minecraft:wolf": true
+			"minecraft:parrot": true
+			"minecraft:spider": true
+			"ars_nouveau:whirlisprig": true
+			"ars_nouveau:drygmy": true
+			"minecraft:squid": true
+			"quark:stoneling": true
 			"minecraft:creeper": true
 			"minecraft:enderman": true
-			"minecraft:glow_squid": true
-			"ars_nouveau:drygmy": true
-			"minecraft:pufferfish": false
-			"minecraft:pig": true
-			"minecraft:parrot": true
-			"minecraft:drowned": true
-			"ars_nouveau:whirlisprig": true
-			"quark:toretoise": true
-			"minecraft:bat": true
-			"minecraft:skeleton": true
-			"minecraft:chicken": true
-			"irons_spellbooks:necromancer": true
-			"modernfoundry:terracube": true
-			"minecraft:panda": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)

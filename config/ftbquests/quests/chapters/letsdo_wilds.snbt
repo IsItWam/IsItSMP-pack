@@ -7,7 +7,8 @@
 		id: "meadow:cheese_wheel"
 	}
 	id: "276D2EAF0E2EA18F"
-	order_index: 21
+	images: [ ]
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -16,12 +17,10 @@
 			}
 			id: "0564EFA018715523"
 			min_width: 300
-			tasks: [
-				{
-					id: "6C7C6B4E032C7FEC"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "6C7C6B4E032C7FEC"
+				type: "checkmark"
+			}]
 			x: 0.0d
 			y: 0.0d
 		}
@@ -46,13 +45,11 @@
 					xp: 25
 				}
 			]
-			tasks: [
-				{
-					biome: "minecraft:meadow"
-					id: "576A3355D2C4E271"
-					type: "biome"
-				}
-			]
+			tasks: [{
+				biome: "minecraft:meadow"
+				id: "576A3355D2C4E271"
+				type: "biome"
+			}]
 			x: 2.0d
 			y: -2.625d
 		}
@@ -61,9 +58,10 @@
 			id: "2B9CF933F70672C8"
 			rewards: [
 				{
+					count: 2
 					id: "6B8893BF3E02725F"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -74,17 +72,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					count: 8
-					id: "6942170B18313EDF"
-					item: {
-						count: 1
-						id: "meadow:alpine_salt"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 8L
+				id: "6942170B18313EDF"
+				item: { count: 1, id: "meadow:alpine_salt" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: -8.75d
 		}
@@ -96,9 +89,10 @@
 			id: "4452454FA584E978"
 			rewards: [
 				{
+					count: 2
 					id: "57E024D0F4D69D3E"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -112,18 +106,12 @@
 			tasks: [
 				{
 					id: "6AFC92E7EB96E361"
-					item: {
-						count: 1
-						id: "meadow:wooden_bucket"
-					}
+					item: { count: 1, id: "meadow:wooden_bucket" }
 					type: "item"
 				}
 				{
 					id: "6C1FF7439DB00BB1"
-					item: {
-						count: 1
-						id: "meadow:wooden_milk_bucket"
-					}
+					item: { count: 1, id: "meadow:wooden_milk_bucket" }
 					type: "item"
 				}
 			]
@@ -135,9 +123,10 @@
 			id: "4EE56E8124E8D605"
 			rewards: [
 				{
+					count: 2
 					id: "1D5FE87813481CE9"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -148,35 +137,35 @@
 					xp: 50
 				}
 				{
+					count: 4
 					id: "62028312AFD5D03C"
 					item: {
-						count: 4
+						count: 1
 						id: "minecraft:glass_bottle"
 					}
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "71B2DBA09D0739A7"
-					item: {
-						count: 1
-						id: "meadow:cooking_frame"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "71B2DBA09D0739A7"
+				item: { count: 1, id: "meadow:cooking_frame" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: -5.25d
 		}
 		{
-			dependencies: ["4EE56E8124E8D605", "2B9CF933F70672C8"]
+			dependencies: [
+				"4EE56E8124E8D605"
+				"2B9CF933F70672C8"
+			]
 			id: "04AF09A915B50574"
 			rewards: [
 				{
+					count: 2
 					id: "1921E1CF178F0018"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -187,17 +176,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					count: 2
-					id: "6B3FF961CA09A0CA"
-					item: {
-						count: 1
-						id: "meadow:rennet"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 2L
+				id: "6B3FF961CA09A0CA"
+				item: { count: 1, id: "meadow:rennet" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: -6.125d
 		}
@@ -219,27 +203,26 @@
 					xp: 25
 				}
 			]
-			tasks: [
-				{
-					id: "5474E01458D34D6A"
-					item: {
-						count: 1
-						id: "meadow:cheese_form"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5474E01458D34D6A"
+				item: { count: 1, id: "meadow:cheese_form" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: -4.375d
 		}
 		{
-			dependencies: ["04AF09A915B50574", "1E5D075E2955D689"]
+			dependencies: [
+				"04AF09A915B50574"
+				"1E5D075E2955D689"
+			]
 			id: "0D89F635C0997FC6"
 			rewards: [
 				{
+					count: 3
 					id: "481D70F482AC46C8"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -250,25 +233,21 @@
 					xp: 120
 				}
 				{
+					count: 2
 					id: "09263417C8A2A05E"
 					item: {
-						count: 2
+						count: 1
 						id: "meadow:rennet"
 					}
 					type: "item"
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "5BB2D1573A5450C3"
-					item: {
-						count: 1
-						id: "meadow:cheese_wheel"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5BB2D1573A5450C3"
+				item: { count: 1, id: "meadow:cheese_wheel" }
+				type: "item"
+			}]
 			x: 8.0d
 			y: -0.875d
 		}
@@ -281,9 +260,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "4B5DD46F5C358D31"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -297,18 +277,12 @@
 			tasks: [
 				{
 					id: "5F40F96BF93C4D77"
-					item: {
-						count: 1
-						id: "meadow:cheese_sandwich"
-					}
+					item: { count: 1, id: "meadow:cheese_sandwich" }
 					type: "item"
 				}
 				{
 					id: "4565D1214B78D4B1"
-					item: {
-						count: 1
-						id: "meadow:cheesecake"
-					}
+					item: { count: 1, id: "meadow:cheesecake" }
 					type: "item"
 				}
 			]
@@ -323,9 +297,10 @@
 			id: "51DAF82501F5392E"
 			rewards: [
 				{
+					count: 2
 					id: "5C3758E844766237"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -339,18 +314,12 @@
 			tasks: [
 				{
 					id: "2222D0C4E0A56540"
-					item: {
-						count: 1
-						id: "meadow:stove_tiles"
-					}
+					item: { count: 1, id: "meadow:stove_tiles" }
 					type: "item"
 				}
 				{
 					id: "1AFF535A27F0510C"
-					item: {
-						count: 1
-						id: "meadow:cookpot"
-					}
+					item: { count: 1, id: "meadow:cookpot" }
 					type: "item"
 				}
 			]
@@ -358,16 +327,20 @@
 			y: -2.625d
 		}
 		{
-			dependencies: ["0D89F635C0997FC6", "51DAF82501F5392E"]
+			dependencies: [
+				"0D89F635C0997FC6"
+				"51DAF82501F5392E"
+			]
 			icon: {
 				id: "meadow:cheese_stick"
 			}
 			id: "19CC1210A35376FA"
 			rewards: [
 				{
+					count: 3
 					id: "227C74E87FB1E614"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -382,18 +355,12 @@
 			tasks: [
 				{
 					id: "0EB2BB23C36A12A7"
-					item: {
-						count: 1
-						id: "meadow:fondue_pot"
-					}
+					item: { count: 1, id: "meadow:fondue_pot" }
 					type: "item"
 				}
 				{
 					id: "4E2BC4BFFF0F97C3"
-					item: {
-						count: 1
-						id: "meadow:cheese_stick"
-					}
+					item: { count: 1, id: "meadow:cheese_stick" }
 					type: "item"
 				}
 			]
@@ -423,13 +390,12 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [
-				{
-					advancement: "meadow:main/milk_collector"
-					id: "5C3CB2A9F6D69C0C"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "meadow:main/milk_collector"
+				criterion: ""
+				id: "5C3CB2A9F6D69C0C"
+				type: "advancement"
+			}]
 			x: 10.0d
 			y: 1.75d
 		}
@@ -456,13 +422,12 @@
 			]
 			shape: "gear"
 			size: 2.0d
-			tasks: [
-				{
-					advancement: "meadow:main/cheese_collector"
-					id: "13E5F5CF9222B6AD"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "meadow:main/cheese_collector"
+				criterion: ""
+				id: "13E5F5CF9222B6AD"
+				type: "advancement"
+			}]
 			x: 12.0d
 			y: 0.0d
 		}
@@ -471,9 +436,10 @@
 			id: "755C00A94A7B00E1"
 			rewards: [
 				{
+					count: 2
 					id: "78000F3874ED786C"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -484,17 +450,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					count: 3
-					id: "5E47830F0E0A7802"
-					item: {
-						count: 1
-						id: "meadow:rustic_wool"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 3L
+				id: "5E47830F0E0A7802"
+				item: { count: 1, id: "meadow:rustic_wool" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: -3.5d
 		}
@@ -506,9 +467,10 @@
 			id: "39B75E0E43D97A08"
 			rewards: [
 				{
+					count: 2
 					id: "7204F5A2E825C8D6"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -522,18 +484,12 @@
 			tasks: [
 				{
 					id: "27977E0EBC5B040A"
-					item: {
-						count: 1
-						id: "meadow:felting_needle"
-					}
+					item: { count: 1, id: "meadow:felting_needle" }
 					type: "item"
 				}
 				{
 					id: "5D18B364FF9C90B2"
-					item: {
-						count: 1
-						id: "meadow:plaid_wool"
-					}
+					item: { count: 1, id: "meadow:plaid_wool" }
 					type: "item"
 				}
 			]
@@ -563,13 +519,12 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [
-				{
-					advancement: "meadow:main/wool_collector"
-					id: "3436218875DF2B86"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "meadow:main/wool_collector"
+				criterion: ""
+				id: "3436218875DF2B86"
+				type: "advancement"
+			}]
 			x: 8.0d
 			y: 0.875d
 		}
@@ -582,9 +537,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "584EE31BDEB9F114"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -598,34 +554,22 @@
 			tasks: [
 				{
 					id: "4430350EA4457A53"
-					item: {
-						count: 1
-						id: "meadow:fur_helmet"
-					}
+					item: { count: 1, id: "meadow:fur_helmet" }
 					type: "item"
 				}
 				{
 					id: "72101547AC9158D6"
-					item: {
-						count: 1
-						id: "meadow:fur_chestplate"
-					}
+					item: { count: 1, id: "meadow:fur_chestplate" }
 					type: "item"
 				}
 				{
 					id: "7438D45DF678A273"
-					item: {
-						count: 1
-						id: "meadow:fur_leggings"
-					}
+					item: { count: 1, id: "meadow:fur_leggings" }
 					type: "item"
 				}
 				{
 					id: "59DFDF10333CC7C3"
-					item: {
-						count: 1
-						id: "meadow:fur_boots"
-					}
+					item: { count: 1, id: "meadow:fur_boots" }
 					type: "item"
 				}
 			]
@@ -637,9 +581,10 @@
 			id: "344BDBC656E9E57D"
 			rewards: [
 				{
+					count: 2
 					id: "5C7A2EEB1BC20350"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -650,17 +595,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					count: 16
-					id: "5CFA203461565CF1"
-					item: {
-						count: 1
-						id: "alpinewhispers:arolla_pine_log"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 16L
+				id: "5CFA203461565CF1"
+				item: { count: 1, id: "alpinewhispers:arolla_pine_log" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: -0.875d
 		}
@@ -669,9 +609,10 @@
 			id: "2A9CAD5533E4B98A"
 			rewards: [
 				{
+					count: 2
 					id: "4AB994F661A50777"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -682,17 +623,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					count: 6
-					id: "6B1D32AB91EE04D7"
-					item: {
-						count: 1
-						id: "alpinewhispers:homespun_wool"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 6L
+				id: "6B1D32AB91EE04D7"
+				item: { count: 1, id: "alpinewhispers:homespun_wool" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: -1.75d
 		}
@@ -715,16 +651,11 @@
 					xp: 25
 				}
 			]
-			tasks: [
-				{
-					id: "23C2D10E6D789AEA"
-					item: {
-						count: 1
-						id: "alpinewhispers:bread_on_a_stick"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "23C2D10E6D789AEA"
+				item: { count: 1, id: "alpinewhispers:bread_on_a_stick" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: 2.625d
 		}
@@ -733,9 +664,10 @@
 			id: "5E12770062A9A6BF"
 			rewards: [
 				{
+					count: 2
 					id: "5FE1A75F6C3BFB15"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -746,16 +678,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "76164E922A9CE94E"
-					item: {
-						count: 1
-						id: "alpinewhispers:cooked_reindeer_dish"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "76164E922A9CE94E"
+				item: { count: 1, id: "alpinewhispers:cooked_reindeer_dish" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: 0.0d
 		}
@@ -783,18 +710,12 @@
 			tasks: [
 				{
 					id: "46D97224CD4BA048"
-					item: {
-						count: 1
-						id: "bloomingnature:twigs"
-					}
+					item: { count: 1, id: "bloomingnature:twigs" }
 					type: "item"
 				}
 				{
 					id: "4CCDAFFCAF5DA317"
-					item: {
-						count: 1
-						id: "bloomingnature:pebbles"
-					}
+					item: { count: 1, id: "bloomingnature:pebbles" }
 					type: "item"
 				}
 			]
@@ -806,9 +727,10 @@
 			id: "59CFE712C6BD5584"
 			rewards: [
 				{
+					count: 2
 					id: "14897F3141476780"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -819,17 +741,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					count: 16
-					id: "61590A1F156D2590"
-					item: {
-						count: 1
-						id: "bloomingnature:aspen_log"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 16L
+				id: "61590A1F156D2590"
+				item: { count: 1, id: "bloomingnature:aspen_log" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: 1.75d
 		}
@@ -857,13 +774,12 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [
-				{
-					advancement: "minecraft:adventure/blooming_horizons"
-					id: "4604476E212CE618"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "minecraft:adventure/blooming_horizons"
+				criterion: ""
+				id: "4604476E212CE618"
+				type: "advancement"
+			}]
 			x: 6.0d
 			y: 4.375d
 		}
@@ -872,9 +788,10 @@
 			id: "2BAFE0EEBF1A9FEF"
 			rewards: [
 				{
+					count: 2
 					id: "35E417ECFA8845BC"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -893,16 +810,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "1F2EE625F2E12432"
-					item: {
-						count: 1
-						id: "wildernature:bounty_board"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1F2EE625F2E12432"
+				item: { count: 1, id: "wildernature:bounty_board" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: 2.625d
 		}
@@ -914,9 +826,10 @@
 			id: "2341C23096A9A104"
 			rewards: [
 				{
+					count: 3
 					id: "4A544F94A1A26982"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -928,12 +841,10 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "1196865DA92FD706"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "1196865DA92FD706"
+				type: "checkmark"
+			}]
 			x: 4.0d
 			y: 3.5d
 		}
@@ -943,9 +854,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "55712E22D4CD4391"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -956,16 +868,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "597717B7DA716EFE"
-					item: {
-						count: 1
-						id: "wildernature:field_guide"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "597717B7DA716EFE"
+				item: { count: 1, id: "wildernature:field_guide" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: 5.25d
 		}
@@ -974,9 +881,10 @@
 			id: "7C5181B81F1E1BB4"
 			rewards: [
 				{
+					count: 2
 					id: "56A639F7F11EC387"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -987,17 +895,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					count: 3
-					id: "772A2094C167F1C6"
-					item: {
-						count: 1
-						id: "wildernature:truffle"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 3L
+				id: "772A2094C167F1C6"
+				item: { count: 1, id: "wildernature:truffle" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: 7.0d
 		}
@@ -1007,9 +910,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "008261B265F39202"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -1020,29 +924,28 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					count: 3
-					id: "0F31768E446FE6E8"
-					item: {
-						count: 1
-						id: "wildernature:thick_leather"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 3L
+				id: "0F31768E446FE6E8"
+				item: { count: 1, id: "wildernature:thick_leather" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: 8.75d
 		}
 		{
-			dependencies: ["2341C23096A9A104", "6B3F14AFED3C8920"]
+			dependencies: [
+				"2341C23096A9A104"
+				"6B3F14AFED3C8920"
+			]
 			id: "50FDBCAFC275A7BF"
 			optional: true
 			rewards: [
 				{
+					count: 3
 					id: "53A59D170B5859F0"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -1053,25 +956,21 @@
 					xp: 120
 				}
 				{
+					count: 16
 					id: "27A6CEE64797B24B"
 					item: {
-						count: 16
+						count: 1
 						id: "wildernature:flint_ammunition"
 					}
 					type: "item"
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "0627B5706C603FF6"
-					item: {
-						count: 1
-						id: "wildernature:blunderbuss"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0627B5706C603FF6"
+				item: { count: 1, id: "wildernature:blunderbuss" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: 6.125d
 		}

@@ -4,10 +4,19 @@
 	filename: "irons_spellbooks"
 	group: "1463DB017AD16CD2"
 	icon: {
+		components: {
+			"irons_spellbooks:spell_container": {
+				data: [ ]
+				maxSpells: 8
+				mustEquip: 1b
+				spellWheel: 1b
+			}
+		}
 		id: "irons_spellbooks:gold_spell_book"
 	}
 	id: "47AFA888EC333098"
-	order_index: 10
+	images: [ ]
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -28,16 +37,11 @@
 					xp: 25
 				}
 			]
-			tasks: [
-				{
-					id: "2075B5DF624CAF32"
-					item: {
-						count: 1
-						id: "irons_spellbooks:arcane_essence"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2075B5DF624CAF32"
+				item: { count: 1, id: "irons_spellbooks:arcane_essence" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 0.0d
 		}
@@ -46,9 +50,10 @@
 			id: "25611303498B6180"
 			rewards: [
 				{
+					count: 2
 					id: "01C314BB091FF5BD"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -59,16 +64,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "098CB8C667F91704"
-					item: {
-						count: 1
-						id: "irons_spellbooks:scroll"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "098CB8C667F91704"
+				item: { count: 1, id: "irons_spellbooks:scroll" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: -2.625d
 		}
@@ -77,9 +77,10 @@
 			id: "4430294FC86DE6EE"
 			rewards: [
 				{
+					count: 2
 					id: "1504B2842F435638"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -90,16 +91,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "07789D58B1E35794"
-					item: {
-						count: 1
-						id: "irons_spellbooks:inscription_table"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "07789D58B1E35794"
+				item: { count: 1, id: "irons_spellbooks:inscription_table" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: 0.0d
 		}
@@ -108,9 +104,10 @@
 			id: "7723007F047C6ABB"
 			rewards: [
 				{
+					count: 2
 					id: "0F7F2C2628E625A8"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -121,22 +118,25 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "114E22D8AA75D641"
-					item: {
-						count: 1
-						id: "irons_spellbooks:copper_spell_book"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "114E22D8AA75D641"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 5, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:copper_spell_book" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7723007F047C6ABB"]
 			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 5
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
 				id: "irons_spellbooks:copper_spell_book"
 			}
 			id: "6CDB1A354D3A1AAB"
@@ -159,6 +159,7 @@
 			tasks: [
 				{
 					advancement: "irons_spellbooks:irons_spellbooks/spell_book_equip"
+					criterion: ""
 					id: "0E31CAEDB88B2FEE"
 					type: "advancement"
 				}
@@ -189,16 +190,11 @@
 					xp: 25
 				}
 			]
-			tasks: [
-				{
-					id: "127E207947C1EEF4"
-					item: {
-						count: 1
-						id: "irons_spellbooks:graybeard_staff"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "127E207947C1EEF4"
+				item: { count: 1, id: "irons_spellbooks:graybeard_staff" }
+				type: "item"
+			}]
 			x: 10.0d
 			y: -1.75d
 		}
@@ -211,9 +207,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "7664D94D2AF36C11"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -227,34 +224,22 @@
 			tasks: [
 				{
 					id: "4D5E5DD18DFF128D"
-					item: {
-						count: 1
-						id: "irons_spellbooks:wandering_magician_helmet"
-					}
+					item: { count: 1, id: "irons_spellbooks:wandering_magician_helmet" }
 					type: "item"
 				}
 				{
 					id: "37CE4098EA607FB4"
-					item: {
-						count: 1
-						id: "irons_spellbooks:wandering_magician_chestplate"
-					}
+					item: { count: 1, id: "irons_spellbooks:wandering_magician_chestplate" }
 					type: "item"
 				}
 				{
 					id: "7019CBDE64E7A44C"
-					item: {
-						count: 1
-						id: "irons_spellbooks:wandering_magician_leggings"
-					}
+					item: { count: 1, id: "irons_spellbooks:wandering_magician_leggings" }
 					type: "item"
 				}
 				{
 					id: "4C697C5522A1B363"
-					item: {
-						count: 1
-						id: "irons_spellbooks:wandering_magician_boots"
-					}
+					item: { count: 1, id: "irons_spellbooks:wandering_magician_boots" }
 					type: "item"
 				}
 			]
@@ -280,16 +265,11 @@
 					xp: 25
 				}
 			]
-			tasks: [
-				{
-					id: "2258775ECA833DF8"
-					item: {
-						count: 1
-						id: "arcaneessenceblock:essence_sack"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2258775ECA833DF8"
+				item: { count: 1, id: "arcaneessenceblock:essence_sack" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: 0.875d
 		}
@@ -298,9 +278,10 @@
 			id: "3715BBB37FF125DF"
 			rewards: [
 				{
+					count: 2
 					id: "5A173D8DA16A16C5"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -311,17 +292,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					count: 2
-					id: "5508B5473B229DF5"
-					item: {
-						count: 1
-						id: "irons_spellbooks:magic_cloth"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 2L
+				id: "5508B5473B229DF5"
+				item: { count: 1, id: "irons_spellbooks:magic_cloth" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: 2.625d
 		}
@@ -333,9 +309,10 @@
 			id: "0F85CA5ADB99291A"
 			rewards: [
 				{
+					count: 2
 					id: "12EB21A71D1A57EC"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -346,13 +323,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					advancement: "irons_spellbooks:irons_spellbooks/ink_root"
-					id: "23BA4928D78832B0"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "irons_spellbooks:irons_spellbooks/ink_root"
+				criterion: ""
+				id: "23BA4928D78832B0"
+				type: "advancement"
+			}]
 			x: 10.0d
 			y: 0.0d
 		}
@@ -361,9 +337,10 @@
 			id: "2E40C88FD8145F5D"
 			rewards: [
 				{
+					count: 3
 					id: "2A1BEC610EC9F60B"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -374,25 +351,21 @@
 					xp: 120
 				}
 				{
+					count: 2
 					id: "1B81CD77872852EC"
 					item: {
-						count: 2
+						count: 1
 						id: "irons_spellbooks:common_ink"
 					}
 					type: "item"
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "24CDCDBF32FF3131"
-					item: {
-						count: 1
-						id: "irons_spellbooks:scroll_forge"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "24CDCDBF32FF3131"
+				item: { count: 1, id: "irons_spellbooks:scroll_forge" }
+				type: "item"
+			}]
 			x: 12.0d
 			y: -1.75d
 		}
@@ -404,9 +377,10 @@
 			id: "14DEF8F48EB82AFA"
 			rewards: [
 				{
+					count: 2
 					id: "626A361F8471E585"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -420,18 +394,12 @@
 			tasks: [
 				{
 					id: "6AF10225FF2BAAA3"
-					item: {
-						count: 1
-						id: "irons_spellbooks:blank_rune"
-					}
+					item: { count: 1, id: "irons_spellbooks:blank_rune" }
 					type: "item"
 				}
 				{
 					id: "583A952B4A23524D"
-					item: {
-						count: 1
-						id: "irons_spellbooks:arcane_rune"
-					}
+					item: { count: 1, id: "irons_spellbooks:arcane_rune" }
 					type: "item"
 				}
 			]
@@ -447,9 +415,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "6CB69615AD8CB1DF"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -460,13 +429,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "35D224CD9610C754"
-					structure: "irons_spellbooks:pyromancer_tower"
-					type: "structure"
-				}
-			]
+			tasks: [{
+				id: "35D224CD9610C754"
+				structure: "irons_spellbooks:pyromancer_tower"
+				type: "structure"
+			}]
 			x: 16.0d
 			y: -7.0d
 		}
@@ -479,9 +446,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "4DF6FE6B65DB678B"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -492,28 +460,54 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "49CA03BF13D61BD1"
-					structure: "irons_spellbooks:mountain_tower"
-					type: "structure"
-				}
-			]
+			tasks: [{
+				id: "49CA03BF13D61BD1"
+				structure: "irons_spellbooks:mountain_tower"
+				type: "structure"
+			}]
 			x: 16.0d
 			y: -5.25d
 		}
 		{
 			dependencies: ["14DEF8F48EB82AFA"]
 			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [
+							{
+								id: "irons_spellbooks:fang_strike"
+								index: 0
+								level: 6
+								locked: 1b
+							}
+							{
+								id: "irons_spellbooks:fang_ward"
+								index: 1
+								level: 4
+								locked: 1b
+							}
+							{
+								id: "irons_spellbooks:summon_vex"
+								index: 2
+								level: 4
+								locked: 1b
+							}
+						]
+						maxSpells: 10
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
 				id: "irons_spellbooks:evoker_spell_book"
 			}
 			id: "47598CADFB7789C4"
 			optional: true
 			rewards: [
 				{
+					count: 3
 					id: "38F2FA85414E3328"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -525,14 +519,12 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					entity: "irons_spellbooks:archevoker"
-					id: "41337E1B1F7C178F"
-					type: "kill"
-					value: 1
-				}
-			]
+			tasks: [{
+				entity: "irons_spellbooks:archevoker"
+				id: "41337E1B1F7C178F"
+				type: "kill"
+				value: 1L
+			}]
 			x: 16.0d
 			y: -3.5d
 		}
@@ -542,9 +534,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "5134455CD755EB00"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -555,16 +548,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "58BFB31361761E4E"
-					item: {
-						count: 1
-						id: "irons_spellbooks:villager_spell_book"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "58BFB31361761E4E"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 10, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:villager_spell_book" }
+				type: "item"
+			}]
 			x: 18.0d
 			y: -2.625d
 		}
@@ -576,9 +564,10 @@
 			id: "62B777855CE8A7C7"
 			rewards: [
 				{
+					count: 2
 					id: "098C195F89F55155"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -589,13 +578,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "1EE02D05206E9FED"
-					structure: "asterismarcanum:astral_observatory"
-					type: "structure"
-				}
-			]
+			tasks: [{
+				id: "1EE02D05206E9FED"
+				structure: "asterismarcanum:astral_observatory"
+				type: "structure"
+			}]
 			x: 16.0d
 			y: -1.75d
 		}
@@ -604,9 +591,10 @@
 			id: "3F1DD1F8BC20B0C4"
 			rewards: [
 				{
+					count: 2
 					id: "408375820D74D8BB"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -617,17 +605,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					count: 8
-					id: "7FB732326FBB0DB3"
-					item: {
-						count: 1
-						id: "asterismarcanum:dragonfly_wings"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 8L
+				id: "7FB732326FBB0DB3"
+				item: { count: 1, id: "asterismarcanum:dragonfly_wings" }
+				type: "item"
+			}]
 			x: 18.0d
 			y: -0.875d
 		}
@@ -636,9 +619,10 @@
 			id: "15DE39C4F654FAD7"
 			rewards: [
 				{
+					count: 2
 					id: "6CAD6F26FBB2C79B"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -649,28 +633,27 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "59093D76D850581B"
-					item: {
-						count: 1
-						id: "asterismarcanum:astral_rune"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "59093D76D850581B"
+				item: { count: 1, id: "asterismarcanum:astral_rune" }
+				type: "item"
+			}]
 			x: 20.0d
 			y: -0.875d
 		}
 		{
-			dependencies: ["15DE39C4F654FAD7", "51088EBC45A3FB05"]
+			dependencies: [
+				"15DE39C4F654FAD7"
+				"51088EBC45A3FB05"
+			]
 			id: "6620B4691F970117"
 			optional: true
 			rewards: [
 				{
+					count: 3
 					id: "79694DC9FF7199F9"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -682,16 +665,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "2A97F31EBF539F06"
-					item: {
-						count: 1
-						id: "asterismarcanum:astrolabe"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2A97F31EBF539F06"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 12, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "asterismarcanum:astrolabe" }
+				type: "item"
+			}]
 			x: 22.0d
 			y: -0.875d
 		}
@@ -700,9 +678,10 @@
 			id: "43589E4AE089D241"
 			rewards: [
 				{
+					count: 2
 					id: "3BC9D56A8834AF6C"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -713,16 +692,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "7A3DC15B0CC318A5"
-					item: {
-						count: 1
-						id: "irons_spellbooks:gold_spell_book"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7A3DC15B0CC318A5"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 8, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:gold_spell_book" }
+				type: "item"
+			}]
 			x: 10.0d
 			y: 1.75d
 		}
@@ -734,9 +708,10 @@
 			id: "6DE8825C081C6E71"
 			rewards: [
 				{
+					count: 3
 					id: "341DEE075442F57D"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -753,14 +728,11 @@
 					entity: "irons_spellbooks:citadel_keeper"
 					id: "2D6D4BB659DA69C3"
 					type: "kill"
-					value: 1
+					value: 1L
 				}
 				{
 					id: "29120D3059F890BB"
-					item: {
-						count: 1
-						id: "irons_spellbooks:cinder_essence"
-					}
+					item: { count: 1, id: "irons_spellbooks:cinder_essence" }
 					type: "item"
 				}
 			]
@@ -772,9 +744,10 @@
 			id: "78394E8452713AF6"
 			rewards: [
 				{
+					count: 3
 					id: "52687AB76CC901B4"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -785,25 +758,21 @@
 					xp: 120
 				}
 				{
+					count: 4
 					id: "01513D77BED22F65"
 					item: {
-						count: 4
+						count: 1
 						id: "minecraft:glass_bottle"
 					}
 					type: "item"
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "4DCD159BE5026D75"
-					item: {
-						count: 1
-						id: "irons_spellbooks:alchemist_cauldron"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4DCD159BE5026D75"
+				item: { count: 1, id: "irons_spellbooks:alchemist_cauldron" }
+				type: "item"
+			}]
 			x: 14.0d
 			y: -0.875d
 		}
@@ -812,9 +781,10 @@
 			id: "2C508E9E78AEED63"
 			rewards: [
 				{
+					count: 2
 					id: "53549E6C9F4E1B01"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -825,28 +795,27 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					count: 2
-					id: "76AC16759531B5D5"
-					item: {
-						count: 1
-						id: "irons_spellbooks:blood_vial"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 2L
+				id: "76AC16759531B5D5"
+				item: { count: 1, id: "irons_spellbooks:blood_vial" }
+				type: "item"
+			}]
 			x: 16.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["43589E4AE089D241", "3715BBB37FF125DF"]
+			dependencies: [
+				"43589E4AE089D241"
+				"3715BBB37FF125DF"
+			]
 			id: "4849368F0F0DDC94"
 			rewards: [
 				{
+					count: 2
 					id: "60C1B2A354A808BC"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -857,16 +826,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "2B4784D22D7DEFDD"
-					item: {
-						count: 1
-						id: "irons_spellbooks:diamond_spell_book"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2B4784D22D7DEFDD"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 10, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:diamond_spell_book" }
+				type: "item"
+			}]
 			x: 12.0d
 			y: 1.75d
 		}
@@ -875,9 +839,10 @@
 			id: "51088EBC45A3FB05"
 			rewards: [
 				{
+					count: 3
 					id: "11D0ACCD4A8CD01E"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -889,21 +854,19 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "0F73FB3171DA7238"
-					item: {
-						count: 1
-						id: "irons_spellbooks:mithril_ingot"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0F73FB3171DA7238"
+				item: { count: 1, id: "irons_spellbooks:mithril_ingot" }
+				type: "item"
+			}]
 			x: 14.0d
 			y: 0.875d
 		}
 		{
-			dependencies: ["4849368F0F0DDC94", "2E40C88FD8145F5D"]
+			dependencies: [
+				"4849368F0F0DDC94"
+				"2E40C88FD8145F5D"
+			]
 			id: "0122BBFBE786CBCC"
 			min_width: 300
 			rewards: [
@@ -931,28 +894,27 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [
-				{
-					id: "1B48EA6534C23CE3"
-					item: {
-						count: 1
-						id: "irons_spellbooks:arcane_anvil"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1B48EA6534C23CE3"
+				item: { count: 1, id: "irons_spellbooks:arcane_anvil" }
+				type: "item"
+			}]
 			x: 14.0d
 			y: 2.625d
 		}
 		{
-			dependencies: ["0122BBFBE786CBCC", "51088EBC45A3FB05"]
+			dependencies: [
+				"0122BBFBE786CBCC"
+				"51088EBC45A3FB05"
+			]
 			id: "5E9D3286A134DD13"
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "5A262FCDA5942CA1"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -963,27 +925,26 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "31C90E392B85EFC5"
-					item: {
-						count: 1
-						id: "irons_spellbooks:affinity_ring"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "31C90E392B85EFC5"
+				item: { count: 1, id: "irons_spellbooks:affinity_ring" }
+				type: "item"
+			}]
 			x: 16.0d
 			y: 3.5d
 		}
 		{
-			dependencies: ["3715BBB37FF125DF", "14DEF8F48EB82AFA"]
+			dependencies: [
+				"3715BBB37FF125DF"
+				"14DEF8F48EB82AFA"
+			]
 			id: "469C45ADB951FD64"
 			rewards: [
 				{
+					count: 2
 					id: "089D3517ADA211BC"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -994,27 +955,26 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "12B86DBB6BEFA257"
-					item: {
-						count: 1
-						id: "irons_spellbooks:wizard_chestplate"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "12B86DBB6BEFA257"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:wizard_chestplate" }
+				type: "item"
+			}]
 			x: 16.0d
 			y: 1.75d
 		}
 		{
-			dependencies: ["0122BBFBE786CBCC", "51088EBC45A3FB05"]
+			dependencies: [
+				"0122BBFBE786CBCC"
+				"51088EBC45A3FB05"
+			]
 			id: "65B04B5E77249C49"
 			rewards: [
 				{
+					count: 3
 					id: "5A8B1CF949AEB542"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -1026,16 +986,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "1B3EE9D1694D0509"
-					item: {
-						count: 1
-						id: "irons_spellbooks:upgrade_orb"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1B3EE9D1694D0509"
+				item: { count: 1, id: "irons_spellbooks:upgrade_orb" }
+				type: "item"
+			}]
 			x: 16.0d
 			y: 5.25d
 		}
@@ -1045,9 +1000,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "4220ED322CD13658"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -1058,16 +1014,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "6F97CD3A6E0EBAFC"
-					item: {
-						count: 1
-						id: "irons_spellbooks:eldritch_manuscript"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6F97CD3A6E0EBAFC"
+				item: { count: 1, id: "irons_spellbooks:eldritch_manuscript" }
+				type: "item"
+			}]
 			x: 14.0d
 			y: -2.625d
 		}
@@ -1076,9 +1027,10 @@
 			id: "087456548ACAC972"
 			rewards: [
 				{
+					count: 2
 					id: "3CFB35F96AF7D9FD"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -1089,22 +1041,55 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "6D458F1E81102D8F"
-					item: {
-						count: 1
-						id: "irons_spellbooks:wayward_compass"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6D458F1E81102D8F"
+				item: { count: 1, id: "irons_spellbooks:wayward_compass" }
+				type: "item"
+			}]
 			x: 14.0d
 			y: 4.375d
 		}
 		{
 			dependencies: ["087456548ACAC972"]
 			icon: {
+				components: {
+					"irons_spellbooks:affinity_data": {
+						bonuses: {
+							"irons_spellbooks:raise_dead": 2
+						}
+					}
+					"irons_spellbooks:spell_container": {
+						data: [
+							{
+								id: "irons_spellbooks:blood_slash"
+								index: 0
+								level: 5
+								locked: 1b
+							}
+							{
+								id: "irons_spellbooks:blood_step"
+								index: 1
+								level: 5
+								locked: 1b
+							}
+							{
+								id: "irons_spellbooks:ray_of_siphoning"
+								index: 2
+								level: 5
+								locked: 1b
+							}
+							{
+								id: "irons_spellbooks:blaze_storm"
+								index: 3
+								level: 5
+								locked: 1b
+							}
+						]
+						maxSpells: 10
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
 				id: "irons_spellbooks:necronomicon_spell_book"
 			}
 			id: "55246DB5340409FE"
@@ -1125,19 +1110,20 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [
-				{
-					entity: "irons_spellbooks:dead_king"
-					id: "5677EEA5A1757327"
-					type: "kill"
-					value: 1
-				}
-			]
+			tasks: [{
+				entity: "irons_spellbooks:dead_king"
+				id: "5677EEA5A1757327"
+				type: "kill"
+				value: 1L
+			}]
 			x: 16.0d
 			y: 7.0d
 		}
 		{
-			dependencies: ["2C508E9E78AEED63", "4849368F0F0DDC94"]
+			dependencies: [
+				"2C508E9E78AEED63"
+				"4849368F0F0DDC94"
+			]
 			id: "7B2DB39A23BBA494"
 			rewards: [
 				{
@@ -1156,16 +1142,11 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [
-				{
-					id: "275FBCB37EE5D57F"
-					item: {
-						count: 1
-						id: "irons_spellbooks:netherite_spell_book"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "275FBCB37EE5D57F"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 12, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:netherite_spell_book" }
+				type: "item"
+			}]
 			x: 18.0d
 			y: 0.875d
 		}
@@ -1174,9 +1155,10 @@
 			id: "66504ECB883F8E9E"
 			rewards: [
 				{
+					count: 2
 					id: "01FFF9FB60B1E05E"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -1187,16 +1169,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "03E02D6A6A6233BF"
-					item: {
-						count: 1
-						id: "irons_spellbooks:furled_map_citadel"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "03E02D6A6A6233BF"
+				item: { count: 1, id: "irons_spellbooks:furled_map_citadel" }
+				type: "item"
+			}]
 			x: 18.0d
 			y: 2.625d
 		}
@@ -1208,9 +1185,10 @@
 			id: "7815E6C6101019D5"
 			rewards: [
 				{
+					count: 3
 					id: "610B5B8E8059DDFD"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -1230,10 +1208,7 @@
 				}
 				{
 					id: "559A0F236D026A2A"
-					item: {
-						count: 1
-						id: "irons_spellbooks:cinderous_soulcaller"
-					}
+					item: { count: 1, id: "irons_spellbooks:cinderous_soulcaller" }
 					type: "item"
 				}
 			]
@@ -1263,14 +1238,12 @@
 			]
 			shape: "gear"
 			size: 2.0d
-			tasks: [
-				{
-					entity: "irons_spellbooks:fire_boss"
-					id: "05ED132AE88BDBAA"
-					type: "kill"
-					value: 1
-				}
-			]
+			tasks: [{
+				entity: "irons_spellbooks:fire_boss"
+				id: "05ED132AE88BDBAA"
+				type: "kill"
+				value: 1L
+			}]
 			x: 22.0d
 			y: 0.875d
 		}

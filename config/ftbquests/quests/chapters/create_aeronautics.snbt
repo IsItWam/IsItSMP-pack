@@ -7,7 +7,8 @@
 		id: "aeronautics:adjustable_burner"
 	}
 	id: "5B0EED10D3B7E36D"
-	order_index: 5
+	images: [ ]
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -35,16 +36,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "4DE749A2AA54ACE9"
-					item: {
-						count: 1
-						id: "simulated:physics_assembler"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4DE749A2AA54ACE9"
+				item: { count: 1, id: "simulated:physics_assembler" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 0.0d
 		}
@@ -67,16 +63,11 @@
 					xp: 25
 				}
 			]
-			tasks: [
-				{
-					id: "76F9F071D59BFAB0"
-					item: {
-						count: 1
-						id: "aeronautics:aviators_goggles"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "76F9F071D59BFAB0"
+				item: { count: 1, id: "aeronautics:aviators_goggles" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: -0.875d
 		}
@@ -85,9 +76,10 @@
 			id: "4AA795E203B06DFF"
 			rewards: [
 				{
+					count: 2
 					id: "6BE203F65AC51A01"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -101,10 +93,7 @@
 			tasks: [
 				{
 					id: "0CAEAAC65419F2D3"
-					item: {
-						count: 1
-						id: "create:super_glue"
-					}
+					item: { count: 1, id: "create:super_glue" }
 					type: "item"
 				}
 				{
@@ -123,9 +112,10 @@
 			id: "2947A481FBE8FB68"
 			rewards: [
 				{
+					count: 2
 					id: "533AFF05D3F9BD1F"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -136,13 +126,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					advancement: "simulated:measure_once_build_twice"
-					id: "507460EB947A1C01"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "simulated:measure_once_build_twice"
+				criterion: ""
+				id: "507460EB947A1C01"
+				type: "advancement"
+			}]
 			x: 4.0d
 			y: -1.75d
 		}
@@ -155,9 +144,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "240E47AF3E736563"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -168,13 +158,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					advancement: "simulated:not_gonna_sugarcoat_it"
-					id: "2B1F44CEDBBFE498"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "simulated:not_gonna_sugarcoat_it"
+				criterion: ""
+				id: "2B1F44CEDBBFE498"
+				type: "advancement"
+			}]
 			x: 4.0d
 			y: 0.0d
 		}
@@ -200,14 +189,12 @@
 			tasks: [
 				{
 					id: "7E85637DEA8591EA"
-					item: {
-						count: 1
-						id: "simulated:iron_handle"
-					}
+					item: { count: 1, id: "simulated:iron_handle" }
 					type: "item"
 				}
 				{
 					advancement: "simulated:get_a_grip"
+					criterion: ""
 					id: "7BA38693190668E9"
 					type: "advancement"
 				}
@@ -220,9 +207,10 @@
 			id: "77C0617E2A95E4A5"
 			rewards: [
 				{
+					count: 2
 					id: "43D14C9D86D5EE1E"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -233,17 +221,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					count: 16
-					id: "31248E29E14343B9"
-					item: {
-						count: 1
-						id: "aeronautics:white_envelope"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 16L
+				id: "31248E29E14343B9"
+				item: { count: 1, id: "aeronautics:white_envelope" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: -3.5d
 		}
@@ -252,9 +235,10 @@
 			id: "6EE1978CB79DD82B"
 			rewards: [
 				{
+					count: 3
 					id: "19385E9C0575EDF8"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -269,14 +253,12 @@
 			tasks: [
 				{
 					id: "782837F97116AD9D"
-					item: {
-						count: 1
-						id: "aeronautics:adjustable_burner"
-					}
+					item: { count: 1, id: "aeronautics:adjustable_burner" }
 					type: "item"
 				}
 				{
 					advancement: "aeronautics:head_in_the_clouds"
+					criterion: ""
 					id: "353D3560AD6D0037"
 					type: "advancement"
 				}
@@ -289,9 +271,10 @@
 			id: "144B632B65F382ED"
 			rewards: [
 				{
+					count: 2
 					id: "06897358CD9D8CE2"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -304,16 +287,14 @@
 			]
 			tasks: [
 				{
-					count: 2
+					count: 2L
 					id: "570CB0C6F995D441"
-					item: {
-						count: 1
-						id: "aeronautics:andesite_propeller"
-					}
+					item: { count: 1, id: "aeronautics:andesite_propeller" }
 					type: "item"
 				}
 				{
 					advancement: "aeronautics:for_every_action"
+					criterion: ""
 					id: "773908821517703A"
 					type: "advancement"
 				}
@@ -326,9 +307,10 @@
 			id: "649AA99BD7FBE162"
 			rewards: [
 				{
+					count: 3
 					id: "61FDA4577B289743"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -343,14 +325,12 @@
 			tasks: [
 				{
 					id: "6B6181C49A6D22AB"
-					item: {
-						count: 1
-						id: "simulated:red_portable_engine"
-					}
+					item: { count: 1, id: "simulated:red_portable_engine" }
 					type: "item"
 				}
 				{
 					advancement: "simulated:steamless_engine"
+					criterion: ""
 					id: "33265775520E6240"
 					type: "advancement"
 				}
@@ -359,7 +339,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["6EE1978CB79DD82B", "649AA99BD7FBE162"]
+			dependencies: [
+				"6EE1978CB79DD82B"
+				"649AA99BD7FBE162"
+			]
 			icon: {
 				id: "aeronautics:white_envelope"
 			}
@@ -379,9 +362,10 @@
 					xp: 300
 				}
 				{
+					count: 4
 					id: "33E8AEBC5C8CAA66"
 					item: {
-						count: 4
+						count: 1
 						id: "simulated:white_nameplate"
 					}
 					type: "item"
@@ -389,12 +373,10 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [
-				{
-					id: "68E173F46F29C915"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "68E173F46F29C915"
+				type: "checkmark"
+			}]
 			x: 10.0d
 			y: -0.875d
 		}
@@ -403,9 +385,10 @@
 			id: "1D20F21FCF643CA4"
 			rewards: [
 				{
+					count: 2
 					id: "5469271149483F78"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -419,14 +402,12 @@
 			tasks: [
 				{
 					id: "238DF2B36D084F93"
-					item: {
-						count: 1
-						id: "simulated:altitude_sensor"
-					}
+					item: { count: 1, id: "simulated:altitude_sensor" }
 					type: "item"
 				}
 				{
 					advancement: "simulated:no_pressure"
+					criterion: ""
 					id: "0ADDC58892AD918C"
 					type: "advancement"
 				}
@@ -439,9 +420,10 @@
 			id: "10A5E3AD2B4EB0DC"
 			rewards: [
 				{
+					count: 2
 					id: "14B3DAD90F5BF592"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -455,14 +437,12 @@
 			tasks: [
 				{
 					id: "3862DA5660F00C63"
-					item: {
-						count: 1
-						id: "simulated:steering_wheel"
-					}
+					item: { count: 1, id: "simulated:steering_wheel" }
 					type: "item"
 				}
 				{
 					advancement: "simulated:unpowered_steering"
+					criterion: ""
 					id: "7E35AA46856581ED"
 					type: "advancement"
 				}
@@ -475,9 +455,10 @@
 			id: "142767F65ACF32A1"
 			rewards: [
 				{
+					count: 2
 					id: "3B97A0F9421F9026"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -488,17 +469,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					count: 4
-					id: "09D4BACBDC56482E"
-					item: {
-						count: 1
-						id: "simulated:white_symmetric_sail"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 4L
+				id: "09D4BACBDC56482E"
+				item: { count: 1, id: "simulated:white_symmetric_sail" }
+				type: "item"
+			}]
 			x: 14.0d
 			y: -0.875d
 		}
@@ -507,9 +483,10 @@
 			id: "0422023C88D59E8B"
 			rewards: [
 				{
+					count: 3
 					id: "6B5BD892D67276FC"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -521,16 +498,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "6EB091E50FDE3A6D"
-					item: {
-						count: 1
-						id: "simulated:linked_typewriter"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6EB091E50FDE3A6D"
+				item: { count: 1, id: "simulated:linked_typewriter" }
+				type: "item"
+			}]
 			x: 14.0d
 			y: 0.875d
 		}
@@ -539,9 +511,10 @@
 			id: "44D5BD82BC407B6D"
 			rewards: [
 				{
+					count: 3
 					id: "0C265D1EA433C102"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -556,14 +529,12 @@
 			tasks: [
 				{
 					id: "1F47EA05C9EC3D25"
-					item: {
-						count: 1
-						id: "aeronautics:propeller_bearing"
-					}
+					item: { count: 1, id: "aeronautics:propeller_bearing" }
 					type: "item"
 				}
 				{
 					advancement: "aeronautics:in_thrust_we_trust"
+					criterion: ""
 					id: "7BB99F23BBB3E077"
 					type: "advancement"
 				}
@@ -576,9 +547,10 @@
 			id: "05EC882E421CA367"
 			rewards: [
 				{
+					count: 2
 					id: "00F59BE90CDC1244"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -589,16 +561,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "7B898EE97E6DA240"
-					item: {
-						count: 1
-						id: "aeronautics:gyroscopic_propeller_bearing"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7B898EE97E6DA240"
+				item: { count: 1, id: "aeronautics:gyroscopic_propeller_bearing" }
+				type: "item"
+			}]
 			x: 14.0d
 			y: 2.625d
 		}
@@ -608,9 +575,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "4926B13D1F0DAF8C"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -624,14 +592,12 @@
 			tasks: [
 				{
 					id: "5EDF2BF43FD66F82"
-					item: {
-						count: 1
-						id: "simulated:navigation_table"
-					}
+					item: { count: 1, id: "simulated:navigation_table" }
 					type: "item"
 				}
 				{
 					advancement: "simulated:thataway"
+					criterion: ""
 					id: "17740ADFA4E361C6"
 					type: "advancement"
 				}
@@ -645,9 +611,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 3
 					id: "5328867DE16EED7F"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -659,16 +626,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "61716D312E63CDBE"
-					item: {
-						count: 1
-						id: "aeronautics:steam_vent"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "61716D312E63CDBE"
+				item: { count: 1, id: "aeronautics:steam_vent" }
+				type: "item"
+			}]
 			x: 14.0d
 			y: -2.625d
 		}
@@ -677,9 +639,10 @@
 			id: "1C583E591EAE5EDA"
 			rewards: [
 				{
+					count: 2
 					id: "757A9414F42CA251"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -690,25 +653,21 @@
 					xp: 50
 				}
 				{
+					count: 2
 					id: "32F8A732C949DD87"
 					item: {
-						count: 2
+						count: 1
 						id: "create:zinc_nugget"
 					}
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					count: 4
-					id: "7C3E281E49D1A7BE"
-					item: {
-						count: 1
-						id: "aeronautics:end_stone_powder"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 4L
+				id: "7C3E281E49D1A7BE"
+				item: { count: 1, id: "aeronautics:end_stone_powder" }
+				type: "item"
+			}]
 			x: 12.0d
 			y: 0.875d
 		}
@@ -717,9 +676,10 @@
 			id: "07861D6B36197D41"
 			rewards: [
 				{
+					count: 3
 					id: "14E1CFD7A8927CDA"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -731,16 +691,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "124BADBE492FA20A"
-					item: {
-						count: 1
-						id: "aeronautics:levitite_blend_bucket"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "124BADBE492FA20A"
+				item: { count: 1, id: "aeronautics:levitite_blend_bucket" }
+				type: "item"
+			}]
 			x: 14.0d
 			y: 4.375d
 		}
@@ -767,13 +722,12 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [
-				{
-					advancement: "aeronautics:unidentified_floating_object"
-					id: "6709DE83119BBAE4"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "aeronautics:unidentified_floating_object"
+				criterion: ""
+				id: "6709DE83119BBAE4"
+				type: "advancement"
+			}]
 			x: 16.0d
 			y: 0.875d
 		}
@@ -783,9 +737,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "42B44133BBD123CD"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -799,14 +754,12 @@
 			tasks: [
 				{
 					id: "505F5084EB714546"
-					item: {
-						count: 1
-						id: "aeronautics:mounted_potato_cannon"
-					}
+					item: { count: 1, id: "aeronautics:mounted_potato_cannon" }
 					type: "item"
 				}
 				{
 					advancement: "aeronautics:heavier_artillery"
+					criterion: ""
 					id: "4CFF26B779DA7D3A"
 					type: "advancement"
 				}
@@ -820,9 +773,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "7F8A9FC35208A3CA"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -836,14 +790,12 @@
 			tasks: [
 				{
 					id: "0BD3891E43AC8320"
-					item: {
-						count: 1
-						id: "simulated:rope_winch"
-					}
+					item: { count: 1, id: "simulated:rope_winch" }
 					type: "item"
 				}
 				{
 					advancement: "simulated:learning_the_ropes"
+					criterion: ""
 					id: "58E4B9A136C07F98"
 					type: "advancement"
 				}
@@ -857,9 +809,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "3E76805D0BFA2932"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -873,14 +826,12 @@
 			tasks: [
 				{
 					id: "60959CE2231C1B8D"
-					item: {
-						count: 1
-						id: "simulated:swivel_bearing"
-					}
+					item: { count: 1, id: "simulated:swivel_bearing" }
 					type: "item"
 				}
 				{
 					advancement: "simulated:you_spin_me_right_round"
+					criterion: ""
 					id: "06C0CBB2B725F0AB"
 					type: "advancement"
 				}
@@ -893,9 +844,10 @@
 			id: "6F1C68E333152F87"
 			rewards: [
 				{
+					count: 2
 					id: "287739207145C98D"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -906,17 +858,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					count: 4
-					id: "458CB6751CB8A139"
-					item: {
-						count: 1
-						id: "offroad:wheel_mount"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 4L
+				id: "458CB6751CB8A139"
+				item: { count: 1, id: "offroad:wheel_mount" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: 3.5d
 		}
@@ -925,9 +872,10 @@
 			id: "0F7B130580CB44F7"
 			rewards: [
 				{
+					count: 2
 					id: "41E622E4C3C350D2"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -938,22 +886,20 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					count: 4
-					id: "0FADFD6FEE4B9AC8"
-					item: {
-						count: 1
-						id: "offroad:tire"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 4L
+				id: "0FADFD6FEE4B9AC8"
+				item: { count: 1, id: "offroad:tire" }
+				type: "item"
+			}]
 			x: 8.0d
 			y: 1.75d
 		}
 		{
-			dependencies: ["0F7B130580CB44F7", "649AA99BD7FBE162"]
+			dependencies: [
+				"0F7B130580CB44F7"
+				"649AA99BD7FBE162"
+			]
 			icon: {
 				id: "offroad:tire"
 			}
@@ -975,12 +921,10 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [
-				{
-					id: "7DE4B0B006F416A2"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "7DE4B0B006F416A2"
+				type: "checkmark"
+			}]
 			x: 10.0d
 			y: 0.875d
 		}
@@ -990,9 +934,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 3
 					id: "59C7193F8644196E"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -1007,18 +952,12 @@
 			tasks: [
 				{
 					id: "5AA76543A0722F75"
-					item: {
-						count: 1
-						id: "offroad:borehead_bearing"
-					}
+					item: { count: 1, id: "offroad:borehead_bearing" }
 					type: "item"
 				}
 				{
 					id: "6C805701FA7E2A53"
-					item: {
-						count: 1
-						id: "offroad:rockcutting_wheel"
-					}
+					item: { count: 1, id: "offroad:rockcutting_wheel" }
 					type: "item"
 				}
 			]
@@ -1026,7 +965,10 @@
 			y: 4.375d
 		}
 		{
-			dependencies: ["0422023C88D59E8B", "44D5BD82BC407B6D"]
+			dependencies: [
+				"0422023C88D59E8B"
+				"44D5BD82BC407B6D"
+			]
 			icon: {
 				id: "aeronautics:music_disc_cloud_skipper"
 			}
@@ -1051,15 +993,13 @@
 			tasks: [
 				{
 					advancement: "simulated:i_declare_thee"
+					criterion: ""
 					id: "04DB4E229B030F1E"
 					type: "advancement"
 				}
 				{
 					id: "77224ABC979961D7"
-					item: {
-						count: 1
-						id: "aeronautics:music_disc_cloud_skipper"
-					}
+					item: { count: 1, id: "aeronautics:music_disc_cloud_skipper" }
 					type: "item"
 				}
 			]

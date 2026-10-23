@@ -7,22 +7,18 @@
 		id: "modernfoundry:smeltery_controller"
 	}
 	id: "4AC0ABE74883B25C"
-	order_index: 6
+	images: [ ]
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
 			id: "7B44DDA02F1F9A03"
 			min_width: 300
-			tasks: [
-				{
-					id: "328358A62B60BB8E"
-					item: {
-						count: 1
-						id: "modernfoundry:materials_and_you"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "328358A62B60BB8E"
+				item: { count: 1, id: "modernfoundry:materials_and_you" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 0.0d
 		}
@@ -44,17 +40,12 @@
 					xp: 25
 				}
 			]
-			tasks: [
-				{
-					count: 6
-					id: "149BF857351B5E24"
-					item: {
-						count: 1
-						id: "modernfoundry:pattern"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 6L
+				id: "149BF857351B5E24"
+				item: { count: 1, id: "modernfoundry:pattern" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: 0.0d
 		}
@@ -63,9 +54,10 @@
 			id: "57692FB2843ED1C6"
 			rewards: [
 				{
+					count: 2
 					id: "5AA8E425259F58BB"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -76,16 +68,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "50B720D4486C00AA"
-					item: {
-						count: 1
-						id: "modernfoundry:part_builder"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "50B720D4486C00AA"
+				item: { count: 1, id: "modernfoundry:part_builder" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: -0.875d
 		}
@@ -94,9 +81,10 @@
 			id: "4DC67DCE9B3E6E58"
 			rewards: [
 				{
+					count: 2
 					id: "0ED7496FBE19F609"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -107,16 +95,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "4DBFB63BCF1A6C82"
-					item: {
-						count: 1
-						id: "modernfoundry:tinker_station"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4DBFB63BCF1A6C82"
+				item: { count: 1, id: "modernfoundry:tinker_station" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: 0.875d
 		}
@@ -128,9 +111,10 @@
 			id: "5F13F342D9539E0D"
 			rewards: [
 				{
+					count: 2
 					id: "6886911C819893A4"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -144,26 +128,17 @@
 			tasks: [
 				{
 					id: "7A2BCEA2E30CB02C"
-					item: {
-						count: 1
-						id: "modernfoundry:pick_head"
-					}
+					item: { count: 1, id: "modernfoundry:pick_head" }
 					type: "item"
 				}
 				{
 					id: "0AADD571C571BF18"
-					item: {
-						count: 1
-						id: "modernfoundry:tool_handle"
-					}
+					item: { count: 1, id: "modernfoundry:tool_handle" }
 					type: "item"
 				}
 				{
 					id: "6123FD875F8C1086"
-					item: {
-						count: 1
-						id: "modernfoundry:tool_binding"
-					}
+					item: { count: 1, id: "modernfoundry:tool_binding" }
 					type: "item"
 				}
 			]
@@ -171,13 +146,17 @@
 			y: -0.875d
 		}
 		{
-			dependencies: ["5F13F342D9539E0D", "4DC67DCE9B3E6E58"]
+			dependencies: [
+				"5F13F342D9539E0D"
+				"4DC67DCE9B3E6E58"
+			]
 			id: "19B1BBA873A3D569"
 			rewards: [
 				{
+					count: 2
 					id: "1EA0085B92239581"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -188,24 +167,20 @@
 					xp: 50
 				}
 				{
+					count: 4
 					id: "48620F71547F2BFE"
 					item: {
-						count: 4
+						count: 1
 						id: "modernfoundry:pattern"
 					}
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "0A6C21B6198C63C4"
-					item: {
-						count: 1
-						id: "modernfoundry:pickaxe"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0A6C21B6198C63C4"
+				item: { count: 1, id: "modernfoundry:pickaxe" }
+				type: "item"
+			}]
 			x: 8.0d
 			y: 0.0d
 		}
@@ -217,9 +192,10 @@
 			id: "180D617B589DCA66"
 			rewards: [
 				{
+					count: 2
 					id: "5B46CCC0377E451B"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -230,12 +206,10 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "45B11E1ECAB1CFC7"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "45B11E1ECAB1CFC7"
+				type: "checkmark"
+			}]
 			x: 10.0d
 			y: -2.625d
 		}
@@ -258,17 +232,12 @@
 					xp: 25
 				}
 			]
-			tasks: [
-				{
-					count: 2
-					id: "64934A1ADFF5CF5F"
-					item: {
-						count: 1
-						id: "modernfoundry:repair_kit"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 2L
+				id: "64934A1ADFF5CF5F"
+				item: { count: 1, id: "modernfoundry:repair_kit" }
+				type: "item"
+			}]
 			x: 10.0d
 			y: -0.875d
 		}
@@ -281,9 +250,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "51BA52568026591D"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -297,34 +267,22 @@
 			tasks: [
 				{
 					id: "5AB4D4D5AA70E2E9"
-					item: {
-						count: 1
-						id: "modernfoundry:travelers_helmet"
-					}
+					item: { count: 1, id: "modernfoundry:travelers_helmet" }
 					type: "item"
 				}
 				{
 					id: "4DE018235C77B151"
-					item: {
-						count: 1
-						id: "modernfoundry:travelers_chestplate"
-					}
+					item: { count: 1, id: "modernfoundry:travelers_chestplate" }
 					type: "item"
 				}
 				{
 					id: "64EC8896778C2455"
-					item: {
-						count: 1
-						id: "modernfoundry:travelers_leggings"
-					}
+					item: { count: 1, id: "modernfoundry:travelers_leggings" }
 					type: "item"
 				}
 				{
 					id: "011CD674F252EDE0"
-					item: {
-						count: 1
-						id: "modernfoundry:travelers_boots"
-					}
+					item: { count: 1, id: "modernfoundry:travelers_boots" }
 					type: "item"
 				}
 			]
@@ -336,9 +294,10 @@
 			id: "00FA310EDF5F6110"
 			rewards: [
 				{
+					count: 2
 					id: "3F6B6E1C32909757"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -349,17 +308,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					count: 32
-					id: "008A94EB0C9A0AD0"
-					item: {
-						count: 1
-						id: "modernfoundry:grout"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 32L
+				id: "008A94EB0C9A0AD0"
+				item: { count: 1, id: "modernfoundry:grout" }
+				type: "item"
+			}]
 			x: 10.0d
 			y: 0.875d
 		}
@@ -368,9 +322,10 @@
 			id: "5F90151BEB365929"
 			rewards: [
 				{
+					count: 2
 					id: "039668BB0C85CDAA"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -381,17 +336,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					count: 32
-					id: "4BAC7DB800A29208"
-					item: {
-						count: 1
-						id: "modernfoundry:seared_brick"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 32L
+				id: "4BAC7DB800A29208"
+				item: { count: 1, id: "modernfoundry:seared_brick" }
+				type: "item"
+			}]
 			x: 12.0d
 			y: -0.875d
 		}
@@ -413,30 +363,29 @@
 					xp: 25
 				}
 			]
-			tasks: [
-				{
-					id: "6BB4EE281BE49142"
-					item: {
-						count: 1
-						id: "modernfoundry:puny_smelting"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6BB4EE281BE49142"
+				item: { count: 1, id: "modernfoundry:puny_smelting" }
+				type: "item"
+			}]
 			x: 12.0d
 			y: 0.875d
 		}
 		{
-			dependencies: ["5F90151BEB365929", "6D3C5B543840E28C"]
+			dependencies: [
+				"5F90151BEB365929"
+				"6D3C5B543840E28C"
+			]
 			icon: {
 				id: "modernfoundry:seared_melter"
 			}
 			id: "28F7A6514344EDCE"
 			rewards: [
 				{
+					count: 2
 					id: "338A60F08FB05C86"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -450,18 +399,12 @@
 			tasks: [
 				{
 					id: "18EC1780162C1353"
-					item: {
-						count: 1
-						id: "modernfoundry:seared_melter"
-					}
+					item: { count: 1, id: "modernfoundry:seared_melter" }
 					type: "item"
 				}
 				{
 					id: "0565D22D20115B6D"
-					item: {
-						count: 1
-						id: "modernfoundry:seared_heater"
-					}
+					item: { count: 1, id: "modernfoundry:seared_heater" }
 					type: "item"
 				}
 			]
@@ -476,9 +419,10 @@
 			id: "6495FF4551691401"
 			rewards: [
 				{
+					count: 3
 					id: "2DE66234A86F1398"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -493,30 +437,22 @@
 			tasks: [
 				{
 					id: "7230402312CF6CBB"
-					item: {
-						count: 1
-						id: "modernfoundry:seared_faucet"
-					}
+					item: { count: 1, id: "modernfoundry:seared_faucet" }
 					type: "item"
 				}
 				{
 					id: "707393009FAFEE88"
-					item: {
-						count: 1
-						id: "modernfoundry:seared_table"
-					}
+					item: { count: 1, id: "modernfoundry:seared_table" }
 					type: "item"
 				}
 				{
 					id: "398DBD3A28D87052"
-					item: {
-						count: 1
-						id: "modernfoundry:seared_basin"
-					}
+					item: { count: 1, id: "modernfoundry:seared_basin" }
 					type: "item"
 				}
 				{
 					advancement: "modernfoundry:smeltery/melter"
+					criterion: ""
 					id: "43E8A2724936CD3A"
 					type: "advancement"
 				}
@@ -529,9 +465,10 @@
 			id: "33F84EB2FE66D4C1"
 			rewards: [
 				{
+					count: 2
 					id: "4BB2C7E959636203"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -542,24 +479,20 @@
 					xp: 50
 				}
 				{
+					count: 4
 					id: "12DF0A8A79B40E65"
 					item: {
-						count: 4
+						count: 1
 						id: "modernfoundry:blank_red_sand_cast"
 					}
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "48BC53D04C724E04"
-					item: {
-						count: 1
-						id: "modernfoundry:pick_head_sand_cast"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "48BC53D04C724E04"
+				item: { count: 1, id: "modernfoundry:pick_head_sand_cast" }
+				type: "item"
+			}]
 			x: 18.0d
 			y: -0.875d
 		}
@@ -571,9 +504,10 @@
 			id: "5FDE4BF3F675A005"
 			rewards: [
 				{
+					count: 2
 					id: "18BB30AAC383D1BB"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -584,12 +518,10 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "7A3C89E57218CEB4"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "7A3C89E57218CEB4"
+				type: "checkmark"
+			}]
 			x: 20.0d
 			y: -0.875d
 		}
@@ -601,9 +533,10 @@
 			id: "47FF56092BB720BE"
 			rewards: [
 				{
+					count: 2
 					id: "0106212B9065CB95"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -617,18 +550,12 @@
 			tasks: [
 				{
 					id: "3C05F6ABB380189E"
-					item: {
-						count: 1
-						id: "modernfoundry:ingot_cast"
-					}
+					item: { count: 1, id: "modernfoundry:ingot_cast" }
 					type: "item"
 				}
 				{
 					id: "7223C5F8BE50DBB6"
-					item: {
-						count: 1
-						id: "modernfoundry:pick_head_cast"
-					}
+					item: { count: 1, id: "modernfoundry:pick_head_cast" }
 					type: "item"
 				}
 			]
@@ -653,16 +580,11 @@
 					xp: 25
 				}
 			]
-			tasks: [
-				{
-					id: "0EFACA5A3C4270F9"
-					item: {
-						count: 1
-						id: "modernfoundry:mighty_smelting"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0EFACA5A3C4270F9"
+				item: { count: 1, id: "modernfoundry:mighty_smelting" }
+				type: "item"
+			}]
 			x: 18.0d
 			y: 0.875d
 		}
@@ -674,9 +596,10 @@
 			id: "598C8116985324D3"
 			rewards: [
 				{
+					count: 2
 					id: "46996C980713BA06"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -690,26 +613,17 @@
 			tasks: [
 				{
 					id: "4376D67BBF18B42A"
-					item: {
-						count: 1
-						id: "modernfoundry:smeltery_controller"
-					}
+					item: { count: 1, id: "modernfoundry:smeltery_controller" }
 					type: "item"
 				}
 				{
 					id: "33DA71E25FC79912"
-					item: {
-						count: 1
-						id: "modernfoundry:seared_drain"
-					}
+					item: { count: 1, id: "modernfoundry:seared_drain" }
 					type: "item"
 				}
 				{
 					id: "7BA5F9B5F60E06FC"
-					item: {
-						count: 1
-						id: "modernfoundry:seared_fuel_tank"
-					}
+					item: { count: 1, id: "modernfoundry:seared_fuel_tank" }
 					type: "item"
 				}
 			]
@@ -748,13 +662,12 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [
-				{
-					advancement: "modernfoundry:smeltery/structure"
-					id: "00E3C2C6E348726F"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "modernfoundry:smeltery/structure"
+				criterion: ""
+				id: "00E3C2C6E348726F"
+				type: "advancement"
+			}]
 			x: 22.0d
 			y: 0.875d
 		}
@@ -767,9 +680,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "089991DF2745E4B5"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -783,18 +697,12 @@
 			tasks: [
 				{
 					id: "1F22379FE13BFA15"
-					item: {
-						count: 1
-						id: "modernfoundry:seared_chute"
-					}
+					item: { count: 1, id: "modernfoundry:seared_chute" }
 					type: "item"
 				}
 				{
 					id: "1CE8ED9264ACDFB5"
-					item: {
-						count: 1
-						id: "modernfoundry:seared_duct"
-					}
+					item: { count: 1, id: "modernfoundry:seared_duct" }
 					type: "item"
 				}
 			]
@@ -802,14 +710,18 @@
 			y: -0.875d
 		}
 		{
-			dependencies: ["180D617B589DCA66", "5F90151BEB365929"]
+			dependencies: [
+				"180D617B589DCA66"
+				"5F90151BEB365929"
+			]
 			id: "07C011CDCF143A83"
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "29D59AEF9DE6965B"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -820,27 +732,26 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "727CE1A8FB1861E5"
-					item: {
-						count: 1
-						id: "modernfoundry:modifier_worktable"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "727CE1A8FB1861E5"
+				item: { count: 1, id: "modernfoundry:modifier_worktable" }
+				type: "item"
+			}]
 			x: 14.0d
 			y: -0.875d
 		}
 		{
-			dependencies: ["10E1E15011C83598", "47FF56092BB720BE"]
+			dependencies: [
+				"10E1E15011C83598"
+				"47FF56092BB720BE"
+			]
 			id: "5433ADCB5A41E3CC"
 			rewards: [
 				{
+					count: 2
 					id: "251DEAC09E931A5A"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -851,17 +762,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					count: 4
-					id: "17D832C6A17A412B"
-					item: {
-						count: 1
-						id: "modernfoundry:rose_gold_ingot"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 4L
+				id: "17D832C6A17A412B"
+				item: { count: 1, id: "modernfoundry:rose_gold_ingot" }
+				type: "item"
+			}]
 			x: 24.0d
 			y: -2.625d
 		}
@@ -870,9 +776,10 @@
 			id: "6FEF8159C3F36E60"
 			rewards: [
 				{
+					count: 2
 					id: "6DF469CB52608F0E"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -883,28 +790,27 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					count: 16
-					id: "68FCAA8FA95418CF"
-					item: {
-						count: 1
-						id: "modernfoundry:sky_slime_ball"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 16L
+				id: "68FCAA8FA95418CF"
+				item: { count: 1, id: "modernfoundry:sky_slime_ball" }
+				type: "item"
+			}]
 			x: 10.0d
 			y: 2.625d
 		}
 		{
-			dependencies: ["5433ADCB5A41E3CC", "6FEF8159C3F36E60"]
+			dependencies: [
+				"5433ADCB5A41E3CC"
+				"6FEF8159C3F36E60"
+			]
 			id: "2C24AD98ECDE164B"
 			rewards: [
 				{
+					count: 2
 					id: "23286F73818DC44F"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -915,17 +821,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					count: 4
-					id: "5D544DB6E5A5F0ED"
-					item: {
-						count: 1
-						id: "modernfoundry:slimesteel_ingot"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 4L
+				id: "5D544DB6E5A5F0ED"
+				item: { count: 1, id: "modernfoundry:slimesteel_ingot" }
+				type: "item"
+			}]
 			x: 26.0d
 			y: 0.875d
 		}
@@ -949,16 +850,11 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [
-				{
-					id: "4209E783DA28AFC5"
-					item: {
-						count: 1
-						id: "modernfoundry:tinkers_anvil"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4209E783DA28AFC5"
+				item: { count: 1, id: "modernfoundry:tinkers_anvil" }
+				type: "item"
+			}]
 			x: 26.0d
 			y: -0.875d
 		}
@@ -967,9 +863,10 @@
 			id: "737501122E774D21"
 			rewards: [
 				{
+					count: 3
 					id: "728E7A348E075385"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -981,16 +878,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "41E1DDCEC570CF88"
-					item: {
-						count: 1
-						id: "modernfoundry:vein_hammer"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "41E1DDCEC570CF88"
+				item: { count: 1, id: "modernfoundry:vein_hammer" }
+				type: "item"
+			}]
 			x: 28.0d
 			y: -1.75d
 		}
@@ -1000,9 +892,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "20E35C853587F5CE"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -1013,17 +906,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					count: 5
-					id: "11398DF876A32C56"
-					item: {
-						count: 1
-						id: "modernfoundry:silky_cloth"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 5L
+				id: "11398DF876A32C56"
+				item: { count: 1, id: "modernfoundry:silky_cloth" }
+				type: "item"
+			}]
 			x: 28.0d
 			y: 0.0d
 		}
@@ -1036,9 +924,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 3
 					id: "7637CEE608F859E8"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -1053,34 +942,22 @@
 			tasks: [
 				{
 					id: "44522ADD23C575E0"
-					item: {
-						count: 1
-						id: "modernfoundry:plate_helmet"
-					}
+					item: { count: 1, id: "modernfoundry:plate_helmet" }
 					type: "item"
 				}
 				{
 					id: "793797804857061D"
-					item: {
-						count: 1
-						id: "modernfoundry:plate_chestplate"
-					}
+					item: { count: 1, id: "modernfoundry:plate_chestplate" }
 					type: "item"
 				}
 				{
 					id: "136B8E9D9C0D8EA4"
-					item: {
-						count: 1
-						id: "modernfoundry:plate_leggings"
-					}
+					item: { count: 1, id: "modernfoundry:plate_leggings" }
 					type: "item"
 				}
 				{
 					id: "4CA68B76A509D1DE"
-					item: {
-						count: 1
-						id: "modernfoundry:plate_boots"
-					}
+					item: { count: 1, id: "modernfoundry:plate_boots" }
 					type: "item"
 				}
 			]
@@ -1092,9 +969,10 @@
 			id: "64FB0A76FDF6C3D1"
 			rewards: [
 				{
+					count: 3
 					id: "6A8D174D09B5EAF1"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -1106,17 +984,12 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					count: 8
-					id: "1031B60CC37B8852"
-					item: {
-						count: 1
-						id: "modernfoundry:raw_cobalt"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 8L
+				id: "1031B60CC37B8852"
+				item: { count: 1, id: "modernfoundry:raw_cobalt" }
+				type: "item"
+			}]
 			x: 28.0d
 			y: 1.75d
 		}
@@ -1125,9 +998,10 @@
 			id: "6BC824E0A7DB436C"
 			rewards: [
 				{
+					count: 3
 					id: "5FCD11D82F968178"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -1139,16 +1013,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "49BF8FB06108B622"
-					item: {
-						count: 1
-						id: "modernfoundry:blazing_blood_bucket"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "49BF8FB06108B622"
+				item: { count: 1, id: "modernfoundry:blazing_blood_bucket" }
+				type: "item"
+			}]
 			x: 24.0d
 			y: 2.625d
 		}
@@ -1170,16 +1039,11 @@
 					xp: 25
 				}
 			]
-			tasks: [
-				{
-					id: "6942BF47E85DEC85"
-					item: {
-						count: 1
-						id: "modernfoundry:fantastic_foundry"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6942BF47E85DEC85"
+				item: { count: 1, id: "modernfoundry:fantastic_foundry" }
+				type: "item"
+			}]
 			x: 30.0d
 			y: 0.875d
 		}
@@ -1189,9 +1053,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "2ACF1CB59456708C"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -1202,16 +1067,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "7E9979F6B59D4D79"
-					item: {
-						count: 1
-						id: "modernfoundry:scorched_alloyer"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7E9979F6B59D4D79"
+				item: { count: 1, id: "modernfoundry:scorched_alloyer" }
+				type: "item"
+			}]
 			x: 32.0d
 			y: -0.875d
 		}
@@ -1241,14 +1101,12 @@
 			tasks: [
 				{
 					id: "5411E36BA121816C"
-					item: {
-						count: 1
-						id: "modernfoundry:foundry_controller"
-					}
+					item: { count: 1, id: "modernfoundry:foundry_controller" }
 					type: "item"
 				}
 				{
 					advancement: "modernfoundry:foundry/structure"
+					criterion: ""
 					id: "490D459BD39A9FA5"
 					type: "advancement"
 				}
@@ -1257,7 +1115,11 @@
 			y: 0.875d
 		}
 		{
-			dependencies: ["64FB0A76FDF6C3D1", "6BC824E0A7DB436C", "737501122E774D21"]
+			dependencies: [
+				"64FB0A76FDF6C3D1"
+				"6BC824E0A7DB436C"
+				"737501122E774D21"
+			]
 			icon: {
 				id: "modernfoundry:manyullyn_block"
 			}
@@ -1282,10 +1144,7 @@
 			tasks: [
 				{
 					id: "6105C554690A3B99"
-					item: {
-						count: 1
-						id: "modernfoundry:manyullyn_block"
-					}
+					item: { count: 1, id: "modernfoundry:manyullyn_block" }
 					type: "item"
 				}
 				{

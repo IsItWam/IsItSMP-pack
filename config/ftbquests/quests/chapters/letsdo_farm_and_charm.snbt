@@ -7,7 +7,8 @@
 		id: "farm_and_charm:stove"
 	}
 	id: "66F492A2F6BDB274"
-	order_index: 18
+	images: [ ]
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -16,12 +17,10 @@
 			}
 			id: "4296B98C6A6C2EDA"
 			min_width: 300
-			tasks: [
-				{
-					id: "08A48DD7E98BFDE3"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "08A48DD7E98BFDE3"
+				type: "checkmark"
+			}]
 			x: 0.0d
 			y: 0.0d
 		}
@@ -30,9 +29,10 @@
 			id: "0BE88EBEB0F77461"
 			rewards: [
 				{
+					count: 2
 					id: "4CF6547C8E39295F"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -46,26 +46,17 @@
 			tasks: [
 				{
 					id: "6B18172101B87910"
-					item: {
-						count: 1
-						id: "farm_and_charm:tomato"
-					}
+					item: { count: 1, id: "farm_and_charm:tomato" }
 					type: "item"
 				}
 				{
 					id: "3A30442CD536D672"
-					item: {
-						count: 1
-						id: "farm_and_charm:lettuce"
-					}
+					item: { count: 1, id: "farm_and_charm:lettuce" }
 					type: "item"
 				}
 				{
 					id: "4C27E0A1EC2B0A84"
-					item: {
-						count: 1
-						id: "farm_and_charm:onion"
-					}
+					item: { count: 1, id: "farm_and_charm:onion" }
 					type: "item"
 				}
 			]
@@ -77,9 +68,10 @@
 			id: "12437C7D3D921285"
 			rewards: [
 				{
+					count: 2
 					id: "541FF7F1FFF19B73"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -93,26 +85,17 @@
 			tasks: [
 				{
 					id: "6B50FD1648EA3A99"
-					item: {
-						count: 1
-						id: "farm_and_charm:barley_seeds"
-					}
+					item: { count: 1, id: "farm_and_charm:barley_seeds" }
 					type: "item"
 				}
 				{
 					id: "036EA361500D3344"
-					item: {
-						count: 1
-						id: "farm_and_charm:oat_seeds"
-					}
+					item: { count: 1, id: "farm_and_charm:oat_seeds" }
 					type: "item"
 				}
 				{
 					id: "45EA38DBC64FC88A"
-					item: {
-						count: 1
-						id: "farm_and_charm:kernels"
-					}
+					item: { count: 1, id: "farm_and_charm:kernels" }
 					type: "item"
 				}
 			]
@@ -137,22 +120,20 @@
 					xp: 25
 				}
 			]
-			tasks: [
-				{
-					count: 8
-					id: "0A9AD99EE642D0A6"
-					item: {
-						count: 1
-						id: "farm_and_charm:strawberry"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 8L
+				id: "0A9AD99EE642D0A6"
+				item: { count: 1, id: "farm_and_charm:strawberry" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: -5.25d
 		}
 		{
-			dependencies: ["0BE88EBEB0F77461", "12437C7D3D921285"]
+			dependencies: [
+				"0BE88EBEB0F77461"
+				"12437C7D3D921285"
+			]
 			id: "64D46A6A5087692D"
 			rewards: [
 				{
@@ -169,17 +150,12 @@
 					xp: 25
 				}
 			]
-			tasks: [
-				{
-					count: 8
-					id: "203039378254BA93"
-					item: {
-						count: 1
-						id: "farm_and_charm:rope"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 8L
+				id: "203039378254BA93"
+				item: { count: 1, id: "farm_and_charm:rope" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: -1.75d
 		}
@@ -188,9 +164,10 @@
 			id: "11BFF2240DABAFBA"
 			rewards: [
 				{
+					count: 2
 					id: "645DA16B32911FC4"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -204,19 +181,13 @@
 			tasks: [
 				{
 					id: "4894DA216994CD36"
-					item: {
-						count: 1
-						id: "farm_and_charm:mincer"
-					}
+					item: { count: 1, id: "farm_and_charm:mincer" }
 					type: "item"
 				}
 				{
-					count: 16
+					count: 16L
 					id: "76AF628A13BA232C"
-					item: {
-						count: 1
-						id: "farm_and_charm:flour"
-					}
+					item: { count: 1, id: "farm_and_charm:flour" }
 					type: "item"
 				}
 			]
@@ -228,9 +199,10 @@
 			id: "6A26893EB37B2666"
 			rewards: [
 				{
+					count: 2
 					id: "020A65F1E660005B"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -244,18 +216,12 @@
 			tasks: [
 				{
 					id: "4735F5E97C4C71DF"
-					item: {
-						count: 1
-						id: "farm_and_charm:cutting_board"
-					}
+					item: { count: 1, id: "farm_and_charm:cutting_board" }
 					type: "item"
 				}
 				{
 					id: "01218FAD2A9D4F83"
-					item: {
-						count: 1
-						id: "farm_and_charm:iron_cleaver"
-					}
+					item: { count: 1, id: "farm_and_charm:iron_cleaver" }
 					type: "item"
 				}
 			]
@@ -267,9 +233,10 @@
 			id: "0DB2693DBE0239B8"
 			rewards: [
 				{
+					count: 3
 					id: "368469A1F9BFC953"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -280,25 +247,21 @@
 					xp: 120
 				}
 				{
+					count: 8
 					id: "7FE8CC6AD80628FB"
 					item: {
-						count: 8
+						count: 1
 						id: "minecraft:coal"
 					}
 					type: "item"
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "474460C987083E95"
-					item: {
-						count: 1
-						id: "farm_and_charm:stove"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "474460C987083E95"
+				item: { count: 1, id: "farm_and_charm:stove" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: -4.375d
 		}
@@ -307,9 +270,10 @@
 			id: "72037B367E7470EF"
 			rewards: [
 				{
+					count: 2
 					id: "3E98C94E34951F97"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -323,19 +287,13 @@
 			tasks: [
 				{
 					id: "70C0359864E86F59"
-					item: {
-						count: 1
-						id: "farm_and_charm:cooking_pot"
-					}
+					item: { count: 1, id: "farm_and_charm:cooking_pot" }
 					type: "item"
 				}
 				{
-					count: 12
+					count: 12L
 					id: "07447FC28C6FC668"
-					item: {
-						count: 1
-						id: "farm_and_charm:yeast"
-					}
+					item: { count: 1, id: "farm_and_charm:yeast" }
 					type: "item"
 				}
 			]
@@ -347,9 +305,10 @@
 			id: "78ACC716C44332E4"
 			rewards: [
 				{
+					count: 2
 					id: "1EFBD13D05F16052"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -363,28 +322,19 @@
 			tasks: [
 				{
 					id: "1A477A5750B2D146"
-					item: {
-						count: 1
-						id: "farm_and_charm:crafting_bowl"
-					}
+					item: { count: 1, id: "farm_and_charm:crafting_bowl" }
 					type: "item"
 				}
 				{
-					count: 5
+					count: 5L
 					id: "1F28ACC0D06C61E6"
-					item: {
-						count: 1
-						id: "farm_and_charm:dough"
-					}
+					item: { count: 1, id: "farm_and_charm:dough" }
 					type: "item"
 				}
 				{
-					count: 4
+					count: 4L
 					id: "1857DBC6F1DA6979"
-					item: {
-						count: 1
-						id: "farm_and_charm:butter"
-					}
+					item: { count: 1, id: "farm_and_charm:butter" }
 					type: "item"
 				}
 			]
@@ -396,9 +346,10 @@
 			id: "1FB0A77FCDA59217"
 			rewards: [
 				{
+					count: 2
 					id: "11298DDB88328A79"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -409,28 +360,27 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					count: 3
-					id: "2659DC2537C25554"
-					item: {
-						count: 1
-						id: "farm_and_charm:farmers_bread"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 3L
+				id: "2659DC2537C25554"
+				item: { count: 1, id: "farm_and_charm:farmers_bread" }
+				type: "item"
+			}]
 			x: 12.0d
 			y: -0.875d
 		}
 		{
-			dependencies: ["78ACC716C44332E4", "6A26893EB37B2666"]
+			dependencies: [
+				"78ACC716C44332E4"
+				"6A26893EB37B2666"
+			]
 			id: "0DB1185BD8507842"
 			rewards: [
 				{
+					count: 3
 					id: "2CD8F456A65EA875"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -445,18 +395,12 @@
 			tasks: [
 				{
 					id: "34EA49CF97A73880"
-					item: {
-						count: 1
-						id: "farm_and_charm:roaster"
-					}
+					item: { count: 1, id: "farm_and_charm:roaster" }
 					type: "item"
 				}
 				{
 					id: "37FE13A0C215A545"
-					item: {
-						count: 1
-						id: "farm_and_charm:bacon_with_eggs"
-					}
+					item: { count: 1, id: "farm_and_charm:bacon_with_eggs" }
 					type: "item"
 				}
 			]
@@ -464,13 +408,17 @@
 			y: -2.625d
 		}
 		{
-			dependencies: ["72037B367E7470EF", "64D46A6A5087692D"]
+			dependencies: [
+				"72037B367E7470EF"
+				"64D46A6A5087692D"
+			]
 			id: "109BED2924558E79"
 			rewards: [
 				{
+					count: 2
 					id: "0B429FC43B3E7987"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -484,18 +432,12 @@
 			tasks: [
 				{
 					id: "4A1A3CEB0A7C4522"
-					item: {
-						count: 1
-						id: "farm_and_charm:simple_tomato_soup"
-					}
+					item: { count: 1, id: "farm_and_charm:simple_tomato_soup" }
 					type: "item"
 				}
 				{
 					id: "5A755119651269DE"
-					item: {
-						count: 1
-						id: "farm_and_charm:goulash"
-					}
+					item: { count: 1, id: "farm_and_charm:goulash" }
 					type: "item"
 				}
 			]
@@ -503,13 +445,17 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["72037B367E7470EF", "1CDAACCBA23A2F3D"]
+			dependencies: [
+				"72037B367E7470EF"
+				"1CDAACCBA23A2F3D"
+			]
 			id: "671124D95FA01949"
 			rewards: [
 				{
+					count: 2
 					id: "7B2F4804C3095235"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -523,26 +469,17 @@
 			tasks: [
 				{
 					id: "21BD0B68F6430CE8"
-					item: {
-						count: 1
-						id: "farm_and_charm:nettle_tea"
-					}
+					item: { count: 1, id: "farm_and_charm:nettle_tea" }
 					type: "item"
 				}
 				{
 					id: "2ADDF533B2C176A4"
-					item: {
-						count: 1
-						id: "farm_and_charm:ribwort_tea"
-					}
+					item: { count: 1, id: "farm_and_charm:ribwort_tea" }
 					type: "item"
 				}
 				{
 					id: "09648868E17802F1"
-					item: {
-						count: 1
-						id: "farm_and_charm:strawberry_tea"
-					}
+					item: { count: 1, id: "farm_and_charm:strawberry_tea" }
 					type: "item"
 				}
 			]
@@ -550,7 +487,10 @@
 			y: -1.75d
 		}
 		{
-			dependencies: ["1FB0A77FCDA59217", "0DB1185BD8507842"]
+			dependencies: [
+				"1FB0A77FCDA59217"
+				"0DB1185BD8507842"
+			]
 			id: "556290828A142A09"
 			rewards: [
 				{
@@ -569,16 +509,11 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [
-				{
-					id: "7D3C69F44FB4219B"
-					item: {
-						count: 1
-						id: "farm_and_charm:farmers_breakfast"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7D3C69F44FB4219B"
+				item: { count: 1, id: "farm_and_charm:farmers_breakfast" }
+				type: "item"
+			}]
 			x: 14.0d
 			y: -2.625d
 		}
@@ -587,9 +522,10 @@
 			id: "512570655D2D3AD2"
 			rewards: [
 				{
+					count: 2
 					id: "6CC62A8D0AC431B5"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -602,21 +538,15 @@
 			]
 			tasks: [
 				{
-					count: 4
+					count: 4L
 					id: "7FD96E520256DB90"
-					item: {
-						count: 1
-						id: "farm_and_charm:silo_wood"
-					}
+					item: { count: 1, id: "farm_and_charm:silo_wood" }
 					type: "item"
 				}
 				{
-					count: 9
+					count: 9L
 					id: "1C33CC580B84F281"
-					item: {
-						count: 1
-						id: "farm_and_charm:fertilizer"
-					}
+					item: { count: 1, id: "farm_and_charm:fertilizer" }
 					type: "item"
 				}
 			]
@@ -628,9 +558,10 @@
 			id: "3887DAB32F01006B"
 			rewards: [
 				{
+					count: 3
 					id: "02EE4AEC2868F399"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -645,18 +576,12 @@
 			tasks: [
 				{
 					id: "7580D995B1DB7B0B"
-					item: {
-						count: 1
-						id: "farm_and_charm:fertilized_soil"
-					}
+					item: { count: 1, id: "farm_and_charm:fertilized_soil" }
 					type: "item"
 				}
 				{
 					id: "51AD9065594DE245"
-					item: {
-						count: 1
-						id: "farm_and_charm:pitchfork"
-					}
+					item: { count: 1, id: "farm_and_charm:pitchfork" }
 					type: "item"
 				}
 			]
@@ -668,9 +593,10 @@
 			id: "6F99979451CF425E"
 			rewards: [
 				{
+					count: 2
 					id: "191C40B2E898DCDD"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -681,16 +607,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "5F19A647196FE9E8"
-					item: {
-						count: 1
-						id: "farm_and_charm:water_sprinkler"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5F19A647196FE9E8"
+				item: { count: 1, id: "farm_and_charm:water_sprinkler" }
+				type: "item"
+			}]
 			x: 8.0d
 			y: 0.875d
 		}
@@ -699,9 +620,10 @@
 			id: "23A57524B0B4DF33"
 			rewards: [
 				{
+					count: 2
 					id: "53A5A1011C2D9204"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -715,18 +637,12 @@
 			tasks: [
 				{
 					id: "6548FD2FB50CFAEF"
-					item: {
-						count: 1
-						id: "farm_and_charm:feeding_trough"
-					}
+					item: { count: 1, id: "farm_and_charm:feeding_trough" }
 					type: "item"
 				}
 				{
 					id: "5FCF6E5DCDF41EE1"
-					item: {
-						count: 1
-						id: "farm_and_charm:water_trough"
-					}
+					item: { count: 1, id: "farm_and_charm:water_trough" }
 					type: "item"
 				}
 			]
@@ -734,13 +650,17 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["23A57524B0B4DF33", "6A26893EB37B2666"]
+			dependencies: [
+				"23A57524B0B4DF33"
+				"6A26893EB37B2666"
+			]
 			id: "3A0EE8AD083BAE22"
 			rewards: [
 				{
+					count: 2
 					id: "3A21BB0A092BB3DA"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -754,19 +674,13 @@
 			tasks: [
 				{
 					id: "3017BFA486DF9730"
-					item: {
-						count: 1
-						id: "farm_and_charm:chicken_coop"
-					}
+					item: { count: 1, id: "farm_and_charm:chicken_coop" }
 					type: "item"
 				}
 				{
-					count: 3
+					count: 3L
 					id: "2663D443CDD904B8"
-					item: {
-						count: 1
-						id: "farm_and_charm:chicken_feed"
-					}
+					item: { count: 1, id: "farm_and_charm:chicken_feed" }
 					type: "item"
 				}
 			]
@@ -779,9 +693,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 3
 					id: "3657164CFE7D43B1"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -796,18 +711,12 @@
 			tasks: [
 				{
 					id: "78C4001615C6ECC9"
-					item: {
-						count: 1
-						id: "farm_and_charm:supply_cart"
-					}
+					item: { count: 1, id: "farm_and_charm:supply_cart" }
 					type: "item"
 				}
 				{
 					id: "58E12A2EB2E24399"
-					item: {
-						count: 1
-						id: "farm_and_charm:plow"
-					}
+					item: { count: 1, id: "farm_and_charm:plow" }
 					type: "item"
 				}
 			]
@@ -820,9 +729,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "554A1D0D798E72DD"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -833,16 +743,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "3513F18C73235493"
-					item: {
-						count: 1
-						id: "farm_and_charm:dungarees"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3513F18C73235493"
+				item: { count: 1, id: "farm_and_charm:dungarees" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: 2.625d
 		}
@@ -851,9 +756,10 @@
 			id: "4D5315C854E43378"
 			rewards: [
 				{
+					count: 2
 					id: "231590F4DB47D173"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -864,27 +770,26 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "3748AC768008C57A"
-					item: {
-						count: 1
-						id: "bakery:baker_station"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3748AC768008C57A"
+				item: { count: 1, id: "bakery:baker_station" }
+				type: "item"
+			}]
 			x: 12.0d
 			y: 0.875d
 		}
 		{
-			dependencies: ["4D5315C854E43378", "1CDAACCBA23A2F3D"]
+			dependencies: [
+				"4D5315C854E43378"
+				"1CDAACCBA23A2F3D"
+			]
 			id: "60B47FE03789CCE7"
 			rewards: [
 				{
+					count: 2
 					id: "22D60E957C3694C4"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -895,9 +800,10 @@
 					xp: 50
 				}
 				{
+					count: 4
 					id: "5B682B72325E7533"
 					item: {
-						count: 4
+						count: 1
 						id: "bakery:jar"
 					}
 					type: "item"
@@ -906,19 +812,13 @@
 			tasks: [
 				{
 					id: "6BE4D384DFAC09D0"
-					item: {
-						count: 1
-						id: "bakery:small_cooking_pot"
-					}
+					item: { count: 1, id: "bakery:small_cooking_pot" }
 					type: "item"
 				}
 				{
-					count: 3
+					count: 3L
 					id: "4014C0B0641B27E1"
-					item: {
-						count: 1
-						id: "bakery:strawberry_jam"
-					}
+					item: { count: 1, id: "bakery:strawberry_jam" }
 					type: "item"
 				}
 			]
@@ -930,9 +830,10 @@
 			id: "3ACCCE0D709F4626"
 			rewards: [
 				{
+					count: 3
 					id: "737D9B989F4A256F"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -947,18 +848,12 @@
 			tasks: [
 				{
 					id: "49BD665E32F1FBBC"
-					item: {
-						count: 1
-						id: "bakery:cake_dough"
-					}
+					item: { count: 1, id: "bakery:cake_dough" }
 					type: "item"
 				}
 				{
 					id: "555CCECB1B067CC0"
-					item: {
-						count: 1
-						id: "bakery:strawberry_cake"
-					}
+					item: { count: 1, id: "bakery:strawberry_cake" }
 					type: "item"
 				}
 			]
@@ -988,18 +883,12 @@
 			tasks: [
 				{
 					id: "672A702EE076BACF"
-					item: {
-						count: 1
-						id: "bakery:strawberry_cupcake"
-					}
+					item: { count: 1, id: "bakery:strawberry_cupcake" }
 					type: "item"
 				}
 				{
 					id: "696022B95AB80E2E"
-					item: {
-						count: 1
-						id: "bakery:strawberry_glazed_cookie"
-					}
+					item: { count: 1, id: "bakery:strawberry_glazed_cookie" }
 					type: "item"
 				}
 			]
@@ -1007,13 +896,17 @@
 			y: -0.875d
 		}
 		{
-			dependencies: ["4D5315C854E43378", "1FB0A77FCDA59217"]
+			dependencies: [
+				"4D5315C854E43378"
+				"1FB0A77FCDA59217"
+			]
 			id: "012D19A914D19BD4"
 			rewards: [
 				{
+					count: 2
 					id: "198D9B822EF3BB68"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -1027,18 +920,12 @@
 			tasks: [
 				{
 					id: "76332931EA49773C"
-					item: {
-						count: 1
-						id: "bakery:croissant"
-					}
+					item: { count: 1, id: "bakery:croissant" }
 					type: "item"
 				}
 				{
 					id: "44252784221EBF63"
-					item: {
-						count: 1
-						id: "bakery:baguette"
-					}
+					item: { count: 1, id: "bakery:baguette" }
 					type: "item"
 				}
 			]
@@ -1050,9 +937,10 @@
 			id: "6FDC6AE4A69CB6EC"
 			rewards: [
 				{
+					count: 2
 					id: "1B4CCDD271B3D0EA"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -1063,28 +951,28 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					count: 6
-					id: "1DF386CF48113FF0"
-					item: {
-						count: 1
-						id: "candlelight:mozzarella"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 6L
+				id: "1DF386CF48113FF0"
+				item: { count: 1, id: "candlelight:mozzarella" }
+				type: "item"
+			}]
 			x: 12.0d
 			y: 2.625d
 		}
 		{
-			dependencies: ["6FDC6AE4A69CB6EC", "0DB1185BD8507842", "109BED2924558E79"]
+			dependencies: [
+				"6FDC6AE4A69CB6EC"
+				"0DB1185BD8507842"
+				"109BED2924558E79"
+			]
 			id: "350EEC7532CCCFD2"
 			rewards: [
 				{
+					count: 3
 					id: "76CD4677CBE41610"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -1099,18 +987,12 @@
 			tasks: [
 				{
 					id: "458996FB1F21AED8"
-					item: {
-						count: 1
-						id: "candlelight:bolognese"
-					}
+					item: { count: 1, id: "candlelight:bolognese" }
 					type: "item"
 				}
 				{
 					id: "433646BF4AC8B3BD"
-					item: {
-						count: 1
-						id: "candlelight:lasagne"
-					}
+					item: { count: 1, id: "candlelight:lasagne" }
 					type: "item"
 				}
 			]
@@ -1122,9 +1004,10 @@
 			id: "5D161426C00A0769"
 			rewards: [
 				{
+					count: 2
 					id: "223F5A5E5DF4C812"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -1135,9 +1018,10 @@
 					xp: 50
 				}
 				{
+					count: 4
 					id: "0B10D28941CC9999"
 					item: {
-						count: 4
+						count: 1
 						id: "candlelight:napkin"
 					}
 					type: "item"
@@ -1146,34 +1030,22 @@
 			tasks: [
 				{
 					id: "555AAB8F5AA23EEE"
-					item: {
-						count: 1
-						id: "candlelight:table"
-					}
+					item: { count: 1, id: "candlelight:table" }
 					type: "item"
 				}
 				{
 					id: "1BAC5456CAEF7531"
-					item: {
-						count: 1
-						id: "candlelight:plate"
-					}
+					item: { count: 1, id: "candlelight:plate" }
 					type: "item"
 				}
 				{
 					id: "5CB8D2F4D753B707"
-					item: {
-						count: 1
-						id: "candlelight:napkin"
-					}
+					item: { count: 1, id: "candlelight:napkin" }
 					type: "item"
 				}
 				{
 					id: "7E48F870FF9C2048"
-					item: {
-						count: 1
-						id: "candlelight:wine_glass"
-					}
+					item: { count: 1, id: "candlelight:wine_glass" }
 					type: "item"
 				}
 			]
@@ -1181,7 +1053,11 @@
 			y: 2.625d
 		}
 		{
-			dependencies: ["350EEC7532CCCFD2", "5D161426C00A0769", "3ACCCE0D709F4626"]
+			dependencies: [
+				"350EEC7532CCCFD2"
+				"5D161426C00A0769"
+				"3ACCCE0D709F4626"
+			]
 			icon: {
 				id: "candlelight:plate"
 			}
@@ -1203,12 +1079,10 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [
-				{
-					id: "5A1DC015CB01D151"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "5A1DC015CB01D151"
+				type: "checkmark"
+			}]
 			x: 18.0d
 			y: 0.875d
 		}
@@ -1218,9 +1092,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "7D9DBB13A70EBA23"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -1234,34 +1109,22 @@
 			tasks: [
 				{
 					id: "74E0CE092B514F73"
-					item: {
-						count: 1
-						id: "candlelight:cooking_hat"
-					}
+					item: { count: 1, id: "candlelight:cooking_hat" }
 					type: "item"
 				}
 				{
 					id: "466927F1F49CEEDD"
-					item: {
-						count: 1
-						id: "candlelight:chefs_jacket"
-					}
+					item: { count: 1, id: "candlelight:chefs_jacket" }
 					type: "item"
 				}
 				{
 					id: "111F20269682CBAA"
-					item: {
-						count: 1
-						id: "candlelight:chefs_pants"
-					}
+					item: { count: 1, id: "candlelight:chefs_pants" }
 					type: "item"
 				}
 				{
 					id: "0D92F5CC5C536A47"
-					item: {
-						count: 1
-						id: "candlelight:chefs_boots"
-					}
+					item: { count: 1, id: "candlelight:chefs_boots" }
 					type: "item"
 				}
 			]
@@ -1273,9 +1136,10 @@
 			id: "190C2C2C3E868329"
 			rewards: [
 				{
+					count: 2
 					id: "5A3FE8E1ADF9389F"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -1286,24 +1150,20 @@
 					xp: 50
 				}
 				{
+					count: 8
 					id: "5B2DC245482B76F4"
 					item: {
-						count: 8
+						count: 1
 						id: "minecraft:jungle_planks"
 					}
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "463E8DDF91235E53"
-					item: {
-						count: 1
-						id: "smoker:smoking_station"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "463E8DDF91235E53"
+				item: { count: 1, id: "smoker:smoking_station" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: 1.75d
 		}
@@ -1315,9 +1175,10 @@
 			id: "4132717CB29CCC2D"
 			rewards: [
 				{
+					count: 2
 					id: "001594CC3196E9CB"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -1328,13 +1189,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					advancement: "smoker:main/smoke_first_food"
-					id: "1A09888B76EEB901"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "smoker:main/smoke_first_food"
+				criterion: ""
+				id: "1A09888B76EEB901"
+				type: "advancement"
+			}]
 			x: 4.0d
 			y: 5.25d
 		}
@@ -1348,9 +1208,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 3
 					id: "42FC54CC708078AB"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -1365,11 +1226,13 @@
 			tasks: [
 				{
 					advancement: "smoker:main/perfectly_smoked"
+					criterion: ""
 					id: "3454CA0451463DCB"
 					type: "advancement"
 				}
 				{
 					advancement: "smoker:main/taste_of_something_special"
+					criterion: ""
 					id: "658C1039F6B8EB12"
 					type: "advancement"
 				}
@@ -1378,7 +1241,11 @@
 			y: 4.375d
 		}
 		{
-			dependencies: ["556290828A142A09", "109BED2924558E79", "671124D95FA01949"]
+			dependencies: [
+				"556290828A142A09"
+				"109BED2924558E79"
+				"671124D95FA01949"
+			]
 			icon: {
 				id: "farm_and_charm:scarecrow"
 			}
@@ -1400,13 +1267,12 @@
 			]
 			shape: "gear"
 			size: 2.0d
-			tasks: [
-				{
-					advancement: "farm_and_charm:main/make_everything"
-					id: "3443229739AE4538"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "farm_and_charm:main/make_everything"
+				criterion: ""
+				id: "3443229739AE4538"
+				type: "advancement"
+			}]
 			x: 16.0d
 			y: 0.875d
 		}

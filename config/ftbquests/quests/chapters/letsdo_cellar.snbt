@@ -7,7 +7,8 @@
 		id: "vinery:fermentation_barrel"
 	}
 	id: "4C78378F0E21693B"
-	order_index: 19
+	images: [ ]
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -16,12 +17,10 @@
 			}
 			id: "13A143470420785B"
 			min_width: 300
-			tasks: [
-				{
-					id: "68F03B10A36C1848"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "68F03B10A36C1848"
+				type: "checkmark"
+			}]
 			x: 0.0d
 			y: 0.0d
 		}
@@ -43,24 +42,20 @@
 					xp: 25
 				}
 				{
+					count: 4
 					id: "176BBB2BF323E0AC"
 					item: {
-						count: 4
+						count: 1
 						id: "vinery:wine_bottle"
 					}
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "0A2C98EA0C4980E0"
-					item: {
-						count: 1
-						id: "vinery:red_grape_seeds"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0A2C98EA0C4980E0"
+				item: { count: 1, id: "vinery:red_grape_seeds" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: -1.75d
 		}
@@ -69,9 +64,10 @@
 			id: "11148897663EF219"
 			rewards: [
 				{
+					count: 2
 					id: "10C2FFBAE5F6C7F1"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -84,16 +80,14 @@
 			]
 			tasks: [
 				{
-					count: 4
+					count: 4L
 					id: "0F60B27B55465220"
-					item: {
-						count: 1
-						id: "vinery:grapevine_stem"
-					}
+					item: { count: 1, id: "vinery:grapevine_stem" }
 					type: "item"
 				}
 				{
 					advancement: "vinery:main/sowing_the_future"
+					criterion: ""
 					id: "60A67AB21007CCED"
 					type: "advancement"
 				}
@@ -106,9 +100,10 @@
 			id: "5833AAEB90F9F574"
 			rewards: [
 				{
+					count: 2
 					id: "6BA5C7C4AA704124"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -121,21 +116,15 @@
 			]
 			tasks: [
 				{
-					count: 6
+					count: 6L
 					id: "278C2A976422A41E"
-					item: {
-						count: 1
-						id: "vinery:taiga_grapes_red"
-					}
+					item: { count: 1, id: "vinery:taiga_grapes_red" }
 					type: "item"
 				}
 				{
-					count: 6
+					count: 6L
 					id: "7A2019154BC89B9A"
-					item: {
-						count: 1
-						id: "vinery:savanna_grapes_red"
-					}
+					item: { count: 1, id: "vinery:savanna_grapes_red" }
 					type: "item"
 				}
 			]
@@ -147,9 +136,10 @@
 			id: "6EBBF7A0527A7694"
 			rewards: [
 				{
+					count: 2
 					id: "62F39FBBE6E4DB57"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -160,17 +150,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					count: 6
-					id: "6702546884082D36"
-					item: {
-						count: 1
-						id: "vinery:jungle_grapes_red"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 6L
+				id: "6702546884082D36"
+				item: { count: 1, id: "vinery:jungle_grapes_red" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: -2.625d
 		}
@@ -179,9 +164,10 @@
 			id: "0212DE7101DE90C2"
 			rewards: [
 				{
+					count: 2
 					id: "4F36B37803C9067F"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -192,16 +178,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "4EC877413882F95B"
-					item: {
-						count: 1
-						id: "vinery:grapevine_pot"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4EC877413882F95B"
+				item: { count: 1, id: "vinery:grapevine_pot" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: -2.625d
 		}
@@ -210,9 +191,10 @@
 			id: "0DCAF60678CA88EE"
 			rewards: [
 				{
+					count: 2
 					id: "738EBC58ABD94F06"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -223,17 +205,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					count: 4
-					id: "0F68A373740A49D4"
-					item: {
-						count: 1
-						id: "vinery:red_grapejuice"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 4L
+				id: "0F68A373740A49D4"
+				item: { count: 1, id: "vinery:red_grapejuice" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: -0.875d
 		}
@@ -242,9 +219,10 @@
 			id: "068DB273AE3A5664"
 			rewards: [
 				{
+					count: 2
 					id: "31FC96D181DC2B6C"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -255,16 +233,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "2360DFA8EA21F604"
-					item: {
-						count: 1
-						id: "vinery:fermentation_barrel"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2360DFA8EA21F604"
+				item: { count: 1, id: "vinery:fermentation_barrel" }
+				type: "item"
+			}]
 			x: 8.0d
 			y: -4.375d
 		}
@@ -273,9 +246,10 @@
 			id: "674056D16082369B"
 			rewards: [
 				{
+					count: 3
 					id: "2B169AF9550A4EF2"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -287,16 +261,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "672B98B1608DDE20"
-					item: {
-						count: 1
-						id: "vinery:red_wine"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "672B98B1608DDE20"
+				item: { count: 1, id: "vinery:red_wine" }
+				type: "item"
+			}]
 			x: 10.0d
 			y: -1.75d
 		}
@@ -306,9 +275,10 @@
 			min_width: 300
 			rewards: [
 				{
+					count: 2
 					id: "5230787DD9D82C0C"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -319,16 +289,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "6BFE31ECAAD27365"
-					item: {
-						count: 1
-						id: "vinery:wine_box"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6BFE31ECAAD27365"
+				item: { count: 1, id: "vinery:wine_box" }
+				type: "item"
+			}]
 			x: 12.0d
 			y: -0.875d
 		}
@@ -338,9 +303,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "3C1ACECDE0037452"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -354,34 +320,22 @@
 			tasks: [
 				{
 					id: "55CD4E19F889D883"
-					item: {
-						count: 1
-						id: "vinery:straw_hat"
-					}
+					item: { count: 1, id: "vinery:straw_hat" }
 					type: "item"
 				}
 				{
 					id: "06506E7B0BD59539"
-					item: {
-						count: 1
-						id: "vinery:winemaker_apron"
-					}
+					item: { count: 1, id: "vinery:winemaker_apron" }
 					type: "item"
 				}
 				{
 					id: "22E4CD9F21D59961"
-					item: {
-						count: 1
-						id: "vinery:winemaker_leggings"
-					}
+					item: { count: 1, id: "vinery:winemaker_leggings" }
 					type: "item"
 				}
 				{
 					id: "220A579D97F3D96C"
-					item: {
-						count: 1
-						id: "vinery:winemaker_boots"
-					}
+					item: { count: 1, id: "vinery:winemaker_boots" }
 					type: "item"
 				}
 			]
@@ -393,9 +347,10 @@
 			id: "42047FDCBB9C4C26"
 			rewards: [
 				{
+					count: 2
 					id: "2619013DBF004C87"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -406,17 +361,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					count: 4
-					id: "62EFA4A4531548D2"
-					item: {
-						count: 1
-						id: "vinery:cherry"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 4L
+				id: "62EFA4A4531548D2"
+				item: { count: 1, id: "vinery:cherry" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: 0.0d
 		}
@@ -425,9 +375,10 @@
 			id: "0D29F216FF233185"
 			rewards: [
 				{
+					count: 2
 					id: "4C72BBCD5CD8B669"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -438,9 +389,10 @@
 					xp: 50
 				}
 				{
+					count: 4
 					id: "4099F89F582D92DE"
 					item: {
-						count: 4
+						count: 1
 						id: "minecraft:apple"
 					}
 					type: "item"
@@ -449,19 +401,13 @@
 			tasks: [
 				{
 					id: "738C811C7FD02D03"
-					item: {
-						count: 1
-						id: "vinery:apple_press"
-					}
+					item: { count: 1, id: "vinery:apple_press" }
 					type: "item"
 				}
 				{
-					count: 2
+					count: 2L
 					id: "6AB7D4138FEC35E7"
-					item: {
-						count: 1
-						id: "vinery:apple_juice"
-					}
+					item: { count: 1, id: "vinery:apple_juice" }
 					type: "item"
 				}
 			]
@@ -469,13 +415,17 @@
 			y: 0.875d
 		}
 		{
-			dependencies: ["0D29F216FF233185", "068DB273AE3A5664"]
+			dependencies: [
+				"0D29F216FF233185"
+				"068DB273AE3A5664"
+			]
 			id: "010B9A807F2AD612"
 			rewards: [
 				{
+					count: 2
 					id: "722214A9CE22BE4D"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -486,27 +436,27 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "1BC4D461EAC1AE53"
-					item: {
-						count: 1
-						id: "vinery:apple_wine"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1BC4D461EAC1AE53"
+				item: { count: 1, id: "vinery:apple_wine" }
+				type: "item"
+			}]
 			x: 10.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["674056D16082369B", "5833AAEB90F9F574", "42047FDCBB9C4C26"]
+			dependencies: [
+				"674056D16082369B"
+				"5833AAEB90F9F574"
+				"42047FDCBB9C4C26"
+			]
 			id: "092C59764CC7CEA9"
 			rewards: [
 				{
+					count: 3
 					id: "53A96D4548E669C9"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -518,21 +468,20 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "2282DF4AD55FB94E"
-					item: {
-						count: 1
-						id: "vinery:bolvar_wine"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2282DF4AD55FB94E"
+				item: { count: 1, id: "vinery:bolvar_wine" }
+				type: "item"
+			}]
 			x: 12.0d
 			y: -2.625d
 		}
 		{
-			dependencies: ["092C59764CC7CEA9", "010B9A807F2AD612", "6EBBF7A0527A7694"]
+			dependencies: [
+				"092C59764CC7CEA9"
+				"010B9A807F2AD612"
+				"6EBBF7A0527A7694"
+			]
 			id: "6BE894E8245AC894"
 			rewards: [
 				{
@@ -551,16 +500,11 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [
-				{
-					id: "1E7132995E890B89"
-					item: {
-						count: 1
-						id: "vinery:jellie_wine"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1E7132995E890B89"
+				item: { count: 1, id: "vinery:jellie_wine" }
+				type: "item"
+			}]
 			x: 14.0d
 			y: -0.875d
 		}
@@ -569,9 +513,10 @@
 			id: "3B4BE5CC750149CF"
 			rewards: [
 				{
+					count: 3
 					id: "4C7D6F96CDDB1045"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -591,16 +536,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "240831FE4936F72F"
-					item: {
-						count: 1
-						id: "brewery:wooden_brewingstation"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "240831FE4936F72F"
+				item: { count: 1, id: "brewery:wooden_brewingstation" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: 1.75d
 		}
@@ -609,9 +549,10 @@
 			id: "402FE9BD52E87124"
 			rewards: [
 				{
+					count: 2
 					id: "519006AA8DC0F54B"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -622,25 +563,21 @@
 					xp: 50
 				}
 				{
+					count: 2
 					id: "3018CA1A12FA8120"
 					item: {
-						count: 2
+						count: 1
 						id: "farm_and_charm:rope"
 					}
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					count: 8
-					id: "6C8104DAD1D4A944"
-					item: {
-						count: 1
-						id: "brewery:hops"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 8L
+				id: "6C8104DAD1D4A944"
+				item: { count: 1, id: "brewery:hops" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: 4.375d
 		}
@@ -649,9 +586,10 @@
 			id: "577A7F08DDB5F6C6"
 			rewards: [
 				{
+					count: 2
 					id: "737C0A7A05798297"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -664,21 +602,15 @@
 			]
 			tasks: [
 				{
-					count: 4
+					count: 4L
 					id: "3AE35F99B7053692"
-					item: {
-						count: 1
-						id: "farm_and_charm:yeast"
-					}
+					item: { count: 1, id: "farm_and_charm:yeast" }
 					type: "item"
 				}
 				{
-					count: 2
+					count: 2L
 					id: "5C1DBBD585CD0368"
-					item: {
-						count: 1
-						id: "brewery:dried_barley"
-					}
+					item: { count: 1, id: "brewery:dried_barley" }
 					type: "item"
 				}
 			]
@@ -686,7 +618,10 @@
 			y: 6.125d
 		}
 		{
-			dependencies: ["402FE9BD52E87124", "577A7F08DDB5F6C6"]
+			dependencies: [
+				"402FE9BD52E87124"
+				"577A7F08DDB5F6C6"
+			]
 			icon: {
 				id: "brewery:beer_hops"
 			}
@@ -694,9 +629,10 @@
 			min_width: 300
 			rewards: [
 				{
+					count: 3
 					id: "41B7DA6DCDCB788F"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -711,18 +647,12 @@
 			tasks: [
 				{
 					id: "4279CDC42556717E"
-					item: {
-						count: 1
-						id: "brewery:beer_mug"
-					}
+					item: { count: 1, id: "brewery:beer_mug" }
 					type: "item"
 				}
 				{
 					id: "35B62317D2D241B7"
-					item: {
-						count: 1
-						id: "brewery:beer_hops"
-					}
+					item: { count: 1, id: "brewery:beer_hops" }
 					type: "item"
 				}
 			]
@@ -734,9 +664,10 @@
 			id: "2432B5B63C0D9B38"
 			rewards: [
 				{
+					count: 2
 					id: "07F959310235C3F8"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -747,16 +678,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "4512DE9741570F97"
-					item: {
-						count: 1
-						id: "brewery:barrel_main"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4512DE9741570F97"
+				item: { count: 1, id: "brewery:barrel_main" }
+				type: "item"
+			}]
 			x: 8.0d
 			y: -2.625d
 		}
@@ -766,9 +692,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "449BD5D980E66483"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -779,16 +706,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "4B2F3A462255B1BA"
-					item: {
-						count: 1
-						id: "brewery:pork_knuckle"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4B2F3A462255B1BA"
+				item: { count: 1, id: "brewery:pork_knuckle" }
+				type: "item"
+			}]
 			x: 8.0d
 			y: -0.875d
 		}
@@ -798,9 +720,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "30C1324297F2CAE5"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -814,34 +737,22 @@
 			tasks: [
 				{
 					id: "272215A39FC5E2D0"
-					item: {
-						count: 1
-						id: "brewery:brewfest_hat"
-					}
+					item: { count: 1, id: "brewery:brewfest_hat" }
 					type: "item"
 				}
 				{
 					id: "5AD44E71BFDCE1A0"
-					item: {
-						count: 1
-						id: "brewery:brewfest_regalia"
-					}
+					item: { count: 1, id: "brewery:brewfest_regalia" }
 					type: "item"
 				}
 				{
 					id: "2AC9BD86937E6D72"
-					item: {
-						count: 1
-						id: "brewery:brewfest_trousers"
-					}
+					item: { count: 1, id: "brewery:brewfest_trousers" }
 					type: "item"
 				}
 				{
 					id: "7A08320986F50802"
-					item: {
-						count: 1
-						id: "brewery:brewfest_boots"
-					}
+					item: { count: 1, id: "brewery:brewfest_boots" }
 					type: "item"
 				}
 			]
@@ -854,9 +765,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 3
 					id: "6083F3DFA373EB71"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -868,16 +780,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "109470422D5A17BC"
-					item: {
-						count: 1
-						id: "brewery:beer_haley"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "109470422D5A17BC"
+				item: { count: 1, id: "brewery:beer_haley" }
+				type: "item"
+			}]
 			x: 8.0d
 			y: 2.625d
 		}
@@ -886,9 +793,10 @@
 			id: "0C207832A630E7F0"
 			rewards: [
 				{
+					count: 3
 					id: "5710D8034FCE99DB"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -900,16 +808,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "5DBB2D82B259358D"
-					item: {
-						count: 1
-						id: "brewery:copper_brewingstation"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5DBB2D82B259358D"
+				item: { count: 1, id: "brewery:copper_brewingstation" }
+				type: "item"
+			}]
 			x: 8.0d
 			y: 4.375d
 		}
@@ -918,9 +821,10 @@
 			id: "01D5BDC23D4942E7"
 			rewards: [
 				{
+					count: 2
 					id: "0B381FB2C4C952B2"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -931,16 +835,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "6C313410E3A76723"
-					item: {
-						count: 1
-						id: "brewery:whiskey_maggoallan"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6C313410E3A76723"
+				item: { count: 1, id: "brewery:whiskey_maggoallan" }
+				type: "item"
+			}]
 			x: 10.0d
 			y: 1.75d
 		}
@@ -964,16 +863,11 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [
-				{
-					id: "479CA674CB15AFDE"
-					item: {
-						count: 1
-						id: "brewery:netherite_brewingstation"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "479CA674CB15AFDE"
+				item: { count: 1, id: "brewery:netherite_brewingstation" }
+				type: "item"
+			}]
 			x: 12.0d
 			y: 2.625d
 		}
@@ -986,9 +880,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "14DD5636CE9DA48A"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -1002,17 +897,14 @@
 			tasks: [
 				{
 					id: "0792400AA53695C3"
-					item: {
-						count: 1
-						id: "brewery:dark_brew"
-					}
+					item: { count: 1, id: "brewery:dark_brew" }
 					type: "item"
 				}
 				{
 					entity: "brewery:beer_elemental"
 					id: "0E4100144AC7D54F"
 					type: "kill"
-					value: 1
+					value: 1L
 				}
 			]
 			x: 14.0d
@@ -1036,17 +928,12 @@
 					xp: 25
 				}
 			]
-			tasks: [
-				{
-					count: 16
-					id: "35C0B4F253A056AD"
-					item: {
-						count: 1
-						id: "applewoodrebarked:apple_planks"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 16L
+				id: "35C0B4F253A056AD"
+				item: { count: 1, id: "applewoodrebarked:apple_planks" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: 2.625d
 		}
@@ -1056,9 +943,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "58F5B6E8F1CE9220"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -1069,27 +957,26 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "66D0F9969CC78155"
-					item: {
-						count: 1
-						id: "applewoodrebarked:slingshot"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "66D0F9969CC78155"
+				item: { count: 1, id: "applewoodrebarked:slingshot" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: 0.875d
 		}
 		{
-			dependencies: ["6E4B2CDE38A78431", "010B9A807F2AD612"]
+			dependencies: [
+				"6E4B2CDE38A78431"
+				"010B9A807F2AD612"
+			]
 			id: "71FF3EF539AA0C44"
 			rewards: [
 				{
+					count: 3
 					id: "38DC89E9DA193CA8"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -1101,21 +988,20 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "0C6742B6CF87447E"
-					item: {
-						count: 1
-						id: "applewoodrebarked:awoo_pie_moonshine"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0C6742B6CF87447E"
+				item: { count: 1, id: "applewoodrebarked:awoo_pie_moonshine" }
+				type: "item"
+			}]
 			x: 12.0d
 			y: 0.875d
 		}
 		{
-			dependencies: ["6BE894E8245AC894", "76DF13402EC7B00B", "71FF3EF539AA0C44"]
+			dependencies: [
+				"6BE894E8245AC894"
+				"76DF13402EC7B00B"
+				"71FF3EF539AA0C44"
+			]
 			icon: {
 				id: "vinery:bottle_mojang_noir"
 			}
@@ -1140,26 +1026,17 @@
 			tasks: [
 				{
 					id: "42FDD49D97382890"
-					item: {
-						count: 1
-						id: "vinery:bottle_mojang_noir"
-					}
+					item: { count: 1, id: "vinery:bottle_mojang_noir" }
 					type: "item"
 				}
 				{
 					id: "5477E9A3D01AA639"
-					item: {
-						count: 1
-						id: "brewery:whiskey_smokey_reverie"
-					}
+					item: { count: 1, id: "brewery:whiskey_smokey_reverie" }
 					type: "item"
 				}
 				{
 					id: "6BA98EC5BDD1866C"
-					item: {
-						count: 1
-						id: "applewoodrebarked:awoo_pie_moonshine"
-					}
+					item: { count: 1, id: "applewoodrebarked:awoo_pie_moonshine" }
 					type: "item"
 				}
 			]

@@ -7,7 +7,8 @@
 		id: "minecraft:filled_map"
 	}
 	id: "1EC52A5BD8E798F7"
-	order_index: 13
+	images: [ ]
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -16,12 +17,10 @@
 			}
 			id: "05B301E4A9729BDB"
 			min_width: 300
-			tasks: [
-				{
-					id: "2B2906AE1BC40FF0"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "2B2906AE1BC40FF0"
+				type: "checkmark"
+			}]
 			x: 0.0d
 			y: 0.0d
 		}
@@ -33,9 +32,10 @@
 			id: "30FBD369F7A448CF"
 			rewards: [
 				{
+					count: 2
 					id: "09037A46EC72BF1B"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -46,13 +46,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "2C431A93877128EF"
-					structure: "#bettermineshafts:better_mineshafts"
-					type: "structure"
-				}
-			]
+			tasks: [{
+				id: "2C431A93877128EF"
+				structure: "#bettermineshafts:better_mineshafts"
+				type: "structure"
+			}]
 			x: 2.0d
 			y: -5.25d
 		}
@@ -77,13 +75,11 @@
 					xp: 25
 				}
 			]
-			tasks: [
-				{
-					id: "703E33A50D5EEC59"
-					structure: "betterdungeons:small_dungeon"
-					type: "structure"
-				}
-			]
+			tasks: [{
+				id: "703E33A50D5EEC59"
+				structure: "betterdungeons:small_dungeon"
+				type: "structure"
+			}]
 			x: 4.0d
 			y: -13.125d
 		}
@@ -95,9 +91,10 @@
 			id: "5067BD43429AD55F"
 			rewards: [
 				{
+					count: 3
 					id: "35CDAE07B724BEFC"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -137,9 +134,10 @@
 			id: "1F1C611A76328D31"
 			rewards: [
 				{
+					count: 2
 					id: "10309920859C5C92"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -150,13 +148,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					biome: "yungscavebiomes:lost_caves"
-					id: "2833515ED5063282"
-					type: "biome"
-				}
-			]
+			tasks: [{
+				biome: "yungscavebiomes:lost_caves"
+				id: "2833515ED5063282"
+				type: "biome"
+			}]
 			x: 4.0d
 			y: -11.375d
 		}
@@ -168,9 +164,10 @@
 			id: "317065A03B9446BF"
 			rewards: [
 				{
+					count: 2
 					id: "37EE4C9F92677504"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -189,6 +186,7 @@
 				}
 				{
 					advancement: "yungscavebiomes:mine_enchanted_ice"
+					criterion: ""
 					id: "04C8E2EFE46E00D6"
 					type: "advancement"
 				}
@@ -217,13 +215,11 @@
 					xp: 25
 				}
 			]
-			tasks: [
-				{
-					id: "3D92C34456DA3FC7"
-					structure: "#integrated_villages:villages"
-					type: "structure"
-				}
-			]
+			tasks: [{
+				id: "3D92C34456DA3FC7"
+				structure: "#integrated_villages:villages"
+				type: "structure"
+			}]
 			x: 2.0d
 			y: -3.5d
 		}
@@ -236,9 +232,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 3
 					id: "1558994F619AE3FB"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -250,13 +247,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "34E2F809EC8426AA"
-					structure: "integrated_villages:airship_village"
-					type: "structure"
-				}
-			]
+			tasks: [{
+				id: "34E2F809EC8426AA"
+				structure: "integrated_villages:airship_village"
+				type: "structure"
+			}]
 			x: 4.0d
 			y: -7.875d
 		}
@@ -268,9 +263,10 @@
 			id: "0B47AA7FBE692900"
 			rewards: [
 				{
+					count: 2
 					id: "761D4B17BDD6773E"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -281,13 +277,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "6C55ABD14A4FB197"
-					structure: "betterwitchhuts:witch_hut"
-					type: "structure"
-				}
-			]
+			tasks: [{
+				id: "6C55ABD14A4FB197"
+				structure: "betterwitchhuts:witch_hut"
+				type: "structure"
+			}]
 			x: 4.0d
 			y: -6.125d
 		}
@@ -299,9 +293,10 @@
 			id: "7B306876E5B8E7D6"
 			rewards: [
 				{
+					count: 2
 					id: "2DB356429BFFDBD1"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -312,13 +307,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "44DD678B6749E01A"
-					structure: "villagesandpillages:village_witch"
-					type: "structure"
-				}
-			]
+			tasks: [{
+				id: "44DD678B6749E01A"
+				structure: "villagesandpillages:village_witch"
+				type: "structure"
+			}]
 			x: 4.0d
 			y: -4.375d
 		}
@@ -330,9 +323,10 @@
 			id: "561BD899B72600DE"
 			rewards: [
 				{
+					count: 2
 					id: "427D8E3B8F15EC95"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -343,14 +337,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					entity: "minecraft:witch"
-					id: "38451B1B9DA8609B"
-					type: "kill"
-					value: 5
-				}
-			]
+			tasks: [{
+				entity: "minecraft:witch"
+				id: "38451B1B9DA8609B"
+				type: "kill"
+				value: 5L
+			}]
 			x: 6.0d
 			y: -7.0d
 		}
@@ -376,12 +368,10 @@
 					xp: 25
 				}
 			]
-			tasks: [
-				{
-					id: "4E59FD8258A5877E"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4E59FD8258A5877E"
+				type: "checkmark"
+			}]
 			x: 8.0d
 			y: -2.625d
 		}
@@ -392,9 +382,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "029239F78BF3D133"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -405,16 +396,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "146AD0E67EE3F4D7"
-					item: {
-						count: 1
-						id: "minecraft:fermented_spider_eye"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "146AD0E67EE3F4D7"
+				item: { count: 1, id: "minecraft:fermented_spider_eye" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: -5.25d
 		}
@@ -426,9 +412,10 @@
 			id: "5E5210F1E8FD0823"
 			rewards: [
 				{
+					count: 2
 					id: "07F9D534A21D3A4B"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -439,13 +426,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "7439D01C4FADBAFC"
-					structure: "#idas:common"
-					type: "structure"
-				}
-			]
+			tasks: [{
+				id: "7439D01C4FADBAFC"
+				structure: "#idas:common"
+				type: "structure"
+			}]
 			x: 4.0d
 			y: -2.625d
 		}
@@ -458,9 +443,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "335F263F07178934"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -471,13 +457,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "3622FAD9C013D43E"
-					structure: "idas:labyrinth"
-					type: "structure"
-				}
-			]
+			tasks: [{
+				id: "3622FAD9C013D43E"
+				structure: "idas:labyrinth"
+				type: "structure"
+			}]
 			x: 6.0d
 			y: -3.5d
 		}
@@ -490,9 +474,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "31DE480A0F2F703C"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -503,16 +488,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "417F7FAEC262E923"
-					item: {
-						count: 1
-						id: "idas:music_disc_slither"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "417F7FAEC262E923"
+				item: { count: 1, id: "idas:music_disc_slither" }
+				type: "item"
+			}]
 			x: 8.0d
 			y: -0.875d
 		}
@@ -525,9 +505,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "0595972516C443E5"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -538,13 +519,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "5FB0ADCA897398A0"
-					structure: "idas:pillager_fortress"
-					type: "structure"
-				}
-			]
+			tasks: [{
+				id: "5FB0ADCA897398A0"
+				structure: "idas:pillager_fortress"
+				type: "structure"
+			}]
 			x: 6.0d
 			y: -1.75d
 		}
@@ -557,9 +536,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "3F89C4F5A176CFE6"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -570,13 +550,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "3F99B62C94457CA5"
-					structure: "idas:tinkers_workshop"
-					type: "structure"
-				}
-			]
+			tasks: [{
+				id: "3F99B62C94457CA5"
+				structure: "idas:tinkers_workshop"
+				type: "structure"
+			}]
 			x: 6.0d
 			y: 0.0d
 		}
@@ -589,9 +567,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "7E3DA035ED4D788B"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -602,13 +581,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "3F0F924BCE7B6E68"
-					structure: "idas:ancient_mines"
-					type: "structure"
-				}
-			]
+			tasks: [{
+				id: "3F0F924BCE7B6E68"
+				structure: "idas:ancient_mines"
+				type: "structure"
+			}]
 			x: 6.0d
 			y: 1.75d
 		}
@@ -620,9 +597,10 @@
 			id: "51AD57CE613EEA10"
 			rewards: [
 				{
+					count: 2
 					id: "1CDCA12FECB2B6C1"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -633,13 +611,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "547F1CC0E3302A10"
-					structure: "betterdeserttemples:desert_temple"
-					type: "structure"
-				}
-			]
+			tasks: [{
+				id: "547F1CC0E3302A10"
+				structure: "betterdeserttemples:desert_temple"
+				type: "structure"
+			}]
 			x: 2.0d
 			y: -1.75d
 		}
@@ -651,9 +627,10 @@
 			id: "2273E696FCA9C53B"
 			rewards: [
 				{
+					count: 3
 					id: "357E7FFD77621A4E"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -665,13 +642,12 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					advancement: "betterdeserttemples:temple_clear"
-					id: "0FA8A63FB3A0B8A3"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "betterdeserttemples:temple_clear"
+				criterion: ""
+				id: "0FA8A63FB3A0B8A3"
+				type: "advancement"
+			}]
 			x: 4.0d
 			y: -0.875d
 		}
@@ -683,9 +659,10 @@
 			id: "614F17F343084D1C"
 			rewards: [
 				{
+					count: 2
 					id: "2360F0234A34550E"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -696,13 +673,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "6387F0D2E8DA534F"
-					structure: "betterjungletemples:jungle_temple"
-					type: "structure"
-				}
-			]
+			tasks: [{
+				id: "6387F0D2E8DA534F"
+				structure: "betterjungletemples:jungle_temple"
+				type: "structure"
+			}]
 			x: 4.0d
 			y: 0.875d
 		}
@@ -714,9 +689,10 @@
 			id: "689F4E8E973C1EE5"
 			rewards: [
 				{
+					count: 2
 					id: "605BE4FCBC00322B"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -735,13 +711,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "6B964FAE9F173C84"
-					structure: "betteroceanmonuments:ocean_monument"
-					type: "structure"
-				}
-			]
+			tasks: [{
+				id: "6B964FAE9F173C84"
+				structure: "betteroceanmonuments:ocean_monument"
+				type: "structure"
+			}]
 			x: 2.0d
 			y: 0.0d
 		}
@@ -753,9 +727,10 @@
 			id: "09143D1D256DF71E"
 			rewards: [
 				{
+					count: 3
 					id: "21B10F1A91981143"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -767,14 +742,12 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					entity: "minecraft:elder_guardian"
-					id: "0901718E84F83E54"
-					type: "kill"
-					value: 1
-				}
-			]
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				id: "0901718E84F83E54"
+				type: "kill"
+				value: 1L
+			}]
 			x: 4.0d
 			y: 2.625d
 		}
@@ -784,9 +757,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "21EB5DF04FF0AB83"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -797,16 +771,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "36B245E7DCC064AD"
-					item: {
-						count: 1
-						id: "minecraft:conduit"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "36B245E7DCC064AD"
+				item: { count: 1, id: "minecraft:conduit" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: 3.5d
 		}
@@ -818,9 +787,10 @@
 			id: "7A426D0A1D2F4916"
 			rewards: [
 				{
+					count: 2
 					id: "38A0CA5FC2BBDF5C"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -831,13 +801,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "17894E5CB6C2673D"
-					structure: "betterfortresses:fortress"
-					type: "structure"
-				}
-			]
+			tasks: [{
+				id: "17894E5CB6C2673D"
+				structure: "betterfortresses:fortress"
+				type: "structure"
+			}]
 			x: 2.0d
 			y: 1.75d
 		}
@@ -850,9 +818,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "4F7080FCCD4C2FCF"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -863,13 +832,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "4D993E925E7549E0"
-					structure: "minecraft:bastion_remnant"
-					type: "structure"
-				}
-			]
+			tasks: [{
+				id: "4D993E925E7549E0"
+				structure: "minecraft:bastion_remnant"
+				type: "structure"
+			}]
 			x: 4.0d
 			y: 4.375d
 		}
@@ -878,9 +845,10 @@
 			id: "3C30F84FAF9967E3"
 			rewards: [
 				{
+					count: 3
 					id: "1E6A99DEDFF89504"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -891,26 +859,22 @@
 					xp: 120
 				}
 				{
+					count: 4
 					id: "588FDB5F4E4B2CB5"
 					item: {
-						count: 4
+						count: 1
 						id: "minecraft:soul_sand"
 					}
 					type: "item"
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					count: 3
-					id: "23CAA6086FF550F6"
-					item: {
-						count: 1
-						id: "minecraft:wither_skeleton_skull"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 3L
+				id: "23CAA6086FF550F6"
+				item: { count: 1, id: "minecraft:wither_skeleton_skull" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: 6.125d
 		}
@@ -937,14 +901,12 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [
-				{
-					entity: "minecraft:wither"
-					id: "39FB6C9F29EDDF19"
-					type: "kill"
-					value: 1
-				}
-			]
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "39FB6C9F29EDDF19"
+				type: "kill"
+				value: 1L
+			}]
 			x: 6.0d
 			y: 5.25d
 		}
@@ -953,9 +915,10 @@
 			id: "61DB6FB239E8C5FF"
 			rewards: [
 				{
+					count: 2
 					id: "4AA1D534C6CDEAC1"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -966,17 +929,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					count: 12
-					id: "52187646F0DA958E"
-					item: {
-						count: 1
-						id: "minecraft:ender_eye"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 12L
+				id: "52187646F0DA958E"
+				item: { count: 1, id: "minecraft:ender_eye" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: 7.875d
 		}
@@ -988,9 +946,10 @@
 			id: "3242B10AFFE5D950"
 			rewards: [
 				{
+					count: 3
 					id: "460DDAFA81650FB1"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -1001,22 +960,21 @@
 					xp: 120
 				}
 				{
+					count: 2
 					id: "753FAC30999AF521"
 					item: {
-						count: 2
+						count: 1
 						id: "minecraft:ender_eye"
 					}
 					type: "item"
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "030D2F87037E1752"
-					structure: "betterstrongholds:stronghold"
-					type: "structure"
-				}
-			]
+			tasks: [{
+				id: "030D2F87037E1752"
+				structure: "betterstrongholds:stronghold"
+				type: "structure"
+			}]
 			x: 6.0d
 			y: 7.0d
 		}
@@ -1026,17 +984,18 @@
 				id: "minecraft:end_portal_frame"
 			}
 			id: "70DF494DEBCB80E4"
-			tasks: [
-				{
-					id: "4EF4404951DF9871"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4EF4404951DF9871"
+				type: "checkmark"
+			}]
 			x: 8.0d
 			y: 0.875d
 		}
 		{
-			dependencies: ["70DF494DEBCB80E4", "558E24BA4CBCED96"]
+			dependencies: [
+				"70DF494DEBCB80E4"
+				"558E24BA4CBCED96"
+			]
 			id: "19827B375291AD0F"
 			min_width: 300
 			rewards: [
@@ -1056,16 +1015,11 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [
-				{
-					id: "1751E7EC87665C7E"
-					item: {
-						count: 1
-						id: "isitcore:end_portal_stabilizer"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1751E7EC87665C7E"
+				item: { count: 1, id: "isitcore:end_portal_stabilizer" }
+				type: "item"
+			}]
 			x: 10.0d
 			y: 0.0d
 		}
@@ -1077,9 +1031,10 @@
 			id: "6E236043A977E268"
 			rewards: [
 				{
+					count: 2
 					id: "0506366EE0C6A19F"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -1090,13 +1045,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					dimension: "minecraft:the_end"
-					id: "79A072D2257CAC0A"
-					type: "dimension"
-				}
-			]
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "79A072D2257CAC0A"
+				type: "dimension"
+			}]
 			x: 12.0d
 			y: 0.0d
 		}
@@ -1123,14 +1076,12 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [
-				{
-					entity: "minecraft:ender_dragon"
-					id: "3EFFDF1E5DE74E7E"
-					type: "kill"
-					value: 1
-				}
-			]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "3EFFDF1E5DE74E7E"
+				type: "kill"
+				value: 1L
+			}]
 			x: 14.0d
 			y: 0.0d
 		}
@@ -1142,9 +1093,10 @@
 			id: "369F33CA661C89FA"
 			rewards: [
 				{
+					count: 2
 					id: "2410EBF93B3CE305"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -1155,13 +1107,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "526E897180AC5CAD"
-					structure: "minecraft:end_city"
-					type: "structure"
-				}
-			]
+			tasks: [{
+				id: "526E897180AC5CAD"
+				structure: "minecraft:end_city"
+				type: "structure"
+			}]
 			x: 16.0d
 			y: 0.0d
 		}
@@ -1185,16 +1135,11 @@
 			]
 			shape: "gear"
 			size: 2.0d
-			tasks: [
-				{
-					id: "2E07E529536E7F21"
-					item: {
-						count: 1
-						id: "minecraft:elytra"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2E07E529536E7F21"
+				item: { count: 1, id: "minecraft:elytra" }
+				type: "item"
+			}]
 			x: 18.0d
 			y: 0.0d
 		}
@@ -1206,9 +1151,10 @@
 			id: "592FFFFA307E2709"
 			rewards: [
 				{
+					count: 2
 					id: "4AF5429FEE915F10"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -1219,13 +1165,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					advancement: "lootr:50loot"
-					id: "5C6B61329C56396E"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "lootr:50loot"
+				criterion: ""
+				id: "5C6B61329C56396E"
+				type: "advancement"
+			}]
 			x: 2.0d
 			y: 3.5d
 		}
@@ -1238,9 +1183,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 3
 					id: "7AEF97CF57045BBF"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -1252,13 +1198,12 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					advancement: "lootr:100loot"
-					id: "36B7F16F7888B01E"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "lootr:100loot"
+				criterion: ""
+				id: "36B7F16F7888B01E"
+				type: "advancement"
+			}]
 			x: 4.0d
 			y: 9.625d
 		}
@@ -1288,16 +1233,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "392ECA8457D01541"
-					item: {
-						count: 1
-						id: "jousting:lance_wood"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "392ECA8457D01541"
+				item: { count: 1, id: "jousting:lance_wood" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: 5.25d
 		}
@@ -1306,9 +1246,10 @@
 			id: "78913A9B1FDD0D3E"
 			rewards: [
 				{
+					count: 2
 					id: "6333C05191B2A756"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -1319,16 +1260,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "5F91D03003A57A77"
-					item: {
-						count: 1
-						id: "jousting:lance_iron"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5F91D03003A57A77"
+				item: { count: 1, id: "jousting:lance_iron" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: 11.375d
 		}
@@ -1351,16 +1287,11 @@
 					xp: 25
 				}
 			]
-			tasks: [
-				{
-					id: "71C273C8EF5A05D9"
-					item: {
-						count: 1
-						id: "minecraft:diamond_horse_armor"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "71C273C8EF5A05D9"
+				item: { count: 1, id: "minecraft:diamond_horse_armor" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: 13.125d
 		}
@@ -1370,9 +1301,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "73D4774FEEB9E8CA"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -1383,16 +1315,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "3A936C73C43F0FCC"
-					item: {
-						count: 1
-						id: "jousting:lance_diamond"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3A936C73C43F0FCC"
+				item: { count: 1, id: "jousting:lance_diamond" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: 8.75d
 		}
@@ -1402,9 +1329,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 3
 					id: "272970CEDDECD934"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -1416,16 +1344,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "2B2ECCC327DA7B5F"
-					item: {
-						count: 1
-						id: "jousting:lance_netherite"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2B2ECCC327DA7B5F"
+				item: { count: 1, id: "jousting:lance_netherite" }
+				type: "item"
+			}]
 			x: 8.0d
 			y: 2.625d
 		}

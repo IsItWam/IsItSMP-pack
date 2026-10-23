@@ -7,7 +7,8 @@
 		id: "sleepy_hollows:spectral_jack_o_lantern"
 	}
 	id: "7DB6325B3E95A2F5"
-	order_index: 15
+	images: [ ]
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -30,13 +31,11 @@
 					xp: 25
 				}
 			]
-			tasks: [
-				{
-					biome: "sleepy_hollows:sleepy_hollows"
-					id: "7CCDE6211086D281"
-					type: "biome"
-				}
-			]
+			tasks: [{
+				biome: "sleepy_hollows:sleepy_hollows"
+				id: "7CCDE6211086D281"
+				type: "biome"
+			}]
 			x: 0.0d
 			y: 0.0d
 		}
@@ -47,22 +46,19 @@
 			}
 			id: "3A75230A2094E753"
 			min_width: 300
-			rewards: [
-				{
-					id: "03398D1834777677"
-					item: {
-						count: 2
-						id: "minecraft:lantern"
-					}
-					type: "item"
+			rewards: [{
+				count: 2
+				id: "03398D1834777677"
+				item: {
+					count: 1
+					id: "minecraft:lantern"
 				}
-			]
-			tasks: [
-				{
-					id: "7066FD82404798F9"
-					type: "checkmark"
-				}
-			]
+				type: "item"
+			}]
+			tasks: [{
+				id: "7066FD82404798F9"
+				type: "checkmark"
+			}]
 			x: 2.0d
 			y: -2.625d
 		}
@@ -84,17 +80,12 @@
 					xp: 25
 				}
 			]
-			tasks: [
-				{
-					count: 8
-					id: "40EC5A633D9ECDC3"
-					item: {
-						count: 1
-						id: "sleepy_hollows:candy_corn"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 8L
+				id: "40EC5A633D9ECDC3"
+				item: { count: 1, id: "sleepy_hollows:candy_corn" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: -3.5d
 		}
@@ -104,9 +95,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "02C8F69AD0D29475"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -117,17 +109,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					count: 4
-					id: "170CB1A432116218"
-					item: {
-						count: 1
-						id: "sleepy_hollows:spectral_pumpkin_pie"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 4L
+				id: "170CB1A432116218"
+				item: { count: 1, id: "sleepy_hollows:spectral_pumpkin_pie" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: -3.5d
 		}
@@ -136,9 +123,10 @@
 			id: "4B2CE9063FE012B9"
 			rewards: [
 				{
+					count: 2
 					id: "1FEE22F2137DBEFC"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -149,17 +137,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					count: 4
-					id: "642B080A2E0B628C"
-					item: {
-						count: 1
-						id: "sleepy_hollows:spectral_essence"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 4L
+				id: "642B080A2E0B628C"
+				item: { count: 1, id: "sleepy_hollows:spectral_essence" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: -0.875d
 		}
@@ -168,9 +151,10 @@
 			id: "13D2D519BB12E1BB"
 			rewards: [
 				{
+					count: 2
 					id: "46116A35C13838FB"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -181,17 +165,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					count: 2
-					id: "411A71CBD58EB743"
-					item: {
-						count: 1
-						id: "sleepy_hollows:spectral_lantern"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 2L
+				id: "411A71CBD58EB743"
+				item: { count: 1, id: "sleepy_hollows:spectral_lantern" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: -1.75d
 		}
@@ -201,9 +180,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "28964A53E84D4ABF"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -214,16 +194,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "4C09721A89F048EE"
-					item: {
-						count: 1
-						id: "sleepy_hollows:spectral_jack_o_lantern"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4C09721A89F048EE"
+				item: { count: 1, id: "sleepy_hollows:spectral_jack_o_lantern" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: -1.75d
 		}
@@ -232,9 +207,10 @@
 			id: "797035AE991660DB"
 			rewards: [
 				{
+					count: 2
 					id: "6D362779CA658518"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -245,17 +221,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					count: 4
-					id: "7B1C667BFC5E93B9"
-					item: {
-						count: 1
-						id: "sleepy_hollows:luminous_water"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 4L
+				id: "7B1C667BFC5E93B9"
+				item: { count: 1, id: "sleepy_hollows:luminous_water" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: 0.0d
 		}
@@ -265,9 +236,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "12F39E825823D71D"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -278,17 +250,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					count: 2
-					id: "1B64E566D1F6F0E0"
-					item: {
-						count: 1
-						id: "sleepy_hollows:splash_luminous_water"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 2L
+				id: "1B64E566D1F6F0E0"
+				item: { count: 1, id: "sleepy_hollows:splash_luminous_water" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: 0.0d
 		}
@@ -298,9 +265,10 @@
 			min_width: 300
 			rewards: [
 				{
+					count: 3
 					id: "5C3BE2A45C92747E"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -320,21 +288,19 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "1B3D303E2D2ED935"
-					item: {
-						count: 1
-						id: "sleepy_hollows:essence_of_undead"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1B3D303E2D2ED935"
+				item: { count: 1, id: "sleepy_hollows:essence_of_undead" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: 1.75d
 		}
 		{
-			dependencies: ["797035AE991660DB", "776F8F158580D52D"]
+			dependencies: [
+				"797035AE991660DB"
+				"776F8F158580D52D"
+			]
 			id: "0147199F40EF5468"
 			rewards: [
 				{
@@ -353,16 +319,11 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [
-				{
-					id: "6E4AC4C4D994A1EC"
-					item: {
-						count: 1
-						id: "sleepy_hollows:luminous_essence"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6E4AC4C4D994A1EC"
+				item: { count: 1, id: "sleepy_hollows:luminous_essence" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: 1.75d
 		}
@@ -374,9 +335,10 @@
 			id: "69803516A8455E5E"
 			rewards: [
 				{
+					count: 2
 					id: "0212730F5419BEBD"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -387,18 +349,19 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "7E917F4A60E7EE8B"
-					structure: "sleepy_hollows:cemetary"
-					type: "structure"
-				}
-			]
+			tasks: [{
+				id: "7E917F4A60E7EE8B"
+				structure: "sleepy_hollows:cemetary"
+				type: "structure"
+			}]
 			x: 2.0d
 			y: 0.875d
 		}
 		{
-			dependencies: ["0147199F40EF5468", "69803516A8455E5E"]
+			dependencies: [
+				"0147199F40EF5468"
+				"69803516A8455E5E"
+			]
 			icon: {
 				id: "sleepy_hollows:luminous_essence"
 			}
@@ -418,20 +381,19 @@
 					xp: 25
 				}
 				{
+					count: 2
 					id: "7A427C193017EA1A"
 					item: {
-						count: 2
+						count: 1
 						id: "sleepy_hollows:splash_luminous_water"
 					}
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "6F48EEF62223A5B3"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "6F48EEF62223A5B3"
+				type: "checkmark"
+			}]
 			x: 8.0d
 			y: -3.5d
 		}
@@ -443,9 +405,10 @@
 			id: "6D0D10E20E338036"
 			rewards: [
 				{
+					count: 3
 					id: "312E99FE33232C72"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -457,14 +420,12 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					entity: "sleepy_hollows:fleeing_pumpkin_head"
-					id: "7696765D5FC78C6A"
-					type: "kill"
-					value: 1
-				}
-			]
+			tasks: [{
+				entity: "sleepy_hollows:fleeing_pumpkin_head"
+				id: "7696765D5FC78C6A"
+				type: "kill"
+				value: 1L
+			}]
 			x: 10.0d
 			y: -0.875d
 		}
@@ -491,14 +452,12 @@
 			]
 			shape: "gear"
 			size: 2.0d
-			tasks: [
-				{
-					entity: "sleepy_hollows:horseman"
-					id: "06B9BF97BC7D8047"
-					type: "kill"
-					value: 1
-				}
-			]
+			tasks: [{
+				entity: "sleepy_hollows:horseman"
+				id: "06B9BF97BC7D8047"
+				type: "kill"
+				value: 1L
+			}]
 			x: 12.0d
 			y: 0.0d
 		}
@@ -507,9 +466,10 @@
 			id: "43EA21DDB3A695A3"
 			rewards: [
 				{
+					count: 2
 					id: "53DF94E2464B7FE3"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -520,16 +480,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "0F9204AC2B1BC6FB"
-					item: {
-						count: 1
-						id: "sleepy_hollows:reins_of_the_spectral_horse"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0F9204AC2B1BC6FB"
+				item: { count: 1, id: "sleepy_hollows:reins_of_the_spectral_horse" }
+				type: "item"
+			}]
 			x: 14.0d
 			y: 0.0d
 		}
@@ -538,9 +493,10 @@
 			id: "35189D1844FE9987"
 			rewards: [
 				{
+					count: 2
 					id: "2693B27051645433"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -551,16 +507,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "25E18E96A8FBD376"
-					item: {
-						count: 1
-						id: "sleepy_hollows:lootbag"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "25E18E96A8FBD376"
+				item: { count: 1, id: "sleepy_hollows:lootbag" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: 3.5d
 		}
@@ -590,34 +541,22 @@
 			tasks: [
 				{
 					id: "1A37C5694A528C6C"
-					item: {
-						count: 1
-						id: "sleepy_hollows:hauntbound_helmet"
-					}
+					item: { count: 1, id: "sleepy_hollows:hauntbound_helmet" }
 					type: "item"
 				}
 				{
 					id: "1B331BD7A8DB09EB"
-					item: {
-						count: 1
-						id: "sleepy_hollows:hauntbound_chestplate"
-					}
+					item: { count: 1, id: "sleepy_hollows:hauntbound_chestplate" }
 					type: "item"
 				}
 				{
 					id: "7F66FA6FB5EA88FC"
-					item: {
-						count: 1
-						id: "sleepy_hollows:hauntbound_leggings"
-					}
+					item: { count: 1, id: "sleepy_hollows:hauntbound_leggings" }
 					type: "item"
 				}
 				{
 					id: "73978310014A12A0"
-					item: {
-						count: 1
-						id: "sleepy_hollows:hauntbound_boots"
-					}
+					item: { count: 1, id: "sleepy_hollows:hauntbound_boots" }
 					type: "item"
 				}
 			]
@@ -630,9 +569,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "66DE7BC007E913D4"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -643,16 +583,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "334913CDB7CCD2B7"
-					item: {
-						count: 1
-						id: "sleepy_hollows:sleepy_hollows_standard"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "334913CDB7CCD2B7"
+				item: { count: 1, id: "sleepy_hollows:sleepy_hollows_standard" }
+				type: "item"
+			}]
 			x: 10.0d
 			y: 0.875d
 		}
@@ -662,9 +597,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "12EFBA03FD54299C"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -675,16 +611,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "3F7DE46E6C5494E6"
-					item: {
-						count: 1
-						id: "sleepy_hollows:spectral_waraxe"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3F7DE46E6C5494E6"
+				item: { count: 1, id: "sleepy_hollows:spectral_waraxe" }
+				type: "item"
+			}]
 			x: 8.0d
 			y: 0.0d
 		}
@@ -694,9 +625,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 3
 					id: "1883CB3555A99CF9"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -708,16 +640,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "3BB138214B611FC3"
-					item: {
-						count: 1
-						id: "sleepy_hollows:shatterbrand"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3BB138214B611FC3"
+				item: { count: 1, id: "sleepy_hollows:shatterbrand" }
+				type: "item"
+			}]
 			x: 8.0d
 			y: 1.75d
 		}
@@ -727,9 +654,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "54A6302DDBCD36D2"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -740,16 +668,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "2B02B6BE94ECFFD2"
-					item: {
-						count: 1
-						id: "sleepy_hollows:raubbau"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2B02B6BE94ECFFD2"
+				item: { count: 1, id: "sleepy_hollows:raubbau" }
+				type: "item"
+			}]
 			x: 8.0d
 			y: 3.5d
 		}
@@ -759,9 +682,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "4BB28E058EEB444D"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -774,21 +698,15 @@
 			]
 			tasks: [
 				{
-					count: 32
+					count: 32L
 					id: "011649C6624FBD98"
-					item: {
-						count: 1
-						id: "sleepy_hollows:hollow_planks"
-					}
+					item: { count: 1, id: "sleepy_hollows:hollow_planks" }
 					type: "item"
 				}
 				{
-					count: 32
+					count: 32L
 					id: "5F536413E413FE60"
-					item: {
-						count: 1
-						id: "sleepy_hollows:gravestone_bricks"
-					}
+					item: { count: 1, id: "sleepy_hollows:gravestone_bricks" }
 					type: "item"
 				}
 			]
@@ -801,9 +719,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "70CBA85FA36C76DF"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -814,16 +733,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "048CCD0E635BAFED"
-					item: {
-						count: 1
-						id: "sleepy_hollows:music_disc_sleepy_hollows"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "048CCD0E635BAFED"
+				item: { count: 1, id: "sleepy_hollows:music_disc_sleepy_hollows" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: 3.5d
 		}

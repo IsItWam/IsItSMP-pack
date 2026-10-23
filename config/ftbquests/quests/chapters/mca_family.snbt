@@ -7,7 +7,8 @@
 		id: "mca:wedding_ring"
 	}
 	id: "2AEB62FF62E41AAF"
-	order_index: 17
+	images: [ ]
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -30,13 +31,12 @@
 					xp: 25
 				}
 			]
-			tasks: [
-				{
-					advancement: "mca:root"
-					id: "7F95B6EEA4B71C81"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "mca:root"
+				criterion: ""
+				id: "7F95B6EEA4B71C81"
+				type: "advancement"
+			}]
 			x: 0.0d
 			y: 0.0d
 		}
@@ -61,12 +61,10 @@
 					xp: 25
 				}
 			]
-			tasks: [
-				{
-					id: "60BF0963C19D806E"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "60BF0963C19D806E"
+				type: "checkmark"
+			}]
 			x: 2.0d
 			y: -0.875d
 		}
@@ -78,9 +76,10 @@
 			id: "4752907932C34042"
 			rewards: [
 				{
+					count: 2
 					id: "1C0D7B28144E6CE5"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -91,12 +90,10 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "567676465C7577F9"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "567676465C7577F9"
+				type: "checkmark"
+			}]
 			x: 4.0d
 			y: -4.375d
 		}
@@ -108,9 +105,10 @@
 			id: "3CC2F5350ECE5CBC"
 			rewards: [
 				{
+					count: 2
 					id: "31D6E1F844D11451"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -121,21 +119,21 @@
 					xp: 50
 				}
 				{
+					count: 2
 					id: "60F5CF2F9FB89284"
 					item: {
-						count: 2
+						count: 1
 						id: "minecraft:gold_ingot"
 					}
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					advancement: "mca:friend"
-					id: "2569380FCBB60FD2"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "mca:friend"
+				criterion: ""
+				id: "2569380FCBB60FD2"
+				type: "advancement"
+			}]
 			x: 6.0d
 			y: -3.5d
 		}
@@ -144,9 +142,10 @@
 			id: "2D6C8611A76387DD"
 			rewards: [
 				{
+					count: 2
 					id: "387C4D5E2C26B5E7"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -157,16 +156,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "3EE8CB725196842F"
-					item: {
-						count: 1
-						id: "mca:bouquet"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3EE8CB725196842F"
+				item: { count: 1, id: "mca:bouquet" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: -2.625d
 		}
@@ -176,9 +170,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "53E8CF5349355741"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -189,31 +184,30 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					count: 8
-					id: "021A2602015B199E"
-					item: {
-						count: 1
-						id: "mca:rose_gold_ingot"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 8L
+				id: "021A2602015B199E"
+				item: { count: 1, id: "mca:rose_gold_ingot" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: -1.75d
 		}
 		{
-			dependencies: ["2D6C8611A76387DD", "3CC2F5350ECE5CBC"]
+			dependencies: [
+				"2D6C8611A76387DD"
+				"3CC2F5350ECE5CBC"
+			]
 			icon: {
 				id: "mca:engagement_ring"
 			}
 			id: "1E0D75D892AE31CE"
 			rewards: [
 				{
+					count: 2
 					id: "4A65A2125BC672CD"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -224,12 +218,10 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "51CC12F90E2310EF"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "51CC12F90E2310EF"
+				type: "checkmark"
+			}]
 			x: 8.0d
 			y: 0.875d
 		}
@@ -256,13 +248,12 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [
-				{
-					advancement: "mca:marriage"
-					id: "00127011EE9C4D84"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "mca:marriage"
+				criterion: ""
+				id: "00127011EE9C4D84"
+				type: "advancement"
+			}]
 			x: 10.0d
 			y: 0.875d
 		}
@@ -288,12 +279,10 @@
 					xp: 25
 				}
 			]
-			tasks: [
-				{
-					id: "4D6E020D5295C0BF"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4D6E020D5295C0BF"
+				type: "checkmark"
+			}]
 			x: 4.0d
 			y: -0.875d
 		}
@@ -303,9 +292,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "6F6F53804F2A9450"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -316,16 +306,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "18698427620A8AA0"
-					item: {
-						count: 1
-						id: "mca:whistle"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "18698427620A8AA0"
+				item: { count: 1, id: "mca:whistle" }
+				type: "item"
+			}]
 			x: 12.0d
 			y: 0.0d
 		}
@@ -351,9 +336,10 @@
 					xp: 300
 				}
 				{
+					count: 2
 					id: "76D1855F75E185FC"
 					item: {
-						count: 2
+						count: 1
 						id: "minecraft:golden_apple"
 					}
 					type: "item"
@@ -361,13 +347,12 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [
-				{
-					advancement: "mca:baby"
-					id: "331C091634F6A9F0"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "mca:baby"
+				criterion: ""
+				id: "331C091634F6A9F0"
+				type: "advancement"
+			}]
 			x: 12.0d
 			y: 1.75d
 		}
@@ -393,12 +378,10 @@
 					xp: 25
 				}
 			]
-			tasks: [
-				{
-					id: "38C9EE461395FEAE"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "38C9EE461395FEAE"
+				type: "checkmark"
+			}]
 			x: 14.0d
 			y: -1.75d
 		}
@@ -410,9 +393,10 @@
 			id: "505DA514D8E4A6F8"
 			rewards: [
 				{
+					count: 3
 					id: "6A031FF301E95F47"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -432,13 +416,12 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					advancement: "mca:grow_child"
-					id: "7442103CB441E688"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "mca:grow_child"
+				criterion: ""
+				id: "7442103CB441E688"
+				type: "advancement"
+			}]
 			x: 14.0d
 			y: 0.0d
 		}
@@ -450,9 +433,10 @@
 			id: "5D239F359DCA7A94"
 			rewards: [
 				{
+					count: 2
 					id: "77A01EB2AF2A1480"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -463,13 +447,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					advancement: "mca:chores"
-					id: "57A407D7C8A65ABD"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "mca:chores"
+				criterion: ""
+				id: "57A407D7C8A65ABD"
+				type: "advancement"
+			}]
 			x: 16.0d
 			y: -0.875d
 		}
@@ -496,13 +479,12 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [
-				{
-					advancement: "mca:grow_adult"
-					id: "0CC2F7716C3F4B71"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "mca:grow_adult"
+				criterion: ""
+				id: "0CC2F7716C3F4B71"
+				type: "advancement"
+			}]
 			x: 16.0d
 			y: 0.875d
 		}
@@ -515,9 +497,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 3
 					id: "17746E5E53D90877"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -529,13 +512,12 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					advancement: "mca:family"
-					id: "0CC75D631F87317F"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "mca:family"
+				criterion: ""
+				id: "0CC75D631F87317F"
+				type: "advancement"
+			}]
 			x: 14.0d
 			y: 1.75d
 		}
@@ -544,9 +526,10 @@
 			id: "09989CF628D8C660"
 			rewards: [
 				{
+					count: 2
 					id: "7A2EA4C1630BAFF7"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -557,17 +540,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					count: 2
-					id: "78F1718BC645C84D"
-					item: {
-						count: 1
-						id: "mca:matchmakers_ring"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 2L
+				id: "78F1718BC645C84D"
+				item: { count: 1, id: "mca:matchmakers_ring" }
+				type: "item"
+			}]
 			x: 18.0d
 			y: 0.0d
 		}
@@ -594,13 +572,12 @@
 			]
 			shape: "gear"
 			size: 2.0d
-			tasks: [
-				{
-					advancement: "mca:grandparent"
-					id: "5BFDD6E231B99361"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "mca:grandparent"
+				criterion: ""
+				id: "5BFDD6E231B99361"
+				type: "advancement"
+			}]
 			x: 20.0d
 			y: 0.0d
 		}
@@ -609,9 +586,10 @@
 			id: "6A2110A0E61A948C"
 			rewards: [
 				{
+					count: 2
 					id: "6DD4379E287BA815"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -622,16 +600,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "1CE0E420BB0773C9"
-					item: {
-						count: 1
-						id: "mca:blueprint"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1CE0E420BB0773C9"
+				item: { count: 1, id: "mca:blueprint" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: 0.875d
 		}
@@ -644,9 +617,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "65EBC7B82EEEE46D"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -657,12 +631,10 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "343D8D65A8722E49"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "343D8D65A8722E49"
+				type: "checkmark"
+			}]
 			x: 4.0d
 			y: 2.625d
 		}
@@ -674,9 +646,10 @@
 			id: "7381677620619DF3"
 			rewards: [
 				{
+					count: 3
 					id: "7FAB5ED9A9E07BB0"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -688,13 +661,12 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					advancement: "mca:merchant"
-					id: "54FB419FF2B0A8EB"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "mca:merchant"
+				criterion: ""
+				id: "54FB419FF2B0A8EB"
+				type: "advancement"
+			}]
 			x: 4.0d
 			y: 4.375d
 		}
@@ -707,9 +679,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 3
 					id: "50EDF7B4B09CAA7F"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -721,13 +694,12 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					advancement: "mca:noble"
-					id: "0CEDD1E5A45740E5"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "mca:noble"
+				criterion: ""
+				id: "0CEDD1E5A45740E5"
+				type: "advancement"
+			}]
 			x: 6.0d
 			y: 3.5d
 		}
@@ -740,9 +712,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "538FB85EAE5E4B58"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -753,12 +726,10 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "76E5FE5EB0A0160A"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "76E5FE5EB0A0160A"
+				type: "checkmark"
+			}]
 			x: 8.0d
 			y: -0.875d
 		}
@@ -771,9 +742,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 3
 					id: "79F6DB7090C0B6B3"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -785,14 +757,12 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					entity: "mca:grim_reaper"
-					id: "35F3C2B3A848F503"
-					type: "kill"
-					value: 1
-				}
-			]
+			tasks: [{
+				entity: "mca:grim_reaper"
+				id: "35F3C2B3A848F503"
+				type: "kill"
+				value: 1L
+			}]
 			x: 10.0d
 			y: -0.875d
 		}
@@ -802,9 +772,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 3
 					id: "1D66FE35C55B7EFF"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -816,16 +787,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "7C8ABDF36C987273"
-					item: {
-						count: 1
-						id: "mca:staff_of_life"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7C8ABDF36C987273"
+				item: { count: 1, id: "mca:staff_of_life" }
+				type: "item"
+			}]
 			x: 12.0d
 			y: -1.75d
 		}
@@ -837,9 +803,10 @@
 			id: "685146C48FA19AD4"
 			rewards: [
 				{
+					count: 2
 					id: "65E08A14E5126A1B"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -850,12 +817,10 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "11CC52D166DE7389"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "11CC52D166DE7389"
+				type: "checkmark"
+			}]
 			x: 4.0d
 			y: 0.875d
 		}
@@ -868,9 +833,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "069073CD04D90E06"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -881,12 +847,10 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "01D2E1080D225A11"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "01D2E1080D225A11"
+				type: "checkmark"
+			}]
 			x: 6.0d
 			y: 0.0d
 		}
@@ -898,9 +862,10 @@
 			id: "72800A344A63D036"
 			rewards: [
 				{
+					count: 3
 					id: "521A11A62EF7693F"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -912,12 +877,10 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "1E1D2C4112640BA7"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "1E1D2C4112640BA7"
+				type: "checkmark"
+			}]
 			x: 6.0d
 			y: 1.75d
 		}

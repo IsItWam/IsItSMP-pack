@@ -7,7 +7,8 @@
 		id: "minecraft:trial_key"
 	}
 	id: "4EF5A5B39B2B218B"
-	order_index: 16
+	images: [ ]
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -16,12 +17,10 @@
 			}
 			id: "3AA2F1C6BAE4A44E"
 			min_width: 300
-			tasks: [
-				{
-					id: "7AF4C7C43952EDF6"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "7AF4C7C43952EDF6"
+				type: "checkmark"
+			}]
 			x: 0.0d
 			y: 0.0d
 		}
@@ -46,13 +45,12 @@
 					xp: 25
 				}
 			]
-			tasks: [
-				{
-					advancement: "dungeons_arise:find_merchant_campsite"
-					id: "1272AF5BF1DC6A53"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "dungeons_arise:find_merchant_campsite"
+				criterion: ""
+				id: "1272AF5BF1DC6A53"
+				type: "advancement"
+			}]
 			x: 2.0d
 			y: -6.125d
 		}
@@ -64,9 +62,10 @@
 			id: "2F2517347F688FDC"
 			rewards: [
 				{
+					count: 2
 					id: "261C1E083D9448BC"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -77,13 +76,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					advancement: "dungeons_arise:find_illager_campsite"
-					id: "12D2065E0C3D6752"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "dungeons_arise:find_illager_campsite"
+				criterion: ""
+				id: "12D2065E0C3D6752"
+				type: "advancement"
+			}]
 			x: 4.0d
 			y: -12.25d
 		}
@@ -95,9 +93,10 @@
 			id: "486235BCCA101E17"
 			rewards: [
 				{
+					count: 2
 					id: "4EEB7D51CB1DC7E8"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -108,13 +107,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					advancement: "dungeons_arise:find_illager_windmill"
-					id: "722132713CC253FD"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "dungeons_arise:find_illager_windmill"
+				criterion: ""
+				id: "722132713CC253FD"
+				type: "advancement"
+			}]
 			x: 4.0d
 			y: -10.5d
 		}
@@ -141,13 +139,12 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [
-				{
-					advancement: "dungeons_arise:find_illager_fort"
-					id: "2A95CFCCD02EC795"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "dungeons_arise:find_illager_fort"
+				criterion: ""
+				id: "2A95CFCCD02EC795"
+				type: "advancement"
+			}]
 			x: 6.0d
 			y: -7.0d
 		}
@@ -160,9 +157,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "2F54233D1FCD2C27"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -173,14 +171,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					entity: "minecraft:illusioner"
-					id: "0A3147A92C328B84"
-					type: "kill"
-					value: 1
-				}
-			]
+			tasks: [{
+				entity: "minecraft:illusioner"
+				id: "0A3147A92C328B84"
+				type: "kill"
+				value: 1L
+			}]
 			x: 8.0d
 			y: -1.75d
 		}
@@ -192,9 +188,10 @@
 			id: "61EE5EFF62C3F5B0"
 			rewards: [
 				{
+					count: 2
 					id: "5B7ABA152AE2F797"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -205,13 +202,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					advancement: "dungeons_arise:find_illager_corsair_or_illager_galley"
-					id: "68B0907A26A43F7C"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "dungeons_arise:find_illager_corsair_or_illager_galley"
+				criterion: ""
+				id: "68B0907A26A43F7C"
+				type: "advancement"
+			}]
 			x: 6.0d
 			y: -5.25d
 		}
@@ -224,9 +220,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "3627B033ED8A6DD0"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -240,11 +237,13 @@
 			tasks: [
 				{
 					advancement: "dungeons_arise:find_undead_pirate_ship"
+					criterion: ""
 					id: "54624F96D3DB5186"
 					type: "advancement"
 				}
 				{
 					advancement: "dungeons_arise:find_typhon"
+					criterion: ""
 					id: "4944E3BE2E3D1DBF"
 					type: "advancement"
 				}
@@ -260,9 +259,10 @@
 			id: "62A0D3C726A24847"
 			rewards: [
 				{
+					count: 2
 					id: "659DC84DB6A200BA"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -276,11 +276,13 @@
 			tasks: [
 				{
 					advancement: "dungeons_arise:find_wishing_well"
+					criterion: ""
 					id: "4B9AE9DE861503D9"
 					type: "advancement"
 				}
 				{
 					advancement: "dungeons_arise:find_bathhouse"
+					criterion: ""
 					id: "05FF1BFE458CCA04"
 					type: "advancement"
 				}
@@ -297,9 +299,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "0D643A29CE8440E4"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -313,6 +316,7 @@
 			tasks: [
 				{
 					advancement: "dungeons_arise:find_lighthouse"
+					criterion: ""
 					id: "195810129BFB45F6"
 					type: "advancement"
 				}
@@ -333,9 +337,10 @@
 			id: "2322131793D1E165"
 			rewards: [
 				{
+					count: 3
 					id: "0B3454D9E49D8879"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -347,13 +352,12 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					advancement: "dungeons_arise:find_coliseum"
-					id: "4ED51FEB45E6A8C3"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "dungeons_arise:find_coliseum"
+				criterion: ""
+				id: "4ED51FEB45E6A8C3"
+				type: "advancement"
+			}]
 			x: 6.0d
 			y: -1.75d
 		}
@@ -365,9 +369,10 @@
 			id: "45B1D031400D8F8E"
 			rewards: [
 				{
+					count: 2
 					id: "5D1B2240BBD76664"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -378,13 +383,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					advancement: "dungeons_arise:find_greenwood_pub"
-					id: "6597DA90373FFF24"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "dungeons_arise:find_greenwood_pub"
+				criterion: ""
+				id: "6597DA90373FFF24"
+				type: "advancement"
+			}]
 			x: 2.0d
 			y: -4.375d
 		}
@@ -396,9 +400,10 @@
 			id: "42C6FB42DCA61CE1"
 			rewards: [
 				{
+					count: 2
 					id: "37493ADDC4241CAD"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -412,11 +417,13 @@
 			tasks: [
 				{
 					advancement: "dungeons_arise:find_mushroom_house"
+					criterion: ""
 					id: "2E73AE5C457368F4"
 					type: "advancement"
 				}
 				{
 					advancement: "dungeons_arise:find_mushroom_village"
+					criterion: ""
 					id: "1C9E0B7E4A32EC38"
 					type: "advancement"
 				}
@@ -432,9 +439,10 @@
 			id: "5CF03285F1E47EC6"
 			rewards: [
 				{
+					count: 2
 					id: "2E18BDE99F3FE352"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -445,13 +453,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					advancement: "dungeons_arise:find_mushroom_mines"
-					id: "0BE7E748ED3A9047"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "dungeons_arise:find_mushroom_mines"
+				criterion: ""
+				id: "0BE7E748ED3A9047"
+				type: "advancement"
+			}]
 			x: 6.0d
 			y: 0.0d
 		}
@@ -463,9 +470,10 @@
 			id: "7901B3E19A1EB8C8"
 			rewards: [
 				{
+					count: 2
 					id: "4889269514EAF5AD"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -476,13 +484,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					advancement: "dungeons_arise:find_plague_asylum"
-					id: "64032D84ECADEABB"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "dungeons_arise:find_plague_asylum"
+				criterion: ""
+				id: "64032D84ECADEABB"
+				type: "advancement"
+			}]
 			x: 4.0d
 			y: -5.25d
 		}
@@ -494,9 +501,10 @@
 			id: "75F03B7EC595A39F"
 			rewards: [
 				{
+					count: 2
 					id: "201B36D3040B9192"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -507,13 +515,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					advancement: "dungeons_arise:find_abandoned_temple"
-					id: "66FC17FB50DB3AA3"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "dungeons_arise:find_abandoned_temple"
+				criterion: ""
+				id: "66FC17FB50DB3AA3"
+				type: "advancement"
+			}]
 			x: 2.0d
 			y: -2.625d
 		}
@@ -541,11 +548,13 @@
 			tasks: [
 				{
 					advancement: "dungeons_arise:find_monastery"
+					criterion: ""
 					id: "56563650A32DD59D"
 					type: "advancement"
 				}
 				{
 					advancement: "dungeons_arise:find_infested_temple_map"
+					criterion: ""
 					id: "2FDDE01BF0AE9FEA"
 					type: "advancement"
 				}
@@ -562,9 +571,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "61F39413AAED8105"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -575,13 +585,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "7620FD3E0174BD32"
-					structure: "dungeons_arise:thornborn_towers"
-					type: "structure"
-				}
-			]
+			tasks: [{
+				id: "7620FD3E0174BD32"
+				structure: "dungeons_arise:thornborn_towers"
+				type: "structure"
+			}]
 			x: 6.0d
 			y: 1.75d
 		}
@@ -594,9 +602,10 @@
 			min_width: 300
 			rewards: [
 				{
+					count: 3
 					id: "2715BB3177AA338F"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -608,13 +617,12 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					advancement: "dungeons_arise:find_infested_temple"
-					id: "26CE7E7DD789D9B6"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "dungeons_arise:find_infested_temple"
+				criterion: ""
+				id: "26CE7E7DD789D9B6"
+				type: "advancement"
+			}]
 			x: 6.0d
 			y: 3.5d
 		}
@@ -627,9 +635,10 @@
 			min_width: 300
 			rewards: [
 				{
+					count: 3
 					id: "222CB3481D4A6219"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -641,13 +650,12 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					advancement: "dungeons_arise:find_kisegi_sanctuary"
-					id: "758B65AF45CCF8CA"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "dungeons_arise:find_kisegi_sanctuary"
+				criterion: ""
+				id: "758B65AF45CCF8CA"
+				type: "advancement"
+			}]
 			x: 4.0d
 			y: -1.75d
 		}
@@ -672,13 +680,12 @@
 					xp: 25
 				}
 			]
-			tasks: [
-				{
-					advancement: "dungeons_arise:find_ceryneian_hind"
-					id: "622EAA20D241FA9E"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "dungeons_arise:find_ceryneian_hind"
+				criterion: ""
+				id: "622EAA20D241FA9E"
+				type: "advancement"
+			}]
 			x: 2.0d
 			y: -0.875d
 		}
@@ -690,9 +697,10 @@
 			id: "6A6AAF71C55DA269"
 			rewards: [
 				{
+					count: 2
 					id: "5D797988D40BD924"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -703,13 +711,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					advancement: "dungeons_arise:find_scorched_mines"
-					id: "1D1D827B082678CD"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "dungeons_arise:find_scorched_mines"
+				criterion: ""
+				id: "1D1D827B082678CD"
+				type: "advancement"
+			}]
 			x: 4.0d
 			y: 0.0d
 		}
@@ -721,9 +728,10 @@
 			id: "3776B9C81D0EABA7"
 			rewards: [
 				{
+					count: 3
 					id: "3B4296AA42B90304"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -735,13 +743,12 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					advancement: "dungeons_arise:find_foundry"
-					id: "4CD1C1EB8D4E00F8"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "dungeons_arise:find_foundry"
+				criterion: ""
+				id: "4CD1C1EB8D4E00F8"
+				type: "advancement"
+			}]
 			x: 6.0d
 			y: 5.25d
 		}
@@ -768,13 +775,12 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [
-				{
-					advancement: "dungeons_arise:find_shiraz_palace"
-					id: "10D83D053ECC128E"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "dungeons_arise:find_shiraz_palace"
+				criterion: ""
+				id: "10D83D053ECC128E"
+				type: "advancement"
+			}]
 			x: 4.0d
 			y: 1.75d
 		}
@@ -786,9 +792,10 @@
 			id: "2AEE116EA925AB86"
 			rewards: [
 				{
+					count: 2
 					id: "07F0B83F8E6B5C00"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -802,11 +809,13 @@
 			tasks: [
 				{
 					advancement: "dungeons_arise:find_bandit_village"
+					criterion: ""
 					id: "78496152F82A688B"
 					type: "advancement"
 				}
 				{
 					advancement: "dungeons_arise:find_bandit_towers"
+					criterion: ""
 					id: "1279DA014CB6670C"
 					type: "advancement"
 				}
@@ -822,9 +831,10 @@
 			id: "4BA516B829B1A8C8"
 			rewards: [
 				{
+					count: 3
 					id: "442850FEF37BD3A1"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -836,13 +846,12 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					advancement: "dungeons_arise:find_keep_kayra"
-					id: "1C9C1403CDE036FC"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "dungeons_arise:find_keep_kayra"
+				criterion: ""
+				id: "1C9C1403CDE036FC"
+				type: "advancement"
+			}]
 			x: 2.0d
 			y: 2.625d
 		}
@@ -854,9 +863,10 @@
 			id: "2A4FC1EBBCD37302"
 			rewards: [
 				{
+					count: 2
 					id: "4E4D6463C5157A04"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -867,21 +877,21 @@
 					xp: 50
 				}
 				{
+					count: 16
 					id: "513FC164E5042E64"
 					item: {
-						count: 16
+						count: 1
 						id: "minecraft:scaffolding"
 					}
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					advancement: "dungeons_arise:find_small_blimp"
-					id: "0221E8D2921691EE"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "dungeons_arise:find_small_blimp"
+				criterion: ""
+				id: "0221E8D2921691EE"
+				type: "advancement"
+			}]
 			x: 2.0d
 			y: 4.375d
 		}
@@ -893,9 +903,10 @@
 			id: "4C35726CB71F147C"
 			rewards: [
 				{
+					count: 3
 					id: "6D5026F9830D2187"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -907,13 +918,12 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					advancement: "dungeons_arise:find_mining_complex"
-					id: "647DBDF4F6B693D9"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "dungeons_arise:find_mining_complex"
+				criterion: ""
+				id: "647DBDF4F6B693D9"
+				type: "advancement"
+			}]
 			x: 4.0d
 			y: 3.5d
 		}
@@ -948,13 +958,12 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [
-				{
-					advancement: "dungeons_arise:find_mechanical_nest"
-					id: "03DF83FB3C520E51"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "dungeons_arise:find_mechanical_nest"
+				criterion: ""
+				id: "03DF83FB3C520E51"
+				type: "advancement"
+			}]
 			x: 4.0d
 			y: 5.25d
 		}
@@ -966,9 +975,10 @@
 			id: "189BB88A164E2AE8"
 			rewards: [
 				{
+					count: 2
 					id: "79416A17A425D94A"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -982,11 +992,13 @@
 			tasks: [
 				{
 					advancement: "dungeons_arise:find_heavenly_rider"
+					criterion: ""
 					id: "199AC5DD89E72C9F"
 					type: "advancement"
 				}
 				{
 					advancement: "dungeons_arise:find_heavenly_conqueror"
+					criterion: ""
 					id: "009EFA9F19C5C85B"
 					type: "advancement"
 				}
@@ -1002,9 +1014,10 @@
 			id: "2421C0DF003105FD"
 			rewards: [
 				{
+					count: 3
 					id: "2584D02F45DA82D8"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -1016,13 +1029,12 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					advancement: "dungeons_arise:find_heavenly_challenger"
-					id: "6699C40A66DCE12A"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "dungeons_arise:find_heavenly_challenger"
+				criterion: ""
+				id: "6699C40A66DCE12A"
+				type: "advancement"
+			}]
 			x: 6.0d
 			y: 7.0d
 		}
@@ -1050,13 +1062,12 @@
 			]
 			shape: "gear"
 			size: 2.0d
-			tasks: [
-				{
-					advancement: "dungeons_arise:find_aviary"
-					id: "37D1916E06FE4166"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "dungeons_arise:find_aviary"
+				criterion: ""
+				id: "37D1916E06FE4166"
+				type: "advancement"
+			}]
 			x: 8.0d
 			y: 1.75d
 		}
@@ -1068,9 +1079,10 @@
 			id: "24296DB5FCD0047B"
 			rewards: [
 				{
+					count: 2
 					id: "4A6D4DBFB11EE4C5"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -1081,13 +1093,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "60D916B0CECD56F3"
-					structure: "dungeons_arise_seven_seas:small_yacht"
-					type: "structure"
-				}
-			]
+			tasks: [{
+				id: "60D916B0CECD56F3"
+				structure: "dungeons_arise_seven_seas:small_yacht"
+				type: "structure"
+			}]
 			x: 2.0d
 			y: 6.125d
 		}
@@ -1100,9 +1110,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "567647E6D2293FBE"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -1137,9 +1148,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "08DF57C8F0A859CA"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -1150,13 +1162,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "2B02FBE64A5B2841"
-					structure: "dungeons_arise_seven_seas:unicorn_galleon"
-					type: "structure"
-				}
-			]
+			tasks: [{
+				id: "2B02FBE64A5B2841"
+				structure: "dungeons_arise_seven_seas:unicorn_galleon"
+				type: "structure"
+			}]
 			x: 4.0d
 			y: 10.5d
 		}
@@ -1168,9 +1178,10 @@
 			id: "0B9B39BD4A620C0C"
 			rewards: [
 				{
+					count: 3
 					id: "3745EFE64B2E1300"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -1182,13 +1193,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "3D5C57B54494DD31"
-					structure: "dungeons_arise_seven_seas:victory_frigate"
-					type: "structure"
-				}
-			]
+			tasks: [{
+				id: "3D5C57B54494DD31"
+				structure: "dungeons_arise_seven_seas:victory_frigate"
+				type: "structure"
+			}]
 			x: 4.0d
 			y: 12.25d
 		}

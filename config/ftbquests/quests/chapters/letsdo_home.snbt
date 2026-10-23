@@ -7,7 +7,8 @@
 		id: "furniture:sofa_red"
 	}
 	id: "033C7CE7BD5A1233"
-	order_index: 23
+	images: [ ]
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -16,12 +17,10 @@
 			}
 			id: "142791A2592566BE"
 			min_width: 300
-			tasks: [
-				{
-					id: "375AA6117EC0D1C3"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "375AA6117EC0D1C3"
+				type: "checkmark"
+			}]
 			x: 0.0d
 			y: 0.0d
 		}
@@ -46,22 +45,17 @@
 			tasks: [
 				{
 					id: "7CF69DF927EA7051"
-					item: {
-						count: 1
-						id: "furniture:oak_bench"
-					}
+					item: { count: 1, id: "furniture:oak_bench" }
 					type: "item"
 				}
 				{
 					id: "1B447F1B1A09D6CA"
-					item: {
-						count: 1
-						id: "furniture:oak_desk_chair"
-					}
+					item: { count: 1, id: "furniture:oak_desk_chair" }
 					type: "item"
 				}
 				{
 					advancement: "furniture:furniture/sit"
+					criterion: ""
 					id: "614B3A93C0FD12DA"
 					type: "advancement"
 				}
@@ -74,9 +68,10 @@
 			id: "2623FCB0A62AAE83"
 			rewards: [
 				{
+					count: 2
 					id: "7BF4BF9DC306CEE3"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -90,26 +85,17 @@
 			tasks: [
 				{
 					id: "7F44992F272E269A"
-					item: {
-						count: 1
-						id: "furniture:oak_cabinet"
-					}
+					item: { count: 1, id: "furniture:oak_cabinet" }
 					type: "item"
 				}
 				{
 					id: "652896305929B6F3"
-					item: {
-						count: 1
-						id: "furniture:oak_dresser"
-					}
+					item: { count: 1, id: "furniture:oak_dresser" }
 					type: "item"
 				}
 				{
 					id: "7E1E8CCCF0147620"
-					item: {
-						count: 1
-						id: "furniture:coffer"
-					}
+					item: { count: 1, id: "furniture:coffer" }
 					type: "item"
 				}
 			]
@@ -121,9 +107,10 @@
 			id: "40636DB37FF184B9"
 			rewards: [
 				{
+					count: 2
 					id: "01C5749004EA88E3"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -137,22 +124,17 @@
 			tasks: [
 				{
 					id: "7587E85AD896A58C"
-					item: {
-						count: 1
-						id: "furniture:oak_wardrobe"
-					}
+					item: { count: 1, id: "furniture:oak_wardrobe" }
 					type: "item"
 				}
 				{
 					id: "5EC46994BD586857"
-					item: {
-						count: 1
-						id: "furniture:oak_mirror"
-					}
+					item: { count: 1, id: "furniture:oak_mirror" }
 					type: "item"
 				}
 				{
 					advancement: "furniture:furniture/wardrobe"
+					criterion: ""
 					id: "3FCC52F57DC3A13B"
 					type: "advancement"
 				}
@@ -165,9 +147,10 @@
 			id: "323B7572E1658AD2"
 			rewards: [
 				{
+					count: 2
 					id: "2B770366244CB1ED"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -181,18 +164,12 @@
 			tasks: [
 				{
 					id: "4FB42C7548913133"
-					item: {
-						count: 1
-						id: "furniture:oak_clock"
-					}
+					item: { count: 1, id: "furniture:oak_clock" }
 					type: "item"
 				}
 				{
 					id: "56C634604D228D36"
-					item: {
-						count: 1
-						id: "furniture:oak_grandfather_clock"
-					}
+					item: { count: 1, id: "furniture:oak_grandfather_clock" }
 					type: "item"
 				}
 			]
@@ -204,9 +181,10 @@
 			id: "36E2FECB470E3281"
 			rewards: [
 				{
+					count: 2
 					id: "3B84438F5A25D2E2"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -220,14 +198,12 @@
 			tasks: [
 				{
 					id: "6A0D72F65BE895FB"
-					item: {
-						count: 1
-						id: "furniture:telescope"
-					}
+					item: { count: 1, id: "furniture:telescope" }
 					type: "item"
 				}
 				{
 					advancement: "furniture:furniture/stargazer"
+					criterion: ""
 					id: "6D1ED9533A8C2A55"
 					type: "advancement"
 				}
@@ -240,9 +216,10 @@
 			id: "159EB5A1152B16B2"
 			rewards: [
 				{
+					count: 2
 					id: "1EB58D5BE473D06D"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -256,34 +233,22 @@
 			tasks: [
 				{
 					id: "3DDEE21C276A0D6E"
-					item: {
-						count: 1
-						id: "furniture:sofa_red"
-					}
+					item: { count: 1, id: "furniture:sofa_red" }
 					type: "item"
 				}
 				{
 					id: "030EC56EDAC20B34"
-					item: {
-						count: 1
-						id: "furniture:pouffe_red"
-					}
+					item: { count: 1, id: "furniture:pouffe_red" }
 					type: "item"
 				}
 				{
 					id: "078EAC6DD8E17F20"
-					item: {
-						count: 1
-						id: "furniture:curtain_red"
-					}
+					item: { count: 1, id: "furniture:curtain_red" }
 					type: "item"
 				}
 				{
 					id: "6621401E18D52BC5"
-					item: {
-						count: 1
-						id: "furniture:lamp_red"
-					}
+					item: { count: 1, id: "furniture:lamp_red" }
 					type: "item"
 				}
 			]
@@ -295,9 +260,10 @@
 			id: "78DFFEFDBCDABCE6"
 			rewards: [
 				{
+					count: 2
 					id: "059C52DF0CC26DC2"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -311,14 +277,12 @@
 			tasks: [
 				{
 					id: "3551B2D47007EB94"
-					item: {
-						count: 1
-						id: "furniture:gramophone"
-					}
+					item: { count: 1, id: "furniture:gramophone" }
 					type: "item"
 				}
 				{
 					advancement: "furniture:furniture/gramophone"
+					criterion: ""
 					id: "7A17DB515E609F01"
 					type: "advancement"
 				}
@@ -331,9 +295,10 @@
 			id: "2D34C88EA5E92EF0"
 			rewards: [
 				{
+					count: 3
 					id: "69896D50AED133B1"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -348,18 +313,12 @@
 			tasks: [
 				{
 					id: "4D5C43A16121CFE7"
-					item: {
-						count: 1
-						id: "furniture:street_lantern_item"
-					}
+					item: { count: 1, id: "furniture:street_lantern_item" }
 					type: "item"
 				}
 				{
 					id: "38B80EFB59B5323E"
-					item: {
-						count: 1
-						id: "furniture:plated_street_lantern_item"
-					}
+					item: { count: 1, id: "furniture:plated_street_lantern_item" }
 					type: "item"
 				}
 			]
@@ -371,9 +330,10 @@
 			id: "5E30FF1F692A63B6"
 			rewards: [
 				{
+					count: 2
 					id: "1EFED218D7D4B4E8"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -387,34 +347,22 @@
 			tasks: [
 				{
 					id: "430BAE43402CB400"
-					item: {
-						count: 1
-						id: "furniture:blueprints"
-					}
+					item: { count: 1, id: "furniture:blueprints" }
 					type: "item"
 				}
 				{
 					id: "768F22F6012B97E4"
-					item: {
-						count: 1
-						id: "furniture:tool_box"
-					}
+					item: { count: 1, id: "furniture:tool_box" }
 					type: "item"
 				}
 				{
 					id: "44F7CF4D1F0C45F4"
-					item: {
-						count: 1
-						id: "furniture:sewing_kit"
-					}
+					item: { count: 1, id: "furniture:sewing_kit" }
 					type: "item"
 				}
 				{
 					id: "5E17E995F901CF88"
-					item: {
-						count: 1
-						id: "furniture:explorers_box"
-					}
+					item: { count: 1, id: "furniture:explorers_box" }
 					type: "item"
 				}
 			]
@@ -427,9 +375,10 @@
 			min_width: 300
 			rewards: [
 				{
+					count: 2
 					id: "7CCE66596BE3ED68"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -443,34 +392,22 @@
 			tasks: [
 				{
 					id: "2B5A7CF4C5BAE0FA"
-					item: {
-						count: 1
-						id: "furniture:bin"
-					}
+					item: { count: 1, id: "furniture:bin" }
 					type: "item"
 				}
 				{
 					id: "1550857BC96C817B"
-					item: {
-						count: 1
-						id: "furniture:boat_in_a_jar"
-					}
+					item: { count: 1, id: "furniture:boat_in_a_jar" }
 					type: "item"
 				}
 				{
 					id: "39B857CF08FD3A30"
-					item: {
-						count: 1
-						id: "furniture:terrarium"
-					}
+					item: { count: 1, id: "furniture:terrarium" }
 					type: "item"
 				}
 				{
 					id: "58CB37DAB285103C"
-					item: {
-						count: 1
-						id: "furniture:display"
-					}
+					item: { count: 1, id: "furniture:display" }
 					type: "item"
 				}
 			]
@@ -482,9 +419,10 @@
 			id: "551A358EBAD361AF"
 			rewards: [
 				{
+					count: 3
 					id: "3E5A61D0DBBCE8F0"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -499,22 +437,17 @@
 			tasks: [
 				{
 					id: "4BB64298E19805A3"
-					item: {
-						count: 1
-						id: "furniture:copper_fish_tank"
-					}
+					item: { count: 1, id: "furniture:copper_fish_tank" }
 					type: "item"
 				}
 				{
 					id: "4803A19F229AAA8A"
-					item: {
-						count: 1
-						id: "furniture:iron_fish_tank"
-					}
+					item: { count: 1, id: "furniture:iron_fish_tank" }
 					type: "item"
 				}
 				{
 					advancement: "furniture:furniture/fish_tank"
+					criterion: ""
 					id: "3C25601229F14528"
 					type: "advancement"
 				}
@@ -527,9 +460,10 @@
 			id: "12B078F468743CD3"
 			rewards: [
 				{
+					count: 2
 					id: "15F62BD9D753C4DE"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -543,18 +477,12 @@
 			tasks: [
 				{
 					id: "6026EDDCF2689281"
-					item: {
-						count: 1
-						id: "furniture:wooden_planter"
-					}
+					item: { count: 1, id: "furniture:wooden_planter" }
 					type: "item"
 				}
 				{
 					id: "27926B0CD7669B49"
-					item: {
-						count: 1
-						id: "furniture:stone_brick_planter"
-					}
+					item: { count: 1, id: "furniture:stone_brick_planter" }
 					type: "item"
 				}
 			]
@@ -567,9 +495,10 @@
 			min_width: 300
 			rewards: [
 				{
+					count: 3
 					id: "10A31BC5FA9A1AD1"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -584,27 +513,18 @@
 			tasks: [
 				{
 					id: "44EED365F0EB8EA3"
-					item: {
-						count: 1
-						id: "furniture:steam_vent"
-					}
+					item: { count: 1, id: "furniture:steam_vent" }
 					type: "item"
 				}
 				{
-					count: 4
+					count: 4L
 					id: "79D80FFFF35EE3B8"
-					item: {
-						count: 1
-						id: "furniture:steam_pipe"
-					}
+					item: { count: 1, id: "furniture:steam_pipe" }
 					type: "item"
 				}
 				{
 					id: "7E75AA849EB23E72"
-					item: {
-						count: 1
-						id: "furniture:brick_chimney"
-					}
+					item: { count: 1, id: "furniture:brick_chimney" }
 					type: "item"
 				}
 			]
@@ -634,14 +554,12 @@
 			tasks: [
 				{
 					id: "007EC55E95282A40"
-					item: {
-						count: 1
-						id: "furniture:cash_register"
-					}
+					item: { count: 1, id: "furniture:cash_register" }
 					type: "item"
 				}
 				{
 					advancement: "furniture:furniture/cash_register"
+					criterion: ""
 					id: "7ED9206AEAEFB26F"
 					type: "advancement"
 				}
@@ -654,9 +572,10 @@
 			id: "27A99280DDF68521"
 			rewards: [
 				{
+					count: 2
 					id: "384770FC69201969"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -669,21 +588,15 @@
 			]
 			tasks: [
 				{
-					count: 4
+					count: 4L
 					id: "736636A70B4501E7"
-					item: {
-						count: 1
-						id: "hearth_and_timber:timber_frame"
-					}
+					item: { count: 1, id: "hearth_and_timber:timber_frame" }
 					type: "item"
 				}
 				{
-					count: 2
+					count: 2L
 					id: "2D4F9CF8E7B3086F"
-					item: {
-						count: 1
-						id: "hearth_and_timber:timber_cross_frame"
-					}
+					item: { count: 1, id: "hearth_and_timber:timber_cross_frame" }
 					type: "item"
 				}
 			]
@@ -695,9 +608,10 @@
 			id: "42572791E06E1378"
 			rewards: [
 				{
+					count: 2
 					id: "016A4A0EA4DB6A5B"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -708,9 +622,10 @@
 					xp: 50
 				}
 				{
+					count: 16
 					id: "241D2AE624A8507B"
 					item: {
-						count: 16
+						count: 1
 						id: "minecraft:calcite"
 					}
 					type: "item"
@@ -718,21 +633,15 @@
 			]
 			tasks: [
 				{
-					count: 8
+					count: 8L
 					id: "296B2F9E01410D8B"
-					item: {
-						count: 1
-						id: "hearth_and_timber:quicklime"
-					}
+					item: { count: 1, id: "hearth_and_timber:quicklime" }
 					type: "item"
 				}
 				{
-					count: 8
+					count: 8L
 					id: "70803C3EE7DB3267"
-					item: {
-						count: 1
-						id: "hearth_and_timber:white_plaster"
-					}
+					item: { count: 1, id: "hearth_and_timber:white_plaster" }
 					type: "item"
 				}
 			]
@@ -745,9 +654,10 @@
 			min_width: 300
 			rewards: [
 				{
+					count: 3
 					id: "51AE75248C523EE4"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -761,21 +671,15 @@
 			shape: "diamond"
 			tasks: [
 				{
-					count: 16
+					count: 16L
 					id: "7D78A1837538C685"
-					item: {
-						count: 1
-						id: "hearth_and_timber:groutless_rubblestone"
-					}
+					item: { count: 1, id: "hearth_and_timber:groutless_rubblestone" }
 					type: "item"
 				}
 				{
-					count: 4
+					count: 4L
 					id: "6BA3C1D3887DADA4"
-					item: {
-						count: 1
-						id: "hearth_and_timber:covered_rubblestone"
-					}
+					item: { count: 1, id: "hearth_and_timber:covered_rubblestone" }
 					type: "item"
 				}
 			]
@@ -787,9 +691,10 @@
 			id: "278D01E079B7783F"
 			rewards: [
 				{
+					count: 2
 					id: "0BA1A6A726C21A1A"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -802,30 +707,21 @@
 			]
 			tasks: [
 				{
-					count: 2
+					count: 2L
 					id: "1FD1DBF6972F7849"
-					item: {
-						count: 1
-						id: "hearth_and_timber:oak_beam"
-					}
+					item: { count: 1, id: "hearth_and_timber:oak_beam" }
 					type: "item"
 				}
 				{
-					count: 3
+					count: 3L
 					id: "2BC1B0AF3C060BB0"
-					item: {
-						count: 1
-						id: "hearth_and_timber:oak_support"
-					}
+					item: { count: 1, id: "hearth_and_timber:oak_support" }
 					type: "item"
 				}
 				{
-					count: 3
+					count: 3L
 					id: "05E7CD026AC4BFC5"
-					item: {
-						count: 1
-						id: "hearth_and_timber:oak_railing"
-					}
+					item: { count: 1, id: "hearth_and_timber:oak_railing" }
 					type: "item"
 				}
 			]
@@ -838,9 +734,10 @@
 			min_width: 300
 			rewards: [
 				{
+					count: 2
 					id: "7DE4C1995A6B2F17"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -853,28 +750,19 @@
 			]
 			tasks: [
 				{
-					count: 8
+					count: 8L
 					id: "257418C1F91F598B"
-					item: {
-						count: 1
-						id: "hearth_and_timber:oak_window"
-					}
+					item: { count: 1, id: "hearth_and_timber:oak_window" }
 					type: "item"
 				}
 				{
 					id: "155A4EFD7C20992C"
-					item: {
-						count: 1
-						id: "hearth_and_timber:oak_window_casing"
-					}
+					item: { count: 1, id: "hearth_and_timber:oak_window_casing" }
 					type: "item"
 				}
 				{
 					id: "171AD2AF28DE9CC2"
-					item: {
-						count: 1
-						id: "hearth_and_timber:sliding_stable_door"
-					}
+					item: { count: 1, id: "hearth_and_timber:sliding_stable_door" }
 					type: "item"
 				}
 			]
@@ -882,7 +770,10 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["4478918789CEBAF8", "461E6AFD2B2D1C52"]
+			dependencies: [
+				"4478918789CEBAF8"
+				"461E6AFD2B2D1C52"
+			]
 			id: "78C1FC8FE1CFB362"
 			rewards: [
 				{
@@ -903,30 +794,21 @@
 			size: 1.5d
 			tasks: [
 				{
-					count: 16
+					count: 16L
 					id: "406C1F5A39AADDD2"
-					item: {
-						count: 1
-						id: "hearth_and_timber:oak_shingles"
-					}
+					item: { count: 1, id: "hearth_and_timber:oak_shingles" }
 					type: "item"
 				}
 				{
-					count: 8
+					count: 8L
 					id: "26515C39E3B3E80B"
-					item: {
-						count: 1
-						id: "hearth_and_timber:oak_shingle_stairs"
-					}
+					item: { count: 1, id: "hearth_and_timber:oak_shingle_stairs" }
 					type: "item"
 				}
 				{
-					count: 8
+					count: 8L
 					id: "43DF5CDE882ADBF1"
-					item: {
-						count: 1
-						id: "hearth_and_timber:thatch"
-					}
+					item: { count: 1, id: "hearth_and_timber:thatch" }
 					type: "item"
 				}
 			]
@@ -938,9 +820,10 @@
 			id: "1CCFD27EC00D45E6"
 			rewards: [
 				{
+					count: 2
 					id: "50B752A935AD687A"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -954,18 +837,12 @@
 			tasks: [
 				{
 					id: "1F65589441FAF5DB"
-					item: {
-						count: 1
-						id: "lilis_pottery:pottery_table"
-					}
+					item: { count: 1, id: "lilis_pottery:pottery_table" }
 					type: "item"
 				}
 				{
 					id: "3533ED619DDEE013"
-					item: {
-						count: 1
-						id: "lilis_pottery:vase"
-					}
+					item: { count: 1, id: "lilis_pottery:vase" }
 					type: "item"
 				}
 			]
@@ -977,9 +854,10 @@
 			id: "26093DA16B0C3200"
 			rewards: [
 				{
+					count: 2
 					id: "6D0F81A7330130F2"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -990,9 +868,10 @@
 					xp: 50
 				}
 				{
+					count: 3
 					id: "3AEEFAD3CCD20D3B"
 					item: {
-						count: 3
+						count: 1
 						id: "minecraft:honeycomb"
 					}
 					type: "item"
@@ -1001,10 +880,7 @@
 			tasks: [
 				{
 					id: "3F8A189AD3E83226"
-					item: {
-						count: 1
-						id: "lilis_pottery:kiln"
-					}
+					item: { count: 1, id: "lilis_pottery:kiln" }
 					type: "item"
 				}
 				{
@@ -1023,9 +899,10 @@
 			id: "275994DBDF37C35D"
 			rewards: [
 				{
+					count: 2
 					id: "2961FC7C10FAAF58"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -1036,13 +913,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					advancement: "lilis_pottery:main/use_honeycomb_on_pottery"
-					id: "43E7B1F055D09F4D"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "lilis_pottery:main/use_honeycomb_on_pottery"
+				criterion: ""
+				id: "43E7B1F055D09F4D"
+				type: "advancement"
+			}]
 			x: 6.0d
 			y: 5.25d
 		}
@@ -1064,16 +940,11 @@
 					xp: 25
 				}
 			]
-			tasks: [
-				{
-					id: "288B3237F5C8EADB"
-					item: {
-						count: 1
-						id: "lilis_pottery:urn"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "288B3237F5C8EADB"
+				item: { count: 1, id: "lilis_pottery:urn" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: 4.375d
 		}
@@ -1083,9 +954,10 @@
 			min_width: 300
 			rewards: [
 				{
+					count: 3
 					id: "787F8391104EFCAA"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -1100,42 +972,27 @@
 			tasks: [
 				{
 					id: "301B417E15BC97BD"
-					item: {
-						count: 1
-						id: "lilis_pottery:red_clay_ball"
-					}
+					item: { count: 1, id: "lilis_pottery:red_clay_ball" }
 					type: "item"
 				}
 				{
 					id: "33D34C109E257A7A"
-					item: {
-						count: 1
-						id: "lilis_pottery:yellow_clay_ball"
-					}
+					item: { count: 1, id: "lilis_pottery:yellow_clay_ball" }
 					type: "item"
 				}
 				{
 					id: "2DF7FF988EC91E45"
-					item: {
-						count: 1
-						id: "lilis_pottery:white_clay_ball"
-					}
+					item: { count: 1, id: "lilis_pottery:white_clay_ball" }
 					type: "item"
 				}
 				{
 					id: "4BCD3C804DCE1A7D"
-					item: {
-						count: 1
-						id: "lilis_pottery:blue_clay_ball"
-					}
+					item: { count: 1, id: "lilis_pottery:blue_clay_ball" }
 					type: "item"
 				}
 				{
 					id: "35D7CBEBDC286758"
-					item: {
-						count: 1
-						id: "lilis_pottery:black_clay_ball"
-					}
+					item: { count: 1, id: "lilis_pottery:black_clay_ball" }
 					type: "item"
 				}
 			]
@@ -1165,18 +1022,22 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [
-				{
-					advancement: "lilis_pottery:main/get_all_red_pottery"
-					id: "578448331436D26B"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "lilis_pottery:main/get_all_red_pottery"
+				criterion: ""
+				id: "578448331436D26B"
+				type: "advancement"
+			}]
 			x: 6.0d
 			y: 7.0d
 		}
 		{
-			dependencies: ["1189A94CE96BF384", "2D34C88EA5E92EF0", "78C1FC8FE1CFB362", "7648A6DECCEB4750"]
+			dependencies: [
+				"1189A94CE96BF384"
+				"2D34C88EA5E92EF0"
+				"78C1FC8FE1CFB362"
+				"7648A6DECCEB4750"
+			]
 			icon: {
 				id: "furniture:oak_dresser"
 			}
@@ -1199,13 +1060,12 @@
 			]
 			shape: "gear"
 			size: 2.0d
-			tasks: [
-				{
-					advancement: "furniture:furniture/interior_designer"
-					id: "337C246514CCB441"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "furniture:furniture/interior_designer"
+				criterion: ""
+				id: "337C246514CCB441"
+				type: "advancement"
+			}]
 			x: 12.0d
 			y: 0.875d
 		}

@@ -7,6 +7,7 @@
 		id: "sophisticatedbackpacks:iron_backpack"
 	}
 	id: "6677F3E3D858EC9D"
+	images: [ ]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -15,12 +16,10 @@
 				id: "sophisticatedbackpacks:iron_backpack"
 			}
 			id: "366D17775E704EB0"
-			tasks: [
-				{
-					id: "748CC096609A5B93"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "748CC096609A5B93"
+				type: "checkmark"
+			}]
 			x: 0.0d
 			y: 0.0d
 		}
@@ -29,9 +28,10 @@
 			id: "516BBF7063C1E654"
 			rewards: [
 				{
+					count: 2
 					id: "00618074CE0FA7F5"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -42,17 +42,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					count: 3
-					id: "6AC2CB819D73BD62"
-					item: {
-						count: 1
-						id: "minecraft:diamond"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 3L
+				id: "6AC2CB819D73BD62"
+				item: { count: 1, id: "minecraft:diamond" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: -7.0d
 		}
@@ -61,9 +56,10 @@
 			id: "64B77DDE8456BCEE"
 			rewards: [
 				{
+					count: 2
 					id: "2768825E58B96C9A"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -74,9 +70,10 @@
 					xp: 50
 				}
 				{
+					count: 8
 					id: "4B275095C469AED1"
 					item: {
-						count: 8
+						count: 1
 						id: "minecraft:lapis_lazuli"
 					}
 					type: "item"
@@ -85,14 +82,12 @@
 			tasks: [
 				{
 					id: "3BAA7928EE2F8C8A"
-					item: {
-						count: 1
-						id: "minecraft:enchanting_table"
-					}
+					item: { count: 1, id: "minecraft:enchanting_table" }
 					type: "item"
 				}
 				{
 					advancement: "minecraft:story/enchant_item"
+					criterion: ""
 					id: "7DE97C9D71C8CF9B"
 					type: "advancement"
 				}
@@ -105,9 +100,10 @@
 			id: "4A51E81B32ED6473"
 			rewards: [
 				{
+					count: 3
 					id: "22DA8B0C3B5683B7"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -121,16 +117,14 @@
 			shape: "diamond"
 			tasks: [
 				{
-					count: 10
+					count: 10L
 					id: "0E38F478D26DF180"
-					item: {
-						count: 1
-						id: "minecraft:obsidian"
-					}
+					item: { count: 1, id: "minecraft:obsidian" }
 					type: "item"
 				}
 				{
 					advancement: "minecraft:story/enter_the_nether"
+					criterion: ""
 					id: "6B13D8E621FEF7EA"
 					type: "advancement"
 				}
@@ -143,9 +137,10 @@
 			id: "77AEBFEDC5178921"
 			rewards: [
 				{
+					count: 3
 					id: "2D8D0F8A813619B5"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -157,17 +152,12 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					count: 4
-					id: "1E3A7172CDC95FFC"
-					item: {
-						count: 1
-						id: "minecraft:blaze_rod"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 4L
+				id: "1E3A7172CDC95FFC"
+				item: { count: 1, id: "minecraft:blaze_rod" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: -6.125d
 		}
@@ -176,9 +166,10 @@
 			id: "1FCE2B65EA6A85A5"
 			rewards: [
 				{
+					count: 2
 					id: "5CBB2C424C2695EB"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -189,22 +180,20 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					count: 8
-					id: "61F97EA0C15568D0"
-					item: {
-						count: 1
-						id: "minecraft:nether_wart"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 8L
+				id: "61F97EA0C15568D0"
+				item: { count: 1, id: "minecraft:nether_wart" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: -4.375d
 		}
 		{
-			dependencies: ["77AEBFEDC5178921", "1FCE2B65EA6A85A5"]
+			dependencies: [
+				"77AEBFEDC5178921"
+				"1FCE2B65EA6A85A5"
+			]
 			id: "4C5A1A3548506764"
 			rewards: [
 				{
@@ -226,14 +215,12 @@
 			tasks: [
 				{
 					id: "5BFCF507D682AD3D"
-					item: {
-						count: 1
-						id: "minecraft:brewing_stand"
-					}
+					item: { count: 1, id: "minecraft:brewing_stand" }
 					type: "item"
 				}
 				{
 					advancement: "minecraft:nether/brew_potion"
+					criterion: ""
 					id: "7693185C2773AAA6"
 					type: "advancement"
 				}
@@ -259,16 +246,11 @@
 					xp: 25
 				}
 			]
-			tasks: [
-				{
-					id: "233CA3B9CDEB9582"
-					item: {
-						count: 1
-						id: "sophisticatedstorage:chest"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "233CA3B9CDEB9582"
+				item: { count: 1, id: "sophisticatedstorage:chest" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: -5.25d
 		}
@@ -277,9 +259,10 @@
 			id: "11E30F85F6BBE23C"
 			rewards: [
 				{
+					count: 2
 					id: "7E27A4CE28EAD8CC"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -290,16 +273,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "15D13C8216AF8D3A"
-					item: {
-						count: 1
-						id: "sophisticatedstorage:iron_chest"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "15D13C8216AF8D3A"
+				item: { count: 1, id: "sophisticatedstorage:iron_chest" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: -4.375d
 		}
@@ -308,9 +286,10 @@
 			id: "502C438742122F1B"
 			rewards: [
 				{
+					count: 2
 					id: "0E5E60E5B7768A69"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -321,28 +300,27 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "1D7A06015FC00299"
-					item: {
-						count: 1
-						id: "sophisticatedstorage:stack_upgrade_tier_1"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1D7A06015FC00299"
+				item: { count: 1, id: "sophisticatedstorage:stack_upgrade_tier_1" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: 0.875d
 		}
 		{
-			dependencies: ["11E30F85F6BBE23C", "4A51E81B32ED6473"]
+			dependencies: [
+				"11E30F85F6BBE23C"
+				"4A51E81B32ED6473"
+			]
 			id: "4A0F640153DEEB48"
 			min_width: 300
 			rewards: [
 				{
+					count: 3
 					id: "22088951F87EC38C"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -357,18 +335,12 @@
 			tasks: [
 				{
 					id: "54A168F64C8D18E3"
-					item: {
-						count: 1
-						id: "sophisticatedstorage:controller"
-					}
+					item: { count: 1, id: "sophisticatedstorage:controller" }
 					type: "item"
 				}
 				{
 					id: "424383DF3CF42990"
-					item: {
-						count: 1
-						id: "sophisticatedstorage:storage_link"
-					}
+					item: { count: 1, id: "sophisticatedstorage:storage_link" }
 					type: "item"
 				}
 			]
@@ -394,16 +366,11 @@
 					xp: 25
 				}
 			]
-			tasks: [
-				{
-					id: "543C84938AE86081"
-					item: {
-						count: 1
-						id: "sophisticatedstorage:packing_tape"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "543C84938AE86081"
+				item: { count: 1, id: "sophisticatedstorage:packing_tape" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: -2.625d
 		}
@@ -412,9 +379,10 @@
 			id: "2FC3A3C4FF955E0C"
 			rewards: [
 				{
+					count: 2
 					id: "4759AE76B3C444E5"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -425,16 +393,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "7D7CF87B765B8C4D"
-					item: {
-						count: 1
-						id: "sophisticatedbackpacks:iron_backpack"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7D7CF87B765B8C4D"
+				item: { count: 1, id: "sophisticatedbackpacks:iron_backpack" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: -3.5d
 		}
@@ -443,9 +406,10 @@
 			id: "61B360894EE46B27"
 			rewards: [
 				{
+					count: 2
 					id: "4683FE93D0408936"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -456,16 +420,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "6EE919481406485E"
-					item: {
-						count: 1
-						id: "sophisticatedbackpacks:magnet_upgrade"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6EE919481406485E"
+				item: { count: 1, id: "sophisticatedbackpacks:magnet_upgrade" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: 2.625d
 		}
@@ -477,9 +436,10 @@
 			id: "5CDA28EF2771C903"
 			rewards: [
 				{
+					count: 2
 					id: "012BF2B6BDED83D9"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -493,18 +453,12 @@
 			tasks: [
 				{
 					id: "55E1D9E051E791FB"
-					item: {
-						count: 1
-						id: "ironfurnaces:iron_furnace"
-					}
+					item: { count: 1, id: "ironfurnaces:iron_furnace" }
 					type: "item"
 				}
 				{
 					id: "09C39CA3BFB14397"
-					item: {
-						count: 1
-						id: "ironfurnaces:gold_furnace"
-					}
+					item: { count: 1, id: "ironfurnaces:gold_furnace" }
 					type: "item"
 				}
 			]
@@ -512,13 +466,17 @@
 			y: -1.75d
 		}
 		{
-			dependencies: ["5CDA28EF2771C903", "516BBF7063C1E654"]
+			dependencies: [
+				"5CDA28EF2771C903"
+				"516BBF7063C1E654"
+			]
 			id: "17E8015D127099FF"
 			rewards: [
 				{
+					count: 2
 					id: "5A8456B4A038886C"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -529,16 +487,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "3375E07EBAE7C3A4"
-					item: {
-						count: 1
-						id: "ironfurnaces:diamond_furnace"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3375E07EBAE7C3A4"
+				item: { count: 1, id: "ironfurnaces:diamond_furnace" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: 0.875d
 		}
@@ -547,9 +500,10 @@
 			id: "2BA9DE49AD948F70"
 			rewards: [
 				{
+					count: 2
 					id: "14F6AAE3E8E68AA7"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -560,16 +514,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "32F662E0E7A6749B"
-					item: {
-						count: 1
-						id: "ironfurnaces:augment_generator"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "32F662E0E7A6749B"
+				item: { count: 1, id: "ironfurnaces:augment_generator" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: 4.375d
 		}
@@ -578,9 +527,10 @@
 			id: "7A34B2DA8C7C239B"
 			rewards: [
 				{
+					count: 2
 					id: "39195260FA51C6A9"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -601,20 +551,14 @@
 			]
 			tasks: [
 				{
-					count: 8
+					count: 8L
 					id: "5C90462D5F344D1E"
-					item: {
-						count: 1
-						id: "pipez:item_pipe"
-					}
+					item: { count: 1, id: "pipez:item_pipe" }
 					type: "item"
 				}
 				{
 					id: "45DE69AB679AE4FA"
-					item: {
-						count: 1
-						id: "pipez:wrench"
-					}
+					item: { count: 1, id: "pipez:wrench" }
 					type: "item"
 				}
 			]
@@ -626,9 +570,10 @@
 			id: "63A8363BEA0A9754"
 			rewards: [
 				{
+					count: 2
 					id: "6A580A8933D76E4C"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -639,27 +584,26 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "5B2DEB67E101C1D8"
-					item: {
-						count: 1
-						id: "pipez:improved_upgrade"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5B2DEB67E101C1D8"
+				item: { count: 1, id: "pipez:improved_upgrade" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: 4.375d
 		}
 		{
-			dependencies: ["7A34B2DA8C7C239B", "2BA9DE49AD948F70"]
+			dependencies: [
+				"7A34B2DA8C7C239B"
+				"2BA9DE49AD948F70"
+			]
 			id: "7C83562EF3EE71E2"
 			rewards: [
 				{
+					count: 2
 					id: "6D627303BF21330C"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -670,28 +614,27 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					count: 8
-					id: "3646D3C2A44DBB8C"
-					item: {
-						count: 1
-						id: "pipez:energy_pipe"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 8L
+				id: "3646D3C2A44DBB8C"
+				item: { count: 1, id: "pipez:energy_pipe" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: 6.125d
 		}
 		{
-			dependencies: ["4A51E81B32ED6473", "11E30F85F6BBE23C"]
+			dependencies: [
+				"4A51E81B32ED6473"
+				"11E30F85F6BBE23C"
+			]
 			id: "21BD62B4F639E38D"
 			rewards: [
 				{
+					count: 3
 					id: "541FE4F706D6E8D4"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -702,9 +645,10 @@
 					xp: 120
 				}
 				{
+					count: 8
 					id: "15DDF5ADD57E74B8"
 					item: {
-						count: 8
+						count: 1
 						id: "storagenetwork:kabel"
 					}
 					type: "item"
@@ -714,19 +658,13 @@
 			tasks: [
 				{
 					id: "7A9BCBBFF90086DE"
-					item: {
-						count: 1
-						id: "storagenetwork:master"
-					}
+					item: { count: 1, id: "storagenetwork:master" }
 					type: "item"
 				}
 				{
-					count: 4
+					count: 4L
 					id: "05AB4D69B9E9499B"
-					item: {
-						count: 1
-						id: "storagenetwork:storage_kabel"
-					}
+					item: { count: 1, id: "storagenetwork:storage_kabel" }
 					type: "item"
 				}
 			]
@@ -753,27 +691,26 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [
-				{
-					id: "75024EDA60EC57A8"
-					item: {
-						count: 1
-						id: "storagenetwork:request"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "75024EDA60EC57A8"
+				item: { count: 1, id: "storagenetwork:request" }
+				type: "item"
+			}]
 			x: 8.0d
 			y: 1.75d
 		}
 		{
-			dependencies: ["2BA9DE49AD948F70", "4A51E81B32ED6473"]
+			dependencies: [
+				"2BA9DE49AD948F70"
+				"4A51E81B32ED6473"
+			]
 			id: "4A1C546CB7893227"
 			rewards: [
 				{
+					count: 3
 					id: "76F708EFB778113E"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -785,28 +722,27 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					count: 16
-					id: "311BF1CBE43AF267"
-					item: {
-						count: 1
-						id: "fluxnetworks:flux_dust"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 16L
+				id: "311BF1CBE43AF267"
+				item: { count: 1, id: "fluxnetworks:flux_dust" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: 2.625d
 		}
 		{
-			dependencies: ["4A1C546CB7893227", "77AEBFEDC5178921"]
+			dependencies: [
+				"4A1C546CB7893227"
+				"77AEBFEDC5178921"
+			]
 			id: "626C47FA8E8B3ED5"
 			rewards: [
 				{
+					count: 2
 					id: "0CC36DFC446AF8BD"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -820,18 +756,12 @@
 			tasks: [
 				{
 					id: "58D86F09E6D275D0"
-					item: {
-						count: 1
-						id: "fluxnetworks:flux_plug"
-					}
+					item: { count: 1, id: "fluxnetworks:flux_plug" }
 					type: "item"
 				}
 				{
 					id: "0D32604C5437D4A5"
-					item: {
-						count: 1
-						id: "fluxnetworks:flux_point"
-					}
+					item: { count: 1, id: "fluxnetworks:flux_point" }
 					type: "item"
 				}
 			]
@@ -843,9 +773,10 @@
 			id: "2F52A96493AC9ED9"
 			rewards: [
 				{
+					count: 3
 					id: "138EA19C6A111BEE"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -857,16 +788,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "0206C4AA21BD6D5A"
-					item: {
-						count: 1
-						id: "fluxnetworks:flux_controller"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0206C4AA21BD6D5A"
+				item: { count: 1, id: "fluxnetworks:flux_controller" }
+				type: "item"
+			}]
 			x: 10.0d
 			y: 0.0d
 		}
@@ -876,9 +802,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "5D142BDA49707050"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -889,16 +816,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "7C1905E6F5A8A1B7"
-					item: {
-						count: 1
-						id: "chipped:mason_table"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7C1905E6F5A8A1B7"
+				item: { count: 1, id: "chipped:mason_table" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: 0.0d
 		}
@@ -907,9 +829,10 @@
 			id: "3375563F20D5EE2E"
 			rewards: [
 				{
+					count: 3
 					id: "6AF5028CAE453041"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -921,16 +844,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "34D064201990B405"
-					item: {
-						count: 1
-						id: "buildinggadgets2:gadget_building"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "34D064201990B405"
+				item: { count: 1, id: "buildinggadgets2:gadget_building" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: -6.125d
 		}
@@ -956,12 +874,10 @@
 					xp: 25
 				}
 			]
-			tasks: [
-				{
-					id: "721A89DA23DB0B5F"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "721A89DA23DB0B5F"
+				type: "checkmark"
+			}]
 			x: 2.0d
 			y: 1.75d
 		}
@@ -971,9 +887,10 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "78564257CF265A9C"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -984,17 +901,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					count: 2
-					id: "355436E3EB649D7F"
-					item: {
-						count: 1
-						id: "elevatorid:elevator_white"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 2L
+				id: "355436E3EB649D7F"
+				item: { count: 1, id: "elevatorid:elevator_white" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: 3.5d
 		}
@@ -1003,9 +915,10 @@
 			id: "1BBF80282594103E"
 			rewards: [
 				{
+					count: 2
 					id: "47E6A8EF7A247276"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -1016,16 +929,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "3C7773A4111B8FC7"
-					item: {
-						count: 1
-						id: "naturescompass:naturescompass"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3C7773A4111B8FC7"
+				item: { count: 1, id: "naturescompass:naturescompass" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: 5.25d
 		}
@@ -1037,9 +945,10 @@
 			id: "53F5F115EF6DC506"
 			rewards: [
 				{
+					count: 2
 					id: "2D11052BF1303EA8"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -1050,13 +959,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					advancement: "lootr:1chest"
-					id: "48696C156227C7C1"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "lootr:1chest"
+				criterion: ""
+				id: "48696C156227C7C1"
+				type: "advancement"
+			}]
 			x: 4.0d
 			y: 6.125d
 		}
@@ -1079,9 +987,10 @@
 					xp: 300
 				}
 				{
+					count: 2
 					id: "19AF0AA9A32F047D"
 					item: {
-						count: 2
+						count: 1
 						id: "waystones:return_scroll"
 					}
 					type: "item"
@@ -1092,19 +1001,13 @@
 			tasks: [
 				{
 					id: "4378D82501EA5D3B"
-					item: {
-						count: 1
-						id: "waystones:warp_stone"
-					}
+					item: { count: 1, id: "waystones:warp_stone" }
 					type: "item"
 				}
 				{
-					count: 3
+					count: 3L
 					id: "07563584F30D8C7B"
-					item: {
-						count: 1
-						id: "waystones:warp_scroll"
-					}
+					item: { count: 1, id: "waystones:warp_scroll" }
 					type: "item"
 				}
 			]
@@ -1119,9 +1022,10 @@
 			id: "26729217FECE73FD"
 			rewards: [
 				{
+					count: 2
 					id: "4138792E702F3251"
 					item: {
-						count: 2
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -1132,13 +1036,12 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					advancement: "bountiful:bountiful/bounty_taken"
-					id: "34A3A483C4021BAA"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "bountiful:bountiful/bounty_taken"
+				criterion: ""
+				id: "34A3A483C4021BAA"
+				type: "advancement"
+			}]
 			x: 2.0d
 			y: 7.0d
 		}
@@ -1150,9 +1053,10 @@
 			id: "42E27B7A7085D352"
 			rewards: [
 				{
+					count: 3
 					id: "12DC4BD7E35F7F09"
 					item: {
-						count: 3
+						count: 1
 						id: "coinverse_gearcoins:bronze_coin"
 					}
 					type: "item"
@@ -1164,18 +1068,23 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					advancement: "bountiful:bountiful/bounty_complete"
-					id: "022889F5A98D62BC"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "bountiful:bountiful/bounty_complete"
+				criterion: ""
+				id: "022889F5A98D62BC"
+				type: "advancement"
+			}]
 			x: 4.0d
 			y: 9.625d
 		}
 		{
-			dependencies: ["4C5A1A3548506764", "74749CF00FF224E2", "2F52A96493AC9ED9", "7763161666E74801", "61B360894EE46B27"]
+			dependencies: [
+				"4C5A1A3548506764"
+				"74749CF00FF224E2"
+				"2F52A96493AC9ED9"
+				"7763161666E74801"
+				"61B360894EE46B27"
+			]
 			id: "127D6EFD66709306"
 			rewards: [
 				{
@@ -1194,16 +1103,11 @@
 			]
 			shape: "gear"
 			size: 2.0d
-			tasks: [
-				{
-					id: "2605AA94C878FFB5"
-					item: {
-						count: 1
-						id: "sophisticatedbackpacks:diamond_backpack"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2605AA94C878FFB5"
+				item: { count: 1, id: "sophisticatedbackpacks:diamond_backpack" }
+				type: "item"
+			}]
 			x: 12.0d
 			y: 0.0d
 		}

@@ -639,6 +639,10 @@ file = "config/carryon-common.toml"
 hash = "61413d3baf24cd7106e2be4c2f62b0ede74258051daf0ed2a157ad7b3a73d1aa"
 preserve = true
 [[files]]
+file = "config/champions-server.toml"
+hash = "743f5f3765868089d047e1b2d09443fbab65bb920a1047af12bcfe8290b66b1e"
+preserve = true
+[[files]]
 file = "config/chat_heads.json5"
 hash = "e198750061411cf7fca624e38b894ca104ca2cf2c2940da0409ce4240dcc2503"
 preserve = true
@@ -850,7 +854,7 @@ hash = "86e4b1ba24efec03033558eef2a07019ecb26fb35e747ccf744d3d1295b3e900"
 preserve = true
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "18199f37c960035bb3700caec0c2994f50e472d1c388e1f81a8e62860266cb58"
+hash = "83b4d15ed5280ab1c5bfae10604152daef234315dc8189e157d1c3524f06dd51"
 preserve = true
 
 [[files]]
@@ -893,7 +897,7 @@ hash = "b513dc5cdc05d4937ea0eecf1933e06b62fc11c685067f4e13f9ce3bb197a462"
 preserve = true
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "601bcdeade6e370fd2dfaea24cfecc14ec8f9cf537cf0a6107a9747b37447a34"
+hash = "ea80520adf0ffaa0bf0ba89e01ff78319362529d10b252ea8c7e7f574fa6fa77"
 preserve = true
 
 [[files]]
@@ -916,115 +920,115 @@ preserve = true
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "76e3ed9816a65d2d18fb600268345d0f7f22a8d27a58e9db2b704edcef002237"
+hash = "dcf73800b4ae26533fc8cf28a5570844989b76e2fb4de7009903116e1239ef14"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/apotheosis.snbt"
-hash = "21d9e17d09dca7f800a0fc1ebb92cbbb31a41d78c11466cc5ad618b51a225d78"
+hash = "94efa8e3b59951e81ec9af7f2d80960170d89b8c457cf0a7344657313fe01ef3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ars_nouveau.snbt"
-hash = "947532df49a08176eb65277a24c828ec297b37578fb558bdde11c2dcd3240bd3"
+hash = "efb502fe815419b031ab297c89092279582e08a9653923ff88ec91a8cebb92df"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create_aeronautics.snbt"
-hash = "def434995bd2f70267d3383dc2054af8983f2da93444c35dabb3d9b72f4cbc42"
+hash = "e4cc4dd4e94b6b446cff4b3887fc772979ce3db47885a346bafc570f35b3c1b1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create_brass.snbt"
-hash = "9623f6f9592e206d44993d402e9c815668af4ab8ca16d0bcabc3848768309634"
+hash = "ddc5964aaab5732b89a2ca05128f6a78da3a442bf7895f4f179034afcc467e6e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create_expansions.snbt"
-hash = "fe52e0f5f98393b28ff0e0c7a6d9772134de4db44a7b9f4b4afaf7bbd6231561"
+hash = "a233be872b57205db1adc98d2ae467c4d90f6b09ba7df715ddc38f823f30b0da"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create_kinetics.snbt"
-hash = "6ba5883ac3a3511129f1548e9aa7b7544fd54a071a48e4b89ad34e528e2e35f1"
+hash = "7e19699bd62da4c127f0c9d735038d7124aecc5fabbc884c7c8243f62a7662fa"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/dungeons_arise.snbt"
-hash = "5e7b4d0c595ab7ca0126038189be314d3a3de41c586daddae5e57a837a8c3bbd"
+hash = "691d83ae48e4356b97176583eba90044147388a97ee8a3f2c2758e36c2d7e112"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/exploration.snbt"
-hash = "f181c8a9c4356e72c8014b185648a36d879d2f290a6820197cc7853fef077edd"
+hash = "5e2b5c8ceffe137c4a371730fe3c255de54ee8bfe22fb55cab42514b1fc6fa20"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/getting_started.snbt"
-hash = "d037bf6c8842cc73d58d32f332579d4869219311cb4a6ccecdc8f6172b1bea78"
+hash = "c0ff86bb86ac402dfc77d06212a8da45e0f45c28f602258c248dac65faf6db9a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/irons_spellbooks.snbt"
-hash = "40ab7c4479fa52b9efd4489bf1749f488cb928ab39edd1048a85c2d24c453ab5"
+hash = "b792153a2e2c6bb9a48d2de3b0aee3a8b53f4d473572f42bffba2b064ddb76f8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/just_dire_things.snbt"
-hash = "6d71e2ebc0c25b82324bad093c2351f73fbe3911fa952b3616ad1a06a04a1151"
+hash = "52d24531327feb09024eef7ff0b359fb803159ab8012fe6469f17f2efb011ad2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/letsdo_cellar.snbt"
-hash = "57ee41b12492e9e2139a9416f5cd2c4102ced678fcb430f850d5f1db159f8eb8"
+hash = "73f78592226397eff377d794344e2efaedd1d875735156febc79ff3129654eae"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/letsdo_farm_and_charm.snbt"
-hash = "db296f8250e78dd98cd1714a26528a164ff8fccac73aefc5ad4cc7680513f8f2"
+hash = "f61e4132c2bd741583c1edbc37091e5f32df0b6b117bb75098e6082cb129809c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/letsdo_herbal_brews.snbt"
-hash = "b88b53be4e410d9aa1760005d54e3d4e5dd4b545ad9dc630e33fa5bffd4501df"
+hash = "85b8da2a2bc83ce35ab770ad0efe2141f32b2d1d31bf741e46e6d8dea9fd492b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/letsdo_home.snbt"
-hash = "628d0400c997f36759ee64f0a860dda4fcba6ed259542bec9da5938fc4f2944e"
+hash = "fe5c755988b3c4a348e54278b3be8a457dd4bff44aa5191f447a479919ac6774"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/letsdo_seaside.snbt"
-hash = "381c94cbb9d5105fafa5d744d53c781d772429b224ddc9d45b58f9afee9f01f9"
+hash = "57540c9bafd2487fa1a2510fad60fdee6a90df0810cfc779a7f55b9519ab9c8e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/letsdo_wilds.snbt"
-hash = "26df83b35f94915c6579f98a8eca8700444bb7df407ecf4dab57ada79a70ac5b"
+hash = "b5545fa71b89ed92d08d5791ca59d170f3e8b3ec8d6b2b02547ce64267ade2c6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mca_family.snbt"
-hash = "361fd701d01704f005268e693b5eab18fee2216f7a55157d27c41a8ab098b411"
+hash = "b50e75ad912eada823abffd0e93ee602ab25ef641cafdcad78bdd5786251d4b3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/modern_foundry.snbt"
-hash = "b56c683e61142799034cbe8da648044dbadecc3f78062dcf436b98283ecec6a8"
+hash = "eac7510b8c7c731df46cd9b7adab078c2323c24918501fe18b98bbca04241425"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/must_haves.snbt"
-hash = "632ba5bec8621d600ef376089ca851cf62406cdb73ad0c7d7fb410b7add09b66"
+hash = "ed031278a53d279193748f4d2875f7e4206429cebd41859073b95f44f2ce9c46"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/quark.snbt"
-hash = "f3e77856c8b472cf867586482ecbb46ac8cda545463dfc77fd1d6fd1501321fe"
+hash = "0b16bcce78d537c8be11d2c3fdb5701fc83b8438954991726d49041b78b95188"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/relics_and_artifacts.snbt"
-hash = "4002c1d5be961396c1da3f617124aae78359b4035106113018de40497d7e0902"
+hash = "0d047aa75d0132292a6df9d487ab3d497307f8516b35a1c03164d1636afd01fb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/sleepy_hollows.snbt"
-hash = "c9cf6e8c9d48a6137559dfeb8d6c542240d9b368c8966cfe47af25bf87796dd6"
+hash = "5555c9fd600a2e3969fd332bd614e7c5b0bf3c219472531b20e75bd839c94c9d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/supplementaries.snbt"
-hash = "4aa6314591848a603663cdaa215f1c5c710ce6cb54b0e2951e03b77a0062aae8"
+hash = "7c1b3cc3e59a2eb18aac76e5fd4a55a6b6a11dc278a540b2ea2a7c6e66d9e10c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/wisp_and_willow.snbt"
-hash = "071f7590945e3efb7d1b0d227ad4c271555d2bcd44123ed0c64c924b469516f5"
+hash = "b6320bc9122c3b06bcf753eedfaebaa50d9865dc76ff6bed8d52b3b207829511"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/xycraft.snbt"
-hash = "66fe2d6bf8fc3502edc781ecbd299cb49fed54e7253f20021318de91dcc847c0"
+hash = "078f8c53ce13eee58cbd4612bc5905cefcdd253447389940143a3b8630cd8b12"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
-hash = "6470529f83e3f35da3f5181f0c7d650ccfbd6ca00408ad8c06ab2d6ad8189a0c"
+hash = "fd8d7f8fe7bcc28756cdc078ffb6f9dfc5056d6eb9e57f3e42a68b767ee868fa"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
@@ -1075,7 +1079,7 @@ preserve = true
 
 [[files]]
 file = "config/iris.properties"
-hash = "26dcb71445465f7eaea18b7c2a931f321aa9c920104920e8e78ba8f570bc9fe3"
+hash = "76af0173b1f7da3cd5df8fdcd35ce5a49256e003c65f9245cec515ab46c88280"
 preserve = true
 
 [[files]]
@@ -1130,7 +1134,7 @@ preserve = true
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "5dc1e3dc0af92c12e2bc6ac642cf01a5a89737b0a454a1e0115367319a1c410a"
+hash = "7a50b66cc9c06e92ffb220e1805e43dd12bbc1f3f43c62a36f6da65a7e5bbc1d"
 preserve = true
 
 [[files]]
@@ -1274,7 +1278,7 @@ preserve = true
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "9a94ad2f3edee54d072793c22f0945de6d577681a3ce4ec91a890766b2538d06"
+hash = "3fa31250dd77cb4587c22ed91df07337313a9b855fb35dea652387a88cdfe286"
 preserve = true
 [[files]]
 file = "config/patchouli-client.toml"
@@ -1329,10 +1333,18 @@ hash = "ba2fc82938fa99ce48435c574cdd542aff177dd79846828c630447fc9ecc860c"
 preserve = true
 
 [[files]]
+file = "config/sable_player_ragdoll-server.toml"
+hash = "1b02af673b3f0d65a5d70b8c1c531d07c3663dab7fbd87066287b78d91b36aed"
+preserve = true
+[[files]]
 file = "config/sable_ragdoll_revival-client.toml"
 hash = "d6de2e3519ee49c0bb7bfea5b9cc728f0498aa0874bdf0983bc6c4967d5212ea"
 preserve = true
 
+[[files]]
+file = "config/sablejade-client.toml"
+hash = "2d6d13001c969cb509a900b7f8959bf62e0a32e974a93353704a8a18160036dd"
+preserve = true
 [[files]]
 file = "config/sereneseasons/fertility.toml"
 hash = "f63f94b985285add146c73a8747d278cec3d386807855b25de0e1db9962c153f"
@@ -2044,8 +2056,8 @@ hash = "4623bbc102dd3b7648a96569a1ab49b868774d46355b305ac40c4c79ad1c74e2"
 metafile = true
 
 [[files]]
-file = "mods/isitcore-0.1.14.jar"
-hash = "62439f68a5f9b4bfd2fa0e8d8d222bd16e0d39657fa419e50ecf97515caa14cc"
+file = "mods/isitcore-0.1.15.jar"
+hash = "1628fbc9abe326475a4483108ef3f42eed725be7880cfa1e619caf0728dfb25b"
 
 [[files]]
 file = "mods/jade-addons-forge.pw.toml"
