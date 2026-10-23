@@ -15,6 +15,7 @@
 				id: "isitcore:duff"
 			}
 			id: "67F6B81E623DF47A"
+			min_width: 300
 			tasks: [
 				{
 					id: "668F90D409CC64DF"

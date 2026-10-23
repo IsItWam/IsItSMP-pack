@@ -10,6 +10,10 @@ file = "config/CoroUtil/General.toml"
 hash = "6d46bdc090d4bb9bdfb660be4ca94075dc08e09d5fed84108eba92a422a23c49"
 preserve = true
 [[files]]
+file = "config/MouseTweaks.cfg"
+hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
+preserve = true
+[[files]]
 file = "config/NoChatReports/NCR-Client.json"
 hash = "edfe78d985fe67dce28104f3d87673e94c89134144451c291ecedcd2e2c3b480"
 preserve = true
@@ -821,6 +825,10 @@ file = "config/emi_loot_config.toml"
 hash = "c234dbe2aaa3c87d45ed4596d60a8fb931324890d57646dae1b8459c5e032048"
 preserve = true
 [[files]]
+file = "config/emicreatecompat-client.toml"
+hash = "12b5513cb788d95146bf77d469b45dd0b7039b3158dd621df0f99f9e1e1379ee"
+preserve = true
+[[files]]
 file = "config/enchdesc.json"
 hash = "7116b95a9b6797af8db84e410a2ca2fdf6f813461e37cd04bff5af933f31567b"
 preserve = true
@@ -840,7 +848,7 @@ hash = "86e4b1ba24efec03033558eef2a07019ecb26fb35e747ccf744d3d1295b3e900"
 preserve = true
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "70049b60abb3770d931a7495545fb2bc0b09a949fbc41322031fefea729d71d4"
+hash = "18199f37c960035bb3700caec0c2994f50e472d1c388e1f81a8e62860266cb58"
 preserve = true
 
 [[files]]
@@ -883,7 +891,7 @@ hash = "b513dc5cdc05d4937ea0eecf1933e06b62fc11c685067f4e13f9ce3bb197a462"
 preserve = true
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "c7f97a2695460cb58e1d771d959c351e603a796c9e981d3e12582ff24a642342"
+hash = "601bcdeade6e370fd2dfaea24cfecc14ec8f9cf537cf0a6107a9747b37447a34"
 preserve = true
 
 [[files]]
@@ -942,7 +950,7 @@ hash = "f181c8a9c4356e72c8014b185648a36d879d2f290a6820197cc7853fef077edd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/getting_started.snbt"
-hash = "cc251899e00a3de0ef22cd772a7ef4980e5999757198cb4322c3a92f70f5e19c"
+hash = "d037bf6c8842cc73d58d32f332579d4869219311cb4a6ccecdc8f6172b1bea78"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/irons_spellbooks.snbt"
@@ -1014,11 +1022,11 @@ hash = "66fe2d6bf8fc3502edc781ecbd299cb49fed54e7253f20021318de91dcc847c0"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
-hash = "760150fc833b8fa58e04fdef20aae8b645a3309c51cc0d5a79397d510d4cffdb"
+hash = "6470529f83e3f35da3f5181f0c7d650ccfbd6ca00408ad8c06ab2d6ad8189a0c"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "24961d543fda47d1aeaac47fea4148ac43742420b035fa5a748ebc53adc19d78"
+hash = "460f7e54bb6f882557f792e0e9a946937b3a4cae25db22fae0ffbb7b4bd2a751"
 
 [[files]]
 file = "config/ftbteams-server.snbt"
@@ -1065,7 +1073,7 @@ preserve = true
 
 [[files]]
 file = "config/iris.properties"
-hash = "7e062545c6ba6ab543fd99dd4c8d76c8c1e4d66ad879b95660bbc1976d2ad618"
+hash = "26dcb71445465f7eaea18b7c2a931f321aa9c920104920e8e78ba8f570bc9fe3"
 preserve = true
 
 [[files]]
@@ -1120,7 +1128,7 @@ preserve = true
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "e66109121578c67938e231ab8996ab9ccd84d6686f50dda6b94b78eee0f5fe15"
+hash = "5dc1e3dc0af92c12e2bc6ac642cf01a5a89737b0a454a1e0115367319a1c410a"
 preserve = true
 
 [[files]]
@@ -1264,7 +1272,7 @@ preserve = true
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "4bffca94a3474b74bc13572c595d3e6f09851dacd2e68780ce4214260a172fe4"
+hash = "9a94ad2f3edee54d072793c22f0945de6d577681a3ce4ec91a890766b2538d06"
 preserve = true
 [[files]]
 file = "config/patchouli-client.toml"
@@ -1312,6 +1320,14 @@ preserve = true
 [[files]]
 file = "config/sable-server.toml"
 hash = "9c3e9012ea23ca1449fdfc7df7a8134d4f0f2eacc46f8f8c1ab9ccb2b4510783"
+preserve = true
+[[files]]
+file = "config/sable_player_ragdoll-client.toml"
+hash = "ba2fc82938fa99ce48435c574cdd542aff177dd79846828c630447fc9ecc860c"
+preserve = true
+[[files]]
+file = "config/sable_ragdoll_revival-client.toml"
+hash = "d6de2e3519ee49c0bb7bfea5b9cc728f0498aa0874bdf0983bc6c4967d5212ea"
 preserve = true
 [[files]]
 file = "config/sereneseasons/fertility.toml"
@@ -1368,7 +1384,7 @@ preserve = true
 
 [[files]]
 file = "config/sodium-options.json"
-hash = "ef3242a314c4311b64b88ce016acea790d42a35f7c81f0a02934841e64efcda1"
+hash = "44478bef0973f1aa587c0493568a5cbc5426233b611f14bd2be489b5b862fa7f"
 preserve = true
 
 [[files]]
@@ -2320,6 +2336,16 @@ metafile = true
 [[files]]
 file = "mods/royalvariations.pw.toml"
 hash = "8de23091613e9dde6c7cb6c6851d43a8702c16807075275b87246e8b74d15d85"
+metafile = true
+
+[[files]]
+file = "mods/sable-ragdoll-revival.pw.toml"
+hash = "4662bb5d15b8aafe6dd49b4211959508d63c0e8b570635f048f1c02db06b3475"
+metafile = true
+
+[[files]]
+file = "mods/sable-ragdolls.pw.toml"
+hash = "fe14391e73d2d18ccd52bc9ddd3fe98127568355d8c5f7726004344a45d13209"
 metafile = true
 
 [[files]]

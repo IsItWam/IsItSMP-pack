@@ -888,7 +888,7 @@
 	quest.0EEB5BA745048FD1.quest_desc: [
 		"Playing with friends? Open &6My Team&r from the sidebar, choose &aCreate a Party&r and invite them. They accept from chat."
 		""
-		"A party shares &bquest progress&r, &bclaims&r and quest rewards, which are claimed once per party. You can also add &aallies&r from the same screen to let other teams build in your land."
+		"A party shares &bquest progress&r and &bclaims&r: one member finishing a quest completes it for the whole party, and &beach member&r claims the rewards for themselves. You can also add &aallies&r from the same screen to let other teams build in your land."
 	]
 	quest.0EEB5BA745048FD1.quest_subtitle: "Friendship, now with paperwork"
 	quest.0EEB5BA745048FD1.title: "Better Together"
@@ -6036,7 +6036,7 @@
 		""
 		"Open the book any time from the &bsidebar buttons&r at the top left of your inventory. You can also bind &bOpen Quests&r to a key under &bControls > FTB Quests&r."
 		""
-		"Rewards are &aclaimed by clicking&r the quest, and they're shared: each &6party&r claims a quest's coins &bonce&r. No chapter is locked behind another, so do them in any order."
+		"Rewards are &aclaimed by clicking&r the quest. In a &6party&r, one member finishing a quest finishes it for everyone, and &beach member&r then claims their own reward. No chapter is locked behind another, so do them in any order."
 		""
 		"&7The cat is Duff, the pack mascot. Duff does nothing. Duff is perfect.&r"
 	]

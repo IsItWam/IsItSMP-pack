@@ -138,40 +138,40 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"wildernature:squirrel": true
-			"minecraft:enderman": true
-			"quark:stoneling": true
-			"quark:toretoise": true
-			"bloomingnature:wandering_gardener": true
-			"minecraft:armadillo": true
-			"minecraft:tropical_fish": false
-			"minecraft:pig": true
-			"minecraft:zombie": true
-			"minecraft:chicken": true
-			"minecraft:panda": true
-			"minecraft:drowned": true
-			"yungscavebiomes:sand_snapper": true
-			"modernfoundry:terracube": true
-			"minecraft:squid": true
-			"minecraft:bat": true
-			"minecraft:sheep": true
-			"wildernature:cassowary": true
-			"minecraft:pufferfish": false
-			"ars_nouveau:whirlisprig": true
-			"artifacts:mimic": true
-			"irons_spellbooks:necromancer": true
 			"minecraft:cod": false
-			"minecraft:wolf": true
+			"minecraft:zombie": true
+			"wildernature:squirrel": true
+			"minecraft:tropical_fish": false
 			"quark:forgotten": true
-			"minecraft:creeper": true
-			"wildernature:deer": true
-			"ars_nouveau:drygmy": true
+			"quark:stoneling": true
 			"minecraft:axolotl": true
-			"minecraft:glow_squid": true
-			"minecraft:parrot": true
-			"minecraft:skeleton": true
-			"minecraft:camel": true
+			"wildernature:deer": true
 			"minecraft:spider": true
+			"minecraft:armadillo": true
+			"minecraft:squid": true
+			"wildernature:cassowary": true
+			"artifacts:mimic": true
+			"bloomingnature:wandering_gardener": true
+			"minecraft:wolf": true
+			"minecraft:camel": true
+			"yungscavebiomes:sand_snapper": true
+			"minecraft:sheep": true
+			"minecraft:creeper": true
+			"minecraft:enderman": true
+			"minecraft:glow_squid": true
+			"ars_nouveau:drygmy": true
+			"minecraft:pufferfish": false
+			"minecraft:pig": true
+			"minecraft:parrot": true
+			"minecraft:drowned": true
+			"ars_nouveau:whirlisprig": true
+			"quark:toretoise": true
+			"minecraft:bat": true
+			"minecraft:skeleton": true
+			"minecraft:chicken": true
+			"irons_spellbooks:necromancer": true
+			"modernfoundry:terracube": true
+			"minecraft:panda": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)
