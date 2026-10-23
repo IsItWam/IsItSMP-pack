@@ -22,7 +22,8 @@ pack's configs and our own mods (IsItCore, Debuginator).
    | **GDLauncher** | Instance settings, Custom commands, Pre-launch hook | `cmd /c update-pack.cmd` |
    | **Modrinth App** | Instance settings, Launch hooks, Pre-launch | `cmd /c update-pack.cmd "$INST_JAVA"` |
 
-4. Press **Play**. The first launch downloads the whole pack (a couple of minutes on a new
+4. Optional: set the instance icon to [icon.png](icon.png) (launchers can't take it from the pack).
+5. Press **Play**. The first launch downloads the whole pack (a couple of minutes on a new
    instance), later launches only fetch changes and take a few seconds.
 
 Your own settings (video, minimap, HUD, keybind-style configs) are installed once and never

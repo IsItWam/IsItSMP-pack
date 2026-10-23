@@ -1,0 +1,1196 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dungeons_arise"
+	group: "00583E4AC40CC935"
+	icon: {
+		id: "minecraft:trial_key"
+	}
+	id: "4EF5A5B39B2B218B"
+	order_index: 16
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:filled_map"
+			}
+			id: "3AA2F1C6BAE4A44E"
+			min_width: 300
+			tasks: [
+				{
+					id: "7AF4C7C43952EDF6"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3AA2F1C6BAE4A44E"]
+			icon: {
+				id: "minecraft:white_wool"
+			}
+			id: "1DC1598292DD94A0"
+			rewards: [
+				{
+					id: "11BB628718B87C2D"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "5A6C72B0EF6296CE"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					advancement: "dungeons_arise:find_merchant_campsite"
+					id: "1272AF5BF1DC6A53"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: -6.125d
+		}
+		{
+			dependencies: ["1DC1598292DD94A0"]
+			icon: {
+				id: "minecraft:crossbow"
+			}
+			id: "2F2517347F688FDC"
+			rewards: [
+				{
+					id: "261C1E083D9448BC"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "4B14A65B4C2B0EE8"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					advancement: "dungeons_arise:find_illager_campsite"
+					id: "12D2065E0C3D6752"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: -12.25d
+		}
+		{
+			dependencies: ["1DC1598292DD94A0"]
+			icon: {
+				id: "minecraft:hay_block"
+			}
+			id: "486235BCCA101E17"
+			rewards: [
+				{
+					id: "4EEB7D51CB1DC7E8"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "681AA209B5F97260"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					advancement: "dungeons_arise:find_illager_windmill"
+					id: "722132713CC253FD"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["2F2517347F688FDC"]
+			icon: {
+				id: "minecraft:totem_of_undying"
+			}
+			id: "0A19A1686682CDF0"
+			rewards: [
+				{
+					id: "36FE670A9D8381E4"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "066D5C12F2EB679C"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "dungeons_arise:find_illager_fort"
+					id: "2A95CFCCD02EC795"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0A19A1686682CDF0"]
+			icon: {
+				id: "minecraft:bow"
+			}
+			id: "7427FA2A8BFCE380"
+			optional: true
+			rewards: [
+				{
+					id: "2F54233D1FCD2C27"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "7D5463493873ED7C"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:illusioner"
+					id: "0A3147A92C328B84"
+					type: "kill"
+					value: 1
+				}
+			]
+			x: 8.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["2F2517347F688FDC"]
+			icon: {
+				id: "minecraft:oak_boat"
+			}
+			id: "61EE5EFF62C3F5B0"
+			rewards: [
+				{
+					id: "5B7ABA152AE2F797"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "4C7D06A71C49B8B2"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					advancement: "dungeons_arise:find_illager_corsair_or_illager_galley"
+					id: "68B0907A26A43F7C"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: -5.25d
+		}
+		{
+			dependencies: ["61EE5EFF62C3F5B0"]
+			icon: {
+				id: "minecraft:skeleton_skull"
+			}
+			id: "18E0E0964F8C56A4"
+			optional: true
+			rewards: [
+				{
+					id: "3627B033ED8A6DD0"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "167BF7C856D88AE6"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					advancement: "dungeons_arise:find_undead_pirate_ship"
+					id: "54624F96D3DB5186"
+					type: "advancement"
+				}
+				{
+					advancement: "dungeons_arise:find_typhon"
+					id: "4944E3BE2E3D1DBF"
+					type: "advancement"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1DC1598292DD94A0"]
+			icon: {
+				id: "minecraft:water_bucket"
+			}
+			id: "62A0D3C726A24847"
+			rewards: [
+				{
+					id: "659DC84DB6A200BA"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "5B0AB151386B0053"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					advancement: "dungeons_arise:find_wishing_well"
+					id: "4B9AE9DE861503D9"
+					type: "advancement"
+				}
+				{
+					advancement: "dungeons_arise:find_bathhouse"
+					id: "05FF1BFE458CCA04"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: -8.75d
+		}
+		{
+			dependencies: ["62A0D3C726A24847"]
+			icon: {
+				id: "minecraft:lantern"
+			}
+			id: "39F0E45AD882A72C"
+			optional: true
+			rewards: [
+				{
+					id: "0D643A29CE8440E4"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "466C8EC125EBDE78"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					advancement: "dungeons_arise:find_lighthouse"
+					id: "195810129BFB45F6"
+					type: "advancement"
+				}
+				{
+					id: "2F1E66E9BA562178"
+					structure: "dungeons_arise:fishing_hut"
+					type: "structure"
+				}
+			]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["62A0D3C726A24847"]
+			icon: {
+				id: "minecraft:phantom_membrane"
+			}
+			id: "2322131793D1E165"
+			rewards: [
+				{
+					id: "0B3454D9E49D8879"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "0691ACDF9896ECD5"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					advancement: "dungeons_arise:find_coliseum"
+					id: "4ED51FEB45E6A8C3"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["3AA2F1C6BAE4A44E"]
+			icon: {
+				id: "minecraft:honey_bottle"
+			}
+			id: "45B1D031400D8F8E"
+			rewards: [
+				{
+					id: "5D1B2240BBD76664"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "7A0E74B471DADB60"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					advancement: "dungeons_arise:find_greenwood_pub"
+					id: "6597DA90373FFF24"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: -4.375d
+		}
+		{
+			dependencies: ["45B1D031400D8F8E"]
+			icon: {
+				id: "minecraft:red_mushroom_block"
+			}
+			id: "42C6FB42DCA61CE1"
+			rewards: [
+				{
+					id: "37493ADDC4241CAD"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "0F23160D79DBD708"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					advancement: "dungeons_arise:find_mushroom_house"
+					id: "2E73AE5C457368F4"
+					type: "advancement"
+				}
+				{
+					advancement: "dungeons_arise:find_mushroom_village"
+					id: "1C9E0B7E4A32EC38"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["42C6FB42DCA61CE1"]
+			icon: {
+				id: "minecraft:iron_pickaxe"
+			}
+			id: "5CF03285F1E47EC6"
+			rewards: [
+				{
+					id: "2E18BDE99F3FE352"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "696F28620DE04F5B"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					advancement: "dungeons_arise:find_mushroom_mines"
+					id: "0BE7E748ED3A9047"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["45B1D031400D8F8E"]
+			icon: {
+				id: "minecraft:splash_potion"
+			}
+			id: "7901B3E19A1EB8C8"
+			rewards: [
+				{
+					id: "4889269514EAF5AD"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6D320ADE83A1969C"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					advancement: "dungeons_arise:find_plague_asylum"
+					id: "64032D84ECADEABB"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: -5.25d
+		}
+		{
+			dependencies: ["3AA2F1C6BAE4A44E"]
+			icon: {
+				id: "minecraft:mossy_cobblestone"
+			}
+			id: "75F03B7EC595A39F"
+			rewards: [
+				{
+					id: "201B36D3040B9192"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "4CE09DA5AF63B1F7"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					advancement: "dungeons_arise:find_abandoned_temple"
+					id: "66FC17FB50DB3AA3"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: -2.625d
+		}
+		{
+			dependencies: ["75F03B7EC595A39F"]
+			icon: {
+				id: "minecraft:map"
+			}
+			id: "47C205C11109E2F4"
+			rewards: [
+				{
+					id: "77753CC633355F0F"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "295331024B1D2F24"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					advancement: "dungeons_arise:find_monastery"
+					id: "56563650A32DD59D"
+					type: "advancement"
+				}
+				{
+					advancement: "dungeons_arise:find_infested_temple_map"
+					id: "2FDDE01BF0AE9FEA"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["47C205C11109E2F4"]
+			icon: {
+				id: "minecraft:rose_bush"
+			}
+			id: "38AD2602BD4B6E8F"
+			optional: true
+			rewards: [
+				{
+					id: "61F39413AAED8105"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "1572B2833BA20B53"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "7620FD3E0174BD32"
+					structure: "dungeons_arise:thornborn_towers"
+					type: "structure"
+				}
+			]
+			x: 6.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["47C205C11109E2F4"]
+			icon: {
+				id: "minecraft:cobweb"
+			}
+			id: "409C2D38F335E43E"
+			min_width: 300
+			rewards: [
+				{
+					id: "2715BB3177AA338F"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "166E5604A25B3E79"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					advancement: "dungeons_arise:find_infested_temple"
+					id: "26CE7E7DD789D9B6"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["75F03B7EC595A39F"]
+			icon: {
+				id: "minecraft:ominous_trial_key"
+			}
+			id: "2D2954A1647426D4"
+			min_width: 300
+			rewards: [
+				{
+					id: "222CB3481D4A6219"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "4EB8E321DD31092E"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					advancement: "dungeons_arise:find_kisegi_sanctuary"
+					id: "758B65AF45CCF8CA"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["3AA2F1C6BAE4A44E"]
+			icon: {
+				id: "minecraft:bone_block"
+			}
+			id: "5D3F2C653FA3895F"
+			rewards: [
+				{
+					id: "4109CDA90246AA2E"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "70F93F60400D90DB"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					advancement: "dungeons_arise:find_ceryneian_hind"
+					id: "622EAA20D241FA9E"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["5D3F2C653FA3895F"]
+			icon: {
+				id: "minecraft:wither_skeleton_skull"
+			}
+			id: "6A6AAF71C55DA269"
+			rewards: [
+				{
+					id: "5D797988D40BD924"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "5C1E60D47BDAED04"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					advancement: "dungeons_arise:find_scorched_mines"
+					id: "1D1D827B082678CD"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A6AAF71C55DA269"]
+			icon: {
+				id: "minecraft:blaze_rod"
+			}
+			id: "3776B9C81D0EABA7"
+			rewards: [
+				{
+					id: "3B4296AA42B90304"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "79FE14ECC4352D69"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					advancement: "dungeons_arise:find_foundry"
+					id: "4CD1C1EB8D4E00F8"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["5D3F2C653FA3895F"]
+			icon: {
+				id: "minecraft:netherite_ingot"
+			}
+			id: "05967410619DBE02"
+			rewards: [
+				{
+					id: "07D47087746576F8"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "11B30C222CCD44C3"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "dungeons_arise:find_shiraz_palace"
+					id: "10D83D053ECC128E"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["3AA2F1C6BAE4A44E"]
+			icon: {
+				id: "minecraft:red_sandstone"
+			}
+			id: "2AEE116EA925AB86"
+			rewards: [
+				{
+					id: "07F0B83F8E6B5C00"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "19791E5AE5A37BF4"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					advancement: "dungeons_arise:find_bandit_village"
+					id: "78496152F82A688B"
+					type: "advancement"
+				}
+				{
+					advancement: "dungeons_arise:find_bandit_towers"
+					id: "1279DA014CB6670C"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 0.875d
+		}
+		{
+			dependencies: ["3AA2F1C6BAE4A44E"]
+			icon: {
+				id: "minecraft:lily_pad"
+			}
+			id: "4BA516B829B1A8C8"
+			rewards: [
+				{
+					id: "442850FEF37BD3A1"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "2608197FC2614332"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					advancement: "dungeons_arise:find_keep_kayra"
+					id: "1C9C1403CDE036FC"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 2.625d
+		}
+		{
+			dependencies: ["3AA2F1C6BAE4A44E"]
+			icon: {
+				id: "minecraft:coal_block"
+			}
+			id: "2A4FC1EBBCD37302"
+			rewards: [
+				{
+					id: "4E4D6463C5157A04"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "3F2F2FDD34697A31"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "513FC164E5042E64"
+					item: {
+						count: 16
+						id: "minecraft:scaffolding"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "dungeons_arise:find_small_blimp"
+					id: "0221E8D2921691EE"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 4.375d
+		}
+		{
+			dependencies: ["2A4FC1EBBCD37302"]
+			icon: {
+				id: "minecraft:raw_iron_block"
+			}
+			id: "4C35726CB71F147C"
+			rewards: [
+				{
+					id: "6D5026F9830D2187"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "0312916CA3D4CE9B"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					advancement: "dungeons_arise:find_mining_complex"
+					id: "647DBDF4F6B693D9"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2A4FC1EBBCD37302"]
+			icon: {
+				id: "minecraft:lightning_rod"
+			}
+			id: "3119A239AE226DDB"
+			rewards: [
+				{
+					id: "7BF1833BE764DAF3"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6717AAB16194FEDD"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "166AFD815253928A"
+					item: {
+						count: 1
+						id: "minecraft:milk_bucket"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "dungeons_arise:find_mechanical_nest"
+					id: "03DF83FB3C520E51"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["2A4FC1EBBCD37302"]
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "189BB88A164E2AE8"
+			rewards: [
+				{
+					id: "79416A17A425D94A"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "585358F416966517"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					advancement: "dungeons_arise:find_heavenly_rider"
+					id: "199AC5DD89E72C9F"
+					type: "advancement"
+				}
+				{
+					advancement: "dungeons_arise:find_heavenly_conqueror"
+					id: "009EFA9F19C5C85B"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["189BB88A164E2AE8"]
+			icon: {
+				id: "minecraft:netherite_sword"
+			}
+			id: "2421C0DF003105FD"
+			rewards: [
+				{
+					id: "2584D02F45DA82D8"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "4BE3107A000E3C62"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					advancement: "dungeons_arise:find_heavenly_challenger"
+					id: "6699C40A66DCE12A"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2421C0DF003105FD"]
+			icon: {
+				id: "minecraft:end_crystal"
+			}
+			id: "650D8130E1C64907"
+			min_width: 300
+			rewards: [
+				{
+					id: "4686512A789EB44E"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "596C7F4092B6B0F8"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					advancement: "dungeons_arise:find_aviary"
+					id: "37D1916E06FE4166"
+					type: "advancement"
+				}
+			]
+			x: 8.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["3AA2F1C6BAE4A44E"]
+			icon: {
+				id: "minecraft:white_banner"
+			}
+			id: "24296DB5FCD0047B"
+			rewards: [
+				{
+					id: "4A6D4DBFB11EE4C5"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "4258D89FCFF7B1EC"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "60D916B0CECD56F3"
+					structure: "dungeons_arise_seven_seas:small_yacht"
+					type: "structure"
+				}
+			]
+			x: 2.0d
+			y: 6.125d
+		}
+		{
+			dependencies: ["24296DB5FCD0047B"]
+			icon: {
+				id: "minecraft:gunpowder"
+			}
+			id: "480102E0C65C7E5A"
+			optional: true
+			rewards: [
+				{
+					id: "567647E6D2293FBE"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "120497B348750847"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "528DDDBDFBA03755"
+					structure: "dungeons_arise_seven_seas:corsair_corvette"
+					type: "structure"
+				}
+				{
+					id: "586EC38A3B828ECA"
+					structure: "dungeons_arise_seven_seas:pirate_junk"
+					type: "structure"
+				}
+			]
+			x: 4.0d
+			y: 8.75d
+		}
+		{
+			dependencies: ["24296DB5FCD0047B"]
+			icon: {
+				id: "minecraft:golden_sword"
+			}
+			id: "4E0D3D26FD663A8D"
+			optional: true
+			rewards: [
+				{
+					id: "08DF57C8F0A859CA"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "5965D3DFFF30F58E"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "2B02FBE64A5B2841"
+					structure: "dungeons_arise_seven_seas:unicorn_galleon"
+					type: "structure"
+				}
+			]
+			x: 4.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["24296DB5FCD0047B"]
+			icon: {
+				id: "minecraft:diamond_chestplate"
+			}
+			id: "0B9B39BD4A620C0C"
+			rewards: [
+				{
+					id: "3745EFE64B2E1300"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6A0A0958F69BD81D"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "3D5C57B54494DD31"
+					structure: "dungeons_arise_seven_seas:victory_frigate"
+					type: "structure"
+				}
+			]
+			x: 4.0d
+			y: 12.25d
+		}
+	]
+}

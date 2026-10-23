@@ -138,41 +138,40 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"minecraft:axolotl": true
-			"bloomingnature:wandering_gardener": true
-			"quark:forgotten": true
-			"wildernature:hedgehog": true
 			"wildernature:squirrel": true
-			"irons_spellbooks:necromancer": true
-			"ars_nouveau:whirlisprig": true
-			"wildernature:raccoon": true
-			"quark:toretoise": true
-			"minecraft:creeper": true
-			"minecraft:bat": true
-			"wildernature:deer": true
-			"minecraft:cod": false
-			"artifacts:mimic": true
-			"minecraft:rabbit": true
-			"minecraft:salmon": false
-			"minecraft:cow": true
-			"ars_nouveau:starbuncle": true
-			"minecraft:squid": true
-			"minecraft:zombie": true
-			"irons_spellbooks:cursed_armor_stand": true
-			"minecraft:skeleton": true
-			"minecraft:sheep": true
-			"minecraft:spider": true
-			"wildernature:turkey": true
-			"minecraft:husk": true
-			"minecraft:drowned": true
-			"quark:stoneling": true
-			"wildernature:scorpion": true
-			"minecraft:chicken": true
-			"minecraft:glow_squid": true
 			"minecraft:enderman": true
-			"minecraft:witch": true
-			"modernfoundry:terracube": true
+			"quark:stoneling": true
+			"quark:toretoise": true
+			"bloomingnature:wandering_gardener": true
 			"minecraft:armadillo": true
+			"minecraft:tropical_fish": false
+			"minecraft:pig": true
+			"minecraft:zombie": true
+			"minecraft:chicken": true
+			"minecraft:panda": true
+			"minecraft:drowned": true
+			"yungscavebiomes:sand_snapper": true
+			"modernfoundry:terracube": true
+			"minecraft:squid": true
+			"minecraft:bat": true
+			"minecraft:sheep": true
+			"wildernature:cassowary": true
+			"minecraft:pufferfish": false
+			"ars_nouveau:whirlisprig": true
+			"artifacts:mimic": true
+			"irons_spellbooks:necromancer": true
+			"minecraft:cod": false
+			"minecraft:wolf": true
+			"quark:forgotten": true
+			"minecraft:creeper": true
+			"wildernature:deer": true
+			"ars_nouveau:drygmy": true
+			"minecraft:axolotl": true
+			"minecraft:glow_squid": true
+			"minecraft:parrot": true
+			"minecraft:skeleton": true
+			"minecraft:camel": true
+			"minecraft:spider": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)
@@ -292,7 +291,7 @@
 		
 		# Enables creation of death waypoints
 		# Default: true
-		death_waypoints: true
+		death_waypoints: false
 		
 		# Show waypoints in world
 		# Default: true

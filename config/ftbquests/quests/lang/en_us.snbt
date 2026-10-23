@@ -16,7 +16,7 @@
 	]
 	chapter.1E61D0A996310F18.title: "&aBit by Bit"
 	chapter.1EC52A5BD8E798F7.chapter_subtitle: [
-		"YUNG's structures, IDAS, Integrated Villages, Lootr, Jousting and the vanilla bosses"
+		"YUNG's structures, IDAS, Integrated Villages, Villages \\& Pillages, Lootr, Jousting and the vanilla bosses"
 	]
 	chapter.1EC52A5BD8E798F7.title: "&6Into the Unknown"
 	chapter.2086B02EBC00FDA8.chapter_subtitle: [
@@ -67,6 +67,10 @@
 		"[Let's Do] Vinery, Brewery and Apple Wood Rebarked"
 	]
 	chapter.4C78378F0E21693B.title: "&5The Cellar"
+	chapter.4EF5A5B39B2B218B.chapter_subtitle: [
+		"When Dungeons Arise and Seven Seas: camps, palaces, airships and pirate ships"
+	]
+	chapter.4EF5A5B39B2B218B.title: "&cRise and Plunder"
 	chapter.5402508CCDC77BF8.chapter_subtitle: [
 		"Wisp \\& Willow: chalk circles, Fluxia and the Willow Altar"
 	]
@@ -359,6 +363,15 @@
 	]
 	quest.0570C390EDD7841A.quest_subtitle: "Hands slot, +4 damage"
 	quest.0570C390EDD7841A.title: "&cPack a Punch"
+	quest.05967410619DBE02.quest_desc: [
+		"The &6Shiraz Palace&r is the jewel of the &bdesert&r, and only about one desert find in ten is a palace. Take a &eLighthouse map&r or a &eWoodland Explorer Map&r rather than wandering."
+		""
+		"&cThis is one of the deadliest places in the mod.&r Its spawners hold husks in &cnetherite armour&r (some with netherite swords), Wither Skeleton archers, pillagers and cave spiders. Full enchanted diamond, Healing potions and a Totem are not overkill."
+		""
+		"The &eelite chests&r hold netherite helmets and boots, &enetherite ingots&r and handfuls of diamonds."
+	]
+	quest.05967410619DBE02.quest_subtitle: "The richest house in the desert"
+	quest.05967410619DBE02.title: "&6Sultan of Sand"
 	quest.05B301E4A9729BDB.quest_desc: [
 		"This world has been &arenovated&r. &6YUNG's&r mods rebuild the classic dungeons, temples, mineshafts and fortresses, &6IDAS&r scatters dozens of hand-built structures around, and &6Integrated Villages&r replaces every vanilla village."
 		""
@@ -366,7 +379,7 @@
 		""
 		"Structure quests tick when you &awalk inside&r the building, not when you stand on top of it. Every loot chest is per-player (Lootr, from Kitted Out), so nobody steals your loot."
 		""
-		"&7Rivers now have YUNG's Bridges (some of them broken), so follow the water. The advancement screen (L) has tabs for IDAS, Integrated Villages, Better Dungeons and Cave Biomes. They make handy checklists.&r"
+		"&7Rivers now have YUNG's Bridges (some of them broken), so follow the water. The advancement screen (L) has tabs for IDAS, Integrated Villages, Better Dungeons and Cave Biomes. They make handy checklists. The giant &6When Dungeons Arise&7 builds and its pirate ships have a chapter of their own, &6Rise and Plunder&7.&r"
 	]
 	quest.05B301E4A9729BDB.quest_subtitle: "Here be dragons. Literally, at the end."
 	quest.05B301E4A9729BDB.title: "&6Into the Unknown"
@@ -612,6 +625,15 @@
 	]
 	quest.0A18FC899F83CEF4.quest_subtitle: "The last meal you'll ever need"
 	quest.0A18FC899F83CEF4.title: "&6Steak Out"
+	quest.0A19A1686682CDF0.quest_desc: [
+		"The &6Illager Fort&r is a stone stronghold in &bsnowy taigas, snowy plains, snowy slopes and taigas&r. Follow a map from a campsite, or search the cold forests."
+		""
+		"&cInside wait Evokers&r (fangs and vexes, and a &eTotem of Undying&r each when they die) and &cIllusioners&r, plus pillagers, vindicators and cave spider spawners. Bring a shield and plenty of food."
+		""
+		"The treasure chests are worth it: enchanted &ediamond armour&r, diamonds, Woodland Mansion loot and a pile of &eBottles o' Enchanting&r."
+	]
+	quest.0A19A1686682CDF0.quest_subtitle: "The illagers' winter palace"
+	quest.0A19A1686682CDF0.title: "&cStorm the Fort"
 	quest.0A31634E17777913.quest_desc: [
 		"The &6Glimmering Weald&r is a rare, glowing biome &bbelow Y=0&r, full of &eGlow Shrooms&r, glowing lichen and extra Stonelings."
 		""
@@ -706,6 +728,13 @@
 	]
 	quest.0B60B5D24BF7EB4A.quest_subtitle: "The world, on a turntable"
 	quest.0B60B5D24BF7EB4A.title: "&eRound and Round"
+	quest.0B9B39BD4A620C0C.quest_desc: [
+		"The &6Victory Frigate&r is the largest Seven Seas ship and the hardest, with &bmore than twenty spawners&r: zombies with &cdiamond axes and swords&r, vindicators with Sharpness axes, archers, and &cpillagers in diamond chestplates with Multishot crossbows&r."
+		""
+		"Clear it deck by deck and break each spawner as you go. The reward is &b7 treasure chests&r with enchanted &ediamond armour&r, high-level books, diamonds and emeralds, and dozens of supply barrels."
+	]
+	quest.0B9B39BD4A620C0C.quest_subtitle: "The biggest gun on the water"
+	quest.0B9B39BD4A620C0C.title: "&9Ship of the Line"
 	quest.0BC92E394FCE51C6.quest_desc: [
 		"A &6Source Relay&r (6 Gold Ingots + a Source Gem Block) moves Source up to &b30 blocks&r. Link it to jars and other relays with the &6Dominion Wand&r. A redstone signal switches it off."
 		""
@@ -1491,6 +1520,15 @@
 		"When your ingredients match more than one recipe, a button appears by the output slot. Click it and &apick the result you actually want&r."
 	]
 	quest.188B3FC091302690.title: "&6Ars Polymorphia&r: Pick a Card"
+	quest.189BB88A164E2AE8.quest_desc: [
+		"The three &6Heavenly&r warships float at &by 200&r over jungles, forests, deserts, plains and savannas. Find the &6Heavenly Rider&r and the &6Heavenly Conqueror&r."
+		""
+		"&cWither Skeletons ride Hoglins&r on deck while archers on phantoms circle the hull. A knock-off at this height is fatal, so carry a &ewater bucket&r or &dSlow Falling&r, and an Elytra if you have one."
+		""
+		"The holds hold piles of diamonds and gold, strong Healing potions and a real chance of a &eTotem of Undying&r."
+	]
+	quest.189BB88A164E2AE8.quest_subtitle: "Two hundred blocks of nope"
+	quest.189BB88A164E2AE8.title: "&bCastles in the Air"
 	quest.18A9BAFFFE43AF05.quest_desc: [
 		"&eImmortal Stone&r is a cloud Kivi block of one colour in the centre, &e4 Obsidian&r on the edges and &e4 Aluminum Ingots&r in the corners. A cloud Aluminum block in the centre gives &eImmortal Aluminum&r instead."
 		""
@@ -1507,6 +1545,13 @@
 	]
 	quest.18B172510081C94C.quest_subtitle: "Milk, no bottle"
 	quest.18B172510081C94C.title: "&fMocha Moment"
+	quest.18E0E0964F8C56A4.quest_desc: [
+		"Two more ocean finds. The &6Undead Pirate Ship&r is crewed by &cskeleton spawners&r (some of them ride dolphins) and carries diamonds, emeralds and enchanted books."
+		""
+		"The &6Typhon&r is a huge stone-and-magma &bsea monster statue on the sea floor&r. Nothing guards it, but you'll need to dive: bring &dWater Breathing&r for its chests."
+	]
+	quest.18E0E0964F8C56A4.quest_subtitle: "Some sailors never left"
+	quest.18E0E0964F8C56A4.title: "&3Davy Jones' Locker"
 	quest.190C2C2C3E868329.quest_desc: [
 		"&6Smoker&r turns smoking into a craft. Build a &6Smoking Station&r from planks, stone bricks and a regular Smoker. &7In this pack the vanilla Smoker runs the same new rules.&r"
 		""
@@ -1774,6 +1819,13 @@
 	]
 	quest.1DB21866D2727996.quest_subtitle: "8 buckets a block"
 	quest.1DB21866D2727996.title: "&bTanks a Lot"
+	quest.1DC1598292DD94A0.quest_desc: [
+		"A &6Merchant Campsite&r is a ring of tents in the &bplains, meadows and sunflower plains&r, with a lone merchant villager and an &aIron Golem&r keeping watch. Nothing here wants to hurt you."
+		""
+		"Check the &emap chest&r: it always holds an explorer map to an &6Illager Campsite&r or an &6Illager Fort&r. That's your way into the illager branch."
+	]
+	quest.1DC1598292DD94A0.quest_subtitle: "A friendly face on the road"
+	quest.1DC1598292DD94A0.title: "&eTents and Trinkets"
 	quest.1E0D75D892AE31CE.quest_desc: [
 		"Craft an &eEngagement Ring&r from &e7 Gold Ingots&r and a &eDiamond&r, or use 7 rose gold ingots for the rose gold ring."
 		""
@@ -2060,6 +2112,15 @@
 	]
 	quest.230342E5AD171391.quest_subtitle: "A round for the mining crew"
 	quest.230342E5AD171391.title: "&6Espresso Yourself"
+	quest.2322131793D1E165.quest_desc: [
+		"A ruined arena in the &bplains, meadows and sunflower plains&r. The &6Coliseum&r has no chests: &athe loot is on the gladiators&r."
+		""
+		"&cThe gladiator is a giant Phantom&r ridden by a heavily armoured skeleton archer with a &bPower V&r bow and &cLevitation&r arrows. Shoot the phantom down, then deal with the rider. Defeated gladiators drop diamonds, emeralds, iron and gold."
+		""
+		"&7Don't wait for sunrise: this phantom has Fire Resistance and won't burn. Keep a water bucket handy for the Levitation.&r"
+	]
+	quest.2322131793D1E165.quest_subtitle: "The crowd wants blood. Preferably not yours."
+	quest.2322131793D1E165.title: "&6Are You Not Entertained?"
 	quest.2341C23096A9A104.quest_desc: [
 		"&aAccept&r a bounty to get its contract: &bHunt&r (track down and kill a creature), &bGather&r (hold items), &bObserve&r (look at an animal through a &eSpyglass&r) or &bExplore&r (visit a biome)."
 		""
@@ -2105,6 +2166,24 @@
 	]
 	quest.23D76C906C218B0B.quest_subtitle: "Rudimentary, reliable, very slow"
 	quest.23D76C906C218B0B.title: "&cShock and Trawl"
+	quest.2421C0DF003105FD.quest_desc: [
+		"The &6Heavenly Challenger&r is the deadliest of the three sky ships, also at &by 200&r. Its Wither Skeletons wear netherite and swing &cnetherite swords&r and axes, and phantom and hoglin riders back them up."
+		""
+		"The treasure is the best in the overworld skies: &enetherite helmets, boots and pickaxes&r, netherite ingots and Enchanted Golden Apples."
+		""
+		"&7All three Heavenly ships can also spawn over the End's outer islands. Remember that for the next quest.&r"
+	]
+	quest.2421C0DF003105FD.quest_subtitle: "The admiral is not taking visitors"
+	quest.2421C0DF003105FD.title: "&cDreadnought"
+	quest.24296DB5FCD0047B.quest_desc: [
+		"&6When Dungeons Arise: Seven Seas&r adds &bfive ships&r that sit on the surface of any &bocean&r. They're spread out, roughly one per 1,000 blocks of open water, so a fast boat and a spyglass help."
+		""
+		"Start with the &6Small Yacht&r: a few vindicators or a pillager with a &cMultishot&r crossbow, and a villager on board. The treasure has an enchanted book, diamonds or emeralds, and enchanted chainmail."
+		""
+		"&7No advancements for these ships: the quests tick when you step aboard.&r"
+	]
+	quest.24296DB5FCD0047B.quest_subtitle: "Yo ho ho and a bottle of potion"
+	quest.24296DB5FCD0047B.title: "&3Set Sail"
 	quest.2432B5B63C0D9B38.quest_desc: [
 		"Craft &e4 Barrels&r in a square for a &6Big Barrel&r. It holds &b9&r beers or whiskeys: right-click with a drink to put it in, &bShift + right-click&r takes the last one out."
 		""
@@ -2272,6 +2351,13 @@
 	]
 	quest.26BBDC2B0FC40EC2.quest_subtitle: "More of everything, squared"
 	quest.26BBDC2B0FC40EC2.title: "&6Supplementaries Squared"
+	quest.26D67D75741F33A9.quest_desc: [
+		"The witches keep prisoners. Look for small &ewooden cages&r hanging on chains from posts beside the houses, each holding a captured swamp villager with no job yet. Not every village has one. The cage walls are trapdoors, so &aflip one or break it&r to let them out, but only once the witches are dealt with."
+		""
+		"&7Like every villager in this pack it becomes an &6MCA&7 villager. A boat is the easiest way to get it across the bog; back home, give it a bed and a job block.&r"
+	]
+	quest.26D67D75741F33A9.quest_subtitle: "Somebody has to let them out"
+	quest.26D67D75741F33A9.title: "&aJailbreak"
 	quest.275994DBDF37C35D.quest_desc: [
 		"Place your painted piece and &aright-click it with a Honeycomb&r to glaze it. Each honeycomb adds a coat, up to &b8 layers&r, for a deeper shine."
 		""
@@ -2470,6 +2556,15 @@
 	]
 	quest.2A086CE35B6E90B5.quest_subtitle: "The Pyromancer is in"
 	quest.2A086CE35B6E90B5.title: "&cSmoke Signals"
+	quest.2A4FC1EBBCD37302.quest_desc: [
+		"The &6Small Blimp&r is one of the most common Dungeons Arise builds: it floats about &b20 blocks above&r most land biomes. A few skeleton spawners are on board."
+		""
+		"&aPillar up&r with scaffolding (here's some) and search the treasure chests: dungeon loot, enchanted iron gear and a chance of a map to the &6Plague Asylum&r or the &6Mining Complex&r."
+		""
+		"&7Bigger ships fly much higher. Treat this one as practice.&r"
+	]
+	quest.2A4FC1EBBCD37302.quest_subtitle: "Look up for once"
+	quest.2A4FC1EBBCD37302.title: "&bLoftier Ambitions"
 	quest.2A8B4A98EC575D5D.quest_desc: [
 		"&eTrain Casing&r and an &eElectron Tube&r make &b4&r &6Train Signals&r. Place one beside a selected track: signals cut the line into &bsegments&r, and only one train may be in a segment at a time."
 		""
@@ -2504,6 +2599,13 @@
 	]
 	quest.2AA45D73A9AF9070.quest_subtitle: "Some upgrades are found, not made"
 	quest.2AA45D73A9AF9070.title: "&cTreasure of the Bastion"
+	quest.2AEE116EA925AB86.quest_desc: [
+		"The &bbadlands&r are bandit territory: the only big Dungeons Arise finds there are the &6Bandit Village&r and the &6Bandit Towers&r."
+		""
+		"The village has &choglins with Wither Skeleton riders&r and husks in mixed armour. The towers are tall, with husks and skeletons in Thorns gear guarding lots of chests: the treasure has enchanted diamond gear, diamonds and sometimes a &emap to a Foundry&r."
+	]
+	quest.2AEE116EA925AB86.quest_subtitle: "Wanted: dead or alive. Mostly dead."
+	quest.2AEE116EA925AB86.title: "&6Outlaw Country"
 	quest.2AF51CA1DED6E50D.quest_desc: [
 		"&6Quark&r is not one big system. It is &bover a hundred small features&r that feel like they always belonged in Minecraft: new blocks, smarter storage, handy tools, a few new critters and some deep-cave surprises."
 		""
@@ -2618,6 +2720,15 @@
 	]
 	quest.2CACE31018F83F9C.quest_subtitle: "Self-service for cows"
 	quest.2CACE31018F83F9C.title: "&6Breakfast Is Served"
+	quest.2D2954A1647426D4.quest_desc: [
+		"The &6Kisegi Sanctuary&r is another sunken temple, &b32 blocks down&r under &bplains, hills and cherry groves&r. Same rules as the Infested Temple: &cTrial Spawners&r, keys and &b4 vaults&r (normal, treasure and their ominous versions). &cWither Skeletons in netherite chestplates&r guard the halls."
+		""
+		"Its loot holds two rare enchantments. &dEnsnaring&r can slow enemies hard and summon evoker fangs. &cCurse of Lolth&r can heal you as you hit, but &ccave spiders burst out of your victims&r and hitting spiders hurts you back."
+		""
+		"&7Bring a Brush: suspicious sand and gravel here hide pottery sherds and more.&r"
+	]
+	quest.2D2954A1647426D4.quest_subtitle: "Don't touch the webs. Or the swords."
+	quest.2D2954A1647426D4.title: "&5Weaver's Sanctum"
 	quest.2D34C88EA5E92EF0.quest_desc: [
 		"A &6Street Lantern&r is a &eFroglight&r (Ochre or Verdant) plus an &eIron Ingot&r, and makes four. The &6Plated Street Lantern&r needs a &ePearlescent Froglight&r and a &eGold Ingot&r, and makes two."
 		""
@@ -2740,6 +2851,15 @@
 	]
 	quest.2F15414360C3E0D3.quest_subtitle: "A shulker box for peasants"
 	quest.2F15414360C3E0D3.title: "&eSack It Up"
+	quest.2F2517347F688FDC.quest_desc: [
+		"&6Illager Campsites&r turn up in &bplains, meadows, windswept hills and snowy plains&r: tents, a campfire, a couple of pillagers and a vindicator. A gentle first fight."
+		""
+		"Some camps keep a zombie villager prisoner. &aCure it&r with a &eSplash Potion of Weakness&r and a &eGolden Apple&r and it becomes a villager (see &6Starting a Family&r)."
+		""
+		"Its map chest always holds a map to an &6Illager Fort&r or an &6Illager Corsair&r."
+	]
+	quest.2F2517347F688FDC.quest_subtitle: "They didn't bring marshmallows"
+	quest.2F2517347F688FDC.title: "&cUnhappy Campers"
 	quest.2F25AE36BDDEC7C6.quest_desc: [
 		"Sigils are used in a &6Smithing Table&r. A &dSigil of Socketing&r adds one socket, but only to an item that has fewer than &b2&r sockets."
 		""
@@ -2825,6 +2945,15 @@
 	]
 	quest.30FBD369F7A448CF.quest_subtitle: "Mind the gap. And the TNT."
 	quest.30FBD369F7A448CF.title: "&6Down the Shaft"
+	quest.3119A239AE226DDB.quest_desc: [
+		"The &6Mechanical Nest&r hangs at &by 190&r over &bswamps, mangroves and forests&r. You have to go &ainside&r it for this quest."
+		""
+		"&cIts traps are the danger.&r Get within 4 blocks of one and it throws &cSlowness III and Mining Fatigue III&r with a &clightning strike&r. Deeper in, a &cRavager carries a charged Creeper&r. Have a way down ready (a water bucket or Slow Falling) and drink the milk when the traps catch you."
+		""
+		"Its treasure chests hold &dVoltaic Shot&r and &dDischarge&r crossbows, swords and books, diamond and emerald blocks, and netherite scrap."
+	]
+	quest.3119A239AE226DDB.quest_subtitle: "Clockwork, lightning and very bad ideas"
+	quest.3119A239AE226DDB.title: "&eShock and Awe"
 	quest.31227418F3BA80B0.quest_desc: [
 		"Each &6Advanced&r machine is its Simple version plus &e4 Celestigem&r, &e3 Eyes of Ender&r and &eRedstone&r. They &cneed FE&r, but work on a whole &barea&r (Render Area previews it, Rad sets the radius, Off the offset) and have proper &ballow/deny filters&r."
 		""
@@ -3077,6 +3206,15 @@
 	]
 	quest.3715BBB37FF125DF.quest_subtitle: "Wool, but make it magic"
 	quest.3715BBB37FF125DF.title: "&eWoven Wonders"
+	quest.3776B9C81D0EABA7.quest_desc: [
+		"The &6Foundry&r is buried around &by -10&r under jungles, forests, taigas, deserts, plains, savannas and mountains. Bandit Towers maps and Woodland Explorer Maps can lead here."
+		""
+		"&cIt's a Nether fortress in disguise&r: Blazes, Magma Cubes, Wither Skeletons with Power bows and a &cPiglin Brute in netherite&r. Bring &dFire Resistance&r and a shield."
+		""
+		"The treasure is &eBastion-grade&r: diamond blocks, &enetherite scrap&r and high-level enchanted books."
+	]
+	quest.3776B9C81D0EABA7.quest_subtitle: "Smelting, with extra screaming"
+	quest.3776B9C81D0EABA7.title: "&6Hellfire Ironworks"
 	quest.37A7AEA9DA6784F5.quest_desc: [
 		"A &eBlank Spawner Rune&r is 5 Chains, 2 Gem Dust and 2 Gem-Fused Slate (makes 2). The dust comes from crushing gems, see the gems branch. Add 4 of something to set its effect, then &aright-click a spawner&r with it."
 		""
@@ -3133,6 +3271,13 @@
 	]
 	quest.38A09840DF0A3D8D.quest_subtitle: "Crafting tables, but lazy"
 	quest.38A09840DF0A3D8D.title: "&6Fab-ulous Crafting"
+	quest.38AD2602BD4B6E8F.quest_desc: [
+		"The &6Thornborn Towers&r hang high above &bforests&r. Some of the skeletons wear &cThorns&r armour, so hits can sting back, and skeleton archers patrol the sky on phantoms."
+		""
+		"Climb to the top for high-level enchanted books, diamonds and emeralds, and a small chance of a &6Mining Complex&r map."
+	]
+	quest.38AD2602BD4B6E8F.quest_subtitle: "So does every skeleton here"
+	quest.38AD2602BD4B6E8F.title: "&2Every Rose Has Its Thorns"
 	quest.38D36C2DCF7DE90B.quest_desc: [
 		"The &6Alteration Table&r (Scribe's Table + 4 Magebloom Fiber) fits &dThreads&r into your magic armor's slots. Put the armor on the stand, use threads on the tablet, then take the armor off to apply. Use the display with an empty hand to remove a thread."
 		""
@@ -3193,6 +3338,13 @@
 	]
 	quest.39B75E0E43D97A08.quest_subtitle: "Patience, poke, plaid"
 	quest.39B75E0E43D97A08.title: "&dNeedle Point"
+	quest.39F0E45AD882A72C.quest_desc: [
+		"The &6Lighthouse&r stands on &bbeaches and plains&r. Climb to the top: that chest has a &b50%&r chance of a map to the &6Shiraz Palace&r, the richest place in the desert, and a rare copy of the music disc &e11&r."
+		""
+		"The &6Fishing Hut&r sits on &bbeaches&r too, with a spawner of &czombie fishermen&r. Its barrels hold &dLuck&r potions, enchanted fishing rods and books and, very rarely, a &eTrident&r."
+	]
+	quest.39F0E45AD882A72C.quest_subtitle: "Lights on, nobody home"
+	quest.39F0E45AD882A72C.title: "&eKeepers of the Coast"
 	quest.3A0EE8AD083BAE22.quest_desc: [
 		"A &6Chicken Coop&r (iron ingots, slabs and a Chicken Nest made from wheat) houses up to &b3 chickens&r and stores up to &b9 eggs&r. Chickens move in on their own; right-click to collect, use a pitchfork to let them out."
 		""
@@ -3245,6 +3397,17 @@
 	]
 	quest.3A864D7D2438DC1F.quest_subtitle: "+5 hearts, no strings attached"
 	quest.3A864D7D2438DC1F.title: "&dHeart of Glass"
+	quest.3AA2F1C6BAE4A44E.quest_desc: [
+		"&6When Dungeons Arise&r scatters huge hand-built structures across the world: camps, fortresses, palaces, mines, temples and airships. They are &bspread out&r: roughly &bone big one per 800 by 800 blocks&r, and the &bbiome&r decides which one you get. Badlands and swamps only have two candidates each, so they're the easiest to hunt. Plains, forests and deserts are crowded, so any one building there is rare."
+		""
+		"&aFollow the maps.&r The friendly places (camps, temples, the Lighthouse) keep &eexplorer maps&r to the dangerous ones. A Cartographer's &eWoodland Explorer Map&r leads to the nearest of six of the rarest builds here (or a Woodland Mansion). Loot is per-player, so &aevery player gets their own map&r."
+		""
+		"&cThe big ones are guarded by spawners&r full of mobs in enchanted gear. Break the spawners as you go. The advancement screen (L) has a &6When Dungeons Arise&r tab that works as a checklist."
+		""
+		"&7The usual dungeons (YUNG's, IDAS) are in &6Into the Unknown&7. The add-on &6Seven Seas&7 puts pirate ships on the ocean.&r"
+	]
+	quest.3AA2F1C6BAE4A44E.quest_subtitle: "An adventure log for the long road"
+	quest.3AA2F1C6BAE4A44E.title: "&cRise and Plunder"
 	quest.3AB032AB02D4A23A.quest_desc: [
 		"Every ability in the mod starts as an &eUpgrade: Blank&r, &b4 Ferricore Ingots&r in a diamond shape."
 		""
@@ -3557,6 +3720,15 @@
 	]
 	quest.40974294A392FEC2.quest_subtitle: "For the odds and ends"
 	quest.40974294A392FEC2.title: "&6Crate Expectations"
+	quest.409C2D38F335E43E.quest_desc: [
+		"The &6Infested Temple&r is buried about &b32 blocks underground&r in &btaigas, hills, snowy biomes and cherry groves&r. It works like a Trial Chamber: &cTrial Spawners&r of spiders, cave spiders, Wither Skeletons and &cinvisible, floating skeleton archers&r, and no other mobs spawn inside."
+		""
+		"Beat a spawner for an &eInfested Temple Key&r and open the &6vault&r. That vault always gives a key for the higher vault, with &dPurification&r (armour that can shrug off poison and wither) and a good chance of &eEnchanted Golden Apples&r."
+		""
+		"&7One spawner drops an Ominous Bottle. Drink it and the spawners turn ominous, with an ominous vault of their own. Vaults are per-player.&r"
+	]
+	quest.409C2D38F335E43E.quest_subtitle: "The walls have legs"
+	quest.409C2D38F335E43E.title: "&8Something Skittering"
 	quest.40A8C1B55C11EDCE.quest_desc: [
 		"Draw a 9x9 circle with &bone glyph of every colour&r (the Grimoire's eye icon shows which shape goes where), drop &eone of each of the 16 chalks&r inside and pay &b5,000 ƒ&r. Out comes &dOmni Chalk&r with &b512 uses&r."
 		""
@@ -3641,6 +3813,13 @@
 	]
 	quest.4296B98C6A6C2EDA.quest_subtitle: "Wipe your boots, dinner's on"
 	quest.4296B98C6A6C2EDA.title: "&6The Country Kitchen"
+	quest.42C6FB42DCA61CE1.quest_desc: [
+		"Giant-mushroom homes grow in &bforests&r. The &6Mushroom House&r and the &6Mushroom Village&r are held by &cpiglins with crossbows and Piglin Brutes&r with golden swords, a nasty surprise in the overworld (and they don't turn into zombie piglins)."
+		""
+		"The village has emeralds, gold and iron. The house's treasure chests can hold a &emap to the Mushroom Mines&r."
+	]
+	quest.42C6FB42DCA61CE1.quest_subtitle: "There's not mushroom in here"
+	quest.42C6FB42DCA61CE1.title: "&cFun Guys"
 	quest.42E27B7A7085D352.quest_desc: [
 		"Finish the bounty and right-click the board to cash in. Rewards are mostly &eEmeralds&r, plus food, gear and the odd rare prize - spend the emeralds with villagers."
 		""
@@ -3849,6 +4028,13 @@
 	]
 	quest.45AF2B40DCC62BA7.quest_subtitle: "Both halves of the mod meet here"
 	quest.45AF2B40DCC62BA7.title: "&6Above the Nether"
+	quest.45B1D031400D8F8E.quest_desc: [
+		"The &6Greenwood Pub&r is a big inn in &bdark forests, forests and sunflower plains&r, packed with &bwell over a dozen villagers&r. A &cvindicator&r or two may be drinking with them, and zombie and skeleton spawners lurk in the back rooms, so clear those first."
+		""
+		"The barrels hold bottles, brewing odds and ends and the odd strangely named brew. &aTrade with the regulars&r once the troublemakers are gone."
+	]
+	quest.45B1D031400D8F8E.quest_subtitle: "The locals are friendly. Mostly."
+	quest.45B1D031400D8F8E.title: "&6Last Orders"
 	quest.45BC4F60A36C5DEE.quest_desc: [
 		"Your first &agrandchild&r. Once your child is married, &aGift a Cake&r to one of the couple and they start expecting."
 		""
@@ -3972,6 +4158,13 @@
 	]
 	quest.47A815327DF8164D.quest_subtitle: "Extra crispy"
 	quest.47A815327DF8164D.title: "&cHot Cakes"
+	quest.47C205C11109E2F4.quest_desc: [
+		"The &6Monastery&r is a quiet retreat in &btaigas, hills and mountains&r. Only a villager and an &aIron Golem&r live here, so don't start trouble."
+		""
+		"Climb to the top and open the &emap chest&r. Half the time it holds a map to the &6Thornborn Towers&r. &7The other map, meant for the Infested Temple, comes out blank in this version: use a Woodland Explorer Map for that one.&r"
+	]
+	quest.47C205C11109E2F4.quest_subtitle: "Please keep your voice down"
+	quest.47C205C11109E2F4.title: "&fVow of Silence"
 	quest.47FF56092BB720BE.quest_desc: [
 		"&eGold Casts&r are reusable. Put a part, or any ingot, on an &bempty&r Casting Table and pour &b1 ingot&r (90 mB) of molten gold over it. &cThe part or ingot is used up&r to make the mold."
 		""
@@ -3981,6 +4174,13 @@
 	]
 	quest.47FF56092BB720BE.quest_subtitle: "Casts that last forever"
 	quest.47FF56092BB720BE.title: "&eThe Golden Rule"
+	quest.480102E0C65C7E5A.quest_desc: [
+		"The &6Corsair Corvette&r is crewed by skeletons with golden axes and a Punch archer, and carries &bbarrels of gunpowder and flint&r. &cSome skeletons spawn with a creeper riding on their heads&r, so don't let them get close."
+		""
+		"The &6Pirate Junk&r has vindicators, a firework-shooting pillager and can have &cIllusioner&r spawners. Its treasure holds enchanted diamond helmets and boots, diamonds and emeralds, plus lots of supply barrels."
+	]
+	quest.480102E0C65C7E5A.quest_subtitle: "Two crews, no manners"
+	quest.480102E0C65C7E5A.title: "&3Scallywags"
 	quest.481C73A835C6C7A9.quest_desc: [
 		"&eRooibos Tea&r needs only a stove's &b30%&r heat and gives a short burst of &bRegeneration&r."
 		""
@@ -3997,6 +4197,13 @@
 	]
 	quest.4849368F0F0DDC94.quest_subtitle: "10 slots, +100 mana"
 	quest.4849368F0F0DDC94.title: "&bMaster Enchanter"
+	quest.486235BCCA101E17.quest_desc: [
+		"Illagers have taken over a windmill in the &bplains&r. The &6Illager Windmill&r is mostly guarded by pillagers, sometimes with a vindicator or a witch, and its wheat fields are worked by &bzombie villager&r farmhands."
+		""
+		"&aCure them&r (Weakness plus a Golden Apple each) and you've got the start of a village. The chests have enchanted iron gear and emeralds, and the barrels can hide a &esaddle&r."
+	]
+	quest.486235BCCA101E17.quest_subtitle: "The miller has been replaced"
+	quest.486235BCCA101E17.title: "&eTilting at Windmills"
 	quest.48C57D2769BB8B06.quest_desc: [
 		"Put any &eSeeds&r on the Apparatus with &e4 Source Gems&r on pedestals to get a &eMagebloom Seed&r. Plant it on farmland."
 		""
@@ -4167,6 +4374,22 @@
 	]
 	quest.4B9EA39E408D3580.quest_subtitle: "Mob factory, fully tuned"
 	quest.4B9EA39E408D3580.title: "&6The Ultimate Spawner"
+	quest.4BA516B829B1A8C8.quest_desc: [
+		"In &bswamps and mangrove swamps&r, half of all big finds are &6Keep Kayra&r, a ruined castle with a library and a garden. A couple of dozen frogs live here; the garrison is less friendly: skeletons and &cWither Skeletons in diamond chestplates&r, and creepers riding slimes."
+		""
+		"It has &bdozens of treasure chests&r. Expect &ehigh-level enchanted books&r, enchanted diamond gear and, rarely, a piece of &enetherite armour&r."
+	]
+	quest.4BA516B829B1A8C8.quest_subtitle: "A castle for the frogs"
+	quest.4BA516B829B1A8C8.title: "&2Croak and Dagger"
+	quest.4C35726CB71F147C.quest_desc: [
+		"The &6Mining Complex&r is a deep industrial mine &bburied around y -5&r, in most land biomes. Small Blimp, Abandoned Temple and Thornborn maps lead here."
+		""
+		"&cSkeleton miners&r patrol the tunnels, some with &cMaces&r and netherite chestplates or a Fire Aspect flint and steel, plus a pillager firing fireworks. &aSmash the decorated pots&r: a few hide a &eMining Complex Treasure Key&r that opens the &6vault&r."
+		""
+		"The vault holds &dVoltaic Shot&r (exploding crossbow bolts that fly straight) and &dDischarge&r books and gear, diamond blocks and a chance of an &eEnchanted Golden Apple&r."
+	]
+	quest.4C35726CB71F147C.quest_subtitle: "The miners are still on shift"
+	quest.4C35726CB71F147C.title: "&7Clocking In"
 	quest.4C5A1A3548506764.quest_desc: [
 		"Craft a &6Brewing Stand&r from a &eBlaze Rod&r and &e3 Cobblestone&r (any cobble-type stone works), and fuel it with &eBlaze Powder&r."
 		""
@@ -4253,6 +4476,13 @@
 	]
 	quest.4DC67DCE9B3E6E58.quest_subtitle: "The Tinker Station, for veterans"
 	quest.4DC67DCE9B3E6E58.title: "&6Station to Station"
+	quest.4E0D3D26FD663A8D.quest_desc: [
+		"The &6Unicorn Galleon&r is a grand sailing ship taken over by &czombies in chainmail&r with swords, axes and Fire Aspect flint and steel, while skeleton archers fly around it on bats."
+		""
+		"Its treasure is like the Pirate Junk's (enchanted diamond pieces, diamonds, emeralds), and around 20 supply barrels keep the crew fed. &7A parrot keeps them company.&r"
+	]
+	quest.4E0D3D26FD663A8D.quest_subtitle: "Majestic. Also full of zombies."
+	quest.4E0D3D26FD663A8D.title: "&fThe Unicorn Rides the Waves"
 	quest.4E56B30212417FCC.quest_desc: [
 		"Put a &eBlock of Primal Coal&r against &6Blazebloom Goo&r and it becomes ore that drops &eBlaze Ember&r: &b14,400&r ticks of burn time, &b240 FE/t&r in the coal generator."
 		""
@@ -4713,6 +4943,13 @@
 	]
 	quest.560F42E3CE954E72.quest_subtitle: "Let chaos design your path"
 	quest.560F42E3CE954E72.title: "&eRandom Acts of Building"
+	quest.561BD899B72600DE.quest_desc: [
+		"Witches throw &cSplash Potions&r of Harming, Poison, Slowness and Weakness, and drink their own potions to heal, speed up or shrug off fire. They take &bfar less damage from magic&r, so the harming potions you loot here barely tickle them. Close the gap fast and use a sword or an axe."
+		""
+		"&aBring milk&r to clear the poison and weakness. Inside the village, &bwitches are the only monster that spawns&r in the dark (no zombies, skeletons or slimes), so leave the lights off if you want a steady supply of redstone, glowstone and sugar."
+	]
+	quest.561BD899B72600DE.quest_subtitle: "Trick question. All of them."
+	quest.561BD899B72600DE.title: "&5Which Witch Is Which"
 	quest.56369BC287278CBF.quest_desc: [
 		"&6Shibas&r live in mountain biomes. Tame one with &eBones&r, like a wolf, and it becomes a loyal friend that &afetches the arrows you shoot&r."
 		""
@@ -4740,6 +4977,13 @@
 	]
 	quest.566B55C2301ED298.quest_subtitle: "Six stacks, zero fuss"
 	quest.566B55C2301ED298.title: "&6Quiver Me Timbers"
+	quest.56C0BBD5BBAD56C1.quest_desc: [
+		"Every house is a little potion shop, with &6Brewing Stands&r and a stack of &ebarrels&r full of brewing ingredients (redstone, glowstone, spider eyes, sugar, mushrooms, now and then a Rabbit's Foot or a Pufferfish) and a few &cSplash Potions&r to throw back. Some houses also keep a chest of drinkable potions: Healing, Regeneration, Fire Resistance, Swiftness and Water Breathing. One of the larger houses has attic chests with the odd emerald."
+		""
+		"Grab a &eFermented Spider Eye&r. The barrels sometimes have them ready-made; otherwise craft one from a Spider Eye, Sugar and a Brown Mushroom, all three found in the same barrels. &aIt turns good potions bad&r: Swiftness into Slowness, Healing into Harming."
+	]
+	quest.56C0BBD5BBAD56C1.quest_subtitle: "Raid the witches' pantry"
+	quest.56C0BBD5BBAD56C1.title: "&dEye of Newt"
 	quest.56E8E2416820FE3B.quest_desc: [
 		"Cut a &eShaft&r with a &6Mechanical Saw&r to get a &6Shear Pin&r. It works like a shaft, but &csnaps when the network overstresses&r, splitting it in two. Keep spares: it is single use."
 		""
@@ -4991,6 +5235,13 @@
 		"&cThere is no Silver or Rainbow Furnace here: this pack has no silver.&r"
 	]
 	quest.5CDA28EF2771C903.title: "&6Turning Up the Heat"
+	quest.5CF03285F1E47EC6.quest_desc: [
+		"The &6Mushroom Mines&r burrow under &bforests&r. Only a few armoured zombie miners and skeleton archers live here, but there are &bdozens of chests&r to open."
+		""
+		"The biggest chests always hold an &eenchanted pickaxe&r and can have diamond armour. The rest hold mineshaft loot, ores, coal and food."
+	]
+	quest.5CF03285F1E47EC6.quest_subtitle: "Forty-four chests and a pickaxe each"
+	quest.5CF03285F1E47EC6.title: "&7We All Dig Together"
 	quest.5D11F427DF64CFF7.quest_desc: [
 		"&eSticks&r, &eString&r, a &eRabbit Hide&r and a &eSlimeball&r make a &6Slingshot&r. Hold right-click to charge it, and it fires the item from your offhand (or inventory)."
 		""
@@ -5014,6 +5265,13 @@
 	]
 	quest.5D239F359DCA7A94.quest_subtitle: "Make light work"
 	quest.5D239F359DCA7A94.title: "&eMany Hands"
+	quest.5D3F2C653FA3895F.quest_desc: [
+		"Half-buried in the &bdesert&r lies the &6Ceryneian Hind&r: the giant skeleton of a deer, built from bone and quartz. &aNothing guards it.&r"
+		""
+		"Look for its chest (desert-temple loot and enchanted iron armour) and the two &eblocks of gold&r set into the build."
+	]
+	quest.5D3F2C653FA3895F.quest_subtitle: "Something big died here. A long time ago."
+	quest.5D3F2C653FA3895F.title: "&fOh Deer"
 	quest.5D5DD4AB1B5DCF28.quest_desc: [
 		"Brew &eDried Oolong Tea&r with a &eGlass Bottle&r at &b40% heat&r."
 		""
@@ -5324,6 +5582,15 @@
 	]
 	quest.61DB6FB239E8C5FF.quest_subtitle: "Follow the bouncing eyeball"
 	quest.61DB6FB239E8C5FF.title: "&aEye Spy"
+	quest.61EE5EFF62C3F5B0.quest_desc: [
+		"Illagers have taken to the sea. The &6Illager Corsair&r and the &6Illager Galley&r sail the &boceans&r; either one counts. Campsite maps sometimes point to a Corsair."
+		""
+		"Expect pillagers and vindicator spawners on deck (and the odd &cEvoker&r on the Corsair). Below deck: quartz, diamonds, emeralds and enchanted iron gear."
+		""
+		"&7Come alongside in a boat and climb up the hull. A fall into deep water is the safest kind of fall.&r"
+	]
+	quest.61EE5EFF62C3F5B0.quest_subtitle: "Raids, now with sails"
+	quest.61EE5EFF62C3F5B0.title: "&3Pillagers of the Caribbean"
 	quest.620558C528F79588.quest_desc: [
 		"A normal key's password is just its name, so anyone with an anvil can forge it. The &6Heavy Key&r fixes that: craft a &6Key&r with a piece of &eNetherite Scrap&r."
 		""
@@ -5373,6 +5640,13 @@
 		"&cFlux moves power, it doesn't make it.&r"
 	]
 	quest.626C47FA8E8B3ED5.title: "&6Plug and Play"
+	quest.62A0D3C726A24847.quest_desc: [
+		"Two small stops from the &bplains and meadows&r. The &6Wishing Well&r holds a lingering cloud with one random effect: &aSpeed II, Regeneration, Resistance or Haste&r... or &cWither&r. &cYou can't tell which from the outside&r, but the Wither only lasts 10 seconds."
+		""
+		"The &6Bathhouse&r (plains, taigas, savannas and snowy biomes) is full of barrels of food, with a rare oddly named drink. Some have a &ahot tub&r that gives &bRegeneration II and Resistance II&r. Spawners of skeletons and husks guard it."
+	]
+	quest.62A0D3C726A24847.quest_subtitle: "Toss a coin, then take a soak"
+	quest.62A0D3C726A24847.title: "&bWishes and Washes"
 	quest.62A42BCE33B7057E.quest_desc: [
 		"The Summit asks for a full set of &9Rare&r or better and a dead &cWither&r. You have to be credited with the kill, so get your hits in at the end."
 		""
@@ -5545,6 +5819,15 @@
 	]
 	quest.64FFA8E2B31B15BF.quest_subtitle: "Where does it go? Nobody asks"
 	quest.64FFA8E2B31B15BF.title: "&8Down the Drain"
+	quest.650D8130E1C64907.quest_desc: [
+		"The &6Aviary&r is the toughest build in &6When Dungeons Arise&r. It only appears on the &bEnd's outer islands&r (End highlands and midlands), so you need the dragon dead and the gateway open (see &6Into the Unknown&r). Only about one big End find in four is an Aviary."
+		""
+		"&cPhantoms spawn all over it.&r Skeletons in &cnetherite armour&r with Power bows and Fire Aspect swords hold the halls, and &cEnd Crystals&r are built into the structure: &cthey explode&r when hit, so mind your shots."
+		""
+		"Your reward: &enetherite ingots&r, piles of diamonds, enchanted diamond gear, &eEnchanted Golden Apples&r and, with luck, a &eTotem&r in the barrels. &aYou've raided the best Dungeons Arise has to offer.&r"
+	]
+	quest.650D8130E1C64907.quest_subtitle: "Where the phantoms go to nest"
+	quest.650D8130E1C64907.title: "&5The Last Roost"
 	quest.651F577DA771B6AA.quest_desc: [
 		"The &6Simple Reforging Table&r rerolls &aany&r valid gear, affixed or not, into a fresh affix item, up to &9Rare&r. Item in the middle, rarity material top-left, &dSigils of Rebirth&r bottom-right."
 		""
@@ -5903,6 +6186,13 @@
 	]
 	quest.6A36D5C0B79CA409.quest_subtitle: "Sorcery for the End"
 	quest.6A36D5C0B79CA409.title: "&5A Stable Gate"
+	quest.6A6AAF71C55DA269.quest_desc: [
+		"The &6Scorched Mines&r dig under the &bdesert&r. Their spawners are straight out of the Nether: &cWither Skeletons&r with Fire Aspect swords, skeletons with Flame bows, and husks."
+		""
+		"The treasure chests hold enchanted diamond armour, netherite scrap and sometimes a &eWither Skeleton Skull&r, without a trip to a fortress. &7Fire Resistance helps.&r"
+	]
+	quest.6A6AAF71C55DA269.quest_subtitle: "The Nether, delivered to your desert"
+	quest.6A6AAF71C55DA269.title: "&cHot Under the Collar"
 	quest.6A9A2EA30E39CD18.quest_desc: [
 		"The &6Chef's Outfit&r is a hat, jacket, pants and boots made from wool, leather, a gold ingot and rabbit hide."
 		""
@@ -6353,6 +6643,13 @@
 	]
 	quest.7421CC513EE98C87.quest_subtitle: "Twelve flavours of neighbour"
 	quest.7421CC513EE98C87.title: "&aNot Your Average Village"
+	quest.7427FA2A8BFCE380.quest_desc: [
+		"The &cIllusioner&r never spawns on its own in vanilla, but Illager Forts usually hold a few (Abandoned Temples can too). It turns invisible, splits into &bdecoy copies&r and casts &cBlindness&r on you, then snipes with a bow."
+		""
+		"The copies are only illusions: keep moving, keep your shield up and go for the one you can actually hit. &7The Pirate Junk ships in the Seven Seas branch can have Illusioner spawners too.&r"
+	]
+	quest.7427FA2A8BFCE380.quest_subtitle: "...and now there are five of you"
+	quest.7427FA2A8BFCE380.title: "&9Now You See Me"
 	quest.7472A99AB27E4F94.quest_desc: [
 		"Three &eIron Ingots&r and two sticks make an &6Iron Pickaxe&r. It's the key to the good ores: &egold&r, &eredstone&r and &ediamonds&r."
 		""
@@ -6420,6 +6717,13 @@
 	]
 	quest.75A2881A9EC0557B.quest_subtitle: "Enchantment Library"
 	quest.75A2881A9EC0557B.title: "&5Shelf Storage"
+	quest.75F03B7EC595A39F.quest_desc: [
+		"A small ruined temple in &btaigas, windswept hills and mountains&r. &cStrays&r spawn around the &6Abandoned Temple&r, so expect Slowness arrows, along with armoured skeletons and sometimes an &cIllusioner&r."
+		""
+		"It's a &atreasure-map hub&r: its map chest holds a map to a &6Monastery&r, the &6Mining Complex&r or the &6Thornborn Towers&r."
+	]
+	quest.75F03B7EC595A39F.quest_subtitle: "The congregation has gone a bit stray"
+	quest.75F03B7EC595A39F.title: "&7Forgotten Faith"
 	quest.7643BF2F63CD4932.quest_desc: [
 		"On a server you can marry another &aplayer&r. Type &b/mca propose <name>&r; they answer with &b/mca accept <your name>&r or &b/mca reject <your name>&r."
 		""
@@ -6617,6 +6921,15 @@
 	]
 	quest.78DFFEFDBCDABCE6.quest_subtitle: "Now that's what I call furniture"
 	quest.78DFFEFDBCDABCE6.title: "&dEarworm"
+	quest.7901B3E19A1EB8C8.quest_desc: [
+		"The &6Plague Asylum&r is &bburied deep, around y 0&r, under forests, taigas and mountains. You won't see it from the surface: a &eSmall Blimp&r map or a &eWoodland Explorer Map&r helps."
+		""
+		"&cMind the evoker-fang trap&r, the witches, the Wither Skeletons and the skeletons that arrive with a splash of &cHarming&r. The potion chests are full of odd brews like &dStrange Concoction&r and &dQuickest Way Out&r. &7Read the label before you drink.&r"
+		""
+		"Other chests hold diamonds, music discs and Woodland Mansion loot."
+	]
+	quest.7901B3E19A1EB8C8.quest_subtitle: "Take two of these and don't call me"
+	quest.7901B3E19A1EB8C8.title: "&2Bedside Manner"
 	quest.79702A2C4DB07E04.quest_desc: [
 		"Build a working machine that moves: a sweeping crop harvester, a tree-felling saw, or a drill bore on a piston."
 		""
@@ -6733,6 +7046,15 @@
 	]
 	quest.7B2DB39A23BBA494.quest_subtitle: "12 slots, +20% cooldown reduction"
 	quest.7B2DB39A23BBA494.title: "&6Ancient Knowledge"
+	quest.7B306876E5B8E7D6.quest_desc: [
+		"&6Villages and Pillages&r adds the &6Witch Village&r: a cluster of mossy witch houses on oak stilts just above the water, linked by spruce boardwalks. Some of the boards have rotted away, so watch your step."
+		""
+		"It only grows in &bswamps and mangrove swamps&r, and it needs a big, fairly flat one, so small swamps rarely have one. Point a &eNature's Compass&r at the nearest swamp and look for rooftops."
+		""
+		"&cThe residents are hostile.&r Witches stand guard at the village centre and the boardwalk crossings, and every house has its own witch and a cat."
+	]
+	quest.7B306876E5B8E7D6.quest_subtitle: "Population: witches, cats and a few unlucky neighbours"
+	quest.7B306876E5B8E7D6.title: "&2Coven Town"
 	quest.7B44DDA02F1F9A03.quest_desc: [
 		"&6Modern Foundry&r is a port of &6Tinkers' Construct&r. You build tools from &eparts&r, and the &ematerial&r of each part sets its stats and gives it a &btrait&r. Then you upgrade the tool with &bmodifiers&r."
 		""
@@ -6978,16 +7300,20 @@
 	quest.7FEBCEE826D2689F.quest_subtitle: "Dry it twice"
 	quest.7FEBCEE826D2689F.title: "&8Fade to Black"
 	task.00127011EE9C4D84.title: "Marry a villager"
+	task.009EFA9F19C5C85B.title: "Find: a Heavenly Conqueror"
 	task.00E3C2C6E348726F.title: "Build a Smeltery and open its screen"
 	task.00E945E6307DE552.title: "Bind a magical creature into a Familiar"
 	task.01971EA854D19B59.title: "Find a surface Ore Geyser"
 	task.01D2E1080D225A11.title: "Finish the A Courtship quest chain"
+	task.0221E8D2921691EE.title: "Find: a Small Blimp"
 	task.022889F5A98D62BC.title: "Complete a bounty"
 	task.030D2F87037E1752.title: "Find: a Better Stronghold"
 	task.03D3510B1D157D69.title: "Move items through a Chute"
+	task.03DF83FB3C520E51.title: "Find: a Mechanical Nest"
 	task.04C8E2EFE46E00D6.title: "Mine a block of Enchanted Ice"
 	task.04DB4E229B030F1E.title: "Name your ship with a Nameplate"
 	task.05C008E8558AE75C.title: "Open the Wisp \\& Willow Grimoire (you got it on first join)"
+	task.05FF1BFE458CCA04.title: "Find: a Bathhouse"
 	task.060B362883BC8CF9.title: "Complete a second rune ring (24 runes): the altar reads tier III"
 	task.063BE6AD2A088F6F.title: "Copy an Enchanted Book with a Printer"
 	task.065879FDB09BABC6.title: "Open the Kitted Out chapter"
@@ -7000,10 +7326,12 @@
 	task.0901718E84F83E54.title: "Slay: an Elder Guardian"
 	task.093D84F04ABB3865.title: "Install Ore Miner on a Ferricore Pickaxe in a Smithing Table"
 	task.0955620709E19345.title: "Build a hollow box, put the Valve in a wall and right-click it until chat says Formed!"
+	task.0A3147A92C328B84.title: "Slay: an Illusioner"
 	task.0A79D8E8BD813C8E.title: "Move items into or out of a container with a Funnel"
 	task.0ADDC58892AD918C.title: "Place an Altitude Sensor"
 	task.0B0ADDA009918D47.title: "Hold Left Shift over a relic and research an ability"
 	task.0B9B828DB0B4B543.title: "Crawl inside a Hollow Log"
+	task.0BE7E748ED3A9047.title: "Find: the Mushroom Mines"
 	task.0C1028337B15E880.title: "Put a Sophisticated barrel or chest on a contraption"
 	task.0CC2F7716C3F4B71.title: "Raise a child into an adult"
 	task.0CC75D631F87317F.title: "Have three children"
@@ -7017,11 +7345,15 @@
 	task.0FB8123A2B64D8D0.title: "Visit a Beach biome"
 	task.100707971375EDF7.title: "Fire a plain-clay pottery piece with a dye in the Kiln"
 	task.1090B732F1B046CD.title: "Get each of the 9 teas and coffees"
+	task.10D83D053ECC128E.title: "Find: the Shiraz Palace"
 	task.113F82224B7D3BB3.title: "Upgrade a magic armor piece to Tier 2"
 	task.1196865DA92FD706.title: "Complete and claim a bounty at the Bounty Board"
 	task.11CC52D166DE7389.title: "Accept a quest from a villager's Quests tab"
 	task.11DF6EEDD3B96A96.title: "Drink a Coffee"
 	task.120203AA5B7C88AF.title: "Put items up for sale with a Table Cloth"
+	task.1272AF5BF1DC6A53.title: "Find: a Merchant Campsite"
+	task.1279DA014CB6670C.title: "Find: the Bandit Towers"
+	task.12D2065E0C3D6752.title: "Find: an Illager Campsite"
 	task.13DD951556C8482E.title: "Tame a Foxhound"
 	task.13E5F5CF9222B6AD.title: "Make all 7 cheese wheels"
 	task.142650C04129FED4.title: "Cast the Sealed Soul Pact through a lit Soul Gateway"
@@ -7034,8 +7366,13 @@
 	task.17F2C95971D098C8.title: "Exchange 9 Bronze Coins for a Silver Coin"
 	task.1825F0C093E5853C.title: "Pack your bags"
 	task.186CB795C9238247.title: "Have all seven brew effects at once"
+	task.195810129BFB45F6.title: "Find: a Lighthouse"
+	task.199AC5DD89E72C9F.title: "Find: a Heavenly Rider"
 	task.1A09888B76EEB901.title: "Smoke a piece of food"
 	task.1C27B9D2CF35E26E.title: "Catch the Flamarang carrying a burning item"
+	task.1C9C1403CDE036FC.title: "Find: Keep Kayra"
+	task.1C9E0B7E4A32EC38.title: "Find: a Mushroom Village"
+	task.1D1D827B082678CD.title: "Find: the Scorched Mines"
 	task.1DC0E48639999A72.title: "Press Ctrl+T, read the tutorial and click Done"
 	task.1E07330E36052E61.title: "A Sophisticated Barrel (any wood)"
 	task.1E1D2C4112640BA7.title: "Reach Friend standing (75 reputation) with a village"
@@ -7051,16 +7388,22 @@
 	task.2413DE1A4DFBBE0C.title: "Pick up your first affix item"
 	task.25163858E6643EA7.title: "Rank up a relic"
 	task.2569380FCBB60FD2.title: "Reach 50 hearts with a villager"
+	task.26CE7E7DD789D9B6.title: "Find: an Infested Temple"
 	task.26F847A90B4963BF.title: "Wear all four awakened empyrite pieces"
 	task.27699113D3F8F5DE.title: "Oak Way Sign"
 	task.2833515ED5063282.title: "Visit: the Lost Caves"
 	task.286177AABEC50D24.title: "Read a Jade tooltip, then hover any food to see AppleSkin's values"
+	task.2A95CFCCD02EC795.title: "Find: an Illager Fort"
+	task.2B02FBE64A5B2841.title: "Find: a Unicorn Galleon"
 	task.2B1F44CEDBBFE498.title: "Glue a group of blocks with Honey Glue"
 	task.2B2906AE1BC40FF0.title: "Read: how exploring works here"
 	task.2C431A93877128EF.title: "Find: a Better Mineshaft"
+	task.2E73AE5C457368F4.title: "Find: a Mushroom House"
 	task.2ED920053046C567.title: "Collect all six cocktails"
+	task.2F1E66E9BA562178.title: "Find: a Fishing Hut"
 	task.2F7ED5DB48D43549.title: "Sort a chest with Quark's sort button"
 	task.2F958131711A59EE.title: "Process an item with an Encased Fan"
+	task.2FDDE01BF0AE9FEA.title: "Open the Monastery's map chest"
 	task.3119C465F2D5620E.title: "Enchant a Create machine at an Enchanting Table or Anvil"
 	task.317F0CA0EB27BE55.title: "Open your Curios slots (inventory button or G)"
 	task.327B42F6521781E1.title: "Craft a Sculkshelf (Echoing or Soul-Touched)"
@@ -7083,6 +7426,8 @@
 	task.36B7F16F7888B01E.title: "Open 100 Lootr containers"
 	task.375AA6117EC0D1C3.title: "Read: oak and red for the finale, HUD panels, Shift tooltips"
 	task.376E7DA807FF08B7.title: "Got it: the Just Dires Guide is a Book + a Primogel Goo (shapeless)"
+	task.37D1916E06FE4166.title: "Find: an Aviary"
+	task.38451B1B9DA8609B.title: "Slay: 5 Witches"
 	task.386B0CAA882DF0ED.title: "Chop a tree, then craft a Crafting Table"
 	task.38B80EFB59B5323E.title: "Plated Street Lantern"
 	task.38C9EE461395FEAE.title: "Craft any crib and lay your baby in it"
@@ -7094,6 +7439,7 @@
 	task.3C25601229F14528.title: "Put a fish into a Fish Tank"
 	task.3CC5D3803DC3506F.title: "Find: a Catacomb"
 	task.3CF6CF64C451A4EA.title: "Look at Floating Debris through a Spyglass"
+	task.3D5C57B54494DD31.title: "Find: a Victory Frigate"
 	task.3D92C34456DA3FC7.title: "Find: any Integrated Village"
 	task.3D9E58EB397D4834.title: "Add a tower to a sandcastle"
 	task.3EFFDF1E5DE74E7E.title: "Slay: the Ender Dragon"
@@ -7110,6 +7456,7 @@
 	task.43E8A2724936CD3A.title: "Place a melter, fuel source, faucet, table and basin"
 	task.43ECD967E03702A9.title: "Sound a Steam Whistle on your train while driving"
 	task.441D9FBB095FCE94.title: "Assemble your first Train"
+	task.44DD678B6749E01A.title: "Find: a Witch Village"
 	task.4532F02CCDF889B9.title: "Employ a Stock Keeper and place your first order"
 	task.45B11E1ECAB1CFC7.title: "Apply a modifier to a tool in the Modern Foundry Station"
 	task.4604476E212CE618.title: "Visit all 16 Blooming Nature biomes"
@@ -7118,11 +7465,14 @@
 	task.48696C156227C7C1.title: "Open your first Lootr chest"
 	task.48DA59072082026B.title: "Catch a package from a Chain Conveyor with a Frogport"
 	task.490D459BD39A9FA5.title: "Build a Foundry and open its screen"
+	task.4944E3BE2E3D1DBF.title: "Find: a Typhon"
 	task.49CA03BF13D61BD1.title: "Find a Mountain Tower"
 	task.4B2D4BC0A7286D7D.title: "Find a Galleon"
+	task.4B9AE9DE861503D9.title: "Find: a Wishing Well"
 	task.4C1D7EDDC6C69AB8.title: "Open the world map (M)"
 	task.4C35551630453E35.title: "Set your home with /sethome"
 	task.4C69804099DD7422.title: "Find an Apothic Tower (any variant) and loot its chest"
+	task.4CD1C1EB8D4E00F8.title: "Find: a Foundry"
 	task.4CFF26B779DA7D3A.title: "Fire a vegetable from a Mounted Potato Cannon"
 	task.4D49C2335B8D50BA.title: "Read: how Relics and Artifacts work"
 	task.4D5C43A16121CFE7.title: "Street Lantern"
@@ -7132,20 +7482,25 @@
 	task.4DEBF268F09B7EF7.title: "Find a Fluxia Oasis"
 	task.4E24C443FA941537.title: "Trigger an automatic package request with a Factory Gauge"
 	task.4E3C4493B0697934.title: "Craft a piece of Sorceror's, Arcanist's or Battlemage's armor"
+	task.4E59FD8258A5877E.title: "Free a caged villager"
 	task.4E851EF7841C9812.title: "Place a Train Signal"
 	task.4ED4BB6D0BC3FE07.title: "Run a boiler at its maximum level (18)"
+	task.4ED51FEB45E6A8C3.title: "Find: a Coliseum"
 	task.4EF4404951DF9871.title: "I won't feed eyes to unstable frames"
 	task.507460EB947A1C01.title: "Inspect a Contraption Diagram on a contraption"
 	task.5116EBC2FA11D323.title: "Open the Titles \\& Milestones journal (inventory button)"
 	task.51CC12F90E2310EF.title: "Get engaged: gift an Engagement Ring (gold or rose gold)"
 	task.526E897180AC5CAD.title: "Find: an End City"
+	task.528DDDBDFBA03755.title: "Find: a Corsair Corvette"
 	task.53A21985E19757F9.title: "Place a Tea Kettle (iron or copper)"
 	task.541B48A9ED0BDF08.title: "Craft the Chronicle of Shadows (Book + Gold Ingot) and give it a read"
+	task.54624F96D3DB5186.title: "Find: an Undead Pirate Ship"
 	task.547F1CC0E3302A10.title: "Find: a Better Desert Temple"
 	task.54AF95FD7DCB4E61.title: "Hover over any Create item and hold W to open its Ponder scene"
 	task.54E913216B867520.title: "Grind something in a Millstone"
 	task.54FB419FF2B0A8EB.title: "Reach the Merchant rank"
 	task.5512830444542D55.title: "Write a spell in your book (press C) and cast it"
+	task.56563650A32DD59D.title: "Find: a Monastery"
 	task.567676465C7577F9.title: "Give a villager a gift"
 	task.5725BDBDCC5C8EA5.title: "Blast Armor Trim Smithing Template"
 	task.5750E1ED9AD48433.title: "Got it: Polymorph's picker works in the Storage Lectern"
@@ -7153,6 +7508,7 @@
 	task.578448331436D26B.title: "Craft every Red pottery piece"
 	task.57A407D7C8A65ABD.title: "Give one of your children a chore"
 	task.584D521DB2294B4F.title: "Upgrade a magic armor piece to Tier 3"
+	task.586EC38A3B828ECA.title: "Find: a Pirate Junk"
 	task.58E4B9A136C07F98.title: "Connect a rope"
 	task.5901F0D90CF396E6.title: "Find: a Spider Cave"
 	task.5903DA26B559A0A5.title: "Oak Item Shelf"
@@ -7175,17 +7531,25 @@
 	task.601656F6FC8A954F.title: "Spin a globe really fast"
 	task.60A67AB21007CCED.title: "Plant grape seeds on a Grapevine Stem"
 	task.60BF0963C19D806E.title: "Chat, joke or tell a story to a villager"
+	task.60D916B0CECD56F3.title: "Find: a Small Yacht"
 	task.614B3A93C0FD12DA.title: "Sit on a piece of furniture"
 	task.61DAD57D0D62ECB6.title: "Have a Mechanical Arm feed a Blaze Burner"
+	task.622EAA20D241FA9E.title: "Find: a Ceryneian Hind"
 	task.6387F0D2E8DA534F.title: "Find: a Better Jungle Temple"
 	task.63B898F25C014D01.title: "Cast Minor Focus at your altar"
 	task.6402146E9E2EB866.title: "Assemble a windmill and make it generate power"
+	task.64032D84ECADEABB.title: "Find: a Plague Asylum"
+	task.647DBDF4F6B693D9.title: "Find: the Mining Complex"
 	task.6518FF17FDE5502D.title: "Find and activate a Waystone"
 	task.658C1039F6B8EB12.title: "Smoke food with an effect wood"
 	task.65938F254C992B6C.title: "Stockpile 64 Andesite Alloy (let the Mixer do the work)"
+	task.6597DA90373FFF24.title: "Find: a Greenwood Pub"
 	task.668F90D409CC64DF.title: "Open the quest book (sidebar button, top left of your inventory)"
+	task.6699C40A66DCE12A.title: "Find: a Heavenly Challenger"
 	task.66BD31600CF3D322.title: "Show a train's arrival on a Display Board"
+	task.66FC17FB50DB3AA3.title: "Find: an Abandoned Temple"
 	task.6709DE83119BBAE4.title: "Crystallize Levitite Blend into Levitite"
+	task.68B0907A26A43F7C.title: "Find: an Illager Corsair or Galley"
 	task.68E173F46F29C915.title: "Fly an airship with a balloon and a propeller, then land and disassemble it"
 	task.68F03B10A36C1848.title: "Read: grow it, press it, brew it, age it"
 	task.69902F6F97D09BCA.title: "Throw your Pickarang"
@@ -7218,6 +7582,7 @@
 	task.716CAAC8F3416282.title: "Find the Citadel"
 	task.71B9A8956727BE94.title: "Light a dark spot your Shiba points out"
 	task.721A89DA23DB0B5F.title: "Pick up a chest or an animal: sneak + right-click with an empty hand"
+	task.722132713CC253FD.title: "Find: an Illager Windmill"
 	task.722C042E000F784C.title: "Build a Train with at least 6 carriages"
 	task.7324650FFC6DA902.title: "Visit: the Frosted Caves"
 	task.741D777DB5BF0498.title: "Build a tool with a Manyullyn head"
@@ -7226,6 +7591,8 @@
 	task.74843ABAB5F935B8.title: "Push an enchantment past its cap with a tome"
 	task.748CC096609A5B93.title: "Read: what this chapter covers"
 	task.7529203F68733A50.title: "Process an item with an upright Mechanical Saw"
+	task.758B65AF45CCF8CA.title: "Find: the Kisegi Sanctuary"
+	task.7620FD3E0174BD32.title: "Find: the Thornborn Towers"
 	task.7693185C2773AAA6.title: "Brew a potion"
 	task.7696765D5FC78C6A.title: "Kill: the Fleeing Pumpkin Head"
 	task.76E5FE5EB0A0160A.title: "Cure an infected villager with a golden apple"
@@ -7233,12 +7600,14 @@
 	task.773908821517703A.title: "Place and power a propeller"
 	task.77576896FE2B0F82.title: "Learn how to get your stuff back"
 	task.77735DCE8B5D6747.title: "Mount a backpack on a moving contraption"
+	task.78496152F82A688B.title: "Find: a Bandit Village"
 	task.79A072D2257CAC0A.title: "Enter the End"
 	task.79D19BEB0C7C0B11.title: "Mix ingredients in a Basin with a Mechanical Mixer"
 	task.7A17DB515E609F01.title: "Play a record on a Gramophone"
 	task.7A3C89E57218CEB4.title: "Cast a metal tool part and build a tool with it"
 	task.7A4A51032E1C6C39.title: "Hold W over an add-on machine (try the Rolling Mill) to open its Ponder scene"
 	task.7AF32D7239176DC3.title: "Move items in or out of a contraption with a Portable Storage Interface"
+	task.7AF4C7C43952EDF6.title: "Read: how to hunt Dungeons Arise structures"
 	task.7B56CBC041A7FCAE.title: "Create or join a party (My Team button)"
 	task.7B83A939462F403B.title: "Dye Bottle (any colour)"
 	task.7BA38693190668E9.title: "Grab on to a Handle"

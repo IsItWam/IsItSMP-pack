@@ -57,6 +57,9 @@
     "show_tree_block_counts": true,
     "show_num_chops_remaining": true
   },
+  "champions": {
+    "enable_affix_compact": true
+  },
   "jadeaddons.create": {
     "filter": true,
     "backtank_capacity": true,

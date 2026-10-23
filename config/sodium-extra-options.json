@@ -13,7 +13,9 @@
     "rain_splash": true,
     "block_break": true,
     "block_breaking": true,
-    "other": {}
+    "other": {
+      "minecraft:cloud": true
+    }
   },
   "detail_settings": {
     "sky": true,
@@ -32,7 +34,7 @@
         "distance_chunks": 0,
         "start_percent": 100,
         "shape_mode": "VANILLA",
-        "cloud_fog_percent": 100
+        "cloud_fog_percent": 0
       },
       "dimension_overrides": {},
       "protected_gameplay": {
@@ -56,10 +58,10 @@
     "player_name_tag": true
   },
   "extra_settings": {
-    "overlay_corner": "TOP_LEFT",
+    "overlay_corner": "TOP_RIGHT",
     "text_contrast": "NONE",
-    "show_fps": false,
-    "show_f_p_s_extended": true,
+    "show_fps": true,
+    "show_f_p_s_extended": false,
     "show_coords": false,
     "reduce_resolution_on_mac": false,
     "wayland_fullscreen_resolution": false,

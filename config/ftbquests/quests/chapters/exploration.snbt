@@ -85,7 +85,7 @@
 				}
 			]
 			x: 4.0d
-			y: -12.25d
+			y: -13.125d
 		}
 		{
 			dependencies: ["4C988F3E687D673B"]
@@ -127,7 +127,7 @@
 				}
 			]
 			x: 6.0d
-			y: -7.0d
+			y: -8.75d
 		}
 		{
 			dependencies: ["30FBD369F7A448CF"]
@@ -158,7 +158,7 @@
 				}
 			]
 			x: 4.0d
-			y: -10.5d
+			y: -11.375d
 		}
 		{
 			dependencies: ["30FBD369F7A448CF"]
@@ -194,7 +194,7 @@
 				}
 			]
 			x: 4.0d
-			y: -8.75d
+			y: -9.625d
 		}
 		{
 			dependencies: ["05B301E4A9729BDB"]
@@ -258,7 +258,7 @@
 				}
 			]
 			x: 4.0d
-			y: -7.0d
+			y: -7.875d
 		}
 		{
 			dependencies: ["7421CC513EE98C87"]
@@ -289,6 +289,133 @@
 				}
 			]
 			x: 4.0d
+			y: -6.125d
+		}
+		{
+			dependencies: ["7421CC513EE98C87"]
+			icon: {
+				id: "minecraft:brewing_stand"
+			}
+			id: "7B306876E5B8E7D6"
+			rewards: [
+				{
+					id: "2DB356429BFFDBD1"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "4C5D8FBA6C3D550F"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "44DD678B6749E01A"
+					structure: "villagesandpillages:village_witch"
+					type: "structure"
+				}
+			]
+			x: 4.0d
+			y: -4.375d
+		}
+		{
+			dependencies: ["7B306876E5B8E7D6"]
+			icon: {
+				id: "minecraft:splash_potion"
+			}
+			id: "561BD899B72600DE"
+			rewards: [
+				{
+					id: "427D8E3B8F15EC95"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "26DDAB02266EA2E1"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:witch"
+					id: "38451B1B9DA8609B"
+					type: "kill"
+					value: 5
+				}
+			]
+			x: 6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["561BD899B72600DE"]
+			icon: {
+				id: "minecraft:oak_trapdoor"
+			}
+			id: "26D67D75741F33A9"
+			optional: true
+			rewards: [
+				{
+					id: "2AD7C66280A323D1"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "3B5B39D733A28B4B"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "4E59FD8258A5877E"
+					type: "checkmark"
+				}
+			]
+			x: 8.0d
+			y: -2.625d
+		}
+		{
+			dependencies: ["7B306876E5B8E7D6"]
+			id: "56C0BBD5BBAD56C1"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					id: "029239F78BF3D133"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "0A0F3253086488AD"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "146AD0E67EE3F4D7"
+					item: {
+						count: 1
+						id: "minecraft:fermented_spider_eye"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
 			y: -5.25d
 		}
 		{
@@ -320,7 +447,7 @@
 				}
 			]
 			x: 4.0d
-			y: -3.5d
+			y: -2.625d
 		}
 		{
 			dependencies: ["5E5210F1E8FD0823"]
@@ -352,7 +479,7 @@
 				}
 			]
 			x: 6.0d
-			y: -5.25d
+			y: -3.5d
 		}
 		{
 			dependencies: ["18228E8017A42FE8"]
@@ -387,7 +514,7 @@
 				}
 			]
 			x: 8.0d
-			y: -1.75d
+			y: -0.875d
 		}
 		{
 			dependencies: ["5E5210F1E8FD0823"]
@@ -419,7 +546,7 @@
 				}
 			]
 			x: 6.0d
-			y: -3.5d
+			y: -1.75d
 		}
 		{
 			dependencies: ["5E5210F1E8FD0823"]
@@ -451,7 +578,7 @@
 				}
 			]
 			x: 6.0d
-			y: -1.75d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5E5210F1E8FD0823"]
@@ -483,7 +610,7 @@
 				}
 			]
 			x: 6.0d
-			y: 0.0d
+			y: 1.75d
 		}
 		{
 			dependencies: ["05B301E4A9729BDB"]
@@ -546,7 +673,7 @@
 				}
 			]
 			x: 4.0d
-			y: -1.75d
+			y: -0.875d
 		}
 		{
 			dependencies: ["51AD57CE613EEA10"]
@@ -577,7 +704,7 @@
 				}
 			]
 			x: 4.0d
-			y: 0.0d
+			y: 0.875d
 		}
 		{
 			dependencies: ["05B301E4A9729BDB"]
@@ -649,7 +776,7 @@
 				}
 			]
 			x: 4.0d
-			y: 1.75d
+			y: 2.625d
 		}
 		{
 			dependencies: ["09143D1D256DF71E"]
@@ -681,7 +808,7 @@
 				}
 			]
 			x: 6.0d
-			y: 1.75d
+			y: 3.5d
 		}
 		{
 			dependencies: ["05B301E4A9729BDB"]
@@ -744,7 +871,7 @@
 				}
 			]
 			x: 4.0d
-			y: 3.5d
+			y: 4.375d
 		}
 		{
 			dependencies: ["7A426D0A1D2F4916"]
@@ -785,7 +912,7 @@
 				}
 			]
 			x: 4.0d
-			y: 5.25d
+			y: 6.125d
 		}
 		{
 			dependencies: ["3C30F84FAF9967E3"]
@@ -819,7 +946,7 @@
 				}
 			]
 			x: 6.0d
-			y: 3.5d
+			y: 5.25d
 		}
 		{
 			dependencies: ["7A426D0A1D2F4916"]
@@ -851,7 +978,7 @@
 				}
 			]
 			x: 4.0d
-			y: 7.0d
+			y: 7.875d
 		}
 		{
 			dependencies: ["61DB6FB239E8C5FF"]
@@ -891,7 +1018,7 @@
 				}
 			]
 			x: 6.0d
-			y: 5.25d
+			y: 7.0d
 		}
 		{
 			dependencies: ["3242B10AFFE5D950"]
@@ -906,7 +1033,7 @@
 				}
 			]
 			x: 8.0d
-			y: 0.0d
+			y: 0.875d
 		}
 		{
 			dependencies: ["70DF494DEBCB80E4", "558E24BA4CBCED96"]
@@ -1133,7 +1260,7 @@
 				}
 			]
 			x: 4.0d
-			y: 8.75d
+			y: 9.625d
 		}
 		{
 			dependencies: ["05B301E4A9729BDB"]
@@ -1203,7 +1330,7 @@
 				}
 			]
 			x: 4.0d
-			y: 10.5d
+			y: 11.375d
 		}
 		{
 			dependencies: ["50ED0CA668B94F67"]
@@ -1235,7 +1362,7 @@
 				}
 			]
 			x: 4.0d
-			y: 12.25d
+			y: 13.125d
 		}
 		{
 			dependencies: ["78913A9B1FDD0D3E"]
@@ -1267,7 +1394,7 @@
 				}
 			]
 			x: 6.0d
-			y: 7.0d
+			y: 8.75d
 		}
 		{
 			dependencies: ["096A3158A2DECEEA"]
@@ -1300,7 +1427,7 @@
 				}
 			]
 			x: 8.0d
-			y: 1.75d
+			y: 2.625d
 		}
 	]
 }
