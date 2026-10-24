@@ -2361,6 +2361,11 @@ hash = "8de23091613e9dde6c7cb6c6851d43a8702c16807075275b87246e8b74d15d85"
 metafile = true
 
 [[files]]
+file = "mods/sable-dynamic-lights.pw.toml"
+hash = "d29edb37ee2ddabd5598d2271c72e44fbdb147b5be13c886261b744d0509f20b"
+metafile = true
+
+[[files]]
 file = "mods/sable-ragdoll-revival.pw.toml"
 hash = "4662bb5d15b8aafe6dd49b4211959508d63c0e8b570635f048f1c02db06b3475"
 metafile = true
