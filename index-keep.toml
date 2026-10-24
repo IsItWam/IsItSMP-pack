@@ -2057,8 +2057,8 @@ hash = "4623bbc102dd3b7648a96569a1ab49b868774d46355b305ac40c4c79ad1c74e2"
 metafile = true
 
 [[files]]
-file = "mods/isitcore-0.1.17.jar"
-hash = "844c4dd6bc78c7310d70bcd710bccff8d5c0a54fc8656417ea116461404c276a"
+file = "mods/isitcore-0.1.18.jar"
+hash = "4bfc7e1b250ca0423cb7d60610f7d1eae6aaf44b75a4546bc9bf61b2f32352d6"
 
 [[files]]
 file = "mods/jade-addons-forge.pw.toml"
