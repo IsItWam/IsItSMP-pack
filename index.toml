@@ -1345,6 +1345,7 @@ preserve = true
 file = "config/sablejade-client.toml"
 hash = "2d6d13001c969cb509a900b7f8959bf62e0a32e974a93353704a8a18160036dd"
 preserve = true
+
 [[files]]
 file = "config/sereneseasons/fertility.toml"
 hash = "f63f94b985285add146c73a8747d278cec3d386807855b25de0e1db9962c153f"
@@ -2056,8 +2057,8 @@ hash = "4623bbc102dd3b7648a96569a1ab49b868774d46355b305ac40c4c79ad1c74e2"
 metafile = true
 
 [[files]]
-file = "mods/isitcore-0.1.15.jar"
-hash = "1628fbc9abe326475a4483108ef3f42eed725be7880cfa1e619caf0728dfb25b"
+file = "mods/isitcore-0.1.16.jar"
+hash = "26325ae1cbc21c484ab7240831ac55bda2fe170348ada521d6c2ae52f44227bf"
 
 [[files]]
 file = "mods/jade-addons-forge.pw.toml"
