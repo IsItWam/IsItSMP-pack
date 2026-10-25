@@ -1882,8 +1882,8 @@ hash = "36debf7653e95a855b4fedacc19027cf2e01960fc0b6d55ef2ffbffbcb455690"
 metafile = true
 
 [[files]]
-file = "mods/debuginator-0.1.13.jar"
-hash = "25a407f2c17cb8d6e8fcff9d26a6a6bbc81ecd6dc347384a3da5cb3588e31c3f"
+file = "mods/debuginator-0.1.14.jar"
+hash = "2019bd8bbbb410d37a996207a15da75b1872c1c25d7c0b6ad3b3c9c7d4513a36"
 
 [[files]]
 file = "mods/double-doors.pw.toml"
@@ -2066,8 +2066,8 @@ hash = "4623bbc102dd3b7648a96569a1ab49b868774d46355b305ac40c4c79ad1c74e2"
 metafile = true
 
 [[files]]
-file = "mods/isitcore-0.1.20.jar"
-hash = "a6ad16ae97a246f05442219fe95ed374108ea7c7515912bb31b16e310dc5e4af"
+file = "mods/isitcore-0.1.0rc1.jar"
+hash = "dcbcd0af59c6886ac81ae5cd743a609ce9d69188b9bf90e4b557d5fdde14eea4"
 
 [[files]]
 file = "mods/jade-addons-forge.pw.toml"
