@@ -1,0 +1,2 @@
+#Outline only the block your crosshair is on inside a shared space, instead of the whole space.
+outlineOneMember = true

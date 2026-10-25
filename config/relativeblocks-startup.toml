@@ -1,0 +1,8 @@
+[vertical_slabs]
+	#Add a vertical slab for every slab in the game (from any mod).
+	#Changing this adds or removes blocks: the server and all clients must match.
+	enabled = true
+	#Skip slabs that Quark already gives a vertical slab, and let Quark's vertical slabs mix with ours.
+	deferToQuark = true
+	#Slabs that never get a vertical slab: block ids ("mod:some_slab") or whole mods ("mod").
+	exclude = []

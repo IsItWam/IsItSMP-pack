@@ -1303,6 +1303,14 @@ file = "config/quark-common.toml"
 hash = "4db30f30df7449472f8b70708848f4184fcae94b3ca93787a0df016ddd4128bb"
 
 [[files]]
+file = "config/relativeblocks-client.toml"
+hash = "c059cc2b3784c31068e0c2a2be312bbbdc9865365452f1a974e34307ade86992"
+preserve = true
+[[files]]
+file = "config/relativeblocks-startup.toml"
+hash = "7f989866049bae98f593476e074e2b68ebfc27ed2f955168db6b9dc21cd2ac98"
+
+[[files]]
 file = "config/relics.yaml"
 hash = "3a06e656323ddfd8221469c3aebf0849e65638aa886d71ceb4cbf9e023b9787d"
 
@@ -2057,8 +2065,8 @@ hash = "4623bbc102dd3b7648a96569a1ab49b868774d46355b305ac40c4c79ad1c74e2"
 metafile = true
 
 [[files]]
-file = "mods/isitcore-0.1.18.jar"
-hash = "4bfc7e1b250ca0423cb7d60610f7d1eae6aaf44b75a4546bc9bf61b2f32352d6"
+file = "mods/isitcore-0.1.19.jar"
+hash = "18f589f36d33f87b86d1965b24e24e88fb032d58d0e57ca1aa79020d49a3c630"
 
 [[files]]
 file = "mods/jade-addons-forge.pw.toml"
@@ -2339,6 +2347,10 @@ metafile = true
 file = "mods/reintegrated-chipped.pw.toml"
 hash = "70674900e545ac727d245a2ab269ab63db6ef94b862548a55e36b31fcd7aaa70"
 metafile = true
+
+[[files]]
+file = "mods/relativeblocks-2.0.0-modded.1+1.21.1.jar"
+hash = "fcbecc252a4f5b875c806c2b90ab0ab9a04728a1201cef1898da759393cbc5b5"
 
 [[files]]
 file = "mods/relics-mod.pw.toml"
