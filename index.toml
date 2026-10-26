@@ -636,7 +636,7 @@ preserve = true
 
 [[files]]
 file = "config/carryon-common.toml"
-hash = "61413d3baf24cd7106e2be4c2f62b0ede74258051daf0ed2a157ad7b3a73d1aa"
+hash = "19465aef34e1c515728cc91d1f33098ff42fc74248771cefdcbb32a01c9e0229"
 
 [[files]]
 file = "config/champions-server.toml"
@@ -2066,8 +2066,8 @@ hash = "4623bbc102dd3b7648a96569a1ab49b868774d46355b305ac40c4c79ad1c74e2"
 metafile = true
 
 [[files]]
-file = "mods/isitcore-0.1.0.jar"
-hash = "714963a08282e5901f1c51acad45e85ae1624c03f35ff23324abc1a15b71173d"
+file = "mods/isitcore-1.1.0.jar"
+hash = "073aa19c2f60f22d866793bc2df1e2f02543e26188b85713c705ea0e7282e4f8"
 
 [[files]]
 file = "mods/jade-addons-forge.pw.toml"
