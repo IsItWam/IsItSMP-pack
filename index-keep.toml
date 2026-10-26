@@ -2250,8 +2250,8 @@ hash = "d10fbef1555f5277563b9cbf7683811ac0f38c1af41646e6ce5c3aaa2149425d"
 metafile = true
 
 [[files]]
-file = "mods/modernfoundry_emi-0.1.0.jar"
-hash = "2f2368afddcbac939b5e88f45c94cf1f0541e4928d1ea35508f5f0caaac202a5"
+file = "mods/modernfoundry_emi-0.2.0.jar"
+hash = "892d0aeacd16d336148c7da3774685829184205cf89dbdd0a3ca9fea9eccceca"
 
 [[files]]
 file = "mods/moonlight.pw.toml"
