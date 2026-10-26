@@ -2066,8 +2066,8 @@ hash = "4623bbc102dd3b7648a96569a1ab49b868774d46355b305ac40c4c79ad1c74e2"
 metafile = true
 
 [[files]]
-file = "mods/isitcore-2.1.0.jar"
-hash = "4d0fad9ca874c6943152343b949c680a9db27cf421b9342799168fe7498017b5"
+file = "mods/isitcore-3.1.0.jar"
+hash = "177819336425f025767ed7e96b36f0c0f2cfcbbb8db5125116da84264d158901"
 
 [[files]]
 file = "mods/jade-addons-forge.pw.toml"
@@ -2248,6 +2248,10 @@ metafile = true
 file = "mods/modernfix.pw.toml"
 hash = "d10fbef1555f5277563b9cbf7683811ac0f38c1af41646e6ce5c3aaa2149425d"
 metafile = true
+
+[[files]]
+file = "mods/modernfoundry_emi-0.1.0.jar"
+hash = "2f2368afddcbac939b5e88f45c94cf1f0541e4928d1ea35508f5f0caaac202a5"
 
 [[files]]
 file = "mods/moonlight.pw.toml"
