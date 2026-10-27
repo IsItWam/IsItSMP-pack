@@ -2120,6 +2120,11 @@ hash = "ebf0dae777cc19c354a662dc8144009dff7269b2d05624b4591fcb7de56fc14e"
 metafile = true
 
 [[files]]
+file = "mods/lets-do-addon-corn-expansion.pw.toml"
+hash = "20daed26f270edb7fd42be8e3c11c4bc7587b169436c7f9d8c02ea501a2e65b5"
+metafile = true
+
+[[files]]
 file = "mods/lets-do-alpine-whispers.pw.toml"
 hash = "1e4078278d88d4d8113b2df2689e700673b71c08a1c14fb1c28c59cb01ae7e56"
 metafile = true
