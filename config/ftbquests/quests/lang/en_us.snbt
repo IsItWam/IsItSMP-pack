@@ -2768,13 +2768,15 @@
 	quest.2D7E21D8105D8554.quest_subtitle: "Gem Dust"
 	quest.2D7E21D8105D8554.title: "&7Anvil Therapy"
 	quest.2D9E1FE4D0EA5AD9.quest_desc: [
-		"The &eNovice Spell Book&r is a shapeless craft: a &eBook&r (or your Tattered Tome) with an &eIron Sword&r, &ePickaxe&r, &eAxe&r and &eShovel&r."
+		"The &eNovice Spell Book&r is a shapeless craft: a &eBook&r (or your Tattered Tome) with a &eFerricore Sword&r, &ePickaxe&r, &eAxe&r and &eShovel&r from Just Dire Things. Create Ars Compact swaps these in for Ars Nouveau's usual iron tools, so iron ones won't work."
+		""
+		"No Ferricore yet? See &eIron, Re-Gooed&r in the Just Dire Things chapter."
 		""
 		"&cThe tools are used up&r, so craft fresh ones rather than sacrificing your enchanted gear."
 		""
 		"It holds &b10 spells&r of up to &b10 glyphs&r each, and can cast &dTier I&r glyphs. You already know five starter glyphs: &dProjectile&r, &dTouch&r, &dSelf&r, &dBreak&r and &dHarm&r."
 	]
-	quest.2D9E1FE4D0EA5AD9.quest_subtitle: "Four iron tools walk into a book"
+	quest.2D9E1FE4D0EA5AD9.quest_subtitle: "Four Ferricore tools walk into a book"
 	quest.2D9E1FE4D0EA5AD9.title: "&dSpellbook, Novice Edition"
 	quest.2DA8DE355A97588B.quest_desc: [
 		"A rare IDAS stronghold crawling with &cillagers&r (pillagers, vindicators, evokers and even ravagers), found in &bplains, meadows, taigas and flower forests&r."
