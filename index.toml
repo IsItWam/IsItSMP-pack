@@ -1677,6 +1677,11 @@ hash = "cc79b689faf345a5aa19ead3423726b6f87c267d686fb5807738e0cd20756679"
 metafile = true
 
 [[files]]
+file = "mods/bluemap.pw.toml"
+hash = "a76b636c194c67c68499c5b96fc232830d8aa49469b9ad1c570c6e83ae7b90dd"
+metafile = true
+
+[[files]]
 file = "mods/bookshelf-lib.pw.toml"
 hash = "68d6016fa3707c434b3aca5db041c7518c70feb53d0183faa2502cc6efd4c827"
 metafile = true
