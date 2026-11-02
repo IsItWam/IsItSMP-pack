@@ -2081,8 +2081,8 @@ hash = "4623bbc102dd3b7648a96569a1ab49b868774d46355b305ac40c4c79ad1c74e2"
 metafile = true
 
 [[files]]
-file = "mods/isitcore-11.2.7.jar"
-hash = "7b70526656fe49893d818623d07362f44a4a403f601f78b556b22c94b64b3d41"
+file = "mods/isitcore-11.2.8.jar"
+hash = "b9f498690fc38d187c9d34980ac4911b7cb9a620168bdf0e89b81a8632053343"
 
 [[files]]
 file = "mods/isitoptimized-0.1.0.jar"
@@ -2532,8 +2532,8 @@ hash = "e17c86aadf079f1b052446bd590273f6660782213d4a5e26a8ad99ed80190753"
 metafile = true
 
 [[files]]
-file = "mods/wamstweaks-1.1.3.jar"
-hash = "41b306223a753083d3935388cf8534141b0b180401a2e7c8702c58557da192cc"
+file = "mods/wamstweaks-1.1.4.jar"
+hash = "42e05d2dbb16562e75aa80fbde4b81aaf61385362ea7b201996b565e5a9df53c"
 
 [[files]]
 file = "mods/waystones-sable.pw.toml"
