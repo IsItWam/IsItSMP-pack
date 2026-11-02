@@ -2081,8 +2081,8 @@ hash = "4623bbc102dd3b7648a96569a1ab49b868774d46355b305ac40c4c79ad1c74e2"
 metafile = true
 
 [[files]]
-file = "mods/isitcore-10.2.5.jar"
-hash = "f883995c6c90016e22a76aa26b6faaaa48d752d505a4519b411aafcc7c7c7f70"
+file = "mods/isitcore-11.2.6.jar"
+hash = "671df97ef2c2e324d6db5eca4b75ebf485daae79f895a5315bc29a50b7f432b8"
 
 [[files]]
 file = "mods/jade-addons-forge.pw.toml"
@@ -2528,8 +2528,8 @@ hash = "e17c86aadf079f1b052446bd590273f6660782213d4a5e26a8ad99ed80190753"
 metafile = true
 
 [[files]]
-file = "mods/wamstweaks-1.1.1.jar"
-hash = "ac9284e7888407bfba7272f68aeb489673647e5b3ba369ca25326799ac42a673"
+file = "mods/wamstweaks-1.1.2.jar"
+hash = "0474d3ea122a7c2b4f004f1604964aebb7deff3398e8d3604c00cbcec9165ea9"
 
 [[files]]
 file = "mods/waystones-sable.pw.toml"
