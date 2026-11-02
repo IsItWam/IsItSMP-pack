@@ -2081,12 +2081,12 @@ hash = "4623bbc102dd3b7648a96569a1ab49b868774d46355b305ac40c4c79ad1c74e2"
 metafile = true
 
 [[files]]
-file = "mods/isitcore-11.2.8.jar"
-hash = "b9f498690fc38d187c9d34980ac4911b7cb9a620168bdf0e89b81a8632053343"
+file = "mods/isitcore-12.2.8.jar"
+hash = "793e31141b472fa1768cbc562163c0c4ee9d2badf2bd74acfb8b9ee145a2275d"
 
 [[files]]
-file = "mods/isitoptimized-0.1.0.jar"
-hash = "7163f082d67d8f9dc0fdd730ac8423ce9068ae930a5a3a4e123feaec19f4529d"
+file = "mods/isitoptimized-0.1.1.jar"
+hash = "946eb8fe38f41bd5cbe18b2061090a3daf57d38f5a84c91de9cffb46f4fed7a6"
 
 [[files]]
 file = "mods/jade-addons-forge.pw.toml"
@@ -2532,8 +2532,8 @@ hash = "e17c86aadf079f1b052446bd590273f6660782213d4a5e26a8ad99ed80190753"
 metafile = true
 
 [[files]]
-file = "mods/wamstweaks-1.1.4.jar"
-hash = "42e05d2dbb16562e75aa80fbde4b81aaf61385362ea7b201996b565e5a9df53c"
+file = "mods/wamstweaks-1.1.5.jar"
+hash = "6ed76ca3eca7b33b8dabc8f6c462e33045f991cc833e3085711b44227ee8b71b"
 
 [[files]]
 file = "mods/waystones-sable.pw.toml"
