@@ -1887,8 +1887,8 @@ hash = "36debf7653e95a855b4fedacc19027cf2e01960fc0b6d55ef2ffbffbcb455690"
 metafile = true
 
 [[files]]
-file = "mods/debuginator-0.1.15.jar"
-hash = "1ce9ddafe1216cf9b44274e5fb263840ca4f7f655956ce99e89c4bbcc463d21f"
+file = "mods/debuginator-0.1.16.jar"
+hash = "c1a140bf71c2e960ec21a040922e6635477d014d4887e5c3c1c5f2e8ecdf06c4"
 
 [[files]]
 file = "mods/double-doors.pw.toml"
@@ -2081,12 +2081,16 @@ hash = "4623bbc102dd3b7648a96569a1ab49b868774d46355b305ac40c4c79ad1c74e2"
 metafile = true
 
 [[files]]
-file = "mods/isitcore-13.2.10.jar"
-hash = "f5686a0c1c843937fddd1361d250d4f5cea8276fee8bbd484b0a42aa6327fae6"
+file = "mods/isitcore-14.2.11.jar"
+hash = "e44406311a954fc80ff7af12406d2052893666bfe7a9b6cc4c69ec706f9aaca9"
 
 [[files]]
-file = "mods/isitoptimized-0.1.1.jar"
-hash = "946eb8fe38f41bd5cbe18b2061090a3daf57d38f5a84c91de9cffb46f4fed7a6"
+file = "mods/isitemi-0.1.0.jar"
+hash = "a002ca1863ce420b9d3519769fd5a6737a57d55038e13171f52b96ef07b06ea6"
+
+[[files]]
+file = "mods/isitoptimized-0.1.2.jar"
+hash = "7a81ce915ea35763cfd2207316bc06bff91682afad4081abb1ea9a6f87c358b0"
 
 [[files]]
 file = "mods/jade-addons-forge.pw.toml"
@@ -2272,10 +2276,6 @@ metafile = true
 file = "mods/modernfix.pw.toml"
 hash = "d10fbef1555f5277563b9cbf7683811ac0f38c1af41646e6ce5c3aaa2149425d"
 metafile = true
-
-[[files]]
-file = "mods/modernfoundry_emi-0.2.1.jar"
-hash = "2991e112811350d39827884fecb30d608793d040a86200fb292ed62f34b3199b"
 
 [[files]]
 file = "mods/moonlight.pw.toml"
@@ -2532,8 +2532,8 @@ hash = "e17c86aadf079f1b052446bd590273f6660782213d4a5e26a8ad99ed80190753"
 metafile = true
 
 [[files]]
-file = "mods/wamstweaks-1.1.5.jar"
-hash = "1b34c6b5e905821ae47d88a5e7fd6fd6eff28b2c042c70eb8d90e95ee7c45045"
+file = "mods/wamstweaks-1.1.6.jar"
+hash = "6dcbe9d1adf957a6dafec9178b1aa2514583b1cd229df7c179fa789a6c605ca8"
 
 [[files]]
 file = "mods/waystones-sable.pw.toml"
