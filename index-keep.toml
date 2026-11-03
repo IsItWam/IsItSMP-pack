@@ -1263,11 +1263,6 @@ file = "config/neoforge-server.toml"
 hash = "b1e3b38d612295f8d9dfa0fbdb538a992b7a1a3b7a766c491b4e9fdf3823396f"
 preserve = true
 [[files]]
-file = "config/notenoughanimations.json"
-hash = "45121987f8bbbb948bd5096ffb02b1361c762b3e34836b3f9097a9a4ef7222d4"
-preserve = true
-
-[[files]]
 file = "config/offroad-server.toml"
 hash = "d5f0ed8390618c769d9cb40a77df04779b7bbe636343b753c1ed6f92d325ae2b"
 preserve = true
@@ -2081,8 +2076,8 @@ hash = "4623bbc102dd3b7648a96569a1ab49b868774d46355b305ac40c4c79ad1c74e2"
 metafile = true
 
 [[files]]
-file = "mods/isitcore-14.2.11.jar"
-hash = "e44406311a954fc80ff7af12406d2052893666bfe7a9b6cc4c69ec706f9aaca9"
+file = "mods/isitcore-15.2.12.jar"
+hash = "11f5f30c635ad3d8f049a852a25de992af20b98e94a23c5ff8e9df500f448318"
 
 [[files]]
 file = "mods/isitemi-0.1.0.jar"
@@ -2318,11 +2313,6 @@ hash = "dc7e58c97d56d9764f578eb0afe6464e47701e7d72b5bd6a3d37e868bc0924bc"
 metafile = true
 
 [[files]]
-file = "mods/not-enough-animations.pw.toml"
-hash = "e0f1cef5482844e62c6fc3c7771fc9ef8385c47092248f76aa1fa271220b24e8"
-metafile = true
-
-[[files]]
 file = "mods/ok-zoomer.pw.toml"
 hash = "413494b5ba534461e22545173a8cc6e98b04962a0ee9514498b830b99d4acabe"
 metafile = true
@@ -2360,6 +2350,16 @@ metafile = true
 [[files]]
 file = "mods/prickle.pw.toml"
 hash = "c99c5bac469e8d6ece5aae80f08635e3bbb8367f0c586b6288573c725faefe69"
+metafile = true
+
+[[files]]
+file = "mods/punchy-fpa.pw.toml"
+hash = "5eb2da392fda896ac20e0eeb83d96a154e8714af836d07a45c7c43633239205f"
+metafile = true
+
+[[files]]
+file = "mods/punchymoves.pw.toml"
+hash = "2d501dde77f8092fc2d05b54e002a460f90d67ed0a0b4d157ce8711ffb8531df"
 metafile = true
 
 [[files]]
@@ -2454,6 +2454,11 @@ metafile = true
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
 hash = "8045c493b0eb0196880817b529417742bb65b250805cc14f7abe5ac5f1e4d4b1"
+metafile = true
+
+[[files]]
+file = "mods/sit-datapack.pw.toml"
+hash = "c4adca59802e35e25225820ae2ba49bbf51b58f39edd1b70302a0f905e1e522f"
 metafile = true
 
 [[files]]
@@ -2673,6 +2678,11 @@ metafile = true
 [[files]]
 file = "mods/zeta.pw.toml"
 hash = "cb474b6c0dde741836ed4f796f3b6ab0b9d3cdc0453e651122cd002d5d1f8df8"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fluid-foolish.pw.toml"
+hash = "34310e2f6a23826bbfd594f157ba8dfa2d9b2baeb1c1e85bf1f959ad0f559b7b"
 metafile = true
 
 [[files]]
