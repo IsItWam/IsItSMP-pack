@@ -2076,8 +2076,8 @@ hash = "4623bbc102dd3b7648a96569a1ab49b868774d46355b305ac40c4c79ad1c74e2"
 metafile = true
 
 [[files]]
-file = "mods/isitcore-19.2.14.jar"
-hash = "ba3fae1d784f9abdff4a979efc0f8861eef4c5fc85d2947b88efd8f23fadf895"
+file = "mods/isitcore-3.0.0.jar"
+hash = "a96629b196b401c277f1248eb402cec9bcc0d0be1ab9a95bf75c20cd81bfdc66"
 
 [[files]]
 file = "mods/isitemi-0.1.0.jar"
@@ -2537,8 +2537,8 @@ hash = "e17c86aadf079f1b052446bd590273f6660782213d4a5e26a8ad99ed80190753"
 metafile = true
 
 [[files]]
-file = "mods/wamstweaks-1.1.6.jar"
-hash = "6dcbe9d1adf957a6dafec9178b1aa2514583b1cd229df7c179fa789a6c605ca8"
+file = "mods/wamstweaks-1.2.0.jar"
+hash = "1c2568bc65b1abd174a48dea1d5a07a926af1d972a84b10ad91940feb2374d5f"
 
 [[files]]
 file = "mods/waystones-sable.pw.toml"
