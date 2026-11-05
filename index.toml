@@ -1882,8 +1882,8 @@ hash = "36debf7653e95a855b4fedacc19027cf2e01960fc0b6d55ef2ffbffbcb455690"
 metafile = true
 
 [[files]]
-file = "mods/debuginator-0.1.16.jar"
-hash = "c1a140bf71c2e960ec21a040922e6635477d014d4887e5c3c1c5f2e8ecdf06c4"
+file = "mods/debuginator-1.0.0.jar"
+hash = "21a4122f95cb5424d4ec017faa13ab26a4495a3de32913b033c518c1f0c68c21"
 
 [[files]]
 file = "mods/double-doors.pw.toml"
@@ -2076,16 +2076,16 @@ hash = "4623bbc102dd3b7648a96569a1ab49b868774d46355b305ac40c4c79ad1c74e2"
 metafile = true
 
 [[files]]
-file = "mods/isitcore-3.0.0.jar"
-hash = "a96629b196b401c277f1248eb402cec9bcc0d0be1ab9a95bf75c20cd81bfdc66"
+file = "mods/isitcore-3.1.0.jar"
+hash = "38de2d70238acbc0eac9a205cc389cc41350351d838b035e033650cf256b207d"
 
 [[files]]
-file = "mods/isitemi-0.1.0.jar"
-hash = "a002ca1863ce420b9d3519769fd5a6737a57d55038e13171f52b96ef07b06ea6"
+file = "mods/isitemi-1.0.0.jar"
+hash = "8bbb284a465c2504ab8e10597692ad3fcd3de6b120793a16ea12aa8c678268ac"
 
 [[files]]
-file = "mods/isitoptimized-0.1.2.jar"
-hash = "7a81ce915ea35763cfd2207316bc06bff91682afad4081abb1ea9a6f87c358b0"
+file = "mods/isitoptimized-1.0.0.jar"
+hash = "5aac70cc0ea842449db228100314b8a794ea3f28cf0099ccd38e03c1b614b5d6"
 
 [[files]]
 file = "mods/jade-addons-forge.pw.toml"
