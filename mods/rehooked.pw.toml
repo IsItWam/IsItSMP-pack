@@ -1,0 +1,13 @@
+name = "ReHooked"
+filename = "rehooked-1.9.4-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/967kkKiF/versions/nICxAK2S/rehooked-1.9.4-1.21.1.jar"
+hash-format = "sha512"
+hash = "57203735be10eeedc91cbdbc9da0f0a53350a1aac959c76553134baaf80e71fc61759c836226a120faaa0807e488e42b2beae87afa3d65fbc05f9160cad21ebe"
+
+[update]
+[update.modrinth]
+mod-id = "967kkKiF"
+version = "nICxAK2S"

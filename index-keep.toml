@@ -1877,6 +1877,11 @@ hash = "e5052e0fcba9af1e3c6c0734829b441bc5a23012108bf203ca01825ca12ff6b1"
 metafile = true
 
 [[files]]
+file = "mods/creativecore.pw.toml"
+hash = "e731242bf8430d501714cc752b3e54056e110863c75034dc0649e10af339fb57"
+metafile = true
+
+[[files]]
 file = "mods/curios.pw.toml"
 hash = "36debf7653e95a855b4fedacc19027cf2e01960fc0b6d55ef2ffbffbcb455690"
 metafile = true
@@ -2076,8 +2081,8 @@ hash = "4623bbc102dd3b7648a96569a1ab49b868774d46355b305ac40c4c79ad1c74e2"
 metafile = true
 
 [[files]]
-file = "mods/isitcore-3.1.0.jar"
-hash = "38de2d70238acbc0eac9a205cc389cc41350351d838b035e033650cf256b207d"
+file = "mods/isitcore-3.2.0.jar"
+hash = "a6a3ffbbeeeb5f77649a8f56353d516c00caf385e484484f9bb80ecfb1a6e262"
 
 [[files]]
 file = "mods/isitemi-1.0.0.jar"
@@ -2373,6 +2378,11 @@ hash = "8690379014fbba53059759936c7deb4d62aabc7a2006da3d45929dc582b119b7"
 metafile = true
 
 [[files]]
+file = "mods/rehooked.pw.toml"
+hash = "3af8673e1a6d57dd0b9d989abb695a2216df64e5bec543ccc1166484ea4eb238"
+metafile = true
+
+[[files]]
 file = "mods/reintegrated-chipped.pw.toml"
 hash = "70674900e545ac727d245a2ab269ab63db6ef94b862548a55e36b31fcd7aaa70"
 metafile = true
@@ -2537,8 +2547,23 @@ hash = "e17c86aadf079f1b052446bd590273f6660782213d4a5e26a8ad99ed80190753"
 metafile = true
 
 [[files]]
-file = "mods/wamstweaks-1.2.0.jar"
-hash = "1c2568bc65b1abd174a48dea1d5a07a926af1d972a84b10ad91940feb2374d5f"
+file = "mods/wamstweaks-1.3.0.jar"
+hash = "ade6ddeb8d87173ba71ee1c49bd9fd05268bce1b055e5861a79f30d20afc1fe3"
+
+[[files]]
+file = "mods/waterframes.pw.toml"
+hash = "59e15d108b41b10145596a3ef899ad20ef8c8885504eef10cd89225aef87daef"
+metafile = true
+
+[[files]]
+file = "mods/watermedia-yt-plugin.pw.toml"
+hash = "4faf890cddc7addc968e262b4bc55ca47f59e482fa5c23e780def45d099f84e4"
+metafile = true
+
+[[files]]
+file = "mods/watermedia.pw.toml"
+hash = "9c14d2011a343872dfa72aee64ef7beb2f9f9e47867807b4b03726cfa8e429b7"
+metafile = true
 
 [[files]]
 file = "mods/waystones-sable.pw.toml"
