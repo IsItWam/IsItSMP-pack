@@ -2547,8 +2547,8 @@ hash = "e17c86aadf079f1b052446bd590273f6660782213d4a5e26a8ad99ed80190753"
 metafile = true
 
 [[files]]
-file = "mods/wamstweaks-1.3.1.jar"
-hash = "11bfe07adff9045dc0220cbe46f6f2ae4dd810fd71758b6e578ceec532a60ee9"
+file = "mods/wamstweaks-1.4.0.jar"
+hash = "47c3b4d4c2a64d3b9053c5df3062bda2423d8a17d9963bc4ae64bcf70813fd30"
 
 [[files]]
 file = "mods/waterframes.pw.toml"
