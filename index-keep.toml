@@ -1465,6 +1465,10 @@ hash = "60420a41571a4658b91babfa2b47d6fefb7c1766eeea969f51ff98ab34c2431c"
 preserve = true
 
 [[files]]
+file = "config/treasurebags-server.toml"
+hash = "6b4cf695b07f14d766593b480eea40706723e9e0a66349bacd619de8eccb8396"
+preserve = true
+[[files]]
 file = "config/treechop-client.toml"
 hash = "ffc1a7e9ff53a47a30ab571c536c78c77ad3899ebb81fe3bb736e1198c2027b8"
 preserve = true
@@ -2081,8 +2085,8 @@ hash = "4623bbc102dd3b7648a96569a1ab49b868774d46355b305ac40c4c79ad1c74e2"
 metafile = true
 
 [[files]]
-file = "mods/isitcore-3.3.1.jar"
-hash = "a801cc9838a04ebf60e58efcaae8868af9e500395f30127066ef32179b4e0b25"
+file = "mods/isitcore-3.4.0.jar"
+hash = "f908fe112a3977d864f7f55e17007155e81f6c829e9094521bf6063816ee1c5b"
 
 [[files]]
 file = "mods/isitemi-1.0.0.jar"
@@ -2457,6 +2461,11 @@ hash = "51c7fbbf6e1d09a29ad010ae0a9f11e966030b013e6d543965e74b7f5f78b339"
 metafile = true
 
 [[files]]
+file = "mods/silent-lib.pw.toml"
+hash = "d692170020a2e8b1dd1d0af610a14c25553bae66bb3f7372123115b5c7bc6157"
+metafile = true
+
+[[files]]
 file = "mods/simple-storage-network.pw.toml"
 hash = "758f66e1ae6ca0bc52f066589e229f8712da0e1294ea2e9742683d499815cacd"
 metafile = true
@@ -2537,6 +2546,11 @@ hash = "15962183bec2468058c70e87aa32e902a08489b0f86741088cdc9aa958ba4931"
 metafile = true
 
 [[files]]
+file = "mods/treasure-bags.pw.toml"
+hash = "a962b02315aff4d9c716dca5cd784bcdb1bd7b58187e883c6fdb366a35f1ab97"
+metafile = true
+
+[[files]]
 file = "mods/treechop.pw.toml"
 hash = "da1c1cf28e8d5ffe377998d29d59eae29a2020f2de7a0aea7f7253acdc695cfd"
 metafile = true
@@ -2547,8 +2561,8 @@ hash = "e17c86aadf079f1b052446bd590273f6660782213d4a5e26a8ad99ed80190753"
 metafile = true
 
 [[files]]
-file = "mods/wamstweaks-1.4.0.jar"
-hash = "47c3b4d4c2a64d3b9053c5df3062bda2423d8a17d9963bc4ae64bcf70813fd30"
+file = "mods/wamstweaks-1.4.1.jar"
+hash = "cbdab97d9defc71e65a6c394532d662415f87dd395d9d747563db79869cb0133"
 
 [[files]]
 file = "mods/waterframes.pw.toml"
