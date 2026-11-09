@@ -2020,6 +2020,11 @@ hash = "c21c2308684a75cda7dd9d557d129c9f89f49be527da3d5aa675fff444c11f5e"
 metafile = true
 
 [[files]]
+file = "mods/ftb-teams-friendly-fire-addon.pw.toml"
+hash = "8874c36914cc2c1f7c58fd66a9438effb5f4abc4170b97417ab45eebd2276451"
+metafile = true
+
+[[files]]
 file = "mods/fzzy-config.pw.toml"
 hash = "932c65fb598293dba5dc60a76fc64c2579db427018b10dd4757dd421d9abcaf0"
 metafile = true
@@ -2075,6 +2080,11 @@ hash = "93f7a09e0d9a05c31b55bb9725545c49dc68067556a98d470e4f405bdbf3b25c"
 metafile = true
 
 [[files]]
+file = "mods/irons-spell-n-ftb-teams.pw.toml"
+hash = "49ffba4780f55b051d3c6025dfcaeb16e3a3baee1b25648c6ed66e845ff586b7"
+metafile = true
+
+[[files]]
 file = "mods/irons-spellbooks-arcane-essence-blocks.pw.toml"
 hash = "e87d519950f0d9362c919a9afb92688769b321a21b578c01a6d94645dd947cf1"
 metafile = true
@@ -2085,8 +2095,8 @@ hash = "4623bbc102dd3b7648a96569a1ab49b868774d46355b305ac40c4c79ad1c74e2"
 metafile = true
 
 [[files]]
-file = "mods/isitcore-3.5.0.jar"
-hash = "b10c2914c600553e82f7c83fcf199c7ce40c08b7cd7b86364647a12e26f98266"
+file = "mods/isitcore-3.6.0.jar"
+hash = "42ad39c335821c130773f28ee608699181b94637220ec30d635e3ea9cd138882"
 
 [[files]]
 file = "mods/isitemi-1.0.0.jar"
@@ -2561,8 +2571,8 @@ hash = "e17c86aadf079f1b052446bd590273f6660782213d4a5e26a8ad99ed80190753"
 metafile = true
 
 [[files]]
-file = "mods/wamstweaks-1.4.1.jar"
-hash = "cbdab97d9defc71e65a6c394532d662415f87dd395d9d747563db79869cb0133"
+file = "mods/wamstweaks-1.5.0.jar"
+hash = "5c845156b62fc30fd30b17b7801b488986ed87fab0c5ab3a748c981f9dc5eac4"
 
 [[files]]
 file = "mods/waterframes.pw.toml"

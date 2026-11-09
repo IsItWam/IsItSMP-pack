@@ -1,0 +1,13 @@
+name = "FTB Teams: Friendly Fire Addon"
+filename = "ftb-teams-friendly-fire-1.3.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5bc61fa80c8bf418ff1099c0be56da10651a7798"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9024778
+project-id = 1720440
