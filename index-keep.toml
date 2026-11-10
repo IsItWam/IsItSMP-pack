@@ -924,11 +924,11 @@ hash = "dcf73800b4ae26533fc8cf28a5570844989b76e2fb4de7009903116e1239ef14"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/apotheosis.snbt"
-hash = "94efa8e3b59951e81ec9af7f2d80960170d89b8c457cf0a7344657313fe01ef3"
+hash = "81cce881e1e5d2b3393d2b2c09bac303e835907a9e85eba5515c6ebcc07dd7cc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ars_nouveau.snbt"
-hash = "efb502fe815419b031ab297c89092279582e08a9653923ff88ec91a8cebb92df"
+hash = "5d1a2edde2c309bb1b4f9706492fc84135aba7ac88c6305c8e30dcef2241fb2a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create_aeronautics.snbt"
@@ -936,7 +936,7 @@ hash = "e4cc4dd4e94b6b446cff4b3887fc772979ce3db47885a346bafc570f35b3c1b1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create_brass.snbt"
-hash = "ddc5964aaab5732b89a2ca05128f6a78da3a442bf7895f4f179034afcc467e6e"
+hash = "579312dfb6325462f6f357f8d74e481077e5ae9080ffba55e9bb187ae271bb4b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create_expansions.snbt"
@@ -960,7 +960,7 @@ hash = "c0ff86bb86ac402dfc77d06212a8da45e0f45c28f602258c248dac65faf6db9a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/irons_spellbooks.snbt"
-hash = "b792153a2e2c6bb9a48d2de3b0aee3a8b53f4d473572f42bffba2b064ddb76f8"
+hash = "84ca7ce350deeb5b0de383d3e1ebc4a6c0f73e6dca88c7443880b719efd4f199"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/just_dire_things.snbt"
@@ -996,7 +996,7 @@ hash = "b50e75ad912eada823abffd0e93ee602ab25ef641cafdcad78bdd5786251d4b3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/modern_foundry.snbt"
-hash = "eac7510b8c7c731df46cd9b7adab078c2323c24918501fe18b98bbca04241425"
+hash = "92f3d4f2941b434e676480bfc37f80a0085bd587d5398b73da3b7f5fe9540d4d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/must_haves.snbt"
@@ -1020,7 +1020,7 @@ hash = "7c1b3cc3e59a2eb18aac76e5fd4a55a6b6a11dc278a540b2ea2a7c6e66d9e10c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/wisp_and_willow.snbt"
-hash = "b6320bc9122c3b06bcf753eedfaebaa50d9865dc76ff6bed8d52b3b207829511"
+hash = "b91879acc4f315e891a8ffcc612944644388d5937d6a139a964f2a666c8b3ca1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/xycraft.snbt"
@@ -1032,7 +1032,7 @@ hash = "fd8d7f8fe7bcc28756cdc078ffb6f9dfc5056d6eb9e57f3e42a68b767ee868fa"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "675344353134936a4bd4099dcfae0091e03ef3d834c2f166a64ebe6e789d12d6"
+hash = "ee2885f09de29a18e7a27219cf5d077bac071d3ac5c9a39e329c0e65e39ef05c"
 
 [[files]]
 file = "config/ftbteams-server.snbt"
@@ -1295,7 +1295,7 @@ preserve = true
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "4db30f30df7449472f8b70708848f4184fcae94b3ca93787a0df016ddd4128bb"
+hash = "4a3293b25d710c672338ebc8a0fccd8b69ecec65443346b0870a7539e7f223f6"
 preserve = true
 [[files]]
 file = "config/relativeblocks-client.toml"
@@ -2090,12 +2090,16 @@ hash = "4623bbc102dd3b7648a96569a1ab49b868774d46355b305ac40c4c79ad1c74e2"
 metafile = true
 
 [[files]]
-file = "mods/isitcore-3.7.0.jar"
-hash = "e11bd73abe0a4ebee4cef4a96070b5e6f89947ab32ae331dce5476f4ae9a3ffc"
+file = "mods/isitcore-3.8.0.jar"
+hash = "f8be12a9b10724b66142146a2db43be07994b21bea390a8e3438bf1a63da8a9e"
 
 [[files]]
 file = "mods/isitemi-1.0.0.jar"
 hash = "8bbb284a465c2504ab8e10597692ad3fcd3de6b120793a16ea12aa8c678268ac"
+
+[[files]]
+file = "mods/isitexpansions-1.0.0.jar"
+hash = "cd7048ac232c8f1c1c438f4e5dea99cd9cf8bbd247d900a40412acb18a8820cf"
 
 [[files]]
 file = "mods/isitoptimized-1.0.0.jar"
@@ -2566,8 +2570,8 @@ hash = "e17c86aadf079f1b052446bd590273f6660782213d4a5e26a8ad99ed80190753"
 metafile = true
 
 [[files]]
-file = "mods/wamstweaks-1.6.0.jar"
-hash = "e7fcd0c42bb17df1bd03481cae34b1f53f22305fcc82d10172461ff57c512825"
+file = "mods/wamstweaks-1.7.0.jar"
+hash = "3e0b5df47c879893493cedeb828ae8b85c7eae8b3ecbc3baeb939867892f3d43"
 
 [[files]]
 file = "mods/waterframes.pw.toml"

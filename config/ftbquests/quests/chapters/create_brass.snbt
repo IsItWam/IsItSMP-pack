@@ -1228,5 +1228,211 @@
 			x: 20.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["7D706AA1BD273D41"]
+			icon: {
+				id: "create:blaze_burner"
+			}
+			id: "4D7BB039B495D8F1"
+			rewards: [
+				{
+					id: "21BFDDAD9AB6798C"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "03EBAF9D12AC5149"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 16
+					id: "4128011BE5D1B890"
+					item: {
+						count: 1
+						id: "irons_spellbooks:cinder_essence"
+					}
+					type: "item"
+				}
+				{
+					id: "513815C081BF67E5"
+					type: "checkmark"
+				}
+			]
+			x: 12.0d
+			y: -2.62d
+		}
+		{
+			dependencies: ["4D7BB039B495D8F1"]
+			id: "4771F77117E50529"
+			rewards: [
+				{
+					id: "565D72C9BFADFBC3"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6ED34117FE304558"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3B1ABDF165CDE5BE"
+					item: {
+						count: 8
+						id: "minecraft:glass_bottle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "114612D107558115"
+					item: {
+						count: 1
+						id: "irons_spellbooks:uncommon_ink"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4771F77117E50529"]
+			id: "447A7CB1974EABD5"
+			rewards: [
+				{
+					id: "2A292EEB717E230E"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6A32B1D38AD441EA"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "37FCDC3C0540CBA3"
+					item: {
+						count: 1
+						id: "isitexpansions:arcane_spellcaster"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: -4.38d
+		}
+		{
+			dependencies: ["528E416D85B7921C"]
+			id: "699B51D2BFCEFEF5"
+			rewards: [
+				{
+					id: "7C4D2D630B24FCF2"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "1EAADBEB18A28F97"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 4
+					id: "1922F3E5045489FE"
+					item: {
+						count: 1
+						id: "isitexpansions:crushed_raw_mithril"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -6.12d
+		}
+		{
+			dependencies: ["699B51D2BFCEFEF5", "0B32E4955ADEDD36"]
+			id: "75C8FF3A5BE4DAF9"
+			rewards: [
+				{
+					id: "16838C0794379FB0"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "519ABFF0DFC50DA3"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "48AB17E04A2CE2E1"
+					item: {
+						count: 1
+						id: "isitexpansions:gem_lapidary"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -6.12d
+		}
+		{
+			dependencies: ["75C8FF3A5BE4DAF9", "2F25AE36BDDEC7C6"]
+			id: "18209800A518D32D"
+			rewards: [
+				{
+					id: "5B53940DFB6C7624"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "46A9578EADE1DBB8"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "3F456159CA8E90FE"
+					item: {
+						count: 1
+						id: "isitexpansions:socketing_press"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -6.12d
+		}
 	]
 }

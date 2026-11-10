@@ -1247,5 +1247,67 @@
 			x: 22.0d
 			y: 0.875d
 		}
+		{
+			dependencies: ["25611303498B6180", "39166397EF7810D4"]
+			icon: {
+				id: "irons_spellbooks:mana_upgrade_orb"
+			}
+			id: "7425A921AE761F63"
+			min_width: 300
+			rewards: [
+				{
+					id: "330EE6E7786DCAAA"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "0BD6BA062FF5F4D8"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "29FE17CBB3F2363D"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["65B04B5E77249C49", "68EC883ABE4B532B"]
+			id: "081E615E5352A91B"
+			rewards: [
+				{
+					id: "5137DF4CBE215803"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "074545E7698C64B9"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "3ED2CE5729E734FA"
+					item: {
+						count: 1
+						id: "isitexpansions:source_upgrade_orb"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 5.25d
+		}
 	]
 }

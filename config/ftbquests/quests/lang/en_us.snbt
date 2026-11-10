@@ -197,6 +197,15 @@
 	]
 	quest.0212DE7101DE90C2.quest_subtitle: "Take your shoes off. Actually, don't."
 	quest.0212DE7101DE90C2.title: "&6Stomping Grounds"
+	quest.022B7CBEFD58F5A4.quest_desc: [
+		"The &eBattlestaff&r is the wand's big sibling: a &eGrand Focus&r, a &eTough Handle&r and a &eTough Binding&r, built in the &6Modern Foundry Station&r."
+		""
+		"It holds &btwo Iron's spells&r, has &b1.5x durability&r and &btwo ability slots&r, and &cit hits like a mace&r when the casting is over."
+		""
+		"&aBuild it from your best focus material&r and stack spell modifiers on it. It's a real weapon for a mage."
+	]
+	quest.022B7CBEFD58F5A4.quest_subtitle: "The Battlestaff"
+	quest.022B7CBEFD58F5A4.title: "&6Big Stick Energy"
 	quest.022E46408BE68619.quest_desc: [
 		"Upgrade your Small Backpack into a &eHiking Backpack&r with &e6 Leather&r, an &eIron Ingot&r and any &eSleeping Bag&r. Your stuff comes along."
 		""
@@ -250,6 +259,15 @@
 	]
 	quest.03207F0DC8B9D921.quest_subtitle: "Lift with your legs"
 	quest.03207F0DC8B9D921.title: "&eHeavy Lifting"
+	quest.0328B2C8B228DAB4.quest_desc: [
+		"The 20 modded-enchantment modifiers moved here and got proper Modern Foundry names: Scavenger is now &bScavenging&r, Knowledge of the Ages is &bScholarly&r, Chainsaw is &bFelling&r, Mana Boost is &bBrimming&r, and so on."
+		""
+		"&aYour old tools keep them&r at the same level. Nothing to redo."
+		""
+		"&7Brimming and Replenishing now feed the shared mana pool: +25 max mana and +2 mana/s per level.&r"
+	]
+	quest.0328B2C8B228DAB4.quest_subtitle: "Moved enchantment modifiers"
+	quest.0328B2C8B228DAB4.title: "&7Same Tricks, New Names"
 	quest.03C8FDD5EE20B842.quest_desc: [
 		"Stack it up: a fuelled &6Blaze Burner&r, a &6Basin&r on top, and a &6Mechanical Mixer&r two blocks above the basin, spinning at &b30 RPM or more&r."
 		""
@@ -486,6 +504,15 @@
 	]
 	quest.0814271DA54512D4.quest_subtitle: "Some assembly required"
 	quest.0814271DA54512D4.title: "&dNext Generation"
+	quest.081E615E5352A91B.quest_desc: [
+		"Surround a blank Iron's &eUpgrade Orb&r with &e8 Source Gems&r in a crafting table for a &eSource Upgrade Orb&r."
+		""
+		"Apply it at the &6Arcane Anvil&r like any other orb: each one gives &b+1 Ars Spell Damage&r."
+		""
+		"&aThe two mods scale each other now.&r Iron's &bSpell Power&r boosts Ars spells, and matching school power counts too (fire for Ignite and Flare, ice for Freeze and Cold Snap, and so on). Every point of Ars &bSpell Damage&r adds &b2.5%&r to Iron's spells."
+	]
+	quest.081E615E5352A91B.quest_subtitle: "An Iron's orb that speaks Ars"
+	quest.081E615E5352A91B.title: "&dSource of Power"
 	quest.08537F3F1AFE9A9C.quest_desc: [
 		"&eSeashells&r lie on beach sand. Break one to pick it up, then &aright-click it in the air to open it&r. Most hold &eRaw Mussel Meat&r (cook it for a snack), but some have gold, an emerald or, very rarely, a diamond."
 		""
@@ -1228,6 +1255,17 @@
 		"The &6Timer Spell Turret&r (add a Clock) fires on its own, and the &6Enchanted Spell Turret&r halves the Source cost. Turrets can pick up and place blocks using an adjacent inventory."
 	]
 	quest.133255470837DE16.title: "&dTurret Syndrome"
+	quest.133B480940DF8148.quest_desc: [
+		"A primed &eSoul Pact&r now also takes a &bwild&r &eStarbuncle&r, &eWhirlisprig&r or &eDrygmy&r. Each becomes an altar familiar like any other:"
+		""
+		"&bAltar Starbuncle&r: 15% cheaper rites, 10% bonus, +5000 reserve."
+		"&bAltar Whirlisprig&r: +20000 reserve."
+		"&bAltar Drygmy&r: 25% bonus."
+		""
+		"&cOne already bound to an Ars charm is someone's worker&r: the pact won't take it, and nothing is spent."
+	]
+	quest.133B480940DF8148.quest_subtitle: "Ars creatures at the altar"
+	quest.133B480940DF8148.title: "&aFamiliar Faces"
 	quest.137C9ABBA5FA43A3.quest_desc: [
 		"&6Andesite Casing&r is the shell of most machines. Place a &eStripped Log&r or Stripped Wood and &aright-click it with Andesite Alloy&r."
 		""
@@ -1416,6 +1454,18 @@
 	]
 	quest.1686665BBF260706.quest_subtitle: "Ten stacks, one pocket"
 	quest.1686665BBF260706.title: "&ePocket Garden"
+	quest.16A72EE5A2B0C4B3.quest_desc: [
+		"Four magic materials join the Foundry:"
+		""
+		"&eMithril&r: melt &eRaw Mithril&r in the Smeltery. Light and quick."
+		"&ePyrium&r: melt &ePyrium Ingots&r. Sets targets on fire."
+		"&eArcane&r: alloy &bmolten gold&r with &bmolten Arcane Essence&r. Bonus XP; armor gets spell resist."
+		"&eSource&r: shape &eSource Gems&r in the &6Part Builder&r, like amethyst. Hits restore mana."
+		""
+		"&7Each one has a focus trait too, so they make great Wands.&r"
+	]
+	quest.16A72EE5A2B0C4B3.quest_subtitle: "Mithril, Pyrium, Arcane and Source"
+	quest.16A72EE5A2B0C4B3.title: "&eMetals That Remember Magic"
 	quest.16C6D4CEE4A1147D.quest_desc: [
 		"The &6Modern Foundry's Anvil&r is &bthree blocks&r of an alloy on top of &e4 seared blocks&r, laid out like a vanilla anvil. You can also build it around your old Station. It takes on the colour of the metal."
 		""
@@ -1450,6 +1500,15 @@
 	]
 	quest.1744E2941513F0D8.quest_subtitle: "Wires are so last tier"
 	quest.1744E2941513F0D8.title: "&6Power Over Ether"
+	quest.17A21750BE9E54F4.quest_desc: [
+		"Build a &eRing&r from a &eBand&r and a &eSetting&r in the &6Modern Foundry Station&r. It's worn in a &bring curio slot&r, and &aeveryone now has two extra ring slots&r."
+		""
+		"The &bBand&r gives &bMax Mana&r and &bMana Flow&r; the &bSetting&r gives &bSpell Power&r and &bgem sockets&r (precious metals such as gold, silver and rose gold hold two)."
+		""
+		"&aRings never break.&r Any Modern Foundry modifier that gives attributes works on them, and two rings both count."
+	]
+	quest.17A21750BE9E54F4.quest_subtitle: "Part-built rings"
+	quest.17A21750BE9E54F4.title: "&ePut a Ring on It"
 	quest.17E8015D127099FF.quest_desc: [
 		"Golden Furnace, &eDiamonds&r and &eGlass&r make a &6Diamond Furnace&r. The line goes on: &6Emerald&r or &6Crystal&r, then &6Obsidian&r, then &6Netherite&r."
 		""
@@ -1484,6 +1543,15 @@
 	]
 	quest.1818151F9A3FFAC0.quest_subtitle: "A quarry with no hole"
 	quest.1818151F9A3FFAC0.title: "&6Something From Nothing"
+	quest.18209800A518D32D.quest_desc: [
+		"The &6Socketing Press&r sets gems into gear on a &6Depot&r or &6belt&r below it, the way the Smithing Table does."
+		""
+		"Load it with &bgems&r and &eSigils of Socketing&r. Each stroke opens sockets with sigils first, then fills every open socket it can. Gear it can't improve moves on."
+		""
+		"&aCut gems on a Lapidary, then send them and your gear down one belt.&r A whole socketing line, no hands needed."
+	]
+	quest.18209800A518D32D.quest_subtitle: "The Socketing Press"
+	quest.18209800A518D32D.title: "&6Press to Impress"
 	quest.18228E8017A42FE8.quest_desc: [
 		"A rare IDAS dungeon hidden in the &bdesert&r. Like the desert temple, it gives you &cMining Fatigue&r while its master lives, so you can't dig through the walls."
 		""
@@ -3208,6 +3276,18 @@
 	]
 	quest.3715BBB37FF125DF.quest_subtitle: "Wool, but make it magic"
 	quest.3715BBB37FF125DF.title: "&eWoven Wonders"
+	quest.376C129782A8FE75.quest_desc: [
+		"Six new abilities put spells into everyday gear:"
+		""
+		"&dSpellblade&r: imbue one Iron's spell into a melee weapon at the Arcane Anvil."
+		"&dReactive&r: casts an inscribed Ars spell when you hit, or get hit."
+		"&dSpellshot&r: bows and crossbows cast an Ars spell where arrows land."
+		"&dSpellguard&r: a chestplate that spends mana before health."
+		"&dFrugal&r: a ring that makes every spell cheaper, in both mods."
+		"&dArcane Mending&r: repairs the tool with mana while your pool is over half full."
+	]
+	quest.376C129782A8FE75.quest_subtitle: "Magic abilities"
+	quest.376C129782A8FE75.title: "&dBlades That Cast"
 	quest.3776B9C81D0EABA7.quest_desc: [
 		"The &6Foundry&r is buried around &by -10&r under jungles, forests, taigas, deserts, plains, savannas and mountains. Bandit Towers maps and Woodland Explorer Maps can lead here."
 		""
@@ -3331,6 +3411,15 @@
 	]
 	quest.39A38D47AD996509.quest_subtitle: "The Thornrose Staff"
 	quest.39A38D47AD996509.title: "&dSource First, Target Second"
+	quest.39B1E11C13688BE9.quest_desc: [
+		"The &6Fluxia Sourcelink&r turns Fluxia into &dSource&r for the Ars jars around it: &b10 Fluxia makes 1 Source&r."
+		""
+		"It can run the other way too, turning Source from nearby jars back into Fluxia (&b1 Source makes 5&r). Goggles show which way it's working."
+		""
+		"&7Crafted from Astralite, Fluxite, a Fluxia Tablet and Source Gems.&r"
+	]
+	quest.39B1E11C13688BE9.quest_subtitle: "The Fluxia Sourcelink"
+	quest.39B1E11C13688BE9.title: "&dCurrent Exchange"
 	quest.39B75E0E43D97A08.quest_desc: [
 		"The &6Felting Needle&r (Sticks and an Iron Ingot) turns plain wool into patterned wool. &cEMI doesn't show this, so here's how:&r"
 		""
@@ -3399,6 +3488,16 @@
 	]
 	quest.3A864D7D2438DC1F.quest_subtitle: "+5 hearts, no strings attached"
 	quest.3A864D7D2438DC1F.title: "&dHeart of Glass"
+	quest.3A9EA5313C79EA3C.quest_desc: [
+		"Iron's orbs and runes now upgrade Modern Foundry gear (staffs, rings and armor) in the &6Modern Foundry Station&r:"
+		""
+		"&bKindled, Rimebound, Stormcalled, Hallowed, Voidtouched, Sanguine, Evoking, Verdant, Eldritch&r: &b+5%&r power for that school per level, from the matching &eUpgrade Orb&r."
+		"&bEmpowered&r (Arcane Rune + Essence): spell power for both mods."
+		"&bBrimming&r and &bReplenishing&r: more max mana and faster regen."
+		"&bQuickened&r, &bNullifying&r and &bSiphoning&r: cooldowns, spell resist, mana from melee hits."
+	]
+	quest.3A9EA5313C79EA3C.quest_subtitle: "Spell modifiers at the Station"
+	quest.3A9EA5313C79EA3C.title: "&bSchool Spirit"
 	quest.3AA2F1C6BAE4A44E.quest_desc: [
 		"&6When Dungeons Arise&r scatters huge hand-built structures across the world: camps, fortresses, palaces, mines, temples and airships. They are &bspread out&r: roughly &bone big one per 800 by 800 blocks&r, and the &bbiome&r decides which one you get. Badlands and swamps only have two candidates each, so they're the easiest to hunt. Plains, forests and deserts are crowded, so any one building there is rare."
 		""
@@ -3516,6 +3615,15 @@
 	]
 	quest.3D105D97013E1F34.quest_subtitle: "Balanced, like all things should be"
 	quest.3D105D97013E1F34.title: "&aGreen Tea"
+	quest.3D4989F4194498B3.quest_desc: [
+		"Put a &eFocus&r and a &eTool Handle&r in the &6Modern Foundry Station&r for a &eWand&r."
+		""
+		"Held in your main hand, its stats become real spell stats: Spell Power for both mods, faster casting and cooldowns, and more mana regen."
+		""
+		"&7It holds one Iron's spell and one Ars spell. The next quest shows you how to put them in.&r"
+	]
+	quest.3D4989F4194498B3.quest_subtitle: "Your first Wand"
+	quest.3D4989F4194498B3.title: "&aWave It Around"
 	quest.3D790BC98E82B79C.quest_desc: [
 		"An &6Andesite Funnel&r (Alloy over Dried Kelp) moves items in and out of inventories and belts. Placed normally it &bpulls out&r; &bsneak-place&r it to &binsert&r. Redstone pauses it. Andesite funnels have no filter."
 		""
@@ -3582,6 +3690,22 @@
 	]
 	quest.3E61005C394E3A21.quest_subtitle: "Pipes carry, pumps push"
 	quest.3E61005C394E3A21.title: "&bPipe Dreams"
+	quest.3E9CEC8A06BBB921.quest_desc: [
+		"Socket a gem into a Modern Foundry &eRing&r or &eWand&r at the &6Smithing Table&r. A ring's &bSetting&r decides its sockets, and every core Apotheosis gem has a &bring bonus&r now (Samurai gives crit damage, for one)."
+		""
+		"&aNeed more sockets?&r A &eSigil of Socketing&r still adds one, and the &bSocketed&r modifier (Sigil + 4 Gem Dust) adds another, up to three."
+		""
+		"&7Modern Foundry bows and crossbows count as Apotheosis bows, and broken Foundry tools keep their gems switched on.&r"
+	]
+	quest.3E9CEC8A06BBB921.quest_subtitle: "Gems on your rings"
+	quest.3E9CEC8A06BBB921.title: "&bSet in Stone"
+	quest.3E9F8DFFA24627F1.quest_desc: [
+		"A &eChain&r and a &ePendant&r make an &eAmulet&r for your &bnecklace slot&r."
+		""
+		"Both parts' stats count &bhalf again&r, and amulets get one more upgrade slot than rings. It's the place for your biggest mana and spell power bonuses."
+	]
+	quest.3E9F8DFFA24627F1.quest_subtitle: "The Amulet"
+	quest.3E9F8DFFA24627F1.title: "&eNeck and Neck"
 	quest.3EB7214C9835A190.quest_desc: [
 		"&eBlank Parchment&r is 8 Magebloom Fiber around a Paper. To write on it, place it on the &6Scribe's Table&r, select a spell in your book, then &bsneak-use the book&r on the table."
 		""
@@ -3740,6 +3864,17 @@
 	]
 	quest.40A8C1B55C11EDCE.quest_subtitle: "The last circle you draw by hand"
 	quest.40A8C1B55C11EDCE.title: "&dThe Whole Spectrum"
+	quest.4123E32BB3AB4B99.quest_desc: [
+		"The bigger &b7x7&r Crossings rites (see &dCircles for Other Crafts&r for the small ones) need a tier III altar:"
+		""
+		"&dThe Empty Vessel&r makes an Iron's Upgrade Orb; &dThe Brimming Orb&r fills one into a Mana Upgrade Orb."
+		"&dThe Hollowing&r and &dThe Unbinding&r give Sigils of Socketing and Withdrawal. &7Count the corners: they look alike.&r"
+		"&dCrystallizations&r teach the Kilnheart and Reaping imbuements to a &eModifier Crystal&r, for Modern Foundry tools."
+		""
+		"&7The cauldron has cheaper ink and Source Gem brews too.&r"
+	]
+	quest.4123E32BB3AB4B99.quest_subtitle: "Tier III Crossings rites"
+	quest.4123E32BB3AB4B99.title: "&5Bigger Circles"
 	quest.4132717CB29CCC2D.quest_desc: [
 		"Smoke your first piece of food. The &ewood type&r decides how long it takes and what you gain."
 		""
@@ -3815,6 +3950,15 @@
 	]
 	quest.4296B98C6A6C2EDA.quest_subtitle: "Wipe your boots, dinner's on"
 	quest.4296B98C6A6C2EDA.title: "&6The Country Kitchen"
+	quest.42985F73AB1C5E69.quest_desc: [
+		"The &6Fluxia Turbine&r is a Fluxia generator driven by your &6Create&r network. Every &bRPM&r makes &bhalf a Fluxia per second&r and costs &b8 SU&r. &cAn overstressed turbine makes nothing.&r"
+		""
+		"Link it with the &eThornrose Staff&r (right-click the turbine, then the pool or machine to feed). It pushes its Fluxia down the link once a second; unlinked, it just fills its own small tank."
+		""
+		"&aA turbine at 256 RPM makes 128 Fluxia a second.&r Build it on a Mechanical Crafter; it has a Ponder scene."
+	]
+	quest.42985F73AB1C5E69.quest_subtitle: "The Fluxia Turbine"
+	quest.42985F73AB1C5E69.title: "&6Spin Doctor"
 	quest.42C6FB42DCA61CE1.quest_desc: [
 		"Giant-mushroom homes grow in &bforests&r. The &6Mushroom House&r and the &6Mushroom Village&r are held by &cpiglins with crossbows and Piglin Brutes&r with golden swords, a nasty surprise in the overworld (and they don't turn into zombie piglins)."
 		""
@@ -3959,6 +4103,15 @@
 	]
 	quest.4478918789CEBAF8.quest_subtitle: "Dig deep, build rustic"
 	quest.4478918789CEBAF8.title: "&8Rubble Rouser"
+	quest.447A7CB1974EABD5.quest_desc: [
+		"The &6Arcane Spellcaster&r casts the spell on an Iron's &escroll&r, powered by rotation instead of mana. Build it on a &6Mechanical Crafter&r."
+		""
+		"Load a scroll and some &eink&r (right-click, or with funnels and hoppers). A &bredstone pulse&r casts the spell out of its focus. &aThe scroll is never used up&r; each cast takes one bottle of ink of the spell's rarity or higher."
+		""
+		"It needs at least &bmedium speed&r and &b12 SU per RPM&r. Faster spins recharge it sooner. &cOnly instant spells that work without a player can be cast.&r"
+	]
+	quest.447A7CB1974EABD5.quest_subtitle: "The Arcane Spellcaster"
+	quest.447A7CB1974EABD5.title: "&dCast by Clockwork"
 	quest.447E99666109CD33.quest_desc: [
 		"&6Chipped&r adds thousands of block variants through seven workbenches: &6Mason Table&r (stone, bricks), &6Carpenters Table&r (wood), &6Loom Table&r (wool), &6Glassblower&r, &6Botanist Workbench&r, &6Tinkering Table&r (lamps, lanterns) and &6Alchemy Bench&r (metal and gem blocks). Put blocks in and pick a variant; EMI shows them all."
 		""
@@ -4132,6 +4285,16 @@
 	]
 	quest.47598CADFB7789C4.quest_subtitle: "This wizard does not trade"
 	quest.47598CADFB7789C4.title: "&cFort Knocks"
+	quest.4771F77117E50529.quest_desc: [
+		"A &6Basin&r over an &6Enhanced Blaze Burner&r works like an Alchemist Cauldron, stirred by a &6Mechanical Mixer&r:"
+		""
+		"A &escroll&r, a &eGlass Bottle&r and &b250 mB of water&r dissolve into &eink&r of the scroll's rarity. Spare scrolls finally have a use."
+		"&b4 inks&r and a metal (copper, iron, gold or amethyst) brew &bone ink of the next rarity&r, and 3 bottles come back."
+		""
+		"&cA plain burner won't do it.&r"
+	]
+	quest.4771F77117E50529.quest_subtitle: "Basin alchemy"
+	quest.4771F77117E50529.title: "&dCauldron Without a Cauldron"
 	quest.4774A79C57FE05D4.quest_desc: [
 		"&eCoconuts&r grow hanging under palm leaves. When ripe they &cdrop and hurt whatever stands below&r, so don't nap under a palm."
 		""
@@ -4221,6 +4384,15 @@
 	]
 	quest.48D99F6219EA5AE4.quest_subtitle: "Create: Framed"
 	quest.48D99F6219EA5AE4.title: "&bWindow Shopping"
+	quest.48EC854F66CD8616.quest_desc: [
+		"&dIron's:&r put the wand and a &escroll&r in the &6Arcane Anvil&r to imbue the spell. &bRight-click&r casts it."
+		""
+		"&dArs:&r inscribe a spell on it at the &6Scribe's Table&r, like a spell book. &bSneak + right-click&r casts it."
+		""
+		"&aWant more Iron's spells?&r The &bCapacious&r modifier (from an Iron's Lesser Spell Slot Upgrade) adds a spell slot, up to twice."
+	]
+	quest.48EC854F66CD8616.quest_subtitle: "Imbuing and inscribing"
+	quest.48EC854F66CD8616.title: "&dTwo Spells, One Stick"
 	quest.4904DC9993D71B59.quest_desc: [
 		"&6Wisp \\& Willow&r is cosy ritual magic. You draw coloured &dchalk glyphs&r around a &6Willow Altar&r, drop reagents on the ground and pay in &dFluxia&r (ƒ), a current that flowers and machines produce."
 		""
@@ -4322,6 +4494,15 @@
 	]
 	quest.4A75F032D3C08DF5.quest_subtitle: "Firsts, titles and bragging rights"
 	quest.4A75F032D3C08DF5.title: "Living Legend"
+	quest.4A875CDF3A76A3A3.quest_desc: [
+		"Two new Ars glyphs, learned at the &6Scribe's Table&r:"
+		""
+		"&dSiphon&r drains its target into your pool. Players lose mana to you; anything else takes damage, and the health you drain comes back as mana."
+		""
+		"&dInvoke&r casts your &bselected Iron's spell&r from wherever the Ars spell lands. Put it after Projectile, Touch or Self, and add &bAmplify&r to raise the Iron's spell a level. &cOnly instant Iron's spells can be invoked&r, and they still cost their own mana and cooldown."
+	]
+	quest.4A875CDF3A76A3A3.quest_subtitle: "Two glyphs that bridge the mods"
+	quest.4A875CDF3A76A3A3.title: "&dSiphon and Invoke"
 	quest.4AA795E203B06DFF.quest_desc: [
 		"Place the &6Physics Assembler&r against your build, then &eSuper Glue&r everything you want to take along (right-click two corners to glue the box between them)."
 		""
@@ -4471,6 +4652,15 @@
 	]
 	quest.4D57336BF30A0546.quest_subtitle: "You may now kiss the villager"
 	quest.4D57336BF30A0546.title: "&d'Til Death Do Us Part"
+	quest.4D7BB039B495D8F1.quest_desc: [
+		"Right-click a &6Blaze Burner&r (with its blaze inside) while holding &e16 Cinder Essence&r. It becomes an &6Enhanced Blaze Burner&r: its flames turn &cbright red&r, and &dpurple&r when superheated."
+		""
+		"Heated mixing and compacting over it run &b1.5x faster&r, and it heats Modern Foundry &6Melters&r and &6Alloyers&r better than a plain burner. &aBreak it and it stays enhanced.&r"
+		""
+		"&7Short on Cinder Essence? A superheated Mixer makes it from 2 Arcane Essence and Blaze Powder.&r"
+	]
+	quest.4D7BB039B495D8F1.quest_subtitle: "The Enhanced Blaze Burner"
+	quest.4D7BB039B495D8F1.title: "&cBurning Brighter"
 	quest.4DC67DCE9B3E6E58.quest_desc: [
 		"The &6Modern Foundry Station&r is &e3 Patterns&r over &e4 Planks&r arranged like legs. The odd name comes from the port. Old Tinkers players know it as the Tinker Station."
 		""
@@ -4728,6 +4918,13 @@
 	]
 	quest.51AD57CE613EEA10.quest_subtitle: "Wipe your feet on the way in"
 	quest.51AD57CE613EEA10.title: "&eSandstone Secrets"
+	quest.51C7B1FD3A4FBCD6.quest_desc: [
+		"&dLiquid Fluxia&r is a real fluid now: Create pipes, spouts and Modern Foundry tanks can pull it out of a &6Willow Fluxia Pool&r or a &eFluxia Tablet&r (&b1 mB = 1 Fluxia&r)."
+		""
+		"This branch adds three Fluxia blocks: the &6Fluxia Sourcelink&r, the &6Fluxia Turbine&r and the &6Wakened Manabloom&r. They link up with the &eThornrose Staff&r like Wisp \\& Willow's own, and Engineer's or Arcane Goggles show what they hold."
+	]
+	quest.51C7B1FD3A4FBCD6.quest_subtitle: "Wisp \\& Willow meets everything else"
+	quest.51C7B1FD3A4FBCD6.title: "&dFluxia in the Pipes"
 	quest.51DAF82501F5392E.quest_desc: [
 		"The &6Cookpot&r (Copper and Iron Ingots) uses the same recipes as the Cooking Frame, but it &conly cooks with a heat source under it&r. &cA plain Campfire does not count.&r"
 		""
@@ -4859,6 +5056,26 @@
 	]
 	quest.54506DCF008A2FCB.quest_subtitle: "Two million FE a block"
 	quest.54506DCF008A2FCB.title: "&6Grid Expectations"
+	quest.5454F164F5C0E705.quest_desc: [
+		"&dSpell tools&r for Iron's Spells and Ars Nouveau are part-built like any other tool. Start with a &eFocus&r: shape it in the &6Part Builder&r, or cast it from molten metal once you've made a Focus cast."
+		""
+		"A focus has three stats of its own: &bSpell Power&r, &bCasting Speed&r and &bMana Flow&r (mana regen). Over 50 materials have them, and the precious and magical ones are best."
+		""
+		"&aEvery Iron's school has focus materials&r: Blaze or Pyrium for fire, Ice or Mithril for ice, Amethyst or Arcane for evocation and so on, each with +15% to that school."
+	]
+	quest.5454F164F5C0E705.quest_subtitle: "The heart of a spell tool"
+	quest.5454F164F5C0E705.title: "&eIn Focus"
+	quest.5492697B284BAF3A.quest_desc: [
+		"Three new &dthreads&r for Ars armor, made in the &6Enchanting Apparatus&r around a &eBlank Thread&r with Iron's &eArcane Essence&r and &eRunes&r:"
+		""
+		"&eSorcery&r: &b+5% Iron's Spell Power&r per level."
+		"&eCelerity&r: faster Iron's casting."
+		"&eRecollection&r: shorter Iron's cooldowns."
+		""
+		"Slot them in at the &6Alteration Table&r like any Ars thread."
+	]
+	quest.5492697B284BAF3A.quest_subtitle: "Three new Ars threads"
+	quest.5492697B284BAF3A.title: "&dSpun from Spellbooks"
 	quest.549C738712D70ED4.quest_desc: [
 		"&eUpgrade: Flight&r (Blank, End Crystal, Feather, Phantom Membrane) fits only the &eEclipse Alloy Chestplate&r. It lets you fly freely, &cpaid for in FE&r, so don't run dry mid-air."
 		""
@@ -4866,6 +5083,13 @@
 	]
 	quest.549C738712D70ED4.quest_subtitle: "Creative flight, survival rules"
 	quest.549C738712D70ED4.title: "&dFly Me to the Moon"
+	quest.54CE73C565E81594.quest_desc: [
+		"Iron's &eWisewood Bookshelves&r now count toward &bEterna&r and &bArcana&r at an Apothic enchanting table, and six Wisp \\& Willow blocks have enchanting stats too."
+		""
+		"Two new infusions at &b30 Eterna&r: a &eBlock of Arcane Essence&r becomes an &eArcane Ingot&r, and a &eSource Gem Block&r becomes an Iron's &eMana Upgrade Orb&r."
+	]
+	quest.54CE73C565E81594.quest_subtitle: "Magic in the enchanting table"
+	quest.54CE73C565E81594.title: "&dReading Between the Shelves"
 	quest.551A358EBAD361AF.quest_desc: [
 		"Fish Tanks are two blocks long. The &6Copper Fish Tank&r takes &eCopper Ingots&r and &eGlass&r, the &6Iron Fish Tank&r &eIron Ingots&r and &eGlass&r. Either one counts for the finale."
 		""
@@ -5453,6 +5677,18 @@
 	]
 	quest.5FDE4BF3F675A005.quest_subtitle: "Iron, at last"
 	quest.5FDE4BF3F675A005.title: "&eHeavy Metal"
+	quest.5FF0C9F4976014E3.quest_desc: [
+		"The Grimoire's new &dCrossings&r category has 20 rites, 3 pool infusions and 9 cauldron brews that make other mods' things. Some easy ones first:"
+		""
+		"&dThe Inkwell&r: 4 bottles of Common Ink. The only Crossings rite a bare altar will cast."
+		"&dMagicka Essentia&r: Arcane Essence from lapis."
+		"&dRites of Inscription&r: write one exact Iron's spell, one rite per school (no Eldritch)."
+		"&dWilden Tithes&r: Wilden Horns, Wings and Spikes without the hunt."
+		""
+		"&7Every page shows the circle, the reagents, the Fluxia cost and the altar tier.&r"
+	]
+	quest.5FF0C9F4976014E3.quest_subtitle: "Crossings rites"
+	quest.5FF0C9F4976014E3.title: "&dCircles for Other Crafts"
 	quest.60221F3A27F75DFA.quest_desc: [
 		"&6Create: Copycats+&r adds dozens of copycat shapes: slopes, boards, bytes, layers, catwalks, doors and more. Most are cut from &eZinc Ingots&r in a &6Stonecutter&r (one ingot makes 2 Slopes or 8 Boards); a few, like Catwalks, are crafted from Boards."
 		""
@@ -5694,6 +5930,17 @@
 	]
 	quest.632F5292910D7C95.quest_subtitle: "Contains one (1) Blaze"
 	quest.632F5292910D7C95.title: "&cSentient Fireplace"
+	quest.635F8B45BDC7125F.quest_desc: [
+		"Apotheosis now drops gems for the magic mods:"
+		""
+		"&bIron's school gems&r (Inferno Gem and friends): school power on staffs and rings, school resist on armor, mana on helmets, school damage on weapons."
+		"&bGem of the Wilden&r, &bGem of the Archwood&r and &bSourceweaver's Gem&r: Ars spell damage, mana regen and max mana."
+		"&bClockwork&r, &bSuperheated&r and &bKinetic&r gems for Create fans."
+		""
+		"&aStaffs and rings are their own loot categories now&r, with new affixes such as &bEmpowered&r, &bPyromancer's&r and &bof the Wellspring&r."
+	]
+	quest.635F8B45BDC7125F.quest_subtitle: "New Apotheosis gems"
+	quest.635F8B45BDC7125F.title: "&bGems of Every School"
 	quest.638ABEB2AA2C384E.quest_desc: [
 		"&6Apothic Attributes&r adds the stats affix gear rolls: crit chance and damage, life steal, armor pierce, dodge, draw speed, mining speed and more."
 		""
@@ -5710,6 +5957,19 @@
 		"Speed climbs from &b4 items a second&r with no upgrade to &b64 items every tick&r with Ultimate."
 	]
 	quest.63A8363BEA0A9754.title: "&6Faster, Smarter Pipes"
+	quest.63C9BF11A642F2B1.quest_desc: [
+		"Five Wisp \\& Willow materials join the Foundry:"
+		""
+		"&eAstralite&r (&bFluxbound&r: mends itself from a Fluxia Tablet you carry)."
+		"&eEmpyrite&r (&bResonant&r: grows from Resonance I to V as you use it, like Awakening)."
+		"&eWillow&r (&bWeeping&r: slowly mends anywhere in your inventory)."
+		"&eSoulwood&r (&bLuminous&r: hits make targets glow, and it's quicker)."
+		"&eFluxite&r (faster mining at high durability)."
+		""
+		"&7Empyrite comes from the alchemical cauldron only; it never drops as loot.&r"
+	]
+	quest.63C9BF11A642F2B1.quest_subtitle: "Wisp \\& Willow materials"
+	quest.63C9BF11A642F2B1.title: "&eForged in the Fen"
 	quest.63EA9FE30C1E8766.quest_desc: [
 		"Upgrade your Novice book into the &5Mage's Spell Book&r: Novice Spell Book, an &eObsidian&r, 3 &eDiamonds&r, 2 &eBlocks of Quartz&r and 2 &eBlaze Rods&r. &cThe Blaze Rods mean a trip to the Nether.&r"
 		""
@@ -6147,6 +6407,17 @@
 	]
 	quest.69803516A8455E5E.quest_subtitle: "The neighbours are very quiet"
 	quest.69803516A8455E5E.title: "&6Grave Matters"
+	quest.699B51D2BFCEFEF5.quest_desc: [
+		"Create now processes the magic mods' materials:"
+		""
+		"&bCrushing Wheels&r crush &eRaw Mithril&r, &eRaw Cobalt&r and &eRaw Astralite&r into crushed ores (wash or smelt them), and crushed ores melt in the Foundry like raw ore."
+		"&bSequenced assembly&r builds Iron's &eUpgrade Orbs&r and &eRunes&r."
+		"&bMixers&r make &eArcane Ingots&r and &eCinder Essence&r; gems and scrap crush like at the Salvaging Table."
+		""
+		"&7Zinc, Brass and Andesite Alloy are Foundry materials too, and the &bWrenching&r ability turns any Foundry tool into a Create wrench.&r"
+	]
+	quest.699B51D2BFCEFEF5.quest_subtitle: "Create recipes for the magic mods"
+	quest.699B51D2BFCEFEF5.title: "&6Clockwork Conjuring"
 	quest.69DC532DF3A9DEA6.quest_desc: [
 		"This book is cast, not crafted. Put a &eBook&r on a &6Casting Table&r and pour &b250 mB&r of &eSeared Stone&r fluid over it. One melted Grout gives 500 mB."
 		""
@@ -6516,6 +6787,15 @@
 	]
 	quest.71710E5CEB7DBD94.quest_subtitle: "There's more than meets the eye"
 	quest.71710E5CEB7DBD94.title: "&5Spellbound"
+	quest.718540D075E61F5B.quest_desc: [
+		"One Apotheosis gem only drops in the &2Willow Fen&r: &bFenlight&r, a pale cyan stone with the current still moving in it."
+		""
+		"On a staff or ring mana flows back faster, armor gets more mana (and softer landings on boots), tools dig faster, and blades and bows bog down what they hit."
+		""
+		"&7Hunt the fen at night.&r"
+	]
+	quest.718540D075E61F5B.quest_subtitle: "The Fenlight gem"
+	quest.718540D075E61F5B.title: "&bLight in the Fen"
 	quest.71F727DE2C7DEA67.quest_desc: [
 		"Willows don't grow wild. &aDrop an &eOak Sapling&r and a block of &eDeepslate&r close together into a &bwater source&r block. After a few sparks and a chime, a &eWillow Sapling&r floats up."
 		""
@@ -6645,6 +6925,17 @@
 	]
 	quest.7421CC513EE98C87.quest_subtitle: "Twelve flavours of neighbour"
 	quest.7421CC513EE98C87.title: "&aNot Your Average Village"
+	quest.7425A921AE761F63.quest_desc: [
+		"&dIron's Spells and Ars Nouveau draw from one mana pool in this pack.&r Casting a spell from either mod spends the same mana, and both mods' gear, glyphs and potions grow and refill it."
+		""
+		"Your max is &b100 base&r plus every max-mana bonus from both mods, so an Iron's &eMana Ring&r and an Ars &eAmulet of Mana Boost&r both count. Ars's regen does the refilling, sped up by Iron's &bMana Regen&r gear."
+		""
+		"&aArs discount gear works on Iron's spells too&r, so a Ring of Discount finally earns its slot. Only Iron's mana bar shows, since there's one number now. Scrolls still cost nothing."
+		""
+		"&7Running Wam's Tweaks? Its &6IsItSMP Mana Bar&7 shows how much of your max comes from each mod; hold &b`&7 to list every source.&r"
+	]
+	quest.7425A921AE761F63.quest_subtitle: "Iron's and Ars share their mana"
+	quest.7425A921AE761F63.title: "&bOne Pool to Rule Them"
 	quest.7427FA2A8BFCE380.quest_desc: [
 		"The &cIllusioner&r never spawns on its own in vanilla, but Illager Forts usually hold a few (Abandoned Temples can too). It turns invisible, splits into &bdecoy copies&r and casts &cBlindness&r on you, then snipes with a bow."
 		""
@@ -6719,6 +7010,15 @@
 	]
 	quest.75A2881A9EC0557B.quest_subtitle: "Enchantment Library"
 	quest.75A2881A9EC0557B.title: "&5Shelf Storage"
+	quest.75C8FF3A5BE4DAF9.quest_desc: [
+		"The &6Gem Lapidary&r is a turning Gem Cutting Table. Feed it &btwo matching gems&r and the table's materials and it grinds them into &bone gem of the next purity&r."
+		""
+		"Faster rotation cuts faster (&b8 SU per RPM&r). Funnels, chutes and hoppers load and empty it, and &aPerfect gems pass straight through&r, so a belt line never jams."
+		""
+		"&7Built on a Mechanical Crafter from a Gem Cutting Table, a Millstone and Gem Dust.&r"
+	]
+	quest.75C8FF3A5BE4DAF9.quest_subtitle: "The Gem Lapidary"
+	quest.75C8FF3A5BE4DAF9.title: "&bRound and Round"
 	quest.75F03B7EC595A39F.quest_desc: [
 		"A small ruined temple in &btaigas, windswept hills and mountains&r. &cStrays&r spawn around the &6Abandoned Temple&r, so expect Slowness arrows, along with armoured skeletons and sometimes an &cIllusioner&r."
 		""
@@ -7066,6 +7366,15 @@
 	]
 	quest.7B44DDA02F1F9A03.quest_subtitle: "Tinkers' Construct, under a new name"
 	quest.7B44DDA02F1F9A03.title: "&6Materials and You"
+	quest.7B610F8C4CCC6DF4.quest_desc: [
+		"Infuse a &eWillow Sapling&r, a &eManabloom&r, &eArcane Essence&r and a &eSource Gem&r in a charged Fluxia Pool (&b7000 ƒ&r) for a &6Wakened Manabloom&r."
+		""
+		"Link Fluxia to it and it &arefills the shared mana of every player within 4 blocks&r: up to &b20 mana a second&r each, for &b2 Fluxia per mana&r."
+		""
+		"&7Plant one beside your spell range or your Arcane Spellcasters.&r"
+	]
+	quest.7B610F8C4CCC6DF4.quest_subtitle: "The Wakened Manabloom"
+	quest.7B610F8C4CCC6DF4.title: "&dIn Full Bloom"
 	quest.7B96CF8EB905A86A.quest_desc: [
 		"A &6Redstone Link&r sends a redstone signal without wires, up to &b256 blocks&r. Craft a &eTransmitter&r (Lightning Rod, Copper Sheets, Redstone), then put it over Andesite Casing for two links."
 		""
@@ -7302,6 +7611,7 @@
 	quest.7FEBCEE826D2689F.quest_subtitle: "Dry it twice"
 	quest.7FEBCEE826D2689F.title: "&8Fade to Black"
 	task.00127011EE9C4D84.title: "Marry a villager"
+	task.005696C3351F042C.title: "Make a tool part from Mithril, Pyrium, Arcane or Source"
 	task.009EFA9F19C5C85B.title: "Find: a Heavenly Conqueror"
 	task.00E3C2C6E348726F.title: "Build a Smeltery and open its screen"
 	task.00E945E6307DE552.title: "Bind a magical creature into a Familiar"
@@ -7309,6 +7619,7 @@
 	task.01D2E1080D225A11.title: "Finish the A Courtship quest chain"
 	task.0221E8D2921691EE.title: "Find: a Small Blimp"
 	task.022889F5A98D62BC.title: "Complete a bounty"
+	task.02441471EBD5A9AD.title: "Got it"
 	task.030D2F87037E1752.title: "Find: a Better Stronghold"
 	task.03D3510B1D157D69.title: "Move items through a Chute"
 	task.03DF83FB3C520E51.title: "Find: a Mechanical Nest"
@@ -7321,6 +7632,7 @@
 	task.065879FDB09BABC6.title: "Open the Kitted Out chapter"
 	task.06B9BF97BC7D8047.title: "Kill: the Horseman"
 	task.06C0CBB2B725F0AB.title: "Assemble a contraption with a Swivel Bearing"
+	task.07835569210F9566.title: "Make a tool part from a Wisp \\& Willow material"
 	task.07C7B4C6BFFA2DE3.title: "Feed a Mechanical Generator straight into Crushing Wheels"
 	task.07D486E23ADF8B3B.title: "Craft any Stained Framed Glass"
 	task.08A48DD7E98BFDE3.title: "Read: water in a recipe means a Water Bucket"
@@ -7356,6 +7668,7 @@
 	task.1272AF5BF1DC6A53.title: "Find: a Merchant Campsite"
 	task.1279DA014CB6670C.title: "Find: the Bandit Towers"
 	task.12D2065E0C3D6752.title: "Find: an Illager Campsite"
+	task.1340BEAD6567EBAB.title: "Find a Fenlight gem"
 	task.13DD951556C8482E.title: "Tame a Foxhound"
 	task.13E5F5CF9222B6AD.title: "Make all 7 cheese wheels"
 	task.142650C04129FED4.title: "Cast the Sealed Soul Pact through a lit Soul Gateway"
@@ -7379,6 +7692,7 @@
 	task.1E07330E36052E61.title: "A Sophisticated Barrel (any wood)"
 	task.1E1D2C4112640BA7.title: "Reach Friend standing (75 reputation) with a village"
 	task.1EE02D05206E9FED.title: "Find an Astral Observatory"
+	task.1F0ED2A1CD74CA6F.title: "Siphon glyph"
 	task.1F43182BF0CBD69E.title: "Glue a few blocks and assemble them with the Physics Assembler (hold right-click on its lever and drag)"
 	task.1F6173FBCD4DFC81.title: "String a wire between two connectors"
 	task.1FC067C844D92163.title: "Build the cauldron's ring and light it (2,000 ƒ)"
@@ -7392,14 +7706,17 @@
 	task.2569380FCBB60FD2.title: "Reach 50 hearts with a villager"
 	task.26CE7E7DD789D9B6.title: "Find: an Infested Temple"
 	task.26F847A90B4963BF.title: "Wear all four awakened empyrite pieces"
+	task.2709C08291226EFA.title: "Bond a Starbuncle, Whirlisprig or Drygmy as an altar familiar"
 	task.27699113D3F8F5DE.title: "Oak Way Sign"
 	task.2833515ED5063282.title: "Visit: the Lost Caves"
 	task.286177AABEC50D24.title: "Read a Jade tooltip, then hover any food to see AppleSkin's values"
+	task.29FE17CBB3F2363D.title: "Cast one spell from each mod and watch the same bar drain"
 	task.2A95CFCCD02EC795.title: "Find: an Illager Fort"
 	task.2B02FBE64A5B2841.title: "Find: a Unicorn Galleon"
 	task.2B1F44CEDBBFE498.title: "Glue a group of blocks with Honey Glue"
 	task.2B2906AE1BC40FF0.title: "Read: how exploring works here"
 	task.2C431A93877128EF.title: "Find: a Better Mineshaft"
+	task.2D3D475E07EF03CA.title: "Apply a spell modifier to a staff, ring or armor piece"
 	task.2E73AE5C457368F4.title: "Find: a Mushroom House"
 	task.2ED920053046C567.title: "Collect all six cocktails"
 	task.2F1E66E9BA562178.title: "Find: a Fishing Hut"
@@ -7421,10 +7738,12 @@
 	task.34E2F809EC8426AA.title: "Find: the Airship Village"
 	task.353D3560AD6D0037.title: "Fill an airtight envelope shell with hot air"
 	task.355436E3EB649D7F.title: "2 Elevators (craft white, dye later)"
+	task.35A98152ED6B6E33.title: "Socket a gem into a Ring or Wand"
 	task.35D224CD9610C754.title: "Find a Pyromancer Tower"
 	task.3622FAD9C013D43E.title: "Find: the Labyrinth"
 	task.362E57EAF266CAC6.title: "Capture a Crab in a Bucket"
 	task.3652DBAB6D6BF3D0.title: "Build a contraption with drills, saws or harvesters on board"
+	task.3675112ED04A4A3D.title: "Invoke glyph"
 	task.36B7F16F7888B01E.title: "Open 100 Lootr containers"
 	task.375AA6117EC0D1C3.title: "Read: oak and red for the finale, HUD panels, Shift tooltips"
 	task.376E7DA807FF08B7.title: "Got it: the Just Dires Guide is a Book + a Primogel Goo (shapeless)"
@@ -7462,6 +7781,7 @@
 	task.4532F02CCDF889B9.title: "Employ a Stock Keeper and place your first order"
 	task.45B11E1ECAB1CFC7.title: "Apply a modifier to a tool in the Modern Foundry Station"
 	task.4604476E212CE618.title: "Visit all 16 Blooming Nature biomes"
+	task.46B53264909F0629.title: "Imbue a scroll into a Wand at the Arcane Anvil"
 	task.46DAEE093325E649.title: "Generate torque with a Steam Engine"
 	task.472AAB81CDDCDB49.title: "Sleep in a Bed"
 	task.48696C156227C7C1.title: "Open your first Lootr chest"
@@ -7491,6 +7811,8 @@
 	task.4EF4404951DF9871.title: "I won't feed eyes to unstable frames"
 	task.507460EB947A1C01.title: "Inspect a Contraption Diagram on a contraption"
 	task.5116EBC2FA11D323.title: "Open the Titles \\& Milestones journal (inventory button)"
+	task.513815C081BF67E5.title: "Enhance a Blaze Burner"
+	task.514CEEAA17935FC8.title: "Apply one of the six magic abilities"
 	task.51CC12F90E2310EF.title: "Get engaged: gift an Engagement Ring (gold or rose gold)"
 	task.526E897180AC5CAD.title: "Find: an End City"
 	task.528DDDBDFBA03755.title: "Find: a Corsair Corvette"
@@ -7542,6 +7864,7 @@
 	task.6402146E9E2EB866.title: "Assemble a windmill and make it generate power"
 	task.64032D84ECADEABB.title: "Find: a Plague Asylum"
 	task.647DBDF4F6B693D9.title: "Find: the Mining Complex"
+	task.650A3E83CEBEFB93.title: "Cast a tier III Crossings rite"
 	task.6518FF17FDE5502D.title: "Find and activate a Waystone"
 	task.658C1039F6B8EB12.title: "Smoke food with an effect wood"
 	task.65938F254C992B6C.title: "Stockpile 64 Andesite Alloy (let the Mixer do the work)"
@@ -7587,6 +7910,7 @@
 	task.722132713CC253FD.title: "Find: an Illager Windmill"
 	task.722C042E000F784C.title: "Build a Train with at least 6 carriages"
 	task.7324650FFC6DA902.title: "Visit: the Frosted Caves"
+	task.7386C3CB67F740ED.title: "Cast a rite from the Crossings category"
 	task.741D777DB5BF0498.title: "Build a tool with a Manyullyn head"
 	task.7439D01C4FADBAFC.title: "Find: any common IDAS structure"
 	task.7442103CB441E688.title: "Raise your baby into a child"

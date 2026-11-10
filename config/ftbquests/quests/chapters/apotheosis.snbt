@@ -1069,5 +1069,130 @@
 			x: 4.0d
 			y: 5.25d
 		}
+		{
+			dependencies: ["52941ECF410EFD1D"]
+			id: "635F8B45BDC7125F"
+			rewards: [
+				{
+					id: "5AE74C0820F3F634"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "446DB2E74CFE2370"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "7096826003DE3FA3"
+					item: {
+						count: 1
+						id: "apotheosis:gem"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["635F8B45BDC7125F", "17A21750BE9E54F4"]
+			icon: {
+				id: "apotheosis:sigil_of_socketing"
+			}
+			id: "3E9CEC8A06BBB921"
+			rewards: [
+				{
+					id: "651EB81C96255DD8"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "282050971B273BB3"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "35A98152ED6B6E33"
+					type: "checkmark"
+				}
+			]
+			x: 6.0d
+			y: -5.25d
+		}
+		{
+			dependencies: ["52941ECF410EFD1D", "740F35C08AA09BD0"]
+			icon: {
+				id: "apotheosis:gem"
+			}
+			id: "718540D075E61F5B"
+			optional: true
+			rewards: [
+				{
+					id: "1ADAAA98426E287B"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "31FD6FAAF749A13D"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "1340BEAD6567EBAB"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: -4.38d
+		}
+		{
+			dependencies: ["1A213869D5CCF571"]
+			id: "54CE73C565E81594"
+			optional: true
+			rewards: [
+				{
+					id: "273DE685D6DD5AC2"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "61B778B034E13EEA"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 4
+					id: "457C220580D90428"
+					item: {
+						count: 1
+						id: "irons_spellbooks:wisewood_bookshelf"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 3.5d
+		}
 	]
 }

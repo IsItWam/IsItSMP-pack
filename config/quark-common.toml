@@ -80,7 +80,7 @@
 		#List of changes to apply to repair items, format is "<item>=<repair_item>" as seen in the defualt.
 		#Multiple repair items can be applied for the same base item, and as long as at least one is provided, any vanilla option will be removed.
 		#To use multiple items, comma separate them (e.g. "minecraft:diamond_sword=minecraft:diamond,minecraft:emerald")If you want the vanilla option back, you must add it again manually.
-		"Repair Item Changes" = ["minecraft:netherite_sword=minecraft:diamond", "minecraft:netherite_pickaxe=minecraft:diamond", "minecraft:netherite_axe=minecraft:diamond", "minecraft:netherite_shovel=minecraft:diamond", "minecraft:netherite_hoe=minecraft:diamond", "minecraft:netherite_helmet=minecraft:diamond", "minecraft:netherite_chestplate=minecraft:diamond", "minecraft:netherite_leggings=minecraft:diamond", "minecraft:netherite_boots=minecraft:diamond"]
+		"Repair Item Changes" = ["minecraft:netherite_sword=minecraft:diamond,minecraft:netherite_ingot", "minecraft:netherite_pickaxe=minecraft:diamond,minecraft:netherite_ingot", "minecraft:netherite_axe=minecraft:diamond,minecraft:netherite_ingot", "minecraft:netherite_shovel=minecraft:diamond,minecraft:netherite_ingot", "minecraft:netherite_hoe=minecraft:diamond,minecraft:netherite_ingot", "minecraft:netherite_helmet=minecraft:diamond,minecraft:netherite_ingot", "minecraft:netherite_chestplate=minecraft:diamond,minecraft:netherite_ingot", "minecraft:netherite_leggings=minecraft:diamond,minecraft:netherite_ingot", "minecraft:netherite_boots=minecraft:diamond,minecraft:netherite_ingot"]
 		"Unrepairable Items" = []
 		"Enable Jei Hints" = true
 

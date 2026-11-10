@@ -1273,5 +1273,79 @@
 			x: 20.0d
 			y: -3.5d
 		}
+		{
+			dependencies: ["254956BC5F50F76C", "7425A921AE761F63"]
+			icon: {
+				id: "isitexpansions:glyph_invoke"
+			}
+			id: "4A875CDF3A76A3A3"
+			rewards: [
+				{
+					id: "130DBD841BE85413"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "40C77137B513A0C1"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "1F0ED2A1CD74CA6F"
+					item: {
+						count: 1
+						id: "isitexpansions:glyph_siphon"
+					}
+					type: "item"
+				}
+				{
+					id: "3675112ED04A4A3D"
+					item: {
+						count: 1
+						id: "isitexpansions:glyph_invoke"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["38D36C2DCF7DE90B", "14DEF8F48EB82AFA"]
+			id: "5492697B284BAF3A"
+			rewards: [
+				{
+					id: "51847BBC4562BF89"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "54C2A660EBE15A22"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "0B804C73E53BF45E"
+					item: {
+						count: 1
+						id: "isitexpansions:thread_sorcery"
+					}
+					type: "item"
+				}
+			]
+			x: 22.0d
+			y: 1.75d
+		}
 	]
 }
