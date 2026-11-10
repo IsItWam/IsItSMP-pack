@@ -2090,16 +2090,16 @@ hash = "4623bbc102dd3b7648a96569a1ab49b868774d46355b305ac40c4c79ad1c74e2"
 metafile = true
 
 [[files]]
-file = "mods/isitcore-3.8.1.jar"
-hash = "e61fd713e3c340a6511f802396096bd1e33dcdbe712f593dbc79ecc9ba58c709"
+file = "mods/isitcore-3.9.0.jar"
+hash = "3f5f8df6f298211a82c7d27e0c7bb38461cd456f8826563fb9ee109c206b07ec"
 
 [[files]]
 file = "mods/isitemi-1.0.0.jar"
 hash = "8bbb284a465c2504ab8e10597692ad3fcd3de6b120793a16ea12aa8c678268ac"
 
 [[files]]
-file = "mods/isitexpansions-1.0.0.jar"
-hash = "cd7048ac232c8f1c1c438f4e5dea99cd9cf8bbd247d900a40412acb18a8820cf"
+file = "mods/isitexpansions-1.1.0.jar"
+hash = "2293704bafd5ae131e3ad73d099fc41c408657cda5fa32323743323cdee257fe"
 
 [[files]]
 file = "mods/isitoptimized-1.0.0.jar"
