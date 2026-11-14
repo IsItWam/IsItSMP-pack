@@ -100,6 +100,10 @@ file = "config/ars_creo-common.toml"
 hash = "873292e97e63271db486fae155def041c722c1eed96c9c5cba718763040f33f7"
 
 [[files]]
+file = "config/ars_elemental-common.toml"
+hash = "86d1ff2d41b4656e3a8bc410b39251d58c6f14d6c27a25daee2de8ab7d4bcc89"
+
+[[files]]
 file = "config/ars_nouveau-client.toml"
 hash = "442e7d4aa8f85dc37e8bfa29a71126b1757056a82cb825e606fae4470a814a56"
 preserve = true
@@ -2100,20 +2104,20 @@ hash = "4623bbc102dd3b7648a96569a1ab49b868774d46355b305ac40c4c79ad1c74e2"
 metafile = true
 
 [[files]]
-file = "mods/isitcore-3.11.0.jar"
-hash = "7eeae7552d34a9889612f8e393e683bc0c3204462b28ac52c632203ec6cf5fdd"
+file = "mods/isitcore-3.12.0.jar"
+hash = "8e1af95a793ec3a3c7a410788e0cd9fda0123bce5c3a81d2afc9c8c62c62baa1"
 
 [[files]]
-file = "mods/isitemi-1.0.0.jar"
-hash = "8bbb284a465c2504ab8e10597692ad3fcd3de6b120793a16ea12aa8c678268ac"
+file = "mods/isitemi-1.1.0.jar"
+hash = "1a512b36a8a1fe06567ddc0f0382e84dcaee1a84a79d56b5888dd3d39efc9eb1"
 
 [[files]]
 file = "mods/isitexpansions-1.2.0.jar"
 hash = "b9092178ccc7f0e5dfedadfa86c9c4e2e54e7e479d642a3e13c5a9294b754d92"
 
 [[files]]
-file = "mods/isitoptimized-1.1.0.jar"
-hash = "fb330ea4e9d83d19d36e85ec86e09ed87c8df5affb1147ce7ad0c8270a496985"
+file = "mods/isitoptimized-1.2.0.jar"
+hash = "aa5519c39354a9505fd31b571e758a4f917bdd617ed3b46aeb543ae2c67bde5f"
 
 [[files]]
 file = "mods/jade-addons-forge.pw.toml"
