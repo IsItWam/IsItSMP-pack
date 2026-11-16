@@ -644,7 +644,7 @@ hash = "19465aef34e1c515728cc91d1f33098ff42fc74248771cefdcbb32a01c9e0229"
 preserve = true
 [[files]]
 file = "config/champions-server.toml"
-hash = "743f5f3765868089d047e1b2d09443fbab65bb920a1047af12bcfe8290b66b1e"
+hash = "a47d46158dadabeb2ac0ffa4087be8aaa59daf901174444a03853df07b1497b5"
 preserve = true
 [[files]]
 file = "config/chat_heads.json5"

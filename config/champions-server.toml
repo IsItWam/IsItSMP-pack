@@ -32,7 +32,7 @@
 
 [loot]
 	#Loot drop entries: tier;modid:item;amount;enchanted;weight
-	lootDrops = ["1;minecraft:iron_ingot;1;false;10", "2;minecraft:gold_ingot;1;false;8", "3;minecraft:diamond;1;false;5", "3;minecraft:emerald;1;false;4", "4;minecraft:diamond;2;true;4", "5;minecraft:netherite_scrap;1;false;2", "5;minecraft:diamond;3;true;3"]
+	lootDrops = ["1;minecraft:iron_ingot;1;false;10", "2;minecraft:gold_ingot;1;false;8", "3;minecraft:diamond;1;false;5", "3;minecraft:emerald;1;false;4", "4;minecraft:diamond;2;false;4", "5;minecraft:netherite_scrap;1;false;2", "5;minecraft:diamond;3;false;3"]
 	#Scale number of loot draws to tier level
 	lootScaling = true
 	#Which loot sources are rolled on champion death:
