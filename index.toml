@@ -2124,8 +2124,8 @@ file = "mods/isitemi-1.2.0.jar"
 hash = "906bed78d03ba2f75f987e0b6c78e36e2ec2aeabc74f928abff03dcdd0f0e32a"
 
 [[files]]
-file = "mods/isitexpansions-1.7.0.jar"
-hash = "c0fcfa88ea84e92c4ad6c3e6db804e303a5bdf633c8f1a6d94e8e2ed672798cf"
+file = "mods/isitexpansions-1.7.1.jar"
+hash = "e51fab3849a3dcf06e1db9dae09e6a97174f7bcbdbe518c13ea150ad4558f79a"
 
 [[files]]
 file = "mods/isitoptimized-1.2.2.jar"
