@@ -2116,8 +2116,8 @@ file = "mods/isitexpansions-1.5.0.jar"
 hash = "f3f946ffc2dc5eac72e01e121479163b8d59f2864016d186f533901759612185"
 
 [[files]]
-file = "mods/isitoptimized-1.2.1.jar"
-hash = "905faeb8584b8aa3f06c41acf6cff49de3305fec9e320c85eab54a309aa5512c"
+file = "mods/isitoptimized-1.2.2.jar"
+hash = "1f8c6c94229cd7f4495540b1c837d52bc741502a67e3e5471338e3be4f293647"
 
 [[files]]
 file = "mods/jade-addons-forge.pw.toml"
