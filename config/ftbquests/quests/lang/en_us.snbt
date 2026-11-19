@@ -3,6 +3,10 @@
 		"Relics and Artifacts: treasure you find, wear and grow"
 	]
 	chapter.000F62E5DFFD2DA3.title: "&6Finders Keepers"
+	chapter.01AFDCEC70D9FF64.chapter_subtitle: [
+		"Just Dyna Things: solar panels, anvils, goo tricks, echoing buddings and the Paradox Mixer"
+	]
+	chapter.01AFDCEC70D9FF64.title: "&dJust Dyna Things"
 	chapter.033C7CE7BD5A1233.chapter_subtitle: [
 		"[Let's Do] Furniture, Hearth \\& Timber and Lili's Pottery"
 	]
@@ -99,6 +103,10 @@
 		"Create, part one: the Andesite Age"
 	]
 	chapter.69644FCDF9770851.title: "&6Spin Cycle"
+	chapter.78FAE4034392E533.chapter_subtitle: [
+		"JDT Extras: machine tiers, upgrade cards, time accelerators, greenhouses and mob machines"
+	]
+	chapter.78FAE4034392E533.title: "&5Just Dire Things Extra"
 	chapter.7DB6325B3E95A2F5.chapter_subtitle: [
 		"Sleepy Hollows: sanity, tombstones and the Horseman"
 	]
@@ -471,6 +479,13 @@
 	]
 	quest.07861D6B36197D41.quest_subtitle: "Shake well before flying"
 	quest.07861D6B36197D41.title: "&eLiquid Lift"
+	quest.078AFD128B9FD899.quest_desc: [
+		"The &ePicker Wand&r (Blazegold, an Eye of Ender, Lapis) lifts a placed block into the wand and puts it down wherever you click next. The &eSwapper Wand&r (Blazegold, an Eye of Ender, Redstone) swaps two blocks in place without breaking either."
+		""
+		"Both are for &bsimple blocks&r. Beds, doors, portals and bedrock are off-limits."
+	]
+	quest.078AFD128B9FD899.quest_subtitle: "Rearranging without a pickaxe"
+	quest.078AFD128B9FD899.title: "&6Pick and Swap"
 	quest.079BC9AC2BB20DCF.quest_desc: [
 		"&eBrass Casing&r, an &eElectron Tube&r and a &eComparator&r make a &6Threshold Switch&r. Put it on a container or tank: when the contents pass the &bupper threshold&r its redstone output flips, and it stays that way until they drop to the &blower threshold&r. Perfect for switching a farm off when the chest is full."
 		""
@@ -687,6 +702,13 @@
 	]
 	quest.0A775AD95E6D4CCC.quest_subtitle: "Recycling, Create-style"
 	quest.0A775AD95E6D4CCC.title: "&ePulp Fiction"
+	quest.0A9A8E3DD18038F7.quest_desc: [
+		"The &6Ticker&r (a Time Wand, 4 Eclipse Alloy, 4 Redstone) speeds up the block in front of its highlighted face, &b16x&r by default, for as long as it has FE and Time Fluid. No clicking, no 30-second timer."
+		""
+		"It only sips a trickle of each, so it's the cheap way to keep one furnace, crop or slow machine on fast-forward."
+	]
+	quest.0A9A8E3DD18038F7.quest_subtitle: "A Time Wand that never gets bored"
+	quest.0A9A8E3DD18038F7.title: "&dClockwork"
 	quest.0AB8D39A75C494F2.quest_desc: [
 		"&6Xaero's Minimap&r sits in the corner from your first second. &bY&r opens its settings, &bB&r makes a new waypoint, &bU&r lists your waypoints and &bZ&r enlarges the map."
 		""
@@ -696,6 +718,15 @@
 	]
 	quest.0AB8D39A75C494F2.quest_subtitle: "Never lose your base again"
 	quest.0AB8D39A75C494F2.title: "&bYou Are Here"
+	quest.0AC3B7F604C36EC1.quest_desc: [
+		"&6Charged&r goos run on &bFE&r instead of food. Craft a goo with its tier's coal, its raw material and a JDT &eTotem of Death Recall&r: Primogel + Primal Coal + Raw Ferricore, Blazebloom + Blaze Ember + Raw Blazegold, VoidShimmer + Voidflame Coal + Celestigem, Shadowpulse + Eclipse Ember + Raw Eclipse Alloy."
+		""
+		"Power it from any side and it stays awake while it has FE, no feeding. Every Charged goo works at &b15x&r Primogel speed, faster than a normal Shadowpulse, while keeping its own tier's list of conversions."
+		""
+		"&7To go up a tier, craft a Charged goo with the next goo's ingredients, or use a Goo Upgrader on it.&r"
+	]
+	quest.0AC3B7F604C36EC1.quest_subtitle: "Goo that eats electricity"
+	quest.0AC3B7F604C36EC1.title: "&bPlug-In Goo"
 	quest.0AEF39213CD751BD.quest_desc: [
 		"&6Oretoises&r are slow, common turtles below Y=0 with ore on their backs: coal, copper, iron, lapis or redstone. &aMine them with a pickaxe&r to get the ore."
 		""
@@ -732,6 +763,15 @@
 	]
 	quest.0B132104F1EBC25F.quest_subtitle: "The goggles never lie"
 	quest.0B132104F1EBC25F.title: "&bSeeing the Current"
+	quest.0B1A583A938A6F5B.quest_desc: [
+		"An &eAdvanced Portal Gun&r, 3 Ender Pearls and a Time Fluid Catalyst make the &6Ultimate Portal Gun&r. It holds &b1,000 buckets&r of Portal Fluid."
+		""
+		"Press &bV&r while holding it for a radial menu of destinations, 12 per page and as many pages as you like. Save where you stand, or type coordinates and pick a dimension."
+		""
+		"&7Typed destinations cost 25 mB per block (at most 25,000 mB) in the same dimension, or a flat 500 mB to another one.&r"
+	]
+	quest.0B1A583A938A6F5B.quest_subtitle: "Saved destinations, no limit"
+	quest.0B1A583A938A6F5B.title: "&dNow You're Thinking With Portals"
 	quest.0B32E4955ADEDD36.quest_desc: [
 		"The &6Gem Cutting Table&r raises a gem one purity. Put in &btwo gems of the same type and purity&r, plus Gem Dust and a rarity material."
 		""
@@ -777,6 +817,13 @@
 	]
 	quest.0BE88EBEB0F77461.quest_subtitle: "Salad, but make it wild"
 	quest.0BE88EBEB0F77461.title: "&aForaging Season"
+	quest.0BEA9337017BE231.quest_desc: [
+		"&6Energized Goo&r is a Shadowpulse (normal or Charged) in the middle of 2 Eclipse Alloy, 2 Time Crystals and 4 Redstone Blocks, or a &eT4 Goo Upgrader&r used on a placed one."
+		""
+		"It's tier 5, needs &bFE&r to stay alive and runs every goo conversion at &b15x&r, like a Charged Shadowpulse."
+	]
+	quest.0BEA9337017BE231.quest_subtitle: "Goo with a power cord"
+	quest.0BEA9337017BE231.title: "&5Tier Five"
 	quest.0C1097AC93AAD244.quest_desc: [
 		"Climb to cloud height (&bY 191 to 196&r) and use an empty &eGlass Bottle&r to catch a &eCloud in a Bottle&r."
 		""
@@ -855,6 +902,13 @@
 	]
 	quest.0DB2693DBE0239B8.quest_subtitle: "The heart of every kitchen"
 	quest.0DB2693DBE0239B8.title: "&6Hot Stuff"
+	quest.0DBD245A9DBB9410.quest_desc: [
+		"The &6Stabilizer&r (4 Eclipse Alloy, a Time Crystal Block, a Simple Swapper, 3 Redstone) keeps the goo sitting &bon top of it&r alive: whenever the goo dozes off, it wakes it for &b1,000 FE&r. Any JDT goo, no food."
+		""
+		"Give it Time Fluid as well and it becomes &benergized&r, which is what a Paradox Mixer needs to stay stable. Jade shows both states."
+	]
+	quest.0DBD245A9DBB9410.quest_subtitle: "No goo naps on its watch"
+	quest.0DBD245A9DBB9410.title: "&bLife Support"
 	quest.0DCAF60678CA88EE.quest_desc: [
 		"After the stomping, &aright-click the pot with an empty &eWine Bottle&r to fill it. Each bottle takes &b3 grapes&r, so &b6 grapes make 2 juices&r."
 		""
@@ -919,6 +973,15 @@
 	]
 	quest.0EEB5BA745048FD1.quest_subtitle: "Friendship, now with paperwork"
 	quest.0EEB5BA745048FD1.title: "Better Together"
+	quest.0F2D5EEADC38F8FE.quest_desc: [
+		"With Just Dyna Things, an awake goo also converts &blower-tier goo&r touching it. A Blazebloom next to a Primogel turns it into a dormant Blazebloom. VoidShimmer converts Blazebloom and Primogel, and Shadowpulse converts all three."
+		""
+		"That's the cheap way to more high-tier goo: one Shadowpulse surrounded by dirt-cheap Primogel makes up to six more, no extra Echo Shards needed. &cIt also converts goo you didn't want converted&r, so keep tiers apart."
+		""
+		"&7Dyna adds three small conversions as well: Mud into Clay and Coarse Dirt into Dirt (any goo), Obsidian into Crying Obsidian (VoidShimmer or better).&r"
+	]
+	quest.0F2D5EEADC38F8FE.quest_subtitle: "Goo makes more goo"
+	quest.0F2D5EEADC38F8FE.title: "&aIt's Spreading!"
 	quest.0F3AAD5F1CE5F6A2.quest_desc: [
 		"&bHold right-click&r with the &eClot of Time&r and you &arewind along the path you just walked&r: a few seconds at first, much longer once it's levelled. The cooldown is as long as the rewind."
 		""
@@ -1009,6 +1072,15 @@
 	]
 	quest.1006FB5375FDC5E4.quest_subtitle: "Mining, minus the mining"
 	quest.1006FB5375FDC5E4.title: "&eDrill, Baby, Drill"
+	quest.10269E5E042B9642.quest_desc: [
+		"The &6Advanced Infusion Machine&r (a Basic Fluid Stabilizer, 4 Gold, 2 Diamonds, 2 Redstone) combines an item, a fluid and FE. An &eApple&r with &b1,000 mB&r of Life Fluid and 500 FE becomes a &eLife Apple&r."
+		""
+		"A Life Apple heals 20 health and adds a tiny &apermanent&r bonus: &b+0.01%&r max health, &b+0.01&r armor and toughness, with extra jumps every 10, 50, 100 and 1,000 apples. There's no cap and it survives death."
+		""
+		"It also makes &aspawn eggs&r: a full stack of a drop that only one mob drops, plus &b64,000 mB&r of Life Fluid and 100,000 FE. The tank needs three Capacity or Fluid Upgrades to hold that much."
+	]
+	quest.10269E5E042B9642.quest_subtitle: "Keeps the reaper away"
+	quest.10269E5E042B9642.title: "&dAn Apple a Day"
 	quest.1032657A4D66A427.quest_desc: [
 		"&6Minecraft Comes Alive&r turns every villager into a &aperson&r: a name, a face, a personality, a mood and a family tree. You can befriend them, marry one, raise children and grow a whole village."
 		""
@@ -1249,6 +1321,15 @@
 	]
 	quest.12F16C4C8F79303C.quest_subtitle: "Master of the Kettle"
 	quest.12F16C4C8F79303C.title: "&6A Hug in a Cup"
+	quest.131F3D2B8EBC052A.quest_desc: [
+		"&eOverclock Upgrade&r (a Blazegold Ingot, 3 Time Crystals, a Clock, 4 Redstone): the machine works every tick, twice per tick, at &c3x&r the energy cost."
+		""
+		"&eUnderclock Upgrade&r (a Ferricore Ingot, 3 Quartz, a Redstone Torch, 4 Redstone): the machine works only every &b40&r ticks, for &a80% less&r energy. Great for things that don't need to hurry."
+		""
+		"They can't go in the same machine. Overclock is also what unlocks the top speed of every time accelerator."
+	]
+	quest.131F3D2B8EBC052A.quest_subtitle: "Faster, or cheaper. Pick one."
+	quest.131F3D2B8EBC052A.title: "&bOverclocked"
 	quest.133255470837DE16.quest_desc: [
 		"A &6Basic Spell Turret&r (4 Source Gems, a Redstone Block, 4 Gold Ingots) casts the spell from a Spell Parchment &bwhen powered by redstone&r, like a magic dispenser. It uses Touch and Projectile spells."
 		""
@@ -1343,6 +1424,15 @@
 	]
 	quest.142F3992E9D10936.quest_subtitle: "Glass, but connected"
 	quest.142F3992E9D10936.title: "&fWindow Dressing"
+	quest.1436F3761972A40C.quest_desc: [
+		"The &6Basic Fluid Stabilizer&r (2 Fluid Upgrades, 2 Polymorphic Catalysts, a Time Fluid Catalyst, 4 Redstone) does fluid drops for you. Put catalysts in its slot and it converts &bone source block in its area&r per operation, every &b40 ticks&r, with no power."
+		""
+		"A Polymorphic Catalyst turns water into Polymorphic Fluid, a Time Fluid Catalyst turns water into Time Fluid. One catalyst per block, same as throwing them, but now a pump can carry the result away."
+		""
+		"&7The Advanced Stabilizer works every 20 ticks on FE. The Basic one is also the core of the Infusion Machine.&r"
+	]
+	quest.1436F3761972A40C.quest_subtitle: "Fluid drops, automated"
+	quest.1436F3761972A40C.title: "&dDrop It Like It's Hot"
 	quest.14487F88E59CB32D.quest_desc: [
 		"The &6Item IO&r is built like the Valve but with &eItem Ports&r. Set it into a tank wall and feed it containers: it &afills or empties them&r against the tank, for example turning glass bottles into water bottles."
 		""
@@ -1427,6 +1517,13 @@
 	]
 	quest.1618F4883C133514.quest_subtitle: "Rocks are not supposed to do that"
 	quest.1618F4883C133514.title: "&dUnidentified Floating Object"
+	quest.16417CB792E32BE1.quest_desc: [
+		"JDT's &ePocket Generator&r, &eFuel Canister&r or &ePotion Canister&r, crafted shapeless with &e4 Eclipse Alloy&r and a &eTime Fluid Catalyst&r, becomes its &6Large&r version. &aWhatever it held carries over.&r"
+		""
+		"The &6Large Pocket Generator&r stores 4x the FE, gets its own Curios slot and a hotkey to open it. The &6Large Fuel Canister&r holds &b40 million&r ticks of fuel. The Large Potion Canister holds 4,000 mB and fills 4 matching potions at a time."
+	]
+	quest.16417CB792E32BE1.quest_subtitle: "Same gear, bigger pockets"
+	quest.16417CB792E32BE1.title: "&ePocket Upgrade"
 	quest.164513214AA6BC3B.quest_desc: [
 		"Put an &eIron Block&r against any face of an awake &6Primogel Goo&r. After &b2 minutes&r it becomes &eRaw Ferricore Ore&r. Mine it and smelt the &eRaw Ferricore&r into &eFerricore Ingots&r."
 		""
@@ -1486,6 +1583,15 @@
 	]
 	quest.16DDA24F87471AB5.quest_subtitle: "Starter, main, dessert. Repeat."
 	quest.16DDA24F87471AB5.title: "&6A Three-Course Affair"
+	quest.16EFFD113B86B933.quest_desc: [
+		"&eCapacity Upgrade&r (4 Celestigem, a Diamond, 4 Redstone): doubles a machine's FE and fluid storage, up to &b3&r per machine. Machines with output pages, like Greenhouses, also gain a page."
+		""
+		"&eRange Upgrade&r (4 Celestigem, 4 Eyes of Ender, a Compass): doubles how big an area a machine can be set to, up to &b2&r."
+		""
+		"&7The Filter Upgrade (Hopper, 4 Iron Bars, 2 Paper, 2 Redstone) adds a row of 9 filter slots, up to 2. Capacity Upgrades go into a lot of recipes later, so expect to make a stack.&r"
+	]
+	quest.16EFFD113B86B933.quest_subtitle: "The cards you'll use most"
+	quest.16EFFD113B86B933.title: "&bBigger, Wider, Better"
 	quest.170CF438E5E50FA4.quest_desc: [
 		"The &6Mechanical Saw&r (Iron Sheets, an Iron Ingot and Andesite Casing) fells whole trees on a contraption or when it faces one."
 		""
@@ -1566,6 +1672,22 @@
 	]
 	quest.182DAA7E87B32C42.quest_subtitle: "Cosy. Slightly damp."
 	quest.182DAA7E87B32C42.title: "&2Crawling in my Bark"
+	quest.18376180693E7099.quest_desc: [
+		"The &eTime Fluid Catalyst&r is a Polymorphic Catalyst and a Time Crystal, shapeless. &aDrop it straight into a water source&r and the water becomes &dTime Fluid&r, no Polymorphic Fluid needed."
+		""
+		"Nearly everything from here on drinks Time Fluid, so also build a &eBig Fluid Tank&r (a Time Fluid Catalyst, 4 Iron, 4 Glass). It holds &b1,000 buckets&r of one fluid: right-click a source to scoop a bucket's worth, sneak-right-click a block to pour one."
+		""
+		"&7Sneak-right-click the air with it to set it to top up the JDT or JDT Extras fluid items in your inventory.&r"
+	]
+	quest.18376180693E7099.quest_subtitle: "Skip the Polymorphic step"
+	quest.18376180693E7099.title: "&dJust Add Water"
+	quest.184A00A65EABAFD9.quest_desc: [
+		"The &6Ferricore Clock&r (4 Ferricore Ingots, 4 Redstone, a Copper Bulb) is a programmable redstone clock. Set its interval in game ticks and choose which of its six faces give out power."
+		""
+		"No more repeater loops, and no more powering the thing next to it by accident."
+	]
+	quest.184A00A65EABAFD9.quest_subtitle: "A redstone clock that behaves"
+	quest.184A00A65EABAFD9.title: "&cTick Tock"
 	quest.18783BA3906145FA.quest_desc: [
 		"A &ePattern&r is a blank wooden stencil. Put &e2 Planks&r and &e2 Sticks&r in a checkerboard to get &b6&r of them."
 		""
@@ -1654,6 +1776,15 @@
 	]
 	quest.1922F54AB5F4305E.quest_subtitle: "Summer, indoors, all year"
 	quest.1922F54AB5F4305E.title: "Glass Half Full"
+	quest.19268468E79AE7C9.quest_desc: [
+		"Right-click an Advanced Time Accelerator with an &eExtended Upgrade&r, or craft it with 4 Celestigem and 4 Diamond Blocks, for the &6Extended Time Accelerator&r: &b1x to 512x&r, &b1024x&r with Overclock, and 8 card slots. It uses five times the Basic's fluid rate."
+		""
+		"&cA thousand extra ticks per tick is a lot of work for the server.&r Everyone on it shares the same TPS, so run it as fast as the job needs and switch it off when the job is done."
+		""
+		"&7JDT Extras schedules the extra ticks with a budget, so a busy server queues them up instead of freezing.&r"
+	]
+	quest.19268468E79AE7C9.quest_subtitle: "Up to 1024x"
+	quest.19268468E79AE7C9.title: "&5Ludicrous Speed"
 	quest.1950DADFFCAFE77B.quest_desc: [
 		"&6Dark Brew&r is brewed on a netherite station from three whiskeys: &eJoJannik&r, &eLilitu Single Malt&r and &eMaggoAllan&r. &cThrow it&r and a &6Booze&r beer elemental bursts out where it lands."
 		""
@@ -1781,6 +1912,13 @@
 	]
 	quest.1B036D50868526B2.quest_subtitle: "Tier II: Magicka Solidificus"
 	quest.1B036D50868526B2.title: "&dStone Taught to Remember"
+	quest.1B3F0A9D7AD68887.quest_desc: [
+		"A &eMineral Survey&r is a Compass, 2 Amethyst Shards and 6 Paper. Right-click with a blank one in any biome to record which ores generate there, with their estimated odds, heights and vein sizes. Right-click a filled one to read it."
+		""
+		"Surveys tell a Mineral Extractor which biome's ores to make, so record the biomes with the ores you want."
+	]
+	quest.1B3F0A9D7AD68887.quest_subtitle: "What's under this biome?"
+	quest.1B3F0A9D7AD68887.title: "&eLay of the Land"
 	quest.1BBF80282594103E.quest_desc: [
 		"&6Nature's Compass&r (a compass ringed with saplings and logs): right-click, choose a biome and press &bStart Search&r. It points the way and the top-left of your screen shows coordinates and distance."
 		""
@@ -1812,6 +1950,15 @@
 	]
 	quest.1C583E591EAE5EDA.quest_subtitle: "Grinding the End down to size"
 	quest.1C583E591EAE5EDA.title: "&eStardust"
+	quest.1C6A9479CD68C07F.quest_desc: [
+		"Make an &eEclipse Alloy Paxel&r first (Smithing Table: Eclipse pickaxe as template, axe as base, shovel as addition). The Paxel, a &eBig Fluid Tank&r and a &eTime Fluid Catalyst&r, shapeless, make the &6Time Multitool&r."
+		""
+		"It digs like a pickaxe, axe and shovel at once, tills and strips on right-click, stores &b500,000 FE&r and takes JDT tool upgrades. It also holds &b1,000 buckets&r of Time Fluid: &bsneak-right-click&r the air to pick a speed from 1x to 1024x. Above 1x, each block costs that many mB."
+		""
+		"&7A short click breaks one block. Hold the button to keep mining.&r"
+	]
+	quest.1C6A9479CD68C07F.quest_subtitle: "Every tool, at every speed"
+	quest.1C6A9479CD68C07F.title: "&dThe Last Tool You'll Need"
 	quest.1CC11A25B1C4AE3E.quest_desc: [
 		"The &6Swivel Bearing&r (wooden slab, Block of Industrial Iron, Cogwheel) grabs the block in front of it; glue on whatever else should swing. Power its cog and that group assembles into its own contraption on a &bphysics joint&r."
 		""
@@ -1977,6 +2124,15 @@
 	]
 	quest.1F2F26A9498356A1.quest_subtitle: "Brass casing, reinforced"
 	quest.1F2F26A9498356A1.title: "&eLocomotive Ambitions"
+	quest.1F45804BE504E6AB.quest_desc: [
+		"Upgrade cards go into JDT Extras machines, and into Just Dire Things machines too. Open the machine and drop a card in an upgrade slot, or &bsneak-right-click&r the machine while holding cards to fill its slots."
+		""
+		"The &eFluid Upgrade&r (a Fluid Canister, 2 Buckets, 2 Gold, 4 Prismarine Crystals) doubles a machine's fluid tank, up to &b3&r per machine. It's also an ingredient in many machines in this chapter, so make a few."
+		""
+		"&7Every card shows its per-machine limit in its tooltip. Overclock and Underclock can't share a machine.&r"
+	]
+	quest.1F45804BE504E6AB.quest_subtitle: "Your first upgrade card"
+	quest.1F45804BE504E6AB.title: "&bCard Tricks"
 	quest.1F57537DD1409C11.quest_desc: [
 		"&aRight-click a fully grown crop&r (wheat, carrots, potatoes, beetroot, nether wart, cocoa) and Quark harvests it and replants it for you. An empty hand works fine."
 		""
@@ -1986,6 +2142,15 @@
 	]
 	quest.1F57537DD1409C11.quest_subtitle: "Grab, replant, repeat"
 	quest.1F57537DD1409C11.title: "&aCrop Til You Drop"
+	quest.1F5D0ADFA49F7E0A.quest_desc: [
+		"The &6Large Greenhouse&r is a Greenhouse with 2 more Eclipse Alloy, a Celestigem, a Time Crystal and 4 Tinted Glass. &cClear a full 3x3x2 space before you place it.&r"
+		""
+		"It holds &b9&r templates, each lane runs at &b9x&r the normal speed, and it uses only a ninth of the Time Fluid per harvest. Pipe templates, Time Fluid and FE into any base-layer face, and pull products out the same way."
+		""
+		"&7Breaking any part of it gives the whole machine back as one item.&r"
+	]
+	quest.1F5D0ADFA49F7E0A.quest_subtitle: "Nine lanes, nine times the speed"
+	quest.1F5D0ADFA49F7E0A.title: "&aThe Glass Farm"
 	quest.1F645E8DC11F634F.quest_desc: [
 		"&6Sleepy Hollows&r adds one haunted biome: a dark pine forest under a black sky, thick with fog, tombstones and glowing pumpkins. It hides a &6Cemetery&r where you can summon the &cHorseman&r."
 		""
@@ -2016,6 +2181,15 @@
 	]
 	quest.1FCE2B65EA6A85A5.quest_subtitle: "It grows on you"
 	quest.1FCE2B65EA6A85A5.title: "&cWart Hunting"
+	quest.1FD779AD05085B8F.quest_desc: [
+		"The &6Ferricore Anvil&r is a vanilla Anvil with 3 Ferricore Ingots on top and a Ferricore Block below. It repairs gear with &eingots&r instead of experience: each &eIron Ingot&r restores &b64&r durability, each &eFerricore Ingot&r &b128&r."
+		""
+		"No XP and no 'Too Expensive!'. Each metal tier of anvil runs on something different, as you'll see next."
+		""
+		"&7Maces can't be repaired on Dyna anvils.&r"
+	]
+	quest.1FD779AD05085B8F.quest_subtitle: "Repairs without the XP bill"
+	quest.1FD779AD05085B8F.title: "&7Anvil, Unchained"
 	quest.20173946B50CB89F.quest_desc: [
 		"Wear the &eKinetic Belt&r and &bhold jump&r in the air to &aglide&r: less gravity, more momentum, softer landings. Its other ability adds extra &bcharm&r slots."
 		""
@@ -2218,6 +2392,15 @@
 	]
 	quest.23A57524B0B4DF33.quest_subtitle: "Love is in the hay"
 	quest.23A57524B0B4DF33.title: "&6Feed and Water"
+	quest.23C02459919926EB.quest_desc: [
+		"First the &6Extended Bio Crusher&r: the Advanced one with 2 Netherite Ingots, 2 Ender Pearls and 4 Diamonds. It has 8 card slots and keeps drops in its own output pages."
+		""
+		"Then the &6Advanced Life Extractor&r: an Extended Bio Crusher with 4 Gold, 2 Diamonds and 2 Redstone. It kills mobs in its area &cwithout any drops&r and turns their health into &dLife Fluid&r, about &b0.5 mB per HP&r."
+		""
+		"&7That's slow, so point it at a busy mob farm. A mob-free way to make Life Fluid comes later.&r"
+	]
+	quest.23C02459919926EB.quest_subtitle: "Health, bottled"
+	quest.23C02459919926EB.title: "&dLiquid Life"
 	quest.23CF6F91CC240BF3.quest_desc: [
 		"Chests in &bforest and jungle biomes&r favour the &eLeafy Mantle&r strongly. It lets you &aslip through leaves&r, land on them safely and heal while you're surrounded by foliage. At relic level 5 it can &acancel a killing blow&r by eating the leaves around you."
 		""
@@ -2259,6 +2442,17 @@
 	]
 	quest.2432B5B63C0D9B38.quest_subtitle: "Patience, in oak"
 	quest.2432B5B63C0D9B38.title: "&6Barrel-Aged"
+	quest.24B98E7AA401BAD1.quest_desc: [
+		"The &eExtended Upgrade&r is 4 Capacity Upgrades, 4 Celestigem and a Diamond Block, so about &c20 Celestigem&r all told."
+		""
+		"&bRight-click&r one of JDT's Advanced machines with it (Block Breaker, Placer, Clicker, Sensor, Swapper, Dropper, Fluid Collector, Fluid Placer) and it becomes the &6Extended&r version in place, &aitems and settings kept&r. The upgrade is used up."
+		""
+		"JDT Extras' own Advanced machines (Senders, Receivers, Life Extractor and others) are crafted instead: Extended Upgrade above the machine in a crafting grid. An Item Collector plus an Extended Upgrade makes the &6Advanced Item Collector&r."
+		""
+		"&7You can also craft an Extended Block Breaker directly, but that recipe eats four Advanced Breakers. Use the upgrade.&r"
+	]
+	quest.24B98E7AA401BAD1.quest_subtitle: "From 4 card slots to 8"
+	quest.24B98E7AA401BAD1.title: "&5Eight Is Great"
 	quest.24C3D397B153516D.quest_desc: [
 		"&6Crabs&r scuttle along beaches and pinch anyone who gets too close. Use a &eWater Bucket&r on one to scoop it up."
 		""
@@ -2745,6 +2939,15 @@
 		"&7The Arcane Platform is a 1:1 swap that can face any direction.&r"
 	]
 	quest.2BDF6905C3B4E487.title: "&6Put It on a Pedestal"
+	quest.2C1C748246B278D9.quest_desc: [
+		"The &6Advanced Time Accelerator&r is a Basic one with 2 Overclock Upgrades, 2 Celestigem and 4 more Time Crystals. You pick the speed: &b1x to 64x&r, or &b128x&r with an Overclock card."
+		""
+		"It costs FE as well as Time Fluid, at twice the Basic's fluid rate, so dial it down when you don't need it."
+		""
+		"&7You'll need these as parts too: the Mineral Extractor, the Loot Fabricator and the Advanced Fluid Stabilizer all have one inside.&r"
+	]
+	quest.2C1C748246B278D9.quest_subtitle: "Now with a speed dial"
+	quest.2C1C748246B278D9.title: "&dTime Is Money"
 	quest.2C24AD98ECDE164B.quest_desc: [
 		"Melt &eIron&r, &eSkyslime Balls&r and &eGrout&r (for Seared Stone) together in a lava-fuelled Smeltery. Each iron ingot, slime ball and half a grout make &b2 Slimesteel Ingots&r."
 		""
@@ -2896,6 +3099,13 @@
 	]
 	quest.2E40C88FD8145F5D.quest_subtitle: "Write your own spells"
 	quest.2E40C88FD8145F5D.title: "&6New Age Librarian"
+	quest.2E74BA3AD5D8BF69.quest_desc: [
+		"The &6Eclipse Alloy Anvil&r (a Celestigem Anvil with 3 Eclipse Alloy and an Eclipse Alloy Block, or Template smithing) repairs with FE like the Celestigem one."
+		""
+		"Pour &dTime Fluid&r into its tank and repairs speed up dramatically, fixing a large share of an item's durability every tick. Badly worn gear comes off it fully repaired almost at once."
+	]
+	quest.2E74BA3AD5D8BF69.quest_subtitle: "The last anvil"
+	quest.2E74BA3AD5D8BF69.title: "&5Good as New"
 	quest.2EA28A2B79770C66.quest_desc: [
 		"&6Fur Armor&r is made from &eLeather&r and &eRabbit Hide&r, with &eFeathers&r on the helmet and chestplate."
 		""
@@ -2990,6 +3200,15 @@
 	]
 	quest.2FF44A4F493D8E70.quest_subtitle: "Fifty shades of tweed"
 	quest.2FF44A4F493D8E70.title: "&dThe Wool Enthusiast"
+	quest.2FFB8D153E25B11A.quest_desc: [
+		"The &6Advanced Gel Generator&r (a Fluid Upgrade, 2 Slime Balls, 4 Gold, 2 Redstone) is an indoor goo. Put a goo block in its goo slot and that goo's food in the food slot (each food item lasts &b2&r conversions), feed it storage blocks, and the goo's results land in its output slots. It runs on FE and refines unrefined fuels piped into its tank too."
+		""
+		"Its trick is the &eFortune Upgrade&r: up to &b8&r per machine, each adding one Fortune level to raw ore and raw coal results for &b5%&r more energy. That beats the flat 3-4 drops of a goo in the world."
+		""
+		"&7A Fortune Upgrade is an Upgrade: Instant Break with 4 Emeralds and 4 Lapis, so it waits until you have Time Crystals.&r"
+	]
+	quest.2FFB8D153E25B11A.quest_subtitle: "A goo you can pipe into"
+	quest.2FFB8D153E25B11A.title: "&aGoo in a Box"
 	quest.303920E5BBBE36C0.quest_desc: [
 		"&6Simple&r machines need &ano power&r and act on the one block in front of them. Each is &e4 Ferricore&r, &eLapis&r, &eRedstone&r and a vanilla part: an Observer and Diamond for the &6Block Breaker&r, a Dispenser and Diamond for the &6Block Placer&r."
 		""
@@ -3085,6 +3304,15 @@
 	]
 	quest.324B57D5A297E8D9.quest_subtitle: "Please mind the gap"
 	quest.324B57D5A297E8D9.title: "&aNext Stop"
+	quest.326C43920D9F152C.quest_desc: [
+		"3 Lapis over Ferricore, Primal Coal and Ferricore makes &b3&r &6Ferricore Solar Panels&r. Each makes up to &b240 FE/t&r, but only in the &bOverworld&r, under open sky, in daytime."
+		""
+		"Panels push their power into blocks touching them and can charge an FE item in their slot. That's four Simple Coal Generators' worth per panel, for free."
+		""
+		"&7Just don't count on it at night.&r"
+	]
+	quest.326C43920D9F152C.quest_subtitle: "Free power, daytime only"
+	quest.326C43920D9F152C.title: "&eHere Comes the Sun"
 	quest.327FC2BEF31968BE.quest_desc: [
 		"The &6Kinetic Battery&r stores rotation. Craft it with a &ePrecision Mechanism&r, a &eBrass Casing&r, Iron Sheets and Redstone."
 		""
@@ -3128,6 +3356,15 @@
 	]
 	quest.340197AD7E06DADA.quest_subtitle: "The pale stone that pays the bills"
 	quest.340197AD7E06DADA.title: "&fKivi Country"
+	quest.3404647AF3B6AEDC.quest_desc: [
+		"Despite the name, &6Creative Goo&r is craftable: 4 Eclipse Alloy, 4 Time Crystals and a &eNether Star&r make &b2&r."
+		""
+		"It &anever dies&r, needs no food and no FE, and converts &binstantly&r: every goo recipe, every tier. Toggle it on and off with any wrench."
+		""
+		"&7Two goos that finish a Netherite Block in a blink. Worth a Wither.&r"
+	]
+	quest.3404647AF3B6AEDC.quest_subtitle: "Creative in name only"
+	quest.3404647AF3B6AEDC.title: "&dInfinite Goo-ness"
 	quest.340AEDBD78F59C0E.quest_desc: [
 		"Craft the &eStaff of Life&r from a &eNether Star&r, an &eEnd Rod&r and the &eScythe&r."
 		""
@@ -3185,6 +3422,24 @@
 	]
 	quest.35189D1844FE9987.quest_subtitle: "Grave goods, gift-wrapped"
 	quest.35189D1844FE9987.title: "&eWhat's in the Bag?"
+	quest.352674262C26FA26.quest_desc: [
+		"The &6Life Synthesis Vat&r is a Large Greenhouse with 3 Eclipse Alloy, a Celestigem and 4 Red Stained Glass. Like the Large Greenhouse it needs a clear &b3x3x2&r space."
+		""
+		"Give it culture media, water and FE and it brews &dLife Fluid&r: 8 Wheat, Carrots or other crops make &b250 mB&r, 4 meat or eggs make &b500 mB&r, and one Golden Apple, Wither Skeleton Skull or Nether Star makes &b1,250 mB&r. Every batch also drinks a bucket of water."
+		""
+		"Time Fluid doubles its speed. Capacity, Fluid and Overclock cards work in it. &7Life Fluid and Life Apples can't be fed back in.&r"
+	]
+	quest.352674262C26FA26.quest_subtitle: "Life Fluid without the killing"
+	quest.352674262C26FA26.title: "&dGrown, Not Slain"
+	quest.358A4ED8DB065471.quest_desc: [
+		"&6Eclipse Alloy Solar Panels&r (3 Sculk Veins over Eclipse Alloy, Eclipse Ember, Eclipse Alloy; 3 per craft) make up to &b11,520 FE/t&r anywhere: no sky, no daylight, any dimension."
+		""
+		"They hate the middle of the world. Output is near full at the &bbuild limit&r or just above &bbedrock&r, about 15% at sea level and almost nothing halfway up. Like Celestigem panels, one ringed by its own kind makes double."
+		""
+		"&7Eclipse Ember comes from a Voidflame Coal Block placed against Shadowpulse Goo.&r"
+	]
+	quest.358A4ED8DB065471.quest_subtitle: "Top of the world, or the very bottom"
+	quest.358A4ED8DB065471.title: "&5Dark Side of the Sun"
 	quest.35AB18A9774726E7.quest_desc: [
 		"&6Ars Nouveau&r is magic you build yourself. You write spells from &dglyphs&r in a spell book and pay for them with &dmana&r. Around that sit &dSource&r (the mod's power), crafting altars, &drituals&r, helpful magical creatures, familiars, magic armor and a boss."
 		""
@@ -3315,6 +3570,15 @@
 	]
 	quest.37B5594D5A0D8BF8.quest_subtitle: "Raid tested, adventurer approved"
 	quest.37B5594D5A0D8BF8.title: "&cRavager Leather"
+	quest.37BCE5CF69AF469D.quest_desc: [
+		"In JDT Extras, &e'glue'&r means goo. The &6Basic Glue Activator&r (2 Iron, 4 Slime Balls, 2 Redstone, no power) watches its area for &cdormant&r goo and wakes it up, using one item of food from its slot each time."
+		""
+		"Fill the slot with that goo's food: &eSugar&r or &eRotten Flesh&r for Primogel, &eNether Wart&r for Blazebloom and so on. It has one food slot, so use one activator per goo type."
+		""
+		"Now the goo's 10% naps no longer stop your farm."
+	]
+	quest.37BCE5CF69AF469D.quest_subtitle: "Well, almost never"
+	quest.37BCE5CF69AF469D.title: "&aNever Feed the Goo Again"
 	quest.38245D9198D238D6.quest_desc: [
 		"&eShadowpulse Goo&r is a &eVoidShimmer Goo&r with &e4 Sculk&r, &e2 Sculk Shriekers&r and &e2 Echo Shards&r. Wake it with &eSculk&r or a &eSculk Catalyst&r."
 		""
@@ -3324,6 +3588,13 @@
 	]
 	quest.38245D9198D238D6.quest_subtitle: "Tier 4, raided from an Ancient City"
 	quest.38245D9198D238D6.title: "&5Echoes of the Deep"
+	quest.382B55226C535339.quest_desc: [
+		"&6Blazegold Solar Panels&r (3 Magma Cream over Blazegold, Blaze Ember, Blazegold; 3 per craft) make up to &b960 FE/t&r and only work &cin the Nether&r, where they need no sky and no daylight."
+		""
+		"Already have Ferricore panels? A &eTemplate: Blazegold&r, the panel and a Blaze Ember in a &6Smithing Table&r upgrade it in place. Every panel tier upgrades the same way, with that tier's template and coal."
+	]
+	quest.382B55226C535339.quest_subtitle: "Solar power without a sun"
+	quest.382B55226C535339.title: "&cNether Sunburn"
 	quest.385535AC640E7952.quest_desc: [
 		"Put a &eDispenser&r between &e3 Iron Ingots&r on top and &e3 Planks&r below to build a &6Cannon&r."
 		""
@@ -3360,6 +3631,17 @@
 	]
 	quest.38AD2602BD4B6E8F.quest_subtitle: "So does every skeleton here"
 	quest.38AD2602BD4B6E8F.title: "&2Every Rose Has Its Thorns"
+	quest.38B66B9A5EDA1E4D.quest_desc: [
+		"The &6Mineral Extractor&r: a &eNether Star&r, an Advanced Time Accelerator, 4 Capacity Upgrades, a Filter Upgrade and 2 Diamond Pickaxes. &cYes, a Nether Star.&r"
+		""
+		"It makes &aore blocks&r from nothing, in the mix that the surveyed biome generates (its own biome if the survey slot is empty). That costs only &b5,000 FE&r per batch."
+		""
+		"&dExperience Fluid&r (from a JDT Experience Holder) doubles each batch, Time Fluid lets you run it faster than 1x. A Filter Upgrade keeps only the ores you want, and one JDT &eSmelter Upgrade&r smelts them on the way out."
+		""
+		"&7If it stops with a stale survey, record that biome again.&r"
+	]
+	quest.38B66B9A5EDA1E4D.quest_subtitle: "No pickaxe, no tunnels"
+	quest.38B66B9A5EDA1E4D.title: "&6Ore From Thin Air"
 	quest.38D36C2DCF7DE90B.quest_desc: [
 		"The &6Alteration Table&r (Scribe's Table + 4 Magebloom Fiber) fits &dThreads&r into your magic armor's slots. Put the armor on the stand, use threads on the tablet, then take the armor off to apply. Use the display with an empty hand to remove a thread."
 		""
@@ -3386,6 +3668,13 @@
 	]
 	quest.39166397EF7810D4.quest_subtitle: "Hello, world (it explodes slightly)"
 	quest.39166397EF7810D4.title: "&aForm, Then Function"
+	quest.39610FAD44F1F1B1.quest_desc: [
+		"The &6Celestigem Anvil&r (a Blazegold Anvil with 3 Celestigem and a Celestigem Block, or Template smithing) repairs with &bFE&r alone. Feed it power from a generator or a solar panel; it stores 10,000 FE."
+		""
+		"Any item with durability works, modded or vanilla, which makes it the comfortable way to keep non-JDT gear going."
+	]
+	quest.39610FAD44F1F1B1.quest_subtitle: "Plug it in, fix it up"
+	quest.39610FAD44F1F1B1.title: "&bPowered Repairs"
 	quest.396CB00A6DB0D678.quest_desc: [
 		"&6Create: Connected&r adds the parts you always wished Create had. Start with gearboxes: a Gearbox plus a &eLarge Cogwheel&r makes a &6Parallel Gearbox&r. Unlike a normal Gearbox, shafts &baround a corner&r keep the same direction (straight through still reverses). A Gearbox plus two Large Cogwheels makes a &6Six-Way Gearbox&r, with shafts on all six sides (top and bottom spin at &bhalf speed&r)."
 		""
@@ -3753,6 +4042,15 @@
 	]
 	quest.3F3A0E2A5C471922.quest_subtitle: "Ten burners in a trench coat"
 	quest.3F3A0E2A5C471922.title: "&6Up in Steam"
+	quest.3F5F4E10B8D40AC1.quest_desc: [
+		"The &6Greenhouse&r is a Crystal Incubator with 2 Eclipse Alloy, a Celestigem, a Time Crystal and 4 Glass. Put up to &b4&r seeds, saplings or flowers in its template slots. &aTemplates are never used up&r, and a bigger stack means more plants growing at once."
+		""
+		"Each harvest costs &b10 FE&r and a little Time Fluid, at a speed you set from 1x to 32x. Built-in recipes cover vanilla crops, Nether Wart, Cocoa and saplings (logs and saplings back). Most modded crops with growth stages are picked up too."
+		""
+		"Capacity Upgrades add output pages, up to 3 Fortune Upgrades add 10% each, and Overclock locks it at 64x."
+	]
+	quest.3F5F4E10B8D40AC1.quest_subtitle: "Crops without the farm"
+	quest.3F5F4E10B8D40AC1.title: "&aGreen Thumb, Purple Fluid"
 	quest.3FC2271EE35AF354.quest_desc: [
 		"Pour &b1 ingot&r of molten &eRose Gold&r over a &eCobweb&r on a Casting Table to get &eSilky Cloth&r."
 		""
@@ -3769,6 +4067,15 @@
 	]
 	quest.3FD8AC3888E73941.quest_subtitle: "The bell tolls for thee"
 	quest.3FD8AC3888E73941.title: "&5Free the End"
+	quest.3FF600B382346C98.quest_desc: [
+		"The &6Eclipse Alloy Wrench&r (4 Eclipse Alloy) works on every JDT and JDT Extras machine. Right-click rotates it. &bSneak-right-click&r picks it up as an item with its items, FE, fluids, cards and settings intact."
+		""
+		"Hold &bLeft Alt&r and scroll while looking at a machine to grow or shrink its area. Or left-click two blocks to mark a box, then left-click machines to give each one that exact area. &bShift-left-click&r clears the box."
+		""
+		"&7The Advanced Machine Settings Copier (JDT's copier and 4 Eclipse Alloy) also copies Auto I/O sides.&r"
+	]
+	quest.3FF600B382346C98.quest_subtitle: "Move machines, keep everything"
+	quest.3FF600B382346C98.title: "&5The Right Tool"
 	quest.4013D7E9497FBA27.quest_desc: [
 		"&6Elevators&r: &e8 Wool&r around an &eEnder Pearl&r. Place two in the same column, up to &b384 blocks&r apart with anything in between. &aJump&r to go up, &asneak&r to go down. No XP cost."
 		""
@@ -4330,6 +4637,13 @@
 	]
 	quest.47C205C11109E2F4.quest_subtitle: "Please keep your voice down"
 	quest.47C205C11109E2F4.title: "&fVow of Silence"
+	quest.47EB8DE9FBA61990.quest_desc: [
+		"The &6Blazegold Anvil&r (a Ferricore Anvil with 3 Blazegold Ingots and a Blazegold Block, or a Template: Blazegold in a Smithing Table) repairs with &chot fluids&r in its tank. It holds 10 buckets."
+		""
+		"&eLava&r works, and JDT's refined fuels go further per bucket: Blaze Ember Fuel &b2.5x&r, Voidflame Fuel &b5.5x&r, Eclipse Ember Fuel &b7.5x&r."
+	]
+	quest.47EB8DE9FBA61990.quest_subtitle: "Lava is a repair kit now"
+	quest.47EB8DE9FBA61990.title: "&cHot Fix"
 	quest.47FF56092BB720BE.quest_desc: [
 		"&eGold Casts&r are reusable. Put a part, or any ingot, on an &bempty&r Casting Table and pour &b1 ingot&r (90 mB) of molten gold over it. &cThe part or ingot is used up&r to make the mold."
 		""
@@ -4564,6 +4878,15 @@
 	]
 	quest.4BA516B829B1A8C8.quest_subtitle: "A castle for the frogs"
 	quest.4BA516B829B1A8C8.title: "&2Croak and Dagger"
+	quest.4BFB2CF7992483AC.quest_desc: [
+		"&6Celestigem Solar Panels&r (3 Ender Pearls over Celestigem, Voidflame Coal, Celestigem; 3 per craft) make up to &b3,840 FE/t&r in &aany dimension, day or night&r, as long as they &bsee the sky&r."
+		""
+		"They like company: a panel with at least 7 of its 8 horizontal neighbors also Celestigem panels makes &bdouble&r. Build them as one big rectangle."
+		""
+		"&7Voidflame Coal comes from a Blaze Ember Block placed against VoidShimmer Goo.&r"
+	]
+	quest.4BFB2CF7992483AC.quest_subtitle: "Day or night, any dimension"
+	quest.4BFB2CF7992483AC.title: "&bStarlight Express"
 	quest.4C35726CB71F147C.quest_desc: [
 		"The &6Mining Complex&r is a deep industrial mine &bburied around y -5&r, in most land biomes. Small Blimp, Abandoned Temple and Thornborn maps lead here."
 		""
@@ -4591,6 +4914,15 @@
 	]
 	quest.4C639D14F3E912F6.quest_subtitle: "Stone, but with personality"
 	quest.4C639D14F3E912F6.title: "&7Rock Collection"
+	quest.4C6B8A16D0C1872D.quest_desc: [
+		"Each Basic machine has an &6Advanced&r version: the Basic one in the middle, &e4 Gold&r, &e2 Diamonds&r and &e2 Redstone&r around it. Advanced machines &crun on FE&r and get speed controls."
+		""
+		"With an &eOverclock Upgrade&r installed and Auto I/O on, Senders and Receivers skip their own slots and move up to &b10,000&r items per operation straight from source to target."
+		""
+		"&7An Energy Transmitter from the main JDT chapter powers a room full of these without a single cable.&r"
+	]
+	quest.4C6B8A16D0C1872D.quest_subtitle: "Basic, now with power"
+	quest.4C6B8A16D0C1872D.title: "&6Plugged In"
 	quest.4C76C2E33FB50717.quest_desc: [
 		"&ePacking Tape&r is a slime ball and paper. Use it on a Sophisticated chest, then break the chest: it drops as &aone item with everything still inside&r."
 		""
@@ -4623,6 +4955,15 @@
 	]
 	quest.4CB92BC5D0E301B8.quest_subtitle: "Tow, moor, zipline"
 	quest.4CB92BC5D0E301B8.title: "&eLearning the Knots"
+	quest.4CE79711A28AAEBF.quest_desc: [
+		"Use a &eTime Crystal Block&r instead of the amethyst and you get an &6Echoing Budding Time&r. It grows &dTime Crystal&r clusters on the same diet of Time Fluid and FE, &awith no trips through three dimensions&r and no charge to run out."
+		""
+		"As with any Time Crystal, only a full &eTime Crystal Cluster&r drops a crystal, so let them finish."
+		""
+		"&7It costs 9 Time Crystals to make and can't be picked back up, but it pays them back for good.&r"
+	]
+	quest.4CE79711A28AAEBF.quest_subtitle: "No more dimension hopping"
+	quest.4CE79711A28AAEBF.title: "&dTime After Time"
 	quest.4CF40A0188CA3080.quest_desc: [
 		"&6Create: Structures Arise&r scatters &b28&r Create-themed builds across the world: lost train stations, windmills, sky villages, a steampunk pillager airship and more. They are &crare&r, so keep your eyes open."
 		""
@@ -4675,6 +5016,17 @@
 	]
 	quest.4E0D3D26FD663A8D.quest_subtitle: "Majestic. Also full of zombies."
 	quest.4E0D3D26FD663A8D.title: "&fThe Unicorn Rides the Waves"
+	quest.4E2563A3F8CEB0B1.quest_desc: [
+		"The &6Paradox Mixer&r is built around a whole &eParadox Machine&r, with 4 Eclipse Alloy and &e4 buckets of Portal Fluid&r. It does JDT's fluid drops in a tank: fill it with the input fluid, put catalysts in its slots, and each catalyst converts a bucket."
+		""
+		"Water + Polymorphic Catalyst gives Polymorphic Fluid, Polymorphic Fluid + Time Crystal gives Time Fluid, and the three unrefined fuels and Unstable Portal Fluid work the same way."
+		""
+		"It's &cunstable&r: it only works while sitting on an &benergized Stabilizer&r (FE plus Time Fluid), and Jade warns you when it isn't."
+		""
+		"From a lump of Primogel to a machine that stirs paradoxes into fluids. Dyna would be proud."
+	]
+	quest.4E2563A3F8CEB0B1.quest_subtitle: "Fluid drops by the tankful"
+	quest.4E2563A3F8CEB0B1.title: "&5Paradox, Mixed"
 	quest.4E56B30212417FCC.quest_desc: [
 		"Put a &eBlock of Primal Coal&r against &6Blazebloom Goo&r and it becomes ore that drops &eBlaze Ember&r: &b14,400&r ticks of burn time, &b240 FE/t&r in the coal generator."
 		""
@@ -4739,6 +5091,15 @@
 	]
 	quest.4F652B79BBCA3F4B.quest_subtitle: "Plant it and keep your head"
 	quest.4F652B79BBCA3F4B.title: "&dFlag of Fortitude"
+	quest.4F695ADCD6BB4B92.quest_desc: [
+		"The &6Crystal Incubator&r (an Extended Item Receiver, 2 Range Upgrades, a Time Crystal, a Time Fluid Catalyst) finds the budding blocks in its area, makes them grow faster with Time Fluid and FE (&b1x to 512x&r), and &aharvests finished clusters&r into its 9 output slots."
+		""
+		"It works on Budding Amethyst, Just Dyna Things' Echoing Buddings and other blocks tagged as budding. Up to &b8&r Fortune Upgrades, or one &ePrecision Upgrade&r (Ore Miner upgrade, Amethyst, Lapis) for Silk Touch, change what the clusters drop. Not both."
+		""
+		"&7One Budding Amethyst from a geode plus this is a renewable amethyst farm.&r"
+	]
+	quest.4F695ADCD6BB4B92.quest_subtitle: "Budding blocks, on fast-forward"
+	quest.4F695ADCD6BB4B92.title: "&dCrystal Clear"
 	quest.4F93A59DF7E5C23F.quest_desc: [
 		"The &6Empty Fan Catalyst&r (a ring of 4 Brass Ingots and 4 Iron Bars) is a tidy fan-processing block. Fill it and the fan processes as if it blew through the real thing, with &ano flowing water and no fire spread&r."
 		""
@@ -5020,6 +5381,15 @@
 	]
 	quest.5391A904E11F1D99.quest_subtitle: "Beach barbecue"
 	quest.5391A904E11F1D99.title: "&6Flame Grilled"
+	quest.5399F733D563F018.quest_desc: [
+		"The &6Basic Item Sender&r (an Iron Ingot, 2 Chests, 2 Redstone) pushes the items inside it into &aevery container in its area&r. The &6Basic Item Receiver&r (the same with 2 Hoppers) does the reverse and pulls from every container in its area into itself."
+		""
+		"Set the area in the GUI like a JDT Advanced machine, then use &bAuto I/O&r to feed the Sender from a chest beside it, or to empty the Receiver into one. Neither needs power. Both move up to &b64&r items per operation."
+		""
+		"&7Fluid Sender and Fluid Receiver versions do the same for tanks. &cIn this version the two share one crafting recipe&7, so the crafting table only ever gives you one of them.&r"
+	]
+	quest.5399F733D563F018.quest_subtitle: "Iron, chests and a little redstone"
+	quest.5399F733D563F018.title: "&6Wireless Hoppers"
 	quest.53A3F76EFD642204.quest_desc: [
 		"The &6Item Collector&r is an unpowered vacuum. Stick it on a chest and it pulls dropped items in its area straight into that inventory, with filters and a speed setting. &7Perfect next to a farm or a Block Breaker.&r"
 		""
@@ -5135,6 +5505,15 @@
 	]
 	quest.554A67577191E5FD.quest_subtitle: "Engineering the End"
 	quest.554A67577191E5FD.title: "&6Assembly Required"
+	quest.5553E4594E3E5142.quest_desc: [
+		"The &6Thermo Generator&r (4 Eclipse Alloy, a Blazegold Ingot, 2 Redstone) makes FE from a &cheat source&r on one side and a &bcoolant&r in its tank. Place it by clicking the heat block: that face becomes its hot side."
+		""
+		"Per tick it makes &b125 x heat x coolant&r FE and uses &b125 / coolant&r mB. Heat: fire 0.5, magma 0.75, lava 1, and JDT's coal blocks: Primal 2.5, Blaze Ember 5.5, Voidflame 7.5, Eclipse Ember 10.5. Coolant: water 1, Polymorphic Fluid 2.5, Time Fluid 5."
+		""
+		"&aThe heat block is never used up.&r A Block of Eclipse Ember and Time Fluid give over &b6,500 FE/t&r for 25 mB a tick."
+	]
+	quest.5553E4594E3E5142.quest_subtitle: "Something hot, something cold, lots of FE"
+	quest.5553E4594E3E5142.title: "&cHeat Exchange"
 	quest.556290828A142A09.quest_desc: [
 		"This plate uses everything you've built. Bake &eRoasted Corn&r on the Stove (two corn and butter), then combine &eany bread&r, &eBacon with Eggs&r and the corn in a crafting table."
 		""
@@ -5162,6 +5541,15 @@
 	]
 	quest.55D7DADD64FCB653.quest_subtitle: "Awakening Empyrite, tier IV"
 	quest.55D7DADD64FCB653.title: "&6Wake the Metal"
+	quest.5604B303D0A41F9C.quest_desc: [
+		"The &6Basic Time Accelerator&r (4 Time Crystals, 4 Copper Blocks, a Fluid Upgrade) speeds up everything in its area at &b16x&r: furnaces, machines, crops, saplings, budding crystals. It uses &dTime Fluid&r only, no FE. An Overclock Upgrade pushes it to &b32x&r."
+		""
+		"&cNo Time Fluid, no acceleration.&r If it can't pay for a tick in full, it skips that tick rather than running slower."
+		""
+		"&7Overlapping accelerators add up their extra ticks: two 16x accelerators on one block give 31x, not 32x.&r"
+	]
+	quest.5604B303D0A41F9C.quest_subtitle: "A Time Wand that never lets go"
+	quest.5604B303D0A41F9C.title: "&dFast Forward"
 	quest.560F42E3CE954E72.quest_desc: [
 		"The &eTrowel&r (a stick and 2 iron ingots) places a &brandom block from your hotbar&r each time you use it."
 		""
@@ -5300,6 +5688,15 @@
 	]
 	quest.5833AAEB90F9F574.quest_subtitle: "Every biome has its vintage"
 	quest.5833AAEB90F9F574.title: "&6Terroir"
+	quest.5847CD3CF494516F.quest_desc: [
+		"Put a &eTime Wand&r in a Smithing Table with a &eTemplate: Eclipse Alloy&r and a &eTime Crystal&r for the &6Advanced Time Wand&r. It holds &b800 buckets&r of Time Fluid and 10 million FE."
+		""
+		"It has four modes: Normal works like the old wand, 2x and 4x skip steps on every click, and Max jumps straight to &b256x&r in one click. Its tooltip shows the current mode."
+		""
+		"&7Sped up the wrong block? The Temporal Stupefy Wand (Blazegold, Quartz, Redstone) clears Time Wand effects.&r"
+	]
+	quest.5847CD3CF494516F.quest_subtitle: "Straight to 256x"
+	quest.5847CD3CF494516F.title: "&dTime Wand, Turbo"
 	quest.58B811E51E1EFE3C.quest_desc: [
 		"&6Just Dire Things&r has no ores. Instead you craft a living &eGoo&r block that slowly &atransforms the storage blocks touching it&r into brand new materials."
 		""
@@ -5416,6 +5813,15 @@
 	]
 	quest.5B77150AEAD3078A.quest_subtitle: "Charm slot, team player"
 	quest.5B77150AEAD3078A.title: "&aShare the Wealth"
+	quest.5B94B08479DF5CBF.quest_desc: [
+		"&6JDT Extras&r builds a whole factory on top of Just Dire Things: wireless item links, &bupgrade cards&r, time accelerators, greenhouses, mob machines and bigger versions of your portable gear."
+		""
+		"Most of its machines come in three tiers. &6Basic&r needs no power. &6Advanced&r runs on &bFE&r and takes &b4&r upgrade cards. &6Extended&r takes &b8&r. Most machines also have an &bAuto I/O&r button for pushing and pulling through their sides."
+		""
+		"Its special recipes (greenhouse crops, infusions, Life Fluid) don't show in EMI here, so this chapter spells them out. Hold &bShift&r on cards and machines to see their limits."
+	]
+	quest.5B94B08479DF5CBF.quest_subtitle: "More machines than Direwolf20 asked for"
+	quest.5B94B08479DF5CBF.title: "&6Just Dire Things Extra"
 	quest.5BD561B1B3C0E7D8.quest_desc: [
 		"A &6Stock Link&r (a &eTransmitter&r on an &eItem Vault&r; the Transmitter is a Lightning Rod, Copper Sheets and Redstone) placed on a Packager adds that chest to a &bnetwork&r with unlimited range. Then craft a &6Stock Ticker&r (&eGlass&r, a Stock Link and a &eGold Ingot&r), right-click your link with it, and place it."
 		""
@@ -5627,6 +6033,15 @@
 	]
 	quest.5F13F342D9539E0D.quest_subtitle: "Pick head, handle, binding"
 	quest.5F13F342D9539E0D.title: "&eSpare Parts"
+	quest.5F312AA393A5C8E7.quest_desc: [
+		"Just Dyna Things teaches Create's &6Mechanical Mixer&r JDT's fluid drops. In a Basin with a bucket of fluid: Polymorphic Catalyst + Water makes &ePolymorphic Fluid&r, a Time Crystal + Polymorphic Fluid makes &dTime Fluid&r, Blaze Ember + Polymorphic Fluid makes Unrefined Blaze Ember Fuel, and a Portal Fluid Catalyst + Polymorphic Fluid makes Unstable Portal Fluid."
+		""
+		"The Voidflame and Eclipse Ember fuels mix the same way from the refined fuel one tier below. No pools and no tossing items: pipe it in, pipe it out. EMI shows these."
+		""
+		"&7Unrefined fuels still need a goo to refine them.&r"
+	]
+	quest.5F312AA393A5C8E7.quest_subtitle: "JDT fluids in a Create Mixer"
+	quest.5F312AA393A5C8E7.title: "&6Shaken, Not Dropped"
 	quest.5F78BB2BB582EE29.quest_desc: [
 		"The &eNetherite Lance&r takes &e3 Netherite Ingots&r, crafted in a normal crafting table (no smithing). It has by far the most durability, &b2550&r, with a solid &b5.5&r attack and a weight of &b2.2&r, a touch heavier than iron."
 		""
@@ -5921,6 +6336,15 @@
 	]
 	quest.630CAF9719FF49E7.quest_subtitle: "Where every circle begins"
 	quest.630CAF9719FF49E7.title: "&5The Willow Altar"
+	quest.63110E90283BFFA8.quest_desc: [
+		"Craft an Extended Upgrade above JDT's Simple Coal Generator for the &6Extended Coal Generator&r: same fuel rules, 8 card slots. The Simple Fuel Generator upgrades the same way."
+		""
+		"The &eGenerator Upgrade&r (a Simple Coal Generator, 4 Blaze Ember, 4 Redstone) makes a coal generator &aburn fuel twice as fast for three times the power&r. It also works in a plain Simple Coal Generator."
+		""
+		"&7The FE values JDT's generators give each fuel now come from a data file, thanks to the small Just Dire Fuels library in the pack. The numbers are the same as before.&r"
+	]
+	quest.63110E90283BFFA8.quest_subtitle: "Same coal, three times the power"
+	quest.63110E90283BFFA8.title: "&6Burn Brighter"
 	quest.632F5292910D7C95.quest_desc: [
 		"Four Iron Sheets around Netherrack make an &6Empty Blaze Burner&r. Take it to the Nether and &bright-click a Blaze&r (or a Blaze spawner) with it to trap one inside. Blazes haunt Nether Fortresses; this pack uses &6YUNG's Better Nether Fortresses&r."
 		""
@@ -5995,6 +6419,13 @@
 	]
 	quest.642E99DCCEF3DAC8.quest_subtitle: "Sticky situations"
 	quest.642E99DCCEF3DAC8.title: "&eArea of Connect"
+	quest.643AA374BF9CA109.quest_desc: [
+		"The &eLight Wand&r (Glowstone on 2 Ferricore Ingots) places invisible &blight blocks&r where you click, and takes them away again, so you can light a cave without a single torch. Point it at a mob to make it &bglow&r for 10 seconds."
+		""
+		"It uses durability. The &eAdvanced Light Wand&r (add a Blazegold Ingot and a Celestigem) runs on FE instead and makes mobs glow for 40 seconds."
+	]
+	quest.643AA374BF9CA109.quest_subtitle: "Torches are so last century"
+	quest.643AA374BF9CA109.title: "&eFiat Lux"
 	quest.6462054B9B70B50C.quest_desc: [
 		"&6Lili's Lucky Lures&r makes the water more interesting. Every few minutes, &bFloating Debris&r, &bFloating Books&r and &bFish Pools&r drift up near players."
 		""
@@ -6056,6 +6487,15 @@
 	]
 	quest.64D46A6A5087692D.quest_subtitle: "Tomatoes are social climbers"
 	quest.64D46A6A5087692D.title: "&aLearning the Ropes"
+	quest.64E7FD292E4E2EB2.quest_desc: [
+		"The &6Reforger&r (a Celestigem, an Amethyst Shard, 2 Lapis, Redstone, 4 Ferricore) changes the block against its &cred face&r into another block, using a &ecatalyst&r from its slot. No power needed."
+		""
+		"&eStone&r + a &eDiamond&r becomes a &arandom stone ore&r, and the Diamond is used up 95% of the time. With a &eCelestigem&r instead it's only used half the time. A Coal or Charcoal Block + Primal Coal becomes Raw Primal Coal, and each Raw coal block + the next coal climbs one tier (Primal, Blaze Ember, Voidflame, Eclipse Ember), using the catalyst half the time."
+		""
+		"&7Add a JDT Block Placer and Block Breaker and it's an ore factory.&r"
+	]
+	quest.64E7FD292E4E2EB2.quest_subtitle: "Stone in, ore out"
+	quest.64E7FD292E4E2EB2.title: "&6Reforged"
 	quest.64EDABE9B7C6CC14.quest_desc: [
 		"Kill a &cWarden&r for a &eWarden Tendril&r, then combine it with an Echoing or Soul-Touched Deepshelf, 4 Sculk and a &eSculk Catalyst&r (both need Silk Touch)."
 		""
@@ -6398,6 +6838,13 @@
 	]
 	quest.6954B6D2CF9DC86D.quest_subtitle: "Seven buckets, one wooden pail at a time"
 	quest.6954B6D2CF9DC86D.title: "&fMilking the Possibilities"
+	quest.696C817245698A35.quest_desc: [
+		"Two cards go in the Bio Crusher's own slots. &eLooting Upgrade&r (4 Diamonds, 4 Gold, Lapis): up to &b6&r, each a &b50%&r chance at one extra full set of drops. &eSharpness Upgrade&r (4 Diamonds, 4 Iron, Flint): &b+5&r damage each, up to 6."
+		""
+		"&7A Bio Crusher that kills a Wither (5%), the Ender Dragon (10%) or an Elder Guardian can drop that boss's Essence. Hold on to those.&r"
+	]
+	quest.696C817245698A35.quest_subtitle: "Bio Crusher cards"
+	quest.696C817245698A35.title: "&cSharper Teeth"
 	quest.69803516A8455E5E.quest_desc: [
 		"Somewhere in the biome stands a &6Cemetery&r: a fenced graveyard with tombs, houses, crypts lined with &6Coffins&r full of loot and, at its centre, a &6Pedestal&r."
 		""
@@ -6611,6 +7058,15 @@
 	]
 	quest.6DB3BA566DE1BE8B.quest_subtitle: "Eight runes, one ring"
 	quest.6DB3BA566DE1BE8B.title: "&7Laying the Foundation"
+	quest.6DCD40591B0202F1.quest_desc: [
+		"The &6Large Mineral Extractor&r is a Life Synthesis Vat surrounded by &e4 Mineral Extractors&r and 4 Celestigem. &cThat's four Nether Stars and more than 50 Time Crystals&r, so a Loot Fabricator running a Wither egg pays for itself here."
+		""
+		"It needs a clear &b3x3x2&r space. Four survey slots merge their biomes' ores into one mix, and it works at &b4x&r the base rate of the small extractor. Experience Fluid, Time Fluid, filters and the Smelter Upgrade work the same."
+		""
+		"Your base now grows its own crops, brews its own life, fabricates its own loot and pulls ore out of thin air. Not bad for some extra things."
+	]
+	quest.6DCD40591B0202F1.quest_subtitle: "The whole factory, in one block"
+	quest.6DCD40591B0202F1.title: "&6Mine Without Mining"
 	quest.6DE8825C081C6E71.quest_desc: [
 		"The Nether hides &6Ancient Battlegrounds&r littered with &eArmor Piles&r. &cMine one and an Ancient Knight climbs out&r."
 		""
@@ -7088,6 +7544,15 @@
 	]
 	quest.76DF13402EC7B00B.quest_subtitle: "No more panic"
 	quest.76DF13402EC7B00B.title: "&5Master Brewer"
+	quest.76E442B49720FCB6.quest_desc: [
+		"A &eGoo Upgrader&r upgrades a goo &awithout picking it up&r: right-click a placed goo and it becomes the next tier. The upgrader is used up."
+		""
+		"Each one is an &eUpgrade: Blank&r with the extras the next goo's recipe uses. &eT1&r (Blaze Powder, Nether Wart, Redstone) makes Blazebloom, &eT2&r (Ender Pearls, Dragon's Breath, End Stone) makes VoidShimmer, &eT3&r (Sculk, Echo Shards, Sculk Shriekers) makes Shadowpulse."
+		""
+		"&7The T4 (Eclipse Alloy, Time Crystals, Redstone Blocks) turns a Shadowpulse into Energized Goo, later in this chapter. Charged goos upgrade the same way.&r"
+	]
+	quest.76E442B49720FCB6.quest_subtitle: "Upgrades in place"
+	quest.76E442B49720FCB6.title: "&aLevel Up, Goo"
 	quest.7723007F047C6ABB.quest_desc: [
 		"The &eFlimsy Journal&r is the cheapest spell book: &e2 Copper Ingots&r, &e6 Paper&r and a &eString&r. It holds &b5 spells&r and gives no bonuses."
 		""
@@ -7117,6 +7582,15 @@
 	]
 	quest.776F8F158580D52D.quest_subtitle: "Rest in pieces"
 	quest.776F8F158580D52D.title: "&cThey're Coming Out of the Ground"
+	quest.777C866FBBF4F9F6.quest_desc: [
+		"&6Just Dyna Things&r is DevDyna's add-on for Just Dire Things: solar panels and anvils in every JDT metal, new goo tricks, a heat-powered generator, budding blocks you feed instead of find, and more time gadgets."
+		""
+		"Its in-game guide needs a mod this pack doesn't have, so this chapter is your manual. Look at Dyna blocks with &bJade&r to see what they're missing (FE, Time Fluid, a Stabilizer), and hold &bShift&r on items for details."
+		""
+		"&7If a broken Dyna machine comes back with leftovers stored inside, craft it alone in a grid to wipe it clean.&r"
+	]
+	quest.777C866FBBF4F9F6.quest_subtitle: "Dyna, not Dire"
+	quest.777C866FBBF4F9F6.title: "&6Just Dyna Things"
 	quest.77AEBFEDC5178921.quest_desc: [
 		"&6Blazes&r spawn in &6Nether Fortresses&r - in this pack those are &6YUNG's Better Fortresses&r: bigger, meaner and full of loot. Kill Blazes for &eBlaze Rods&r."
 		""
@@ -7214,6 +7688,17 @@
 	]
 	quest.78C1FC8FE1CFB362.quest_subtitle: "A house is only as good as its hat"
 	quest.78C1FC8FE1CFB362.title: "&6Raise the Roof"
+	quest.78CAE892CA15E264.quest_desc: [
+		"The &6Loot Fabricator&r: a Nether Star, an Extended Life Extractor, an Extended Block Placer, an Advanced Time Accelerator, a Looting Upgrade and 4 Capacity Upgrades."
+		""
+		"Put up to &b4&r spawn eggs in it. &aThey're templates and never used up&r: each cycle rolls that mob's loot table for &b20 mB&r of Life Fluid, &b5,000 FE&r and a dash of Time Fluid. Up to 3 Looting Upgrades add bonus rolls but raise the fluid cost 50% each."
+		""
+		"Boss eggs cost more (Wither and Elder Guardian 10x, Ender Dragon 100x), and a Wither egg rolls its &eNether Star&r. Infuse a Boss Essence with 64,000 mB of Life Fluid to get one."
+		""
+		"&7The Bio Factory (Loot Fabricator, Blazegold, a Time Crystal, Glass) is the farm-animal version: wool, milk, eggs, honeycomb and more.&r"
+	]
+	quest.78CAE892CA15E264.quest_subtitle: "The spawn egg is the recipe"
+	quest.78CAE892CA15E264.title: "&6Loot Without the Mob"
 	quest.78DFFEFDBCDABCE6.quest_desc: [
 		"A &6Gramophone&r takes &eGold Ingots&r, &eWooden Slabs&r and a &eJukebox&r. Insert a disc and play it. Its horn pulses to the beat."
 		""
@@ -7232,6 +7717,15 @@
 	]
 	quest.7901B3E19A1EB8C8.quest_subtitle: "Take two of these and don't call me"
 	quest.7901B3E19A1EB8C8.title: "&2Bedside Manner"
+	quest.790717AFABAC97A8.quest_desc: [
+		"The &6Phase Box&r (a Celestigem, Tinted Glass and Lapis; 4 per craft) is ethereal glass: right-click it to switch between solid and walk-through."
+		""
+		"The &6Blackhole&r (a Celestigem Block, 4 Ferricore, 2 Buckets, 2 Redstone) is a universal trash can. Items, fluids and FE sent into it simply vanish."
+		""
+		"&7Switch the Blackhole off with redstone and it keeps what it's given instead, a cheap place to park a huge amount of FE or fluid.&r"
+	]
+	quest.790717AFABAC97A8.quest_subtitle: "Glass you can walk through, a hole that eats everything"
+	quest.790717AFABAC97A8.title: "&7Now You See It"
 	quest.79702A2C4DB07E04.quest_desc: [
 		"Build a working machine that moves: a sweeping crop harvester, a tree-felling saw, or a drill bore on a piston."
 		""
@@ -7321,6 +7815,15 @@
 	]
 	quest.7A4EBF0D8803024D.quest_subtitle: "Functional blooms"
 	quest.7A4EBF0D8803024D.title: "&aFlowers That Spend"
+	quest.7A7600B5AE8D1EAB.quest_desc: [
+		"The &6Advanced Bio Crusher&r (a Nether Star, 4 Diamonds, 2 Gold, 2 Iron) kills mobs in its area as a fake player with a Looting weapon. It drops their loot and turns their XP into &dExperience Fluid&r (1 XP = 1 mB). About &b300 FE&r per kill, more for big areas. Modes: Hostile (default), Passive or All."
+		""
+		"&aPlace it directly on top of a mob spawner&r and it takes over: each spawn cycle becomes loot and XP with no mobs at all. Apothic Spawners' modifiers still count."
+		""
+		"&cIt force-kills anything its damage can't finish, bosses included.&r Players are never targeted."
+	]
+	quest.7A7600B5AE8D1EAB.quest_subtitle: "Loot and XP, no swinging"
+	quest.7A7600B5AE8D1EAB.title: "&cMob Grinder Deluxe"
 	quest.7AE7CB08AF8EC092.quest_desc: [
 		"Craft an &6Arcane Core&r and an &6Enchanting Apparatus&r, then &aplace the Apparatus on top of the Core&r."
 		""
@@ -7508,6 +8011,15 @@
 	]
 	quest.7D706AA1BD273D41.quest_subtitle: "Self-serve barbecue"
 	quest.7D706AA1BD273D41.title: "&cFeeding Time"
+	quest.7D8D47EF903362BE.quest_desc: [
+		"An &6Echoing Budding Amethyst&r is crafted, not found: an Amethyst Block (or a Budding Amethyst), an &eEcho Shard&r and a Polymorphic Catalyst, shapeless."
+		""
+		"It grows amethyst clusters on its open faces, paying &b100 mB&r of Time Fluid and &b100 FE&r per growth. Fill it with a bucket or pipes; it holds 10 buckets and 10,000 FE. Jade shows what it's short of."
+		""
+		"&cIt drops nothing when broken&r, so place it where it will live. &7A JDT Extras Crystal Incubator can harvest it and pay its costs for you.&r"
+	]
+	quest.7D8D47EF903362BE.quest_subtitle: "A budding block you can craft"
+	quest.7D8D47EF903362BE.title: "&dEchoes in the Geode"
 	quest.7DC3368D01C65289.quest_desc: [
 		"An &eElectron Tube&r, &eBrass Casing&r and a &eCrafting Table&r in a column make &b3&r &6Mechanical Crafters&r. Place them as a grid facing you and give them rotation."
 		""
@@ -7643,6 +8155,7 @@
 	task.0A3147A92C328B84.title: "Slay: an Illusioner"
 	task.0A79D8E8BD813C8E.title: "Move items into or out of a container with a Funnel"
 	task.0ADDC58892AD918C.title: "Place an Altitude Sensor"
+	task.0AF885FD59696BFC.title: "Mix a JDT fluid in a Create Mechanical Mixer and Basin"
 	task.0B0ADDA009918D47.title: "Hold Left Shift over a relic and research an ability"
 	task.0B9B828DB0B4B543.title: "Crawl inside a Hollow Log"
 	task.0BE7E748ED3A9047.title: "Find: the Mushroom Mines"
@@ -7704,6 +8217,7 @@
 	task.2413DE1A4DFBBE0C.title: "Pick up your first affix item"
 	task.25163858E6643EA7.title: "Rank up a relic"
 	task.2569380FCBB60FD2.title: "Reach 50 hearts with a villager"
+	task.2692D60B439C3FBB.title: "Got it: Basic needs no power, Advanced runs on FE, Extended has 8 card slots"
 	task.26CE7E7DD789D9B6.title: "Find: an Infested Temple"
 	task.26F847A90B4963BF.title: "Wear all four awakened empyrite pieces"
 	task.2709C08291226EFA.title: "Bond a Starbuncle, Whirlisprig or Drygmy as an altar familiar"
@@ -7754,6 +8268,7 @@
 	task.38C9EE461395FEAE.title: "Craft any crib and lay your baby in it"
 	task.38D0A9BE83CC56CC.title: "Rotate a block with the Wrench"
 	task.39641DBC801B66F1.title: "Charge a Budding Time Crystal in the Overworld, the Nether and the End"
+	task.397AB8E47501655F.title: "Let a higher-tier goo convert a lower-tier goo touching it"
 	task.3982F6F610716A30.title: "Place a Water Wheel in flowing water and make it turn"
 	task.39FB6C9F29EDDF19.title: "Slay: the Wither"
 	task.3A6A97A0931F2E8F.title: "Enchant an unenchanted item with a Blaze Enchanter"
@@ -7906,6 +8421,7 @@
 	task.70BC83D64AC13B9F.title: "Level up a relic ability"
 	task.716CAAC8F3416282.title: "Find the Citadel"
 	task.71B9A8956727BE94.title: "Light a dark spot your Shiba points out"
+	task.71D033BCAE3C11D5.title: "Got it: Jade shows what a Dyna block needs, Shift shows the details"
 	task.721A89DA23DB0B5F.title: "Pick up a chest or an animal: sneak + right-click with an empty hand"
 	task.722132713CC253FD.title: "Find: an Illager Windmill"
 	task.722C042E000F784C.title: "Build a Train with at least 6 carriages"
@@ -7950,4 +8466,254 @@
 	task.7F71AE80CCB7E713.title: "Haunt Sand into 16 Soul Sand"
 	task.7F95B6EEA4B71C81.title: "Enter a village"
 	task.7FFA6B07CC59A580.title: "Cast Magicka Solidificus at your tier II altar"
+	chapter.4949483C320996E3.chapter_subtitle: [
+		"IsItCore's Born in Chaos summoning altars: build an altar, set two staffs, call a boss"
+	]
+	chapter.4949483C320996E3.title: "&4Summoning Chaos"
+	quest.0071977BCA1775C9.quest_desc: [
+		"&cDread Hounds&r drop &eMonster Skin&r (not every time) and, now and then, &eGnawed Bones&r. The Dire Hound Leader drops both too."
+		""
+		"Skin goes into the Pack Leader (&b2&r), Nightmares (&b4&r) and Lifestealer (&b1&r) altars; the Pack Leader Altar also takes &b4&r Gnawed Bones."
+	]
+	quest.0071977BCA1775C9.quest_subtitle: "Dread Hounds, dreadfully useful"
+	quest.0071977BCA1775C9.title: "&eHound Hides"
+	quest.04411D32D0BC20BA.quest_desc: [
+		"&eDark Metal&r starts as &ePieces of Dark Metal&r, dropped by &cSkeleton Thrashers&r, &cBonescallers&r, &cDoor Knights&r, &cZombie Bruisers&r and &cBarrel Zombies&r."
+		""
+		"&aBlast&r a Piece into a &eNugget&r (9 Nuggets make an &eIngot&r), or craft 9 Pieces into a &ePile&r and blast that straight into an Ingot."
+		""
+		"The Chaos Altar needs an Ingot and two Nuggets; Bone Handles and the Transformative Flower use Nuggets too."
+	]
+	quest.04411D32D0BC20BA.quest_subtitle: "Forged from bits and pieces"
+	quest.04411D32D0BC20BA.title: "&eHeavy Metal"
+	quest.06243EAB3DA7277C.quest_desc: [
+		"Every &6Chaos Staff&r needs a &eFused Bone&r, and only &cSiamese Skeletons&r drop one: every kill gives you a bone."
+		""
+		"A summoning takes two staffs, so bring home two."
+	]
+	quest.06243EAB3DA7277C.quest_subtitle: "Siamese Skeletons share more than a spine"
+	quest.06243EAB3DA7277C.title: "&eTwo Heads, One Bone"
+	quest.0D554F8D8413AE03.quest_desc: [
+		"A Chaos Altar with &b2&r Fangs of the Hound Leader, &b4&r Monster Skin, the Transformative Flower and an Ethereal Spirit."
+		""
+		"It summons the &cNightmare Stalker&r. No lightning for this one: the altar breaks with its scream."
+	]
+	quest.0D554F8D8413AE03.quest_subtitle: "Don't look behind you"
+	quest.0D554F8D8413AE03.title: "&6Altar of Nightmares"
+	quest.142E53CFDC3FADF0.quest_desc: [
+		"&ePermafrost Shards&r drop from &cKrampus Henchmen&r, about one kill in eight. They still roam even though Krampus doesn't."
+		""
+		"&eSpiritual Gingerbread&r: craft &eSpiritual Dust&r with two Wheat for two cookies. Dust drops from &cBonescallers&r, or craft an Ethereal Spirit with three Bone Meal for six."
+		""
+		"The Krampus Altar also takes &b2&r Chains and a Block of Coal (what else would he bring?)."
+	]
+	quest.142E53CFDC3FADF0.quest_subtitle: "Frost and gingerbread"
+	quest.142E53CFDC3FADF0.title: "&eNaughty List"
+	quest.160C82104DF1EAFB.quest_desc: [
+		"Put a &eSeed of Chaos&r in a &6Brewing Stand&r over a &bWater Bottle&r to brew a &eChaos Component&r."
+		""
+		"It's one of nine ingredients in the &eTransmuting Elixir&r."
+	]
+	quest.160C82104DF1EAFB.quest_subtitle: "Seed, meet water"
+	quest.160C82104DF1EAFB.title: "&dBrewing Chaos"
+	quest.19AD410F31362248.quest_desc: [
+		"&eEthereal Spirits&r go into every staff (&b4&r each) and every altar (&b1&r each), so you'll want a lot of them."
+		""
+		"They drop from Born in Chaos's spirits: &cSpirits of Chaos&r, &cRestless Spirits&r, &cDark Vortexes&r, &cSpirit Guides&r and &cInfernal Spirits&r."
+		""
+		"&7Spirits fade away in sunlight, so this is a night job.&r"
+	]
+	quest.19AD410F31362248.quest_subtitle: "Bottled-up ghosts, more or less"
+	quest.19AD410F31362248.title: "&eSpirit Collector"
+	quest.1E155B70A8EC8B8B.quest_desc: [
+		"&eFel Soil&r is four &eSmoldering Infernal Embers&r crafted together. Embers drop from the pumpkin crowd: &cPumpkin Dunces&r, &cPumpkin Bruisers&r, &cInfernal Spirits&r and &cPumpkinheads&r."
+		""
+		"The Chaos Altar stands on three blocks of it. &7Keep a few spare Embers: the Lord Pumpkinhead Altar wants four more.&r"
+	]
+	quest.1E155B70A8EC8B8B.quest_subtitle: "Still warm"
+	quest.1E155B70A8EC8B8B.title: "&eFel Ground"
+	quest.1F224A28D41D8CC2.quest_desc: [
+		"A &eTransformative Flower&r is a &eSeed of Chaos&r with &b3&r Dark Metal Nuggets around it."
+		""
+		"It's the heart of the Altar of Nightmares. Seeds of Chaos come from &cBonescallers&r, &cSpirits of Chaos&r and &cFallen Chaos Knights&r."
+	]
+	quest.1F224A28D41D8CC2.quest_subtitle: "Pretty, in a metal sort of way"
+	quest.1F224A28D41D8CC2.title: "&eFlower of Chaos"
+	quest.28808C8CABAC597D.quest_desc: [
+		"The &6Chaos Altar&r is &b3&r Fel Soil, a Bone Block, &b2&r Dark Rods, a Dark Metal Ingot and &b2&r Dark Metal Nuggets."
+		""
+		"On its own it summons nothing. It's the base of every boss altar: craft it together with a boss's ingredients to make that boss's altar."
+		""
+		"&7Each summoning uses up one altar, so each fight costs a fresh Chaos Altar.&r"
+	]
+	quest.28808C8CABAC597D.quest_subtitle: "Every ritual starts here"
+	quest.28808C8CABAC597D.title: "&6The Chaos Altar"
+	quest.2941809217FD7864.quest_desc: [
+		"A Chaos Altar with &b2&r Corpse Maggots, a Shattered Skull, &b2&r Ethereal Spirits, an Ominous Bottle and &b2&r Seeds of Chaos."
+		""
+		"It summons the &cMissionary&r."
+	]
+	quest.2941809217FD7864.quest_subtitle: "Calling the preacher"
+	quest.2941809217FD7864.title: "&6Summoner Altar"
+	quest.2A50145C17E4C5DC.quest_desc: [
+		"&cLord Pumpkinhead&r fights in phases: first on his &6Felsteed&r, then on foot, and finally as a &cflying head&r alongside his headless body. A summoned Lord keeps his rarity through every phase."
+		""
+		"The quest counts when his &cflying head&r goes down; that's when the loot drops: his &eSoulbane&r, a &ePumpkin Pistol&r, mountains of candy and a chance at his &eHat&r and &eLamp&r."
+	]
+	quest.2A50145C17E4C5DC.quest_subtitle: "Summon and defeat Lord Pumpkinhead"
+	quest.2A50145C17E4C5DC.title: "&cOff With His Head"
+	quest.2CB890BE0E3A5891.quest_desc: [
+		"The &cDire Hound Leader&r isn't summon-only: he still roams the world with his pack. Hunt one down for his &eFangs&r (&b1-3&r each, plus a pile of Monster Skin)."
+		""
+		"The Altar of Nightmares needs &b2&r Fangs and the Pack Leader Altar &b1&r. Once you have a Pack Leader Altar, you can call him back for more."
+	]
+	quest.2CB890BE0E3A5891.quest_subtitle: "He still hunts the wilds"
+	quest.2CB890BE0E3A5891.title: "&eLeader of the Pack"
+	quest.356FF22D8D5FCACE.quest_desc: [
+		"A &eBone Handle&r is a Dark Rod, a Dark Metal Nugget and a Bone, corner to corner."
+		""
+		"The Lifestealer Altar takes &b4&r, so that's four more Dark Rods from the &cDark Vortexes&r."
+	]
+	quest.356FF22D8D5FCACE.quest_subtitle: "Four Bone Handles"
+	quest.356FF22D8D5FCACE.title: "&eGet a Grip"
+	quest.357097F9BE58DC82.quest_desc: [
+		"&cKrampus&r no longer comes for naughty players on his own. Now he only comes when you call him at his altar."
+		""
+		"His boosted loot includes the &eKrampus Horn&r, &eKrampus's Bag&r and a heap of &ePermafrost Shards&r, enough for the next Krampus Altar and then some."
+	]
+	quest.357097F9BE58DC82.quest_subtitle: "Summon and defeat Krampus"
+	quest.357097F9BE58DC82.title: "&cNot So Jolly"
+	quest.3854F0EAB8B487A0.quest_desc: [
+		"A Chaos Altar with &b2&r Permafrost Shards, &b2&r Spiritual Gingerbread, &b2&r Chains, a Block of Coal and an Ethereal Spirit."
+		""
+		"It summons &cKrampus&r, and the altar breaks with his roar and a burst of snow."
+	]
+	quest.3854F0EAB8B487A0.quest_subtitle: "Chains, coal and cookies"
+	quest.3854F0EAB8B487A0.title: "&6Krampus Altar"
+	quest.397D77840DB2CC92.quest_desc: [
+		"&eCorpse Maggots&r drop from &cCorpse Flies&r, &cCorpse Maggots&r, &cSwarmers&r and &cBloody Gadflies&r."
+		""
+		"An &eOminous Bottle&r drops from &cPillager captains&r (the ones carrying a banner) and turns up in &6Trial Chamber&r vaults."
+		""
+		"The Summoner Altar takes &b2&r Maggots and &b1&r Ominous Bottle."
+	]
+	quest.397D77840DB2CC92.quest_subtitle: "The Missionary has particular tastes"
+	quest.397D77840DB2CC92.title: "&eMaggots and Omens"
+	quest.4292DC83707B0043.quest_desc: [
+		"&6Born in Chaos&r fills the night with horrors. Most of them still roam on their own, but its big bosses don't: the &cMissionary&r, &cNightmare Stalker&r, &cLifestealer&r and &cKrampus&r only appear when someone &dsummons&r them. &6IsItCore&r's summoning altars (designed by Hawk) are how you do that."
+		""
+		"Two more altars call bosses that also still turn up the old way: &cLord Pumpkinhead&r and the &cDire Hound Leader&r."
+		""
+		"A summoned boss is an &6Apotheosis&r invader at your &bworld tier&r's best rarity, never below &9Rare&r, and drops its loot &a4-5 times over&r. This chapter walks you through gathering, building and the ritual."
+	]
+	quest.4292DC83707B0043.quest_subtitle: "They don't come to you anymore"
+	quest.4292DC83707B0043.title: "&4Summoning Chaos"
+	quest.43853432BDF4C9C0.quest_desc: [
+		"A &6Chaos Staff&r is a Fused Bone, &b4&r Ethereal Spirits, &b2&r Dark Rods and &b2&r Amethyst Shards."
+		""
+		"Staffs are the keys to every altar: a summoning takes &btwo&r, and the ritual &cuses them up&r. They stack to 16, so make a few at once."
+	]
+	quest.43853432BDF4C9C0.quest_subtitle: "One of two keys"
+	quest.43853432BDF4C9C0.title: "&6The Chaos Staff"
+	quest.43BC7C132A46501D.quest_desc: [
+		"Summon the &cLifestealer&r at its altar. Beat it once and it doesn't die: it rises again in its &4true form&r, keeping its rarity and its grudge against you."
+		""
+		"Only the true form counts for this quest, and only the true form drops the loot (&eSeeds of Chaos&r, &eLifestealer Bones&r, Dark Metal and a rare &eLifestealer Skull&r), boosted &a4-5x&r."
+		""
+		"Bring your best gear, plenty of healing, and friends if you have them. Beat it and you've mastered the summoning altars."
+	]
+	quest.43BC7C132A46501D.quest_subtitle: "Beat the Lifestealer, then beat it again"
+	quest.43BC7C132A46501D.title: "&4Life, Stolen Back"
+	quest.4D375649027832C8.quest_desc: [
+		"The &cNightmare Stalker&r no longer stalks anyone on its own: it only comes to its altar."
+		""
+		"It hits hard and fast. Bring good armor, a strong weapon and healing. Its boosted loot includes plenty of &eMonster Skin&r, so the hound altars get cheaper afterward."
+	]
+	quest.4D375649027832C8.quest_subtitle: "Summon and slay the Nightmare Stalker"
+	quest.4D375649027832C8.title: "&cNightmare Fuel"
+	quest.4D95FD47C16350D4.quest_desc: [
+		"&eDark Rods&r only come from &cDark Vortexes&r, which drop &b1-2&r per kill (plus an Ethereal Spirit)."
+		""
+		"The Chaos Altar takes &b2&r, each Chaos Staff takes &b2&r, and the Lifestealer's Bone Handles want more later. Six gets you through your first summoning."
+	]
+	quest.4D95FD47C16350D4.quest_subtitle: "Dark Rods don't grow on trees"
+	quest.4D95FD47C16350D4.title: "&eInto the Vortex"
+	quest.51549C6C1D273688.quest_desc: [
+		"Set two Chaos Staffs on the &6Pack Leader Altar&r and the &cDire Hound Leader&r answers with a howl."
+		""
+		"Summoned, he's an Apotheosis invader with boosted loot: lots of &eMonster Skin&r and &eFangs&r for your next altars. &7A wild one counts for this quest too.&r"
+	]
+	quest.51549C6C1D273688.quest_subtitle: "Summon (or hunt) a Dire Hound Leader"
+	quest.51549C6C1D273688.title: "&cAlpha Dog"
+	quest.5787B68E7782F3CC.quest_desc: [
+		"&eRotten Infernal Pumpkins&r drop from &cPumpkin Bruisers&r, about one in eight."
+		""
+		"&eSmoldering Infernal Embers&r come from the whole pumpkin crowd: Pumpkin Dunces, Bruisers, Infernal Spirits and Pumpkinheads."
+		""
+		"The Lord Pumpkinhead Altar takes &b2&r Pumpkins and &b4&r Embers."
+	]
+	quest.5787B68E7782F3CC.quest_subtitle: "Pumpkins and embers"
+	quest.5787B68E7782F3CC.title: "&eRotten to the Core"
+	quest.590E818316F1701A.quest_desc: [
+		"A Chaos Altar with &b4&r Gnawed Bones, &b2&r Monster Skin, a Fang of the Hound Leader and an Ethereal Spirit."
+		""
+		"It summons the &cDire Hound Leader&r. You've already met him in the wild, which makes him a good first ritual."
+	]
+	quest.590E818316F1701A.quest_subtitle: "Here, boy"
+	quest.590E818316F1701A.title: "&6Pack Leader Altar"
+	quest.5B1897B5E08BBC66.quest_desc: [
+		"The &cMissionary&r no longer turns up on its own; it only answers the &6Summoner Altar&r."
+		""
+		"It fights like an Apotheosis vindicator. Its boosted loot is full of Born in Chaos &eCharms&r, Ethereal Spirits and Dark Metal, and sometimes an &eOrb of the Summoner&r."
+	]
+	quest.5B1897B5E08BBC66.quest_subtitle: "Summon and defeat the Missionary"
+	quest.5B1897B5E08BBC66.title: "&cSermon's Over"
+	quest.5DD83DFEC1B1A210.quest_desc: [
+		"A Chaos Altar with &b4&r Smoldering Infernal Embers, &b2&r Rotten Infernal Pumpkins, the Transmuting Elixir and an Ethereal Spirit."
+		""
+		"It summons &cLord Pumpkinhead&r, and the altar breaks with his laugh and a burst of flames."
+	]
+	quest.5DD83DFEC1B1A210.quest_subtitle: "A throne of embers"
+	quest.5DD83DFEC1B1A210.title: "&6Lord Pumpkinhead Altar"
+	quest.6115436583684410.quest_desc: [
+		"A Chaos Altar with &b4&r Bone Handles, a Shattered Skull, a Monster Skin, a Seed of Chaos and an Ethereal Spirit."
+		""
+		"It summons the &cLifestealer&r, the toughest fight in this chapter. Save it for last."
+	]
+	quest.6115436583684410.quest_subtitle: "Crowned with a skull"
+	quest.6115436583684410.title: "&6Lifestealer Altar"
+	quest.6B1825E2C3DA52F1.quest_desc: [
+		"How a summoning works:"
+		"&b1.&r Craft a Chaos Altar into a boss's altar, then &aplace it&r somewhere you're ready to fight."
+		"&b2.&r &aRight-click&r it with a Chaos Staff to set it on a dark rod. Changed your mind? &bSneak-right-click&r with an empty hand takes it back."
+		"&b3.&r The &bsecond&r staff starts the ritual: red energy pours from the rods into the altar for &b3 seconds&r."
+		"&b4.&r The altar breaks in lightning or its boss's scream, and the boss appears on the spot, &cangry at you&r."
+		""
+		"The altar and both staffs are used up. The boss is an &6Apotheosis&r invader at your world tier's best rarity (&9Rare&r at least: Haven &9Rare&r, Frontier and Ascent &5Epic&r, Summit and Pinnacle &6Mythic&r), keeps its own name in its rarity's color, never despawns, and drops its loot &a4-5 times&r."
+		""
+		"&7Right-click an altar with an empty hand to see how many staffs are on it. Mine one with a pickaxe and it drops its staffs back.&r"
+	]
+	quest.6B1825E2C3DA52F1.quest_subtitle: "Read this before you light the candles"
+	quest.6B1825E2C3DA52F1.title: "&dThe Ritual"
+	quest.6DA3D25152900456.quest_desc: [
+		"&eShattered Skulls&r drop from &cSkeleton Thrashers&r, &cDecrepit Skeletons&r, &cBonescallers&r and &cSpirit Guides&r. A &ePile of Skulls&r breaks down into four."
+		""
+		"&eSeeds of Chaos&r drop from &cBonescallers&r, &cSpirits of Chaos&r and &cFallen Chaos Knights&r."
+		""
+		"The Summoner Altar takes a Skull and &b2&r Seeds; the Lifestealer Altar a Skull and &b1&r Seed. Seeds also make the Transformative Flower and the Chaos Component."
+	]
+	quest.6DA3D25152900456.quest_subtitle: "Bonescallers have both"
+	quest.6DA3D25152900456.title: "&eSkulls and Seeds"
+	quest.796F63BC4107EA15.quest_desc: [
+		"A shapeless craft of nine things: the &eChaos Component&r, a &eSculk Catalyst&r, &eChorus Fruit&r, &eBlaze Powder&r, a &eDiamond&r, a &eTurtle Scute&r, a &eTorchflower&r, &eHoliday Candy&r (pumpkin mobs) and an &eIntoxicating Decoction&r (&cZombie Clowns&r)."
+		""
+		"It goes into the Lord Pumpkinhead Altar. &7The old way still works too: use the Elixir on an Infernal Pumpkin and the Lord comes, just not as an Apotheosis boss and without the boosted loot.&r"
+	]
+	quest.796F63BC4107EA15.quest_subtitle: "Nine ingredients, one bad idea"
+	quest.796F63BC4107EA15.title: "&bThe Transmuting Elixir"
+	task.07235B10750FB23B.title: "Destroy Lord Pumpkinhead's flying head"
+	task.1B00CA98A1348051.title: "Defeat the Missionary"
+	task.22BA2BCEE98D03D5.title: "Defeat the Lifestealer's true form"
+	task.258E0A59FB70F9CD.title: "Got it: two staffs on an altar start the ritual"
+	task.34801449816C5B4D.title: "Got it: Born in Chaos bosses come from altars now"
 }

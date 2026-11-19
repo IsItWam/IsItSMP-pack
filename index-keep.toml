@@ -935,6 +935,10 @@ file = "config/ftbquests/quests/chapters/ars_nouveau.snbt"
 hash = "5d1a2edde2c309bb1b4f9706492fc84135aba7ac88c6305c8e30dcef2241fb2a"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/bic_summoning.snbt"
+hash = "f83819fd070a0bd883861b0167c0fbb1fed7a7ac19b00160b1144592d326aadd"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/create_aeronautics.snbt"
 hash = "e4cc4dd4e94b6b446cff4b3887fc772979ce3db47885a346bafc570f35b3c1b1"
 
@@ -969,6 +973,14 @@ hash = "84ca7ce350deeb5b0de383d3e1ebc4a6c0f73e6dca88c7443880b719efd4f199"
 [[files]]
 file = "config/ftbquests/quests/chapters/just_dire_things.snbt"
 hash = "52d24531327feb09024eef7ff0b359fb803159ab8012fe6469f17f2efb011ad2"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/just_dire_things_extra.snbt"
+hash = "56f7a6ef1e672a62c9e91cf04883f8dc5d0e58fa784d0f2be3cfce25120bcf05"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/just_dyna_things.snbt"
+hash = "eea5981d580dd3e2b58f4f8a288f1e31a73e074a3029ddf548db7afe8b33e7e9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/letsdo_cellar.snbt"
@@ -1036,7 +1048,7 @@ hash = "fd8d7f8fe7bcc28756cdc078ffb6f9dfc5056d6eb9e57f3e42a68b767ee868fa"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "ee2885f09de29a18e7a27219cf5d077bac071d3ac5c9a39e329c0e65e39ef05c"
+hash = "db5b12f5341435bb3e8b268c778c9c4fab0a571e62a8ad87261974b4017bb452"
 
 [[files]]
 file = "config/ftbteams-server.snbt"
@@ -2112,8 +2124,8 @@ file = "mods/isitemi-1.2.0.jar"
 hash = "906bed78d03ba2f75f987e0b6c78e36e2ec2aeabc74f928abff03dcdd0f0e32a"
 
 [[files]]
-file = "mods/isitexpansions-1.5.0.jar"
-hash = "f3f946ffc2dc5eac72e01e121479163b8d59f2864016d186f533901759612185"
+file = "mods/isitexpansions-1.6.0.jar"
+hash = "58310a74b3adb9463ce5c31d7e55152caad7be0757f479a423591a2b2f8d8483"
 
 [[files]]
 file = "mods/isitoptimized-1.2.2.jar"
@@ -2135,6 +2147,11 @@ hash = "4de3e4a1a49e332c1ad313283e0403c4273b628d634c17a9ff0c9da3d6b67f9a"
 metafile = true
 
 [[files]]
+file = "mods/jdte.pw.toml"
+hash = "1296cac8aefa02bd29b2d745a7505c6420537895d267c6a9a2ead0452515ec04"
+metafile = true
+
+[[files]]
 file = "mods/jei-worldgen.pw.toml"
 hash = "655e89ea0bf81c0b5c6685f6547dc845daff83f6d42b9b949016ccb1a8e71d28"
 metafile = true
@@ -2145,8 +2162,18 @@ hash = "f261d9eff7a4d0d5782681c43e95b9f4dc695cd267e5a08ac08e247b2dc6b759"
 metafile = true
 
 [[files]]
+file = "mods/just-dire-fuels.pw.toml"
+hash = "139043c544a1b550ff1d21a5c2316c64470621ea27f3628f91f3f4ef1cff4b38"
+metafile = true
+
+[[files]]
 file = "mods/just-dire-things.pw.toml"
 hash = "fd6d935a0145a7992c3ba365c66f655c65587c9c812db55adab264144e11ce3f"
+metafile = true
+
+[[files]]
+file = "mods/just-dyna-things.pw.toml"
+hash = "ebeff7629775d1c4f38af49b727024dcaf22077d9f710afd592b1fa9e9f4a1e5"
 metafile = true
 
 [[files]]

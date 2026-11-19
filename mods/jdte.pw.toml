@@ -1,0 +1,13 @@
+name = "Just Dire Things Extra"
+filename = "jdte-0.6.5.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ffcdd9d73e0b2ae97f4466ffd3697d7232f4da14"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9664764
+project-id = 1566414
