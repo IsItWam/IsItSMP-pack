@@ -1852,6 +1852,11 @@ hash = "852c173ed7717c15337ecdbd3fbc3dfd55c52178de2500263ef22d0caf21f87b"
 metafile = true
 
 [[files]]
+file = "mods/create-chipped.pw.toml"
+hash = "6554d092672b4c8c926ae07802fc1e1cae1a27ba8b21eb7ded867e00c969f366"
+metafile = true
+
+[[files]]
 file = "mods/create-cobblestone.pw.toml"
 hash = "265c47a67d9e22610bcad5418fcdf0d08fc0f051822d8a744947c97fe451ea53"
 metafile = true
@@ -2116,16 +2121,16 @@ hash = "4623bbc102dd3b7648a96569a1ab49b868774d46355b305ac40c4c79ad1c74e2"
 metafile = true
 
 [[files]]
-file = "mods/isitcore-3.15.0.jar"
-hash = "dec413f84aa6b1d46ed4a7b9274c3773a5c131efb2632ef59f44390de1cdb014"
+file = "mods/isitcore-3.15.1.jar"
+hash = "5a3310b95a36140a6839686c28ca65e00fae21f0f12885e3a75dd986d4fc68cc"
 
 [[files]]
 file = "mods/isitemi-1.2.0.jar"
 hash = "906bed78d03ba2f75f987e0b6c78e36e2ec2aeabc74f928abff03dcdd0f0e32a"
 
 [[files]]
-file = "mods/isitexpansions-1.7.3.jar"
-hash = "bb486dfc589d041ec48ac71404b011aeb68ab9c4e5e3b0f160e5d842d6d11fb0"
+file = "mods/isitexpansions-1.8.0.jar"
+hash = "f220c0b5bfdd2844040e14b52049731fa1b696c2c0cc6ce82e9840e672cc123f"
 
 [[files]]
 file = "mods/isitoptimized-1.2.2.jar"
