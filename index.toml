@@ -2121,8 +2121,8 @@ hash = "4623bbc102dd3b7648a96569a1ab49b868774d46355b305ac40c4c79ad1c74e2"
 metafile = true
 
 [[files]]
-file = "mods/isitcore-3.15.1.jar"
-hash = "5a3310b95a36140a6839686c28ca65e00fae21f0f12885e3a75dd986d4fc68cc"
+file = "mods/isitcore-3.15.2.jar"
+hash = "1c5e3600542c39820810d1b602ed74f0d0f61a8264a67ebe55583e5c1b94199e"
 
 [[files]]
 file = "mods/isitemi-1.2.0.jar"
@@ -2616,8 +2616,8 @@ hash = "e17c86aadf079f1b052446bd590273f6660782213d4a5e26a8ad99ed80190753"
 metafile = true
 
 [[files]]
-file = "mods/wamstweaks-1.9.1.jar"
-hash = "b72a98d090ed82e11733eec1a4b6b3e692cfd793f9d2de3eccb9d5bab87c741e"
+file = "mods/wamstweaks-1.9.2.jar"
+hash = "227f57a3ab312f6fdda1043b1989a1a572b10a5647f46beeae57b651a5955e07"
 
 [[files]]
 file = "mods/waterframes.pw.toml"
