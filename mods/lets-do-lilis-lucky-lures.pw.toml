@@ -1,13 +1,13 @@
 name = "[Let's Do] Lili's Lucky Lures"
-filename = "letsdo-lilis_lucky_lures-neoforge-1.1.5.jar"
+filename = "letsdo-lilis_lucky_lures-neoforge-1.1.6.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/DMDVFZSF/versions/RTFJOHAV/letsdo-lilis_lucky_lures-neoforge-1.1.5.jar"
+url = "https://cdn.modrinth.com/data/DMDVFZSF/versions/ynjA1rrI/letsdo-lilis_lucky_lures-neoforge-1.1.6.jar"
 hash-format = "sha512"
-hash = "8efab457454060db90ff37daa35986a0567927d8b93e365302098329f155736176690d4099e07ab57c85175f31ef808f52fed610edd7e66779d1b77ea40958fa"
+hash = "1b5d2ff2eea918aec27e534306eeff65a568148b83fdf76ca4dce3d05189464167a68d20857bf12635093be9298cd3242602964fe43b78c573c798497d1e882e"
 
 [update]
 [update.modrinth]
 mod-id = "DMDVFZSF"
-version = "RTFJOHAV"
+version = "ynjA1rrI"

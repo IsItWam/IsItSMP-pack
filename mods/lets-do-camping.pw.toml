@@ -1,13 +1,13 @@
 name = "[Let's Do] Camping"
-filename = "letsdo-camping-neoforge-2.1.6.jar"
+filename = "letsdo-camping-neoforge-2.1.7.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/uJXTNuf0/versions/GdYcZwHn/letsdo-camping-neoforge-2.1.6.jar"
+url = "https://cdn.modrinth.com/data/uJXTNuf0/versions/E6IomKUw/letsdo-camping-neoforge-2.1.7.jar"
 hash-format = "sha512"
-hash = "f47a9dac957faea4793d285e45f4d0b5f38815d3049ce7bfd024b765ece4cb2825a303c1132e203db6060c49b5f1c36c85ba65ff0cd2f79d21d392634412e744"
+hash = "3c2aa8de836b46f2a2c15827985ad02e4094557e20cb7c3e80c8e24ae937075f963d7a6bc8f971bb098e34fb340b01c1e03b078280ba60b71df6167fe17e0097"
 
 [update]
 [update.modrinth]
 mod-id = "uJXTNuf0"
-version = "GdYcZwHn"
+version = "E6IomKUw"

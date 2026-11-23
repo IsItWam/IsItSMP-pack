@@ -1,13 +1,13 @@
 name = "[Let's Do Addon] Apple Wood Rebarked"
-filename = "applewoodrebarked-neoforge-1.2.2.jar"
+filename = "applewoodrebarked-neoforge-1.2.3.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/DQXAzWtW/versions/X1MYBM5B/applewoodrebarked-neoforge-1.2.2.jar"
+url = "https://cdn.modrinth.com/data/DQXAzWtW/versions/nYNZlQdi/applewoodrebarked-neoforge-1.2.3.jar"
 hash-format = "sha512"
-hash = "4ea6ab47dc5f98a46379802f34d6436c710ed12fb12d5e1433c42368baa1d72ec9bbc21272df15460914771ac89cf87378de943c92539d5f42ba9c0f085032fc"
+hash = "d7e7a6cc7d085856b9ff1d59d2c78f43f43f21fa3b617e2220e63516b288662896939ce9b1d417420201a81c44e05ac0c96a9f40484d33a2767aa8f43eeca96f"
 
 [update]
 [update.modrinth]
 mod-id = "DQXAzWtW"
-version = "X1MYBM5B"
+version = "nYNZlQdi"

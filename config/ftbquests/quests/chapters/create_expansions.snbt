@@ -1206,5 +1206,201 @@
 			x: 6.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["137C9ABBA5FA43A3"]
+			id: "5EA500EEE621FD7E"
+			rewards: [
+				{
+					count: 2
+					id: "295BE748E0B8F68E"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "4D43476C6EA9C856"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 3
+					id: "62B5E91858289BEB"
+					item: {
+						count: 1
+						id: "bits_n_bobs:lightbulb"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 6.125d
+		}
+		{
+			dependencies: ["5EA500EEE621FD7E", "4FBBF39DD34818BB"]
+			id: "43A58C0EF9932473"
+			rewards: [
+				{
+					count: 2
+					id: "491F352B57207908"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "158223DB8F31E89D"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "45677C18F3148F94"
+					item: {
+						count: 1
+						id: "bits_n_bobs:flywheel_bearing"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 4.375d
+		}
+		{
+			dependencies: ["5EA500EEE621FD7E"]
+			id: "2D8B274B3AD2ED57"
+			rewards: [
+				{
+					count: 2
+					id: "2AF2D00711BF15AB"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "76BCDCAC8E06E77E"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "5733723AFA22AC3A"
+					item: {
+						count: 1
+						id: "bits_n_bobs:red_chair"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 6.125d
+		}
+		{
+			dependencies: ["5EA500EEE621FD7E"]
+			id: "26093A53E177615C"
+			rewards: [
+				{
+					count: 2
+					id: "2AD6E13E59FC12FD"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "5AD029D293840827"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 6
+					id: "4A1A551315A0317D"
+					item: {
+						count: 1
+						id: "bits_n_bobs:girder_strut"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 7.875d
+		}
+		{
+			dependencies: ["43A58C0EF9932473", "1DB21866D2727996"]
+			icon: {
+				id: "minecraft:orange_dye"
+			}
+			id: "03C7EA2CF00C76C2"
+			rewards: [
+				{
+					count: 2
+					id: "2E6ADC2E633AD196"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "1232F933B76A367D"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					advancement: "bits_n_bobs:dye_fluid_component"
+					id: "0E100B7DA62A8993"
+					type: "advancement"
+				}
+			]
+			x: 12.0d
+			y: 4.375d
+		}
+		{
+			dependencies: ["26093A53E177615C"]
+			id: "71F6676E10C39665"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "1D9DB170995C85A6"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "20902A4B0DB2633B"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 8
+					id: "5EBBE768ADF5A5B8"
+					item: {
+						count: 1
+						id: "bits_n_bobs:nixie_board"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 7.875d
+		}
 	]
 }

@@ -1,13 +1,13 @@
 name = "[Let's Do Addon] Corn Expansion"
-filename = "cornexpansion-neoforge-1.3.0.jar"
+filename = "cornexpansion-neoforge-1.3.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/20p2kirx/versions/9ObSSBGu/cornexpansion-neoforge-1.3.0.jar"
+url = "https://cdn.modrinth.com/data/20p2kirx/versions/PFmgoFck/cornexpansion-neoforge-1.3.1.jar"
 hash-format = "sha512"
-hash = "22e6538808e1f45b8fd70be3919a4fa2d4b99edbc0113725939ef446792a410f1b6db497c878a0dfa9abb84f5b40590f538f49daa7f9588be3c1a9ec0a1f82e5"
+hash = "9ae7b81033f1a72166b38a0bfe74f1588c3d70740a62c2154a586942280d49f154c9dfcd11652bd53523210f885783e6818035171a304abb66c57a8a7958c1ed"
 
 [update]
 [update.modrinth]
 mod-id = "20p2kirx"
-version = "9ObSSBGu"
+version = "PFmgoFck"

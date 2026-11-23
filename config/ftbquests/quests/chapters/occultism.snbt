@@ -1,0 +1,1424 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "occultism"
+	group: "1463DB017AD16CD2"
+	icon: {
+		id: "occultism:dictionary_of_spirits"
+	}
+	id: "26AE3F3A8E34173C"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0F8B3C8B95A305EF"
+			min_width: 300
+			tasks: [
+				{
+					id: "438EA36202FF829C"
+					item: {
+						count: 1
+						id: "occultism:dictionary_of_spirits"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0F8B3C8B95A305EF"]
+			id: "64CA538A840121A0"
+			rewards: [
+				{
+					id: "7D6114812967874D"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "1FAF42159A732215"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 4
+					id: "22AC81412C0C5E2A"
+					item: {
+						count: 1
+						id: "occultism:datura"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["64CA538A840121A0"]
+			id: "477121BB9C13C8D4"
+			rewards: [
+				{
+					id: "12A4BB260C812803"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "3FF8A89F57587802"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 16
+					id: "174A9F7FA0C51BAA"
+					item: {
+						count: 1
+						id: "occultism:otherstone"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "26896222DB396F06"
+					item: {
+						count: 1
+						id: "occultism:spirit_attuned_gem"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["477121BB9C13C8D4"]
+			id: "79AA3949C9E0323B"
+			rewards: [
+				{
+					id: "13F326644CEEBD92"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "0CBCCAFE722596C7"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "4DCB7BD6E8665EAD"
+					item: {
+						count: 1
+						id: "occultism:chalk_white"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["477121BB9C13C8D4"]
+			id: "40E496C0039953C9"
+			rewards: [
+				{
+					id: "786D4F400B6FF72B"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "4B26BB519A091865"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "0CC16F5B6F217C71"
+					item: {
+						count: 1
+						id: "occultism:golden_sacrificial_bowl"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4C4C38DBCA5AE82A"
+					item: {
+						count: 1
+						id: "occultism:sacrificial_bowl"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5FFA36FF7942A2F3"
+					item: {
+						count: 1
+						id: "occultism:large_candle"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["477121BB9C13C8D4"]
+			id: "4319B4E8D4F34720"
+			rewards: [
+				{
+					id: "32CF86057C2A216D"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "51217AEB57AFD006"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "119295AB1A779187"
+					item: {
+						count: 1
+						id: "occultism:book_of_binding_bound_foliot"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["79AA3949C9E0323B", "40E496C0039953C9", "4319B4E8D4F34720"]
+			icon: {
+				id: "occultism:golden_sacrificial_bowl"
+			}
+			id: "4791C298A24C0640"
+			min_width: 300
+			rewards: [
+				{
+					id: "08F69DF8B9FDCD76"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "24379F2751B3C4C6"
+					type: "xp"
+					xp: 120
+				}
+				{
+					id: "4A139D16260B7CB3"
+					item: {
+						count: 1
+						id: "occultism:chalk_white"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					advancement: "occultism:occultism/summon_foliot_crusher"
+					id: "5AC8282164DC4427"
+					type: "advancement"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4791C298A24C0640"]
+			id: "15390B0C339FA8B4"
+			rewards: [
+				{
+					id: "00909721348787C9"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "728F4E5CA41DF720"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "48E5B126DFD6F4C9"
+					item: {
+						count: 1
+						id: "occultism:chalk_gold"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0D3E5E928F62A964"
+					item: {
+						count: 1
+						id: "minecraft:skeleton_skull"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4791C298A24C0640"]
+			id: "7926D1EC98083C8B"
+			optional: true
+			rewards: [
+				{
+					id: "15D2CC3A4EE7B2EE"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "4C8C24283DA7FDD4"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "21E3291780618947"
+					item: {
+						count: 1
+						id: "occultism:book_of_calling_foliot_lumberjack"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4791C298A24C0640", "441962DA9A640B35"]
+			icon: {
+				id: "isitexpansions:occult/ritual_dummy/summon_foliot_crank_turner"
+			}
+			id: "1C6E5DCF85F5BBCC"
+			optional: true
+			rewards: [
+				{
+					id: "2640C36D9C7EE647"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "1E6B1AF506EAB020"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "68B28E038C5536C5"
+					type: "checkmark"
+				}
+			]
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["15390B0C339FA8B4"]
+			icon: {
+				id: "occultism:familiar_ring"
+			}
+			id: "7333101B01BD527B"
+			optional: true
+			rewards: [
+				{
+					id: "2ECD701F4202EA6E"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "09E1A9980804DED3"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					advancement: "occultism:occultism/familiar/root"
+					id: "0F39ABCA50F328CE"
+					type: "advancement"
+				}
+			]
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["15390B0C339FA8B4"]
+			id: "717E3C7A038D9D43"
+			rewards: [
+				{
+					id: "16F8F22F568FEE87"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "4DF1599C619CB057"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "52C70A54EFC537E9"
+					item: {
+						count: 1
+						id: "occultism:chalk_purple"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["717E3C7A038D9D43"]
+			id: "7C3D23CFA681DC5E"
+			rewards: [
+				{
+					id: "46C14ED3AB6D0DB0"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "3B631E1456A5FDE8"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7BD1DC059A9E426F"
+					item: {
+						count: 2
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "551D3CFB1AB8B55C"
+					item: {
+						count: 1
+						id: "occultism:research_fragment_dust"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C3D23CFA681DC5E"]
+			id: "231293881C7AA426"
+			rewards: [
+				{
+					id: "776E5C7C1895FA28"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "411BA73C3402548B"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "7461602437F30101"
+					item: {
+						count: 1
+						id: "occultism:otherworld_goggles"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7C3D23CFA681DC5E"]
+			id: "72471552D95D2DCD"
+			rewards: [
+				{
+					id: "752D7806C780ED89"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "115CD59DFB712BC4"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "423CB3ACE7EC53C8"
+					item: {
+						count: 1
+						id: "occultism:chalk_light_gray"
+					}
+					type: "item"
+				}
+				{
+					id: "72DA2C2847C24BBF"
+					item: {
+						count: 1
+						id: "occultism:chalk_lime"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["72471552D95D2DCD"]
+			icon: {
+				id: "occultism:book_of_binding_bound_djinni"
+			}
+			id: "391F37799E160B0A"
+			rewards: [
+				{
+					id: "486B34EB8E4768A5"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "2605CE689B774FE4"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					advancement: "occultism:occultism/summon_djinni_crusher"
+					id: "13105EF5F9749E9A"
+					type: "advancement"
+				}
+			]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["391F37799E160B0A"]
+			id: "6C553466065A44F3"
+			rewards: [
+				{
+					id: "4E6A4C493A26DF49"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "562A11603CB17BE5"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "5060D1C683CC31E9"
+					item: {
+						count: 1
+						id: "occultism:storage_controller"
+					}
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["391F37799E160B0A"]
+			id: "0E330A9EF4076BA4"
+			rewards: [
+				{
+					id: "2679658CF7F95216"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "00AA164D64567F74"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "630ED30EF7795A2C"
+					item: {
+						count: 1
+						id: "occultism:infused_pickaxe"
+					}
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["391F37799E160B0A"]
+			id: "6EC782530B71DC7F"
+			rewards: [
+				{
+					id: "3E69301C0F83DD98"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "3975DC2114F17CEC"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "67BEA43BFDC28EEC"
+					item: {
+						count: 1
+						id: "occultism:chalk_orange"
+					}
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["391F37799E160B0A"]
+			id: "5B3F5FCA7FBA36FF"
+			rewards: [
+				{
+					id: "00FDAE48D7C35C1C"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6E84902F82244A49"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "3724B32C35277E47"
+					item: {
+						count: 1
+						id: "occultism:chalk_gray"
+					}
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0E330A9EF4076BA4", "231293881C7AA426"]
+			id: "4062386C5DBEA119"
+			rewards: [
+				{
+					id: "53C904A737469E00"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "7E5E51FFE851B64D"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					count: 12
+					id: "3C3ECACE8D0B4812"
+					item: {
+						count: 1
+						id: "occultism:iesnium_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "37984190AA7B0B54"
+					item: {
+						count: 1
+						id: "occultism:iesnium_pickaxe"
+					}
+					type: "item"
+				}
+			]
+			x: 22.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4062386C5DBEA119", "10E1E15011C83598"]
+			id: "6C1853CECF7A8001"
+			optional: true
+			rewards: [
+				{
+					id: "27AABA57A59DF4DD"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "018DB69CEE7FD6B3"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "3850E487E4E32231"
+					item: {
+						count: 1
+						id: "isitexpansions:molten_iesnium_bucket"
+					}
+					type: "item"
+				}
+			]
+			x: 24.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4062386C5DBEA119", "6EC782530B71DC7F", "5B3F5FCA7FBA36FF"]
+			icon: {
+				id: "occultism:afrit_essence"
+			}
+			id: "2D179D5EE0790411"
+			min_width: 300
+			rewards: [
+				{
+					id: "1F848C724A130724"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "0E1C528074A633EB"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "18BF96703EDE36AA"
+					item: {
+						count: 2
+						id: "minecraft:torchflower"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "occultism:occultism/summon_unbound_afrit"
+					id: "79E262E14560D830"
+					type: "advancement"
+				}
+				{
+					id: "561AC00128222BE8"
+					item: {
+						count: 1
+						id: "occultism:afrit_essence"
+					}
+					type: "item"
+				}
+			]
+			x: 24.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4062386C5DBEA119"]
+			id: "51EA0E023B64EE11"
+			rewards: [
+				{
+					id: "4BA34D06204ABD3F"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "06A4B2CC3976B393"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "2260DC995C5EB093"
+					item: {
+						count: 1
+						id: "occultism:miner_foliot_unspecialized"
+					}
+					type: "item"
+				}
+			]
+			x: 24.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["51EA0E023B64EE11"]
+			id: "2FC8B238678C2711"
+			min_width: 300
+			rewards: [
+				{
+					id: "161616453420883A"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "3E479AAF75BEF895"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "608D2FE21372DB16"
+					item: {
+						count: 1
+						id: "occultism:dimensional_mineshaft"
+					}
+					type: "item"
+				}
+			]
+			x: 26.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2FC8B238678C2711", "2D179D5EE0790411"]
+			id: "4CCABF768E5086C0"
+			rewards: [
+				{
+					id: "2E72B20710579FB0"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "74B5677E5FCE1AEA"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "4A257645F160858F"
+					item: {
+						count: 1
+						id: "occultism:miner_djinni_ores"
+					}
+					type: "item"
+				}
+			]
+			x: 28.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2D179D5EE0790411"]
+			id: "14916D23C4156AFE"
+			rewards: [
+				{
+					id: "1828269518A204A9"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "700E00C8D6ED8ECA"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "0C3685E01B3110ED"
+					item: {
+						count: 1
+						id: "occultism:chalk_red"
+					}
+					type: "item"
+				}
+			]
+			x: 26.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4CCABF768E5086C0", "14916D23C4156AFE"]
+			id: "199131DDBC8047AB"
+			rewards: [
+				{
+					id: "16583A3BEB29B4E1"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "01E36083D001875C"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "34D1A1193ED6BEA9"
+					item: {
+						count: 1
+						id: "occultism:miner_afrit_deeps"
+					}
+					type: "item"
+				}
+			]
+			x: 30.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["14916D23C4156AFE"]
+			id: "077CF3170F7BB558"
+			rewards: [
+				{
+					id: "415285A5809A834B"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "3579D97C1A5529C8"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "2105BC51F842C1BB"
+					item: {
+						count: 1
+						id: "occultism:chalk_black"
+					}
+					type: "item"
+				}
+			]
+			x: 28.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["077CF3170F7BB558"]
+			icon: {
+				id: "occultism:marid_essence"
+			}
+			id: "4BE93013885F9A68"
+			rewards: [
+				{
+					id: "6F101359704FC4A8"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6E0BD62B584ECE90"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "7D773DD05B460C0B"
+					item: {
+						count: 2
+						id: "minecraft:tube_coral"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "occultism:occultism/summon_unbound_marid"
+					id: "23290D9F04A65CCF"
+					type: "advancement"
+				}
+				{
+					id: "454B39CB310B748C"
+					item: {
+						count: 1
+						id: "occultism:marid_essence"
+					}
+					type: "item"
+				}
+			]
+			x: 30.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4BE93013885F9A68"]
+			id: "3F4EFC9BD2D277E6"
+			rewards: [
+				{
+					id: "10FBBCF2B9EBCECB"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "04D0AF0B8E0BA4B6"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "068BCB6B099B6DC5"
+					item: {
+						count: 1
+						id: "occultism:chalk_blue"
+					}
+					type: "item"
+				}
+			]
+			x: 32.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["199131DDBC8047AB", "3F4EFC9BD2D277E6"]
+			id: "4FED8E3F9C4C6DA0"
+			rewards: [
+				{
+					id: "00B7C476BF59EA81"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "7BF48E9445467175"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "138934D40EB52BB4"
+					item: {
+						count: 1
+						id: "occultism:miner_marid_master"
+					}
+					type: "item"
+				}
+			]
+			x: 34.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0F8B3C8B95A305EF"]
+			icon: {
+				id: "theurgy:divination_rod_t1"
+			}
+			id: "489806BD00BA670C"
+			rewards: [
+				{
+					id: "6D752B5EC186A483"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "144391D7DE31DFE6"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "47D06173C230528F"
+					item: {
+						components: {
+							"modonomicon:book_id": "theurgy:the_hermetica"
+						}
+						count: 1
+						id: "modonomicon:modonomicon"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					id: "5BA79655578A38B2"
+					item: {
+						count: 1
+						id: "theurgy:divination_rod_t1"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["489806BD00BA670C"]
+			id: "0D225D3DFF7FF095"
+			rewards: [
+				{
+					id: "37FEC7119A6DD15E"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "2599DC51664BB56E"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3FDAD076B71582C2"
+					item: {
+						count: 8
+						id: "minecraft:charcoal"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 2
+					id: "2C46EF9D85E1DE02"
+					item: {
+						count: 1
+						id: "theurgy:pyromantic_brazier"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "41A5D271425AC506"
+					item: {
+						count: 1
+						id: "theurgy:alchemical_salt_mineral"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1DAE4045584D9234"
+					item: {
+						count: 1
+						id: "theurgy:mercury_shard"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0D225D3DFF7FF095"]
+			id: "52343AA6193CC96B"
+			rewards: [
+				{
+					id: "66005C7BA742C491"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "038F4A7B0C3F54BD"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7802BACB12C04A66"
+					item: {
+						count: 1
+						id: "theurgy:sal_ammoniac_crystal"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3E34052552B1A254"
+					item: {
+						count: 1
+						id: "theurgy:liquefaction_cauldron"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "03CC3D377A836888"
+					item: {
+						count: 1
+						id: "theurgy:alchemical_sulfur_iron"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0D225D3DFF7FF095", "38EAEBF5FB175ED9"]
+			icon: {
+				id: "create:basin"
+			}
+			id: "3C6CEB36C124499B"
+			optional: true
+			rewards: [
+				{
+					id: "1E9117783DF1F915"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6FF41F1E631AAAA3"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "34D7F17FA8EDAF2A"
+					type: "checkmark"
+				}
+			]
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["52343AA6193CC96B"]
+			id: "03BA2C363C855DBF"
+			rewards: [
+				{
+					id: "0CF6251AED6CB236"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "2ED79490CB72996C"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "37C4CDDBE1F2FA07"
+					item: {
+						count: 1
+						id: "theurgy:incubator"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["03BA2C363C855DBF"]
+			id: "7CE95F5E07E6C190"
+			rewards: [
+				{
+					id: "13B6AF68FC5DA4BC"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "4363C0D9749274C2"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "35CBE7DFE948CC85"
+					item: {
+						count: 1
+						id: "theurgy:mercury_catalyst"
+					}
+					type: "item"
+				}
+				{
+					id: "4CDF73AF243148C3"
+					item: {
+						count: 1
+						id: "theurgy:sulfuric_flux_emitter"
+					}
+					type: "item"
+				}
+				{
+					id: "0EF6FF610B8766C2"
+					item: {
+						count: 1
+						id: "theurgy:reformation_target_pedestal"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7CE95F5E07E6C190"]
+			id: "20BC57ED35B3193C"
+			rewards: [
+				{
+					id: "5A733563277AC8F3"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "40364FA479A777D7"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "45E7A97CE7443637"
+					item: {
+						count: 1
+						id: "theurgy:fermentation_vat"
+					}
+					type: "item"
+				}
+				{
+					id: "64712E2B4C7EC183"
+					item: {
+						count: 1
+						id: "theurgy:digestion_vat"
+					}
+					type: "item"
+				}
+				{
+					id: "0F3304B363AFC02E"
+					item: {
+						count: 1
+						id: "theurgy:alchemical_niter_metals_rare"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 6.0d
+		}
+	]
+}

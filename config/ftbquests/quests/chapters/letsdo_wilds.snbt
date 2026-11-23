@@ -974,5 +974,214 @@
 			x: 6.0d
 			y: 6.125d
 		}
+		{
+			dependencies: ["2BAFE0EEBF1A9FEF"]
+			icon: {
+				id: "naturalist:butterfly"
+			}
+			id: "2A84A447A557F7DD"
+			min_width: 300
+			rewards: [
+				{
+					id: "01C4761395C3EFFB"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6527043173587FC4"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "5654D90D293D5D7A"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: 4.375d
+		}
+		{
+			dependencies: ["2A84A447A557F7DD"]
+			id: "061F1AE734C8F220"
+			rewards: [
+				{
+					count: 2
+					id: "4D37CEA3F25A5568"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "3CD113EC9B4747FE"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "54D6302C584DCB70"
+					item: {
+						count: 1
+						id: "naturalist:capture_net"
+					}
+					type: "item"
+				}
+				{
+					id: "4C2EFFC9BC3C66F2"
+					item: {
+						count: 1
+						id: "naturalist:butterfly"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 6.125d
+		}
+		{
+			dependencies: ["2A84A447A557F7DD"]
+			icon: {
+				id: "minecraft:honeycomb"
+			}
+			id: "05895838621D9706"
+			rewards: [
+				{
+					count: 2
+					id: "212ED8FD2CE24B44"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "5FB0B5F18BCE6085"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					advancement: "naturalist:husbandry/feed_bear_honeycomb"
+					id: "665AB6E1AE1CB6EE"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 6.125d
+		}
+		{
+			dependencies: ["061F1AE734C8F220"]
+			id: "64305FA90C892164"
+			rewards: [
+				{
+					count: 2
+					id: "08F235A7EDC22663"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "679E47EBA3840C6B"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 4
+					id: "160F6190508493DD"
+					item: {
+						count: 1
+						id: "naturalist:hide"
+					}
+					type: "item"
+				}
+				{
+					id: "3E27478D6FBB5A51"
+					item: {
+						count: 1
+						id: "naturalist:knapsack"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 7.875d
+		}
+		{
+			dependencies: ["05895838621D9706"]
+			icon: {
+				id: "minecraft:filled_map"
+			}
+			id: "5A1D9F83007043E5"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "1DDFDEC7E942BD38"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "384B468B8C0210EF"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					advancement: "naturalist:husbandry/ride_giraffe_with_map"
+					id: "4D7462B226AD19A4"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 7.875d
+		}
+		{
+			dependencies: ["5A1D9F83007043E5"]
+			icon: {
+				id: "minecraft:melon_slice"
+			}
+			id: "4F8F69A0CA71951B"
+			optional: true
+			rewards: [
+				{
+					id: "130D630D937EAE97"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "42E40A7D17A051AF"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					advancement: "naturalist:husbandry/feed_hippo_melon"
+					id: "0DF48CF4A336D4F6"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 9.625d
+		}
 	]
 }

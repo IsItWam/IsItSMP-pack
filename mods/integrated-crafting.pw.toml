@@ -1,0 +1,13 @@
+name = " Integrated Crafting"
+filename = "integratedcrafting-1.21.1-neoforge-1.8.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/qwpACdla/versions/WdprKuZs/integratedcrafting-1.21.1-neoforge-1.8.2.jar"
+hash-format = "sha512"
+hash = "6d5b81dfa0ca191536a099b215f12d8230f957cea977cbca44014410d1a7c85be42dba0781a3245dbd2d5f032c7a9eb9eaca3c8ab4efd973eaca7b753128b9a0"
+
+[update]
+[update.modrinth]
+mod-id = "qwpACdla"
+version = "WdprKuZs"

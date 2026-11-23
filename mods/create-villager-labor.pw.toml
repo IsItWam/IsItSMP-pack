@@ -1,0 +1,13 @@
+name = "Create Villager Labor"
+filename = "create_labor-1.5.3.1-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/DqxT3yZ1/versions/Xxn8udDc/create_labor-1.5.3.1-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "9ce7d5301bad341bdf4330b8ed57bb934f580c7ce4725747aa570e7bd55ced8cdaddf21b331a10c12df4a96a36364c902cdd77395cc5862513cd8bbec3ddd0f0"
+
+[update]
+[update.modrinth]
+mod-id = "DqxT3yZ1"
+version = "Xxn8udDc"

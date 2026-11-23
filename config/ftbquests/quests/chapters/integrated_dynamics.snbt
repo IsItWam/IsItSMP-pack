@@ -1,0 +1,1082 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "integrated_dynamics"
+	group: "45BA95E455FC9E75"
+	icon: {
+		id: "integrateddynamics:part_display_panel"
+	}
+	id: "38A1362DB12BFF7A"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["74749CF00FF224E2"]
+			icon: {
+				id: "integrateddynamics:on_the_dynamics_of_integration"
+			}
+			id: "252E4D89B8406A32"
+			min_width: 300
+			tasks: [
+				{
+					id: "15F65C500895D2CB"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["252E4D89B8406A32"]
+			icon: {
+				id: "integrateddynamics:menril_sapling"
+			}
+			id: "0D6F3C924880A569"
+			optional: true
+			rewards: [
+				{
+					id: "5688D187C177A6D0"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "7E7A2D8E4C39EEEB"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "573B7A040EE511C6"
+					structure: "isitexpansions:menril_grove"
+					type: "structure"
+				}
+			]
+			x: 2.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["252E4D89B8406A32"]
+			id: "00D264E0A6A572AB"
+			optional: true
+			rewards: [
+				{
+					id: "57B8773E743D3D95"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "123BB7405C48D3E0"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "702BC3235B525972"
+					item: {
+						count: 1
+						id: "integrateddynamics:squeezer"
+					}
+					type: "item"
+				}
+				{
+					id: "49A394DC2FE30197"
+					item: {
+						count: 1
+						id: "integrateddynamics:drying_basin"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00D264E0A6A572AB"]
+			id: "704480C8FAD78DC1"
+			optional: true
+			rewards: [
+				{
+					id: "0D11A385CF5422ED"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "625C43EA00214259"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 2
+					id: "6FABBD17CE2D87F5"
+					item: {
+						count: 1
+						id: "integrateddynamics:crystalized_menril_block"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["704480C8FAD78DC1"]
+			id: "14DC2D2E0C854AE9"
+			optional: true
+			rewards: [
+				{
+					id: "7A8ECDD8A0A60A5A"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "473DE7C3F642CEFF"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "1D9B0EA14680E10E"
+					item: {
+						count: 1
+						id: "integrateddynamics:mechanical_squeezer"
+					}
+					type: "item"
+				}
+				{
+					id: "773D129E0719185F"
+					item: {
+						count: 1
+						id: "integrateddynamics:mechanical_drying_basin"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["252E4D89B8406A32"]
+			id: "4D530BE993555EA0"
+			optional: true
+			rewards: [
+				{
+					id: "16820145A3D9B507"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "18973F3C11F58AB4"
+					type: "xp"
+					xp: 120
+				}
+				{
+					id: "724D5CAAD704ED77"
+					item: {
+						count: 2
+						id: "isitexpansions:synaptium_ingot"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					count: 4
+					id: "5E001628638839ED"
+					item: {
+						count: 1
+						id: "isitexpansions:synaptium_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["4D530BE993555EA0"]
+			id: "486D9505B10737ED"
+			optional: true
+			rewards: [
+				{
+					id: "1BFFE662E596D574"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "3F2BB25AC645A023"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 8
+					id: "20BBE67F0D49F966"
+					item: {
+						count: 1
+						id: "isitexpansions:synaptium_wafer"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D530BE993555EA0"]
+			icon: {
+				id: "isitexpansions:synaptium_block"
+			}
+			id: "34F04B0D20A991C5"
+			optional: true
+			rewards: [
+				{
+					id: "013D6DA26CA5E36B"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "192936109C5C1055"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "1C3E357B47B0A50B"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["704480C8FAD78DC1", "486D9505B10737ED"]
+			dependency_requirement: "one_completed"
+			id: "7A262E760E8097AC"
+			rewards: [
+				{
+					id: "5D207614C55B0F4A"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "60AC6872413C33DD"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 16
+					id: "70C52953354F70DE"
+					item: {
+						count: 1
+						id: "integrateddynamics:cable"
+					}
+					type: "item"
+				}
+				{
+					id: "4DC45CBE9A2F0530"
+					item: {
+						count: 1
+						id: "integrateddynamics:wrench"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.875d
+		}
+		{
+			dependencies: ["7A262E760E8097AC"]
+			id: "3D59C14637CD748B"
+			rewards: [
+				{
+					id: "06EF6AAA4328AFB9"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "471A4B0753AB54B1"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 8
+					id: "05826A9E3D12FDCB"
+					item: {
+						count: 1
+						id: "integrateddynamics:variable"
+					}
+					type: "item"
+				}
+				{
+					id: "0B6EA2EC1B41D2FB"
+					item: {
+						count: 1
+						id: "integrateddynamics:variable_transformer_input"
+					}
+					type: "item"
+				}
+				{
+					id: "3CC6D6E505E412AC"
+					item: {
+						count: 1
+						id: "integrateddynamics:variable_transformer_output"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D59C14637CD748B"]
+			id: "583305E31BEEE2E0"
+			rewards: [
+				{
+					id: "2C041FCAE947A3BE"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "0D7CF302B9D18905"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "5DA5F317DD77A1D7"
+					item: {
+						count: 1
+						id: "integrateddynamics:logic_programmer"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -2.625d
+		}
+		{
+			dependencies: ["3D59C14637CD748B"]
+			id: "6873A5CF132DCBD2"
+			rewards: [
+				{
+					id: "29C5EC204D86681B"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "498765E26F21A685"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "631AEC53E4E6CD6D"
+					item: {
+						count: 1
+						id: "integrateddynamics:part_inventory_reader"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["6873A5CF132DCBD2"]
+			id: "3EF369E399E47619"
+			rewards: [
+				{
+					id: "10841CFEB21728BF"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "103B8ABE1DED6CEE"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "0B3C9141491B3420"
+					item: {
+						count: 1
+						id: "integrateddynamics:part_display_panel"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["583305E31BEEE2E0"]
+			id: "3AD61E9CCFC6CA66"
+			optional: true
+			rewards: [
+				{
+					id: "727EF05073BB7E37"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "2686644635B2992D"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "3ED9E79B676C1CA7"
+					item: {
+						count: 1
+						id: "integrateddynamics:variablestore"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -2.625d
+		}
+		{
+			dependencies: ["3D59C14637CD748B"]
+			id: "6E2B973CA65AECAB"
+			rewards: [
+				{
+					id: "0C3110B5F4EB01F7"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "00752667E52CD0AC"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "5821C8A6E20C2757"
+					item: {
+						count: 2
+						id: "integratedtunnels:part_interface_item"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 2
+					id: "10B2C22273239C22"
+					item: {
+						count: 1
+						id: "integratedtunnels:part_interface_item"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.875d
+		}
+		{
+			dependencies: ["6E2B973CA65AECAB", "583305E31BEEE2E0"]
+			id: "367956E23399A7A1"
+			rewards: [
+				{
+					id: "187A810D87BEA016"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "33C03BB5861AAD42"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "236A413FEF30B454"
+					item: {
+						count: 1
+						id: "integratedtunnels:part_importer_item"
+					}
+					type: "item"
+				}
+				{
+					id: "2C6B3BDE5CEB5494"
+					item: {
+						count: 1
+						id: "integratedtunnels:part_exporter_item"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.875d
+		}
+		{
+			dependencies: ["6E2B973CA65AECAB", "3EF369E399E47619"]
+			id: "26FC104400098719"
+			rewards: [
+				{
+					id: "60D757D855C4B08B"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "04E4CFB82A6EF118"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "16D32ED3DFA26201"
+					item: {
+						count: 1
+						id: "integratedterminals:part_terminal_storage"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["26FC104400098719"]
+			id: "0CFB1512E0AD02F2"
+			optional: true
+			rewards: [
+				{
+					id: "72352B9402A03FCC"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "543FFF4B40E5F10D"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "3C83A529BB2B9E1D"
+					item: {
+						count: 1
+						id: "integratedterminals:terminal_storage_portable"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 2.625d
+		}
+		{
+			dependencies: ["3D59C14637CD748B"]
+			id: "2EB8C302E7D4599F"
+			rewards: [
+				{
+					id: "6952769C396B4F9F"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "2F731ECB82F51B7E"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "44FC4D08432F0259"
+					item: {
+						count: 2
+						id: "integratedtunnels:part_interface_fluid"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 2
+					id: "64C9E38A44A8DA55"
+					item: {
+						count: 1
+						id: "integratedtunnels:part_interface_fluid"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 2.625d
+		}
+		{
+			dependencies: ["2EB8C302E7D4599F", "583305E31BEEE2E0"]
+			id: "333AA953EDC03261"
+			rewards: [
+				{
+					id: "4B985C9B6BB2E3AD"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6D1150337D7CAA50"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "37E80AE2899D555F"
+					item: {
+						count: 1
+						id: "integratedtunnels:part_importer_fluid"
+					}
+					type: "item"
+				}
+				{
+					id: "785A37B9346D8740"
+					item: {
+						count: 1
+						id: "integratedtunnels:part_exporter_fluid"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 2.625d
+		}
+		{
+			dependencies: ["333AA953EDC03261", "26FC104400098719"]
+			icon: {
+				id: "minecraft:water_bucket"
+			}
+			id: "4DE3B931AF062AF4"
+			rewards: [
+				{
+					id: "3D79EA34E14EF3EA"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "3D9042F19C443096"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "51E9EF96ED8B3EC1"
+					type: "checkmark"
+				}
+			]
+			x: 16.0d
+			y: 4.375d
+		}
+		{
+			dependencies: ["77AA51BCCECB0EA1", "2EB8C302E7D4599F"]
+			icon: {
+				id: "minecraft:bucket"
+			}
+			id: "079394A481D48B0A"
+			min_width: 300
+			rewards: [
+				{
+					id: "721C19645B232476"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "34B2DB436F54EF37"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "63006774881187C8"
+					item: {
+						count: 1
+						id: "isitcore:integrated_bridge"
+					}
+					type: "item"
+				}
+				{
+					id: "1DC1F2583568BF74"
+					type: "checkmark"
+				}
+			]
+			x: 18.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["3EF369E399E47619", "21BD62B4F639E38D"]
+			icon: {
+				id: "integrateddynamics:part_inventory_reader"
+			}
+			id: "0039A87EA9F770D6"
+			rewards: [
+				{
+					id: "6550E41CB8A98FB1"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "38E1E9BEB4A1EBCB"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "45DDC75D51221AFD"
+					type: "checkmark"
+				}
+			]
+			x: 14.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["0039A87EA9F770D6", "6E2B973CA65AECAB"]
+			id: "77AA51BCCECB0EA1"
+			rewards: [
+				{
+					id: "419F11D5C19D4F0D"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "5ABA3C2D51F3576D"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "7F30BF13957A1856"
+					item: {
+						count: 1
+						id: "isitcore:integrated_bridge"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: -2.625d
+		}
+		{
+			dependencies: ["77AA51BCCECB0EA1"]
+			id: "71F223F2B3D6F5F3"
+			rewards: [
+				{
+					id: "6A5630740F1493C7"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "5B76A65599F78B4B"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "2690E629B79A58CE"
+					item: {
+						count: 1
+						id: "integrateddynamics:part_inventory_writer"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["77AA51BCCECB0EA1"]
+			id: "613D933016E947D3"
+			rewards: [
+				{
+					id: "37971ADC1F75E17F"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "1C6B830F6589EFD7"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "313397A975A1D60E"
+					item: {
+						count: 1
+						id: "storagenetwork:exchange"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3EF369E399E47619"]
+			id: "6E91608F03768BDC"
+			rewards: [
+				{
+					id: "1918A8A574BBC4DF"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "0C1E53C8A1287D79"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "0347FC512EDC9449"
+					item: {
+						count: 1
+						id: "integrateddynamics:part_machine_reader"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E91608F03768BDC", "5FBFFFD99652C4B2"]
+			id: "768B7AC188D4A06E"
+			rewards: [
+				{
+					id: "6E22C3A5120E143B"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "7CF55C32FB5B7DC9"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "71346B4831B82BF7"
+					item: {
+						count: 1
+						id: "integrateddynamics:part_machine_writer"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: -0.875d
+		}
+		{
+			dependencies: ["6E91608F03768BDC", "3AD61E9CCFC6CA66", "5790A8EC6D424DB0"]
+			icon: {
+				id: "create:display_link"
+			}
+			id: "2B00DC14386BB439"
+			rewards: [
+				{
+					id: "284530FF3549E935"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "1FE843AC97B55093"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "3EDCDE9FD9EE65AC"
+					type: "checkmark"
+				}
+			]
+			x: 16.0d
+			y: -4.375d
+		}
+		{
+			dependencies: ["26FC104400098719", "367956E23399A7A1"]
+			id: "3EC6EB6CC2F45520"
+			rewards: [
+				{
+					id: "68BCFD4150CD3588"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "0C08002C8159649D"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "151F2569B6A0E19B"
+					item: {
+						count: 1
+						id: "integratedcrafting:part_interface_crafting"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 0.875d
+		}
+		{
+			dependencies: ["3EC6EB6CC2F45520", "613D933016E947D3"]
+			icon: {
+				id: "integratedcrafting:part_interface_crafting"
+			}
+			id: "686D9B75257A242C"
+			rewards: [
+				{
+					id: "2BABEF772F360C28"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "3A25B8E33FCDE1AA"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "52DCB10C7EE34031"
+					item: {
+						count: 1
+						id: "integratedterminals:part_terminal_crafting_job"
+					}
+					type: "item"
+				}
+				{
+					id: "01A7D05E64BFD25A"
+					type: "checkmark"
+				}
+			]
+			x: 20.0d
+			y: 0.0d
+		}
+	]
+}

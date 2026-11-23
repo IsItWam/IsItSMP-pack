@@ -1,0 +1,13 @@
+name = "Smooth Loading Screen"
+filename = "smoothloadingscreen-1.0.12+1.21.1-neoforge.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/LkxC6kKT/versions/ub5aGHzh/smoothloadingscreen-1.0.12%2B1.21.1-neoforge.jar"
+hash-format = "sha512"
+hash = "4b17ed1a61fefcc9c3dc56f13fd1bdbad6a0df7b04e9d5b4eeecc35e4ee45da21c5ca9b9ea25954437dadc92eacb8d6489ff84311bd3573d512abe9773deb916"
+
+[update]
+[update.modrinth]
+mod-id = "LkxC6kKT"
+version = "ub5aGHzh"

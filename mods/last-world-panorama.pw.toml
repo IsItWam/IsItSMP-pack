@@ -1,0 +1,13 @@
+name = "Last World Panorama"
+filename = "last-world-panorama-neoforge-1.21.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/F1KVNatg/versions/xVX9iy6y/last-world-panorama-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "b14f660ee3eb9830744fad8a8a1facee455b9f36b57c10e25ec61f46928d7d166e15308db5bef7c9c94c9a213e7ed96ebe96acd7ece111d8214ffc5bfe7266bf"
+
+[update]
+[update.modrinth]
+mod-id = "F1KVNatg"
+version = "xVX9iy6y"

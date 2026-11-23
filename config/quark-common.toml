@@ -1506,7 +1506,7 @@
 
 				#Biome tags for which this should spawn in. Must match both this and 'biomes' to spawn.
 				[mobs.toretoise.spawn_config.biomes.tags]
-					"Biome Tags" = ["c:is_void", "minecraft:is_nether", "minecraft:is_end"]
+					"Biome Tags" = ["c:is_void", "minecraft:is_nether", "minecraft:is_end", "twilightforest:in_twilight_forest"]
 					"Is Blacklist" = true
 
 				#Biome names this should spawn in. Must match both this and 'types' to spawn.

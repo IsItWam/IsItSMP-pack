@@ -1046,5 +1046,236 @@
 			x: 12.0d
 			y: 7.0d
 		}
+		{
+			dependencies: ["28808C8CABAC597D"]
+			id: "63D855EEB6F34CE4"
+			rewards: [
+				{
+					count: 2
+					id: "1DC973CCF2EF61E9"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "60A00C06482937BA"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "4F57B7F28C637CB9"
+					item: {
+						count: 1
+						id: "isitcore:wildfire_altar"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 10.75d
+		}
+		{
+			dependencies: ["63D855EEB6F34CE4"]
+			icon: {
+				id: "friendsandfoes:wildfire_crown"
+			}
+			id: "5CDD2E7E0B5DAD17"
+			rewards: [
+				{
+					count: 3
+					id: "7ED462E2A49F2631"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "57253D5DC37C83E3"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "friendsandfoes:wildfire"
+					id: "5D2FE3578D0D3420"
+					type: "kill"
+					value: 1
+				}
+			]
+			x: 10.0d
+			y: 10.75d
+		}
+		{
+			dependencies: ["5CDD2E7E0B5DAD17"]
+			id: "440B734EE6DC382B"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "7E508CF12DEB4A45"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "52CFE440B54CA789"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "106D5CBE939C97CD"
+					item: {
+						count: 1
+						id: "friendsandfoes:wildfire_crown"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 10.75d
+		}
+		{
+			dependencies: ["4D375649027832C8"]
+			icon: {
+				id: "gateways:gate_pearl"
+			}
+			id: "07401CC7C58A59C8"
+			rewards: [
+				{
+					id: "0328D94E76141021"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "189A54CCFC70DF03"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "36484B6B78486932"
+					type: "checkmark"
+				}
+			]
+			x: 14.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["07401CC7C58A59C8", "1879B1ADAA2A35E3"]
+			icon: {
+				components: {
+					"gateways:gateway": "isitexpansions:life/chaos_vigil"
+				}
+				id: "gateways:gate_pearl"
+			}
+			id: "15DDBF971BF1C5C1"
+			rewards: [
+				{
+					count: 3
+					id: "0B6E56A9686FC6B1"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "482649E5F5EB2406"
+					type: "xp"
+					xp: 120
+				}
+				{
+					id: "215E795B36F08D2D"
+					item: {
+						components: {
+							"gateways:gateway": "isitexpansions:life/chaos_vigil"
+						}
+						count: 1
+						id: "gateways:gate_pearl"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "584E3C2D4AE88E29"
+					item: {
+						components: {
+							"gateways:gateway": "isitexpansions:life/chaos_vigil"
+						}
+						count: 1
+						id: "gateways:gate_pearl"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["07401CC7C58A59C8"]
+			icon: {
+				components: {
+					"gateways:gateway": "isitexpansions:life/suns_wrath"
+				}
+				id: "gateways:gate_pearl"
+			}
+			id: "4D01B9BADD811CD4"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "3BE1EA4AA74910C6"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "7B614FAA10EB913E"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "46143E893002E4E1"
+					item: {
+						components: {
+							"gateways:gateway": "isitexpansions:life/suns_wrath"
+						}
+						count: 1
+						id: "gateways:gate_pearl"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "mowziesmobs:umvuthana"
+					id: "11C8C63592D305DB"
+					type: "kill"
+					value: 1
+				}
+			]
+			x: 16.0d
+			y: -6.25d
+		}
 	]
 }

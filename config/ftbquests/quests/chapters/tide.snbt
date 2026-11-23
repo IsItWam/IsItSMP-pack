@@ -1,0 +1,907 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tide"
+	group: "0FD0FF4621387BF9"
+	icon: {
+		id: "tide:angelfish"
+	}
+	id: "4554DAFB9F626B97"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:fishing_rod"
+			}
+			id: "7C1A6E1B651C5AE4"
+			tasks: [
+				{
+					id: "3912958585479D31"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C1A6E1B651C5AE4"]
+			id: "4E73F064127277F4"
+			rewards: [
+				{
+					id: "717A999573554B2A"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "288EC75327893637"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "3DEA49C613E89CCF"
+					item: {
+						count: 1
+						id: "tide:fishing_journal"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7C1A6E1B651C5AE4"]
+			icon: {
+				id: "tide:largemouth_bass"
+			}
+			id: "6E394B1590E15A46"
+			rewards: [
+				{
+					id: "0236C05A76555C0C"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "79FD102EFB35943C"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "096DB3711B6D713D"
+					item: {
+						count: 4
+						id: "tide:bait"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "580F67C8321A5795"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E73F064127277F4"]
+			id: "275684AA0891D4DB"
+			optional: true
+			rewards: [
+				{
+					id: "4B5BDE61B9C1FF6C"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "3932003EA70441AF"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "5CCB3B02D4A993DE"
+					item: {
+						count: 1
+						id: "tide:fish_finder"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4E73F064127277F4"]
+			id: "1BACDFCF6A1495F5"
+			optional: true
+			rewards: [
+				{
+					id: "7B210EB70EE3ADAF"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "241CA9A0A10BBAAA"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "67FF06802F580761"
+					item: {
+						count: 1
+						id: "tide:fish_display"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6E394B1590E15A46"]
+			id: "1C8BB690FBCE8AB4"
+			rewards: [
+				{
+					id: "6E79952A9C7D5193"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "705FD087BDBF1217"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "18CAF015CE4124AB"
+					item: {
+						count: 1
+						id: "tide:stone_fishing_rod"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C8BB690FBCE8AB4"]
+			id: "405731C6CA81FD40"
+			rewards: [
+				{
+					id: "29E8189856CE03FB"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6BF2B297741E19C0"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "7797BE7146B485B0"
+					item: {
+						count: 1
+						id: "tide:golden_fishing_rod"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["405731C6CA81FD40"]
+			id: "03A9E4C8FC51C1AC"
+			optional: true
+			rewards: [
+				{
+					id: "1EBC50B5E850C366"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "664CB54B5D16D22E"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "141E8458475BB6B6"
+					item: {
+						count: 1
+						id: "tide:diamond_fishing_rod"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1C8BB690FBCE8AB4"]
+			id: "1B0FE0914A1D28DB"
+			rewards: [
+				{
+					id: "72586B9AD292FB60"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "2B635FDDA8C6F89B"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "30BD7D771C631F6A"
+					item: {
+						count: 1
+						id: "tide:fishing_line"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6B4DCCF93D9E5535"
+					item: {
+						count: 1
+						id: "tide:angling_table"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B0FE0914A1D28DB"]
+			id: "7FBB3DA4BF3C98BE"
+			rewards: [
+				{
+					id: "7C50F4726D03076B"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6B9DAF7771122328"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "42D615A3C1AD1ED7"
+					item: {
+						count: 1
+						id: "tide:iron_line"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E394B1590E15A46"]
+			id: "6767D7D2CFE6DA7E"
+			rewards: [
+				{
+					id: "307AE7461B467599"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "0B2AF868301280BF"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "77344F18DA1F0D0E"
+					item: {
+						count: 2
+						id: "tide:magnetic_bait"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8
+					id: "3E792E77FC23FC2D"
+					item: {
+						count: 1
+						id: "tide:bait"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6767D7D2CFE6DA7E"]
+			id: "1B5D1DB73E36F55A"
+			rewards: [
+				{
+					id: "23118143AC362040"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "729C6F6BE783D358"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 4
+					id: "52747744CE8E00EF"
+					item: {
+						count: 1
+						id: "tide:lucky_bait"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6767D7D2CFE6DA7E"]
+			icon: {
+				id: "tide:wooden_crate"
+			}
+			id: "06762F1332543B81"
+			rewards: [
+				{
+					id: "5CE1EFDA4A11CF2D"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "0540FBA458948E7D"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					advancement: "tide:pull_crate"
+					id: "66269AF748973187"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6E394B1590E15A46"]
+			id: "689F164FCA71B8E9"
+			optional: true
+			rewards: [
+				{
+					id: "0DF700E511A60573"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "284A8DD8082220F9"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 4
+					id: "197A1CF8BDE485A8"
+					item: {
+						count: 1
+						id: "tide:cooked_fish"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6E394B1590E15A46"]
+			icon: {
+				id: "tide:bait"
+			}
+			id: "2909C700E89C81A3"
+			optional: true
+			rewards: [
+				{
+					id: "19E385EAA8E772F7"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6343D30E6646CCA2"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "2CF58803A41A0B00"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2909C700E89C81A3"]
+			icon: {
+				id: "coinverse_gearcoins:bronze_coin"
+			}
+			id: "7A6410D0BE5638D1"
+			optional: true
+			rewards: [
+				{
+					id: "377C137BC06C732D"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "176431F71E7853DD"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "0F8DB9043E050B87"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7FBB3DA4BF3C98BE"]
+			id: "6FD92B4BE81FF7F6"
+			rewards: [
+				{
+					id: "6B24126A4A8307D1"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "240FAEDCB8D58C67"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "7E033C9AE953CF31"
+					item: {
+						count: 1
+						id: "tide:catfish"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6FD92B4BE81FF7F6"]
+			id: "69B0021290EE52CB"
+			optional: true
+			rewards: [
+				{
+					id: "72CE71A2C15BCA28"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "64257B48C8DECAAB"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "31664F1B90AFCAB3"
+					item: {
+						count: 1
+						id: "tide:neptune_koi"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7FBB3DA4BF3C98BE"]
+			id: "7CF43672723297B4"
+			rewards: [
+				{
+					id: "777979900DA1D149"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "327EF7045B6D0903"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "2653290198623ABF"
+					item: {
+						count: 1
+						id: "tide:arapaima"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7FBB3DA4BF3C98BE"]
+			id: "2954152136506E20"
+			rewards: [
+				{
+					id: "397E471BCE2D9E6A"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "3EFD43CA8896A03B"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "2F64BA3137850CCC"
+					item: {
+						count: 1
+						id: "tide:iron_tetra"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7CF43672723297B4"]
+			id: "3BE05775E5265ACC"
+			rewards: [
+				{
+					id: "4E4290E4344808EA"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "5577A8B519DB8F95"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "6306973A9B3CEDEB"
+					item: {
+						count: 1
+						id: "tide:great_white_shark"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B0FE0914A1D28DB"]
+			id: "754CCE437840CBB4"
+			rewards: [
+				{
+					id: "2E2AE9CD99E98887"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "5B3A1D95201BB15D"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "675676DBAE97B03B"
+					item: {
+						count: 1
+						id: "tide:lavaproof_hook"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["754CCE437840CBB4"]
+			icon: {
+				id: "tide:magma_mackerel"
+			}
+			id: "570BBEA66E07817C"
+			rewards: [
+				{
+					id: "66C9ABEBAF5E35F0"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "4EE5F6DBCD04167A"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "tide:fish_in_lava"
+					id: "2AD4995F1303CF3F"
+					type: "advancement"
+				}
+			]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["570BBEA66E07817C"]
+			id: "18ABEC73231CE8C6"
+			rewards: [
+				{
+					id: "4011A90C0C68B91D"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "2CCFAE9BBA4A8B89"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "147663AA8A9B57FB"
+					item: {
+						count: 1
+						id: "tide:crimson_fangjaw"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["570BBEA66E07817C"]
+			id: "2F2CEABAD68165D0"
+			rewards: [
+				{
+					id: "6DC5506C19560E12"
+					item: {
+						count: 3
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "133BFAB7E572F527"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "296D9256C588DDA8"
+					item: {
+						count: 1
+						id: "tide:void_hook"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2F2CEABAD68165D0"]
+			icon: {
+				id: "tide:chorus_cod"
+			}
+			id: "0AF0018AC52A629C"
+			rewards: [
+				{
+					id: "066F35F94FD642CA"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "2449101756B1FA9B"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "tide:fish_in_void"
+					id: "6D3C9DB7EEE658A2"
+					type: "advancement"
+				}
+			]
+			x: 14.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0AF0018AC52A629C"]
+			id: "1A7BCB9B838AE0DD"
+			rewards: [
+				{
+					id: "4AD31E67BC924915"
+					item: {
+						count: 2
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "392558C244B6A51C"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "5498C9E2686DB2F9"
+					item: {
+						count: 1
+						id: "tide:endergazer"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3BE05775E5265ACC", "2954152136506E20"]
+			icon: {
+				id: "tide:shooting_starfish"
+			}
+			id: "02B496F4D93709DF"
+			rewards: [
+				{
+					id: "0BB66FFA2BE92FF8"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6EDBC8847DAD8334"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					advancement: "tide:catch_legendary"
+					id: "37E25B43BDAF1405"
+					type: "advancement"
+				}
+			]
+			x: 14.0d
+			y: 0.0d
+		}
+	]
+}

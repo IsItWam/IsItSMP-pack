@@ -1085,5 +1085,207 @@
 			x: 8.0d
 			y: 1.75d
 		}
+		{
+			icon: {
+				id: "minecraft:lightning_rod"
+			}
+			id: "34EFE65C5D7C315B"
+			rewards: [
+				{
+					count: 2
+					id: "2BF144EA0951848F"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "0AFC28AB3A9EC839"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					advancement: "friendsandfoes:adventure/summon_copper_golem"
+					id: "15EE36DF609129E8"
+					type: "advancement"
+				}
+			]
+			x: 8.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["34EFE65C5D7C315B"]
+			icon: {
+				id: "friendsandfoes:buttercup"
+			}
+			id: "06E7F3F121946E88"
+			rewards: [
+				{
+					count: 2
+					id: "2482CD27C72B6F51"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6DE9DBFCD23A545A"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					advancement: "friendsandfoes:husbandry/shear_a_moobloom"
+					id: "08EA2058BFD9B03F"
+					type: "advancement"
+				}
+			]
+			x: 10.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["34EFE65C5D7C315B"]
+			icon: {
+				id: "minecraft:glow_berries"
+			}
+			id: "3268708F959482C2"
+			rewards: [
+				{
+					count: 2
+					id: "5DAA0FFB0E33D526"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "170C9E796C82AEC0"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 8
+					id: "672DA26AAF88AA95"
+					item: {
+						count: 1
+						id: "minecraft:glow_berries"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "friendsandfoes:husbandry/tame_a_glare"
+					id: "655F9FF60D416D37"
+					type: "advancement"
+				}
+			]
+			x: 10.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["06E7F3F121946E88"]
+			icon: {
+				id: "minecraft:rail"
+			}
+			id: "47A7779A03ABF2FC"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "2E07586886BEAA25"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "39C2EBB213294E52"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					advancement: "friendsandfoes:adventure/complete_hide_and_seek_game"
+					id: "19B97AA0C517D0E4"
+					type: "advancement"
+				}
+			]
+			x: 12.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["34EFE65C5D7C315B"]
+			icon: {
+				id: "friendsandfoes:totem_of_freezing"
+			}
+			id: "4FCCE5C2D84F0A27"
+			rewards: [
+				{
+					count: 2
+					id: "539C89387998EAFC"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "46EC4882517E76B6"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					advancement: "friendsandfoes:adventure/kill_iceologer"
+					id: "7A4DDB5B5EABE8D1"
+					type: "advancement"
+				}
+			]
+			x: 10.0d
+			y: 8.75d
+		}
+		{
+			dependencies: ["4FCCE5C2D84F0A27"]
+			icon: {
+				id: "friendsandfoes:totem_of_illusion"
+			}
+			id: "2519533D9828F442"
+			rewards: [
+				{
+					count: 3
+					id: "36325A88EAED293B"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "32A1ACC5D0F93303"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					advancement: "friendsandfoes:adventure/the_magicians"
+					id: "51111EDC96A45A88"
+					type: "advancement"
+				}
+			]
+			x: 12.0d
+			y: 8.75d
+		}
 	]
 }

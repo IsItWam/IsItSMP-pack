@@ -884,5 +884,132 @@
 			x: 6.0d
 			y: 1.75d
 		}
+		{
+			dependencies: ["593D60B7A296D5D7"]
+			id: "34A90BCE21094F7F"
+			rewards: [
+				{
+					count: 2
+					id: "557369BCC585F65A"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "4B6C2DFE4F45F6EF"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "4C93A6D1B74D7F5F"
+					item: {
+						count: 1
+						id: "create_labor:villager_binder"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["34A90BCE21094F7F"]
+			icon: {
+				id: "coinverse_gearcoins:silver_coin"
+			}
+			id: "462F4449BDE0D464"
+			rewards: [
+				{
+					count: 2
+					id: "16E98F3A61297D7E"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "5FFF9D04DD4B4267"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "6E8CE8AA6DB2812E"
+					type: "checkmark"
+				}
+			]
+			x: 8.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["462F4449BDE0D464", "7C53A14073BFF530"]
+			id: "3D0F1D5B114AC172"
+			rewards: [
+				{
+					count: 2
+					id: "3A51F3D729C86364"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6EB22C53A84655C5"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "7EC592A8D1377271"
+					item: {
+						count: 1
+						id: "create_labor:andesite_press_seat"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["3D0F1D5B114AC172", "714C85B86043E27F"]
+			id: "451AB3F3B9CEC68E"
+			rewards: [
+				{
+					count: 2
+					id: "63CA2E96D7127940"
+					item: {
+						count: 1
+						id: "coinverse_gearcoins:bronze_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "32D0A0F9334CEC52"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "69C48E5F24AA8490"
+					item: {
+						count: 1
+						id: "create_labor:brass_deployer_seat"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 5.25d
+		}
 	]
 }
