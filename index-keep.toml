@@ -2212,8 +2212,8 @@ hash = "d4eb15bbb7ad77b86a1f7c63cf260dd8419892626b8a8eb3055b5373f0569ec6"
 metafile = true
 
 [[files]]
-file = "mods/isitcore-4.0.3.jar"
-hash = "b658a4a518741eb6b917ae5d829ad33d002eb6503a38497d3d26950d05f6323c"
+file = "mods/isitcore-4.0.4.jar"
+hash = "4f399a84e3ba431478bdc2ff889e10f60ea63e480f3612557b91e60636c68ad9"
 
 [[files]]
 file = "mods/isitemi-1.2.1.jar"
